@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+   <ThingDef ParentName="ResourceBase">
+      <defName>GreenTiberiumRaw</defName>
+      <label>Raw Green Tiberium Crystal</label>
+      <description>The raw form of Tiberium. Be careful how you hanlde it! It can be refined.</description>
+      <graphicData>
+        <texPath>Item/Resource_TiberiumGreen</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+	  <resourceReadoutPriority>First</resourceReadoutPriority>
+	  <resourceReadoutAlwaysShow>true</resourceReadoutAlwaysShow>
+	  <soundInteract>Silver_Drop</soundInteract>
+      <soundDrop>Silver_Drop</soundDrop>
+	  <useHitPoints>false</useHitPoints>
+	  <statBases>
+      <MarketValue>0.5</MarketValue>
+      <Mass>0.1</Mass>
+      <SharpDamageMultiplier>0.5</SharpDamageMultiplier>
+      <BluntDamageMultiplier>1.1</BluntDamageMultiplier>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <stackLimit>200</stackLimit>
+      </ThingDef>
+	  
+	  <ThingDef ParentName="ResourceBase">
+      <defName>BlueTiberiumRaw</defName>
+      <label>Raw Blue Tiberium Crystal</label>
+      <description>The raw form of Tiberium. Be careful how you hanlde it! It can be refined.</description>
+      <graphicData>
+        <texPath>Item/Resource_TiberiumBlue</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+	  <resourceReadoutPriority>First</resourceReadoutPriority>
+	  <resourceReadoutAlwaysShow>true</resourceReadoutAlwaysShow>
+	  <soundInteract>Silver_Drop</soundInteract>
+      <soundDrop>Silver_Drop</soundDrop>
+	  <useHitPoints>false</useHitPoints>
+	  <statBases>
+      <MarketValue>1</MarketValue>
+      <Mass>0.2</Mass>
+      <SharpDamageMultiplier>0.5</SharpDamageMultiplier>
+      <BluntDamageMultiplier>1.1</BluntDamageMultiplier>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <stackLimit>200</stackLimit>
+      </ThingDef>
+
+</Defs>

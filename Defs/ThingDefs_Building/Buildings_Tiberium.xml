@@ -64,14 +64,13 @@
     </ThingDef>
 	
 	
-	<!--
 	  <ThingDef ParentName="TiberiumBuildingBase">
     <defName>TiberiumCraterBlue</defName>
 	<description>A beautiful field of blue Tiberium</description>
     <label>Blue Tiberium Field</label>
     <thingClass>Building</thingClass>
 	<graphicData>
-      <texPath>Things/Building/Natural/TiberiumCraterBlue</texPath>
+      <texPath>Building/Natural/TiberiumCraterBlue</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>Transparent</shaderType>
       <drawSize>(4,4)</drawSize>
@@ -119,9 +118,8 @@
 	<description>An extraterrastrial meteor. Contains glowing crystal of all sorts.</description>
     <label>Tiberium Meteor</label>
     <category>Building</category>
-	<thingClass>TiberiumRim.Building_TiberiumMeteor</thingClass>
     <graphicData>
-      <texPath>Things/Building/Exotic/TiberiumMeteor</texPath>
+      <texPath>Building/Exotic/TiberiumMeteor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(2,2)</drawSize>
     </graphicData>
@@ -168,5 +166,5 @@
        </li>
 	</comps>
     </ThingDef>
-	-->
+
 </ThingDefs>
