@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Plants>
+	<ThingDef ParentName="TiberiumBase" Class="TiberiumRim.TiberiumDef">
+		<defName>TiberiumGreen</defName>
+		<label>Green Tiberium</label>
+		<description>A glowy green crystal. Highly toxic.</description>
+		<statBases>
+			<MaxHitPoints>1500</MaxHitPoints>
+			<Beauty>100</Beauty>
+		</statBases>
+		<graphicData>
+			<texPath>Plant/Tiberium/Green</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<selectable>true</selectable>
+		<pathCost>12</pathCost>
+		<plant>
+			<dieIfLeafless>false</dieIfLeafless>
+			<growDays>1</growDays>
+			<visualSizeRange>
+				<min>0.3</min>
+				<max>1</max>
+			</visualSizeRange>
+		</plant>
+		<corruptsInto>TiberiumSoilGreen</corruptsInto>
+	</ThingDef>
+  
+    <ThingDef ParentName="TiberiumBase" Class="TiberiumRim.TiberiumDef">
+		<defName>TiberiumBlue</defName>
+		<label>Blue Tiberium</label>
+		<description>A glowy blue crystal. Highly toxic. Very expensive.</description>
+		<statBases>
+			<MaxHitPoints>2000</MaxHitPoints>
+			<Beauty>180</Beauty>
+		</statBases>
+		<graphicData>
+			<texPath>Plant/Tiberium/Blue</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<selectable>true</selectable>
+		<pathCost>12</pathCost>
+		<plant>
+			<dieIfLeafless>false</dieIfLeafless>
+			<growDays>1</growDays>
+			<visualSizeRange>
+				<min>0.3</min>
+				<max>1</max>
+			</visualSizeRange>
+		</plant>
+		<corruptsInto>TiberiumSoilBlue</corruptsInto>
+	</ThingDef>
+  
+</Plants>

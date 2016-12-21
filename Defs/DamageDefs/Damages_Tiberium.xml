@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- Must redefine Vanilla abstracts to maintain mod scope -->
+	
+	<DamageDef Name="LocalInjuryBase" Abstract="True">
+		<workerClass>DamageWorker_AddInjury</workerClass>
+	</DamageDef>
+	
+	<!-- Tiberium Poison Damage Def -->
+	
+	<DamageDef ParentName="LocalInjuryBase">
+		<defName>Tiberium</defName>
+		<label>Tiberium Burns</label>
+		<externalViolence>True</externalViolence>
+		<makesBlood>true</makesBlood>
+		<battleWound>true</battleWound>
+		<deathMessage>{0} has been shot to death.</deathMessage>
+		<hediff>TiberiumPoison</hediff>
+		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+		<impactSoundType>Bullet</impactSoundType>
+		<armorCategory>Sharp</armorCategory>
+	</DamageDef>
+</Defs>

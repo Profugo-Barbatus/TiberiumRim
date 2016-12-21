@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<IncidentDef Class="TiberiumRim.AsteroidDef">
+		<defName>AsteroidGreen</defName>
+		<label>green tiberium asteroid</label>
+		<targetType>BaseMap</targetType>
+		<workerClass>TiberiumRim.IncidentWorker_GreenAsteroid</workerClass>
+		<baseChance>2.5</baseChance>
+		<letterLabel>Tiberium Asteroid</letterLabel>
+		<letterText>An unusual meteorite has crashed nearby.\n\nThere seems to be some unusual crystals poking out of it, and a few have broken off and scattered about.\n\nBe careful, the substance could be dangerous!</letterText>
+		<letterType>BadNonUrgent</letterType>
+		<minRefireDays>50</minRefireDays>
+		<category>ThreatSmall</category>
+		<asteroidType>TiberiumCraterGreen</asteroidType>
+	</IncidentDef>
+
+</Defs>

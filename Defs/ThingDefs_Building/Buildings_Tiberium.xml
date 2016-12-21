@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+
+	<ThingDef Name="BuildingBase" Abstract="True">
+		<category>Building</category>
+		<thingClass>Building</thingClass>
+		<soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+		<selectable>true</selectable>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<repairEffect>Repair</repairEffect>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+		<filthLeaving>BuildingRubble</filthLeaving>
+	</ThingDef>
+
+	<ThingDef Abstract="True" Name="TiberiumBuildingBase" ParentName="BuildingBase">
+		<category>Building</category>
+		<passability>Impassable</passability>
+		<building>
+			<claimable>false</claimable>
+			<isEdifice>false</isEdifice>
+			<deconstructible>false</deconstructible>
+		</building>
+		<altitudeLayer>Floor</altitudeLayer>
+		<rotatable>false</rotatable>
+		<destroyable>false</destroyable>
+		<useHitPoints>false</useHitPoints>
+	</ThingDef>
+
+	<ThingDef ParentName="TiberiumBuildingBase">
+		<defName>TiberiumCraterGreen</defName>
+		<description>A green Tiberium field.</description>
+		<label>Green Tiberium Field</label>
+		<thingClass>Building</thingClass>
+		<graphicData>
+			<texPath>Building/Natural/TiberiumCraterGreen</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Transparent</shaderType>
+			<drawSize>(4,4)</drawSize>
+		</graphicData>
+		<statBases>
+		<Beauty>180</Beauty>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<selectable>true</selectable>
+		<neverOverlapFloors>true</neverOverlapFloors>
+		<blockPlants>true</blockPlants>
+		<comps>
+			<li Class="CompProperties_Glower">
+				<glowRadius>10</glowRadius>
+				<glowColor>(51,255,51,0)</glowColor>
+			</li>
+			<li Class="CompProperties_Spawner">
+				<thingToSpawn>TiberiumGreen</thingToSpawn>
+				<spawnCount>6</spawnCount>
+				<spawnIntervalRange>
+					<min>600</min>
+					<max>2000</max>
+				</spawnIntervalRange>
+				<spawnMaxAdjacent>6</spawnMaxAdjacent>
+				<spawnForbidden>false</spawnForbidden>
+			</li>
+		</comps>
+    </ThingDef>
+	
+	
+	<!--
+	  <ThingDef ParentName="TiberiumBuildingBase">
+    <defName>TiberiumCraterBlue</defName>
+	<description>A beautiful field of blue Tiberium</description>
+    <label>Blue Tiberium Field</label>
+    <thingClass>Building</thingClass>
+	<graphicData>
+      <texPath>Things/Building/Natural/TiberiumCraterBlue</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>Transparent</shaderType>
+      <drawSize>(4,4)</drawSize>
+    </graphicData>
+	<statBases>
+	<Beauty>240</Beauty>
+	</statBases>
+    <altitudeLayer>Floor</altitudeLayer>
+	<rotatable>false</rotatable>
+    <destroyable>false</destroyable>
+    <useHitPoints>false</useHitPoints>
+    <tickerType>Normal</tickerType>
+    <selectable>true</selectable>
+    <neverOverlapFloors>true</neverOverlapFloors>
+    <blockPlants>true</blockPlants>
+    <building>
+      <isEdifice>false</isEdifice>
+      <claimable>false</claimable>
+      <deconstructible>false</deconstructible>
+    </building>
+  <comps>
+        <li Class="CompProperties_HeatPusher">
+        <heatPerSecond>47</heatPerSecond>
+        <heatPushMaxTemperature>207</heatPushMaxTemperature>
+      </li>
+       <li Class="CompProperties_Glower">
+        <glowRadius>10</glowRadius>
+        <glowColor>(0,128,255,0)</glowColor>
+       </li>
+        <li Class="CompProperties_Spawner">
+        <thingToSpawn>TiberiumBlue</thingToSpawn>
+        <spawnCount>6</spawnCount>
+        <spawnIntervalRange>
+          <min>1800</min>
+          <max>6000</max>
+        </spawnIntervalRange>
+        <spawnMaxAdjacent>6</spawnMaxAdjacent>
+        <spawnForbidden>false</spawnForbidden>
+      </li>
+  </comps>
+    </ThingDef>
+	
+	  <ThingDef ParentName="BuildingBase">
+    <defName>TiberiumMeteor</defName>
+	<description>An extraterrastrial meteor. Contains glowing crystal of all sorts.</description>
+    <label>Tiberium Meteor</label>
+    <category>Building</category>
+	<thingClass>TiberiumRim.Building_TiberiumMeteor</thingClass>
+    <graphicData>
+      <texPath>Things/Building/Exotic/TiberiumMeteor</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+		<pathCost>35</pathCost>
+    <blockWind>true</blockWind>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.50</fillPercent>
+    <size>(2,2)</size>
+    <statBases>
+      <MaxHitPoints>10000</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <Beauty>60</Beauty>
+      <WorkToBuild>56000</WorkToBuild>
+    </statBases>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <killedLeavings>
+      <ChunkSlagSteel>2</ChunkSlagSteel>
+    </killedLeavings>
+    <costList>
+      <Steel>240</Steel>
+	  <Plasteel>60</Plasteel>
+    </costList>
+    <building>
+      <claimable>false</claimable>
+      <alwaysDeconstructible>true</alwaysDeconstructible>
+    </building>
+    <selectable>true</selectable>
+    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+    <drawerType>MapMeshOnly</drawerType>
+    <repairEffect>ConstructMetal</repairEffect>
+	<comps>
+	       <li Class="CompProperties_Glower">
+        <glowRadius>6</glowRadius>
+        <glowColor>(51,255,51,0)</glowColor>
+       </li>
+	          <li Class="CompProperties_Glower">
+        <glowRadius>4</glowRadius>
+        <glowColor>(0,128,255,0)</glowColor>
+       </li>
+	          <li Class="CompProperties_Glower">
+        <glowRadius>2</glowRadius>
+        <glowColor>(255,0,0,0)</glowColor>
+       </li>
+	</comps>
+    </ThingDef>
+	-->
+</ThingDefs>

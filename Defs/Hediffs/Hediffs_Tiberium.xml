@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- Must redefine vanilla defs in mod content to maintain scope -->
+	
+	<HediffDef Name="InjuryBase" Abstract="True">
+		<hediffClass>Hediff_Injury</hediffClass>
+		<tendable>true</tendable>
+		<displayWound>true</displayWound>
+	</HediffDef>
+	
+	<HediffDef Name="InfectionBase" Abstract="True">
+		<hediffClass>HediffWithComps</hediffClass>
+		<defaultLabelColor>(0.8, 0.8, 0.35)</defaultLabelColor>
+		<initialSeverity>0.1</initialSeverity>
+		<comps>
+			<li Class="HediffCompProperties_Discoverable">
+				<sendLetterWhenDiscovered>true</sendLetterWhenDiscovered>
+			</li>
+		</comps>
+	</HediffDef>
+
+	<!-- Treating Tiberium like a disease -->
+		
+	<HediffDef ParentName="InjuryBase">
+		<defName>TiberiumPoison</defName>
+		<label>Tiberium Poisoning</label>
+		<makesSickThought>true</makesSickThought>
+		<tendable>false</tendable>
+		<lethalSeverity>10</lethalSeverity>
+		<comps>
+			<li Class="HediffCompProperties_Immunizable">
+				<severityPerDayNotImmune>10</severityPerDayNotImmune>
+			</li>
+		</comps>
+		<injuryProps>
+			<painPerSeverity>0</painPerSeverity>
+			<bleedRate>0</bleedRate>
+			<canMerge>false</canMerge>
+			<destroyedLabel>Shot Off</destroyedLabel>
+		</injuryProps>
+		<stages>
+			<li>
+				<minSeverity>0.01</minSeverity>
+				<label>Minor Tiberium Exposure</label>
+				<painOffset>0.3</painOffset>
+				<capMods>
+					<li>
+						<capacity>BloodFiltration</capacity>
+						<offset>-0.1</offset>
+					</li>
+					<li>
+						<capacity>Breathing</capacity>
+						<offset>-0.05</offset>
+					</li>
+					<li>
+						<capacity>BloodPumping</capacity>
+						<offset>-0.05</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>3.5</minSeverity>
+				<label>Major Tiberium Exposure</label>
+				<lifeThreatening>true</lifeThreatening>
+				<vomitMtbDays>3.5</vomitMtbDays>
+				<painOffset>0.5</painOffset>
+				<capMods>
+					<li>
+						<capacity>BloodFiltration</capacity>
+						<offset>-0.3</offset>
+					</li>
+					<li>
+						<capacity>Breathing</capacity>
+						<offset>-0.25</offset>
+					</li>
+					<li>
+						<capacity>BloodPumping</capacity>
+						<offset>-0.30</offset>
+					</li>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.15</offset>
+					</li>
+					<li>
+						<capacity>Sight</capacity>
+						<offset>-0.1</offset>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>-0.1</offset>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.1</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>8.5</minSeverity>
+				<label>Lethal Tiberium Exposure</label>
+				<lifeThreatening>true</lifeThreatening>
+				<painOffset>0.85</painOffset>
+				<capMods>
+					<li>
+						<capacity>BloodFiltration</capacity>
+						<offset>-0.7</offset>
+					</li>
+					<li>
+						<capacity>Breathing</capacity>
+						<offset>-0.65</offset>
+					</li>
+					<li>
+						<capacity>BloodPumping</capacity>
+						<offset>-0.85</offset>
+					</li>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.70</offset>
+					</li>
+					<li>
+						<capacity>Sight</capacity>
+						<offset>-0.50</offset>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>-0.80</offset>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.80</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef ParentName="InfectionBase">
+		<defName>TiberiumContactPoison</defName>
+		<label>Natural Tiberium Poisoning</label>
+		<makesSickThought>true</makesSickThought>
+		<tendable>false</tendable>
+		<lethalSeverity>10</lethalSeverity>
+		<comps>
+			<li Class="HediffCompProperties_Immunizable">
+				<severityPerDayNotImmune>10</severityPerDayNotImmune>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<minSeverity>1</minSeverity>
+				<label>Minor Tiberium Exposure</label>
+				<painOffset>0.3</painOffset>
+				<capMods>
+					<li>
+						<capacity>BloodFiltration</capacity>
+						<offset>-0.1</offset>
+					</li>
+					<li>
+						<capacity>Breathing</capacity>
+						<offset>-0.05</offset>
+					</li>
+					<li>
+						<capacity>BloodPumping</capacity>
+						<offset>-0.05</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>3.5</minSeverity>
+				<label>Major Tiberium Exposure</label>
+				<lifeThreatening>true</lifeThreatening>
+				<vomitMtbDays>3.5</vomitMtbDays>
+				<painOffset>0.5</painOffset>
+				<capMods>
+					<li>
+						<capacity>BloodFiltration</capacity>
+						<offset>-0.3</offset>
+					</li>
+					<li>
+						<capacity>Breathing</capacity>
+						<offset>-0.25</offset>
+					</li>
+					<li>
+						<capacity>BloodPumping</capacity>
+						<offset>-0.30</offset>
+					</li>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.15</offset>
+					</li>
+					<li>
+						<capacity>Sight</capacity>
+						<offset>-0.1</offset>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>-0.1</offset>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.1</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>8.5</minSeverity>
+				<label>Lethal Tiberium Exposure</label>
+				<lifeThreatening>true</lifeThreatening>
+				<painOffset>0.85</painOffset>
+				<capMods>
+					<li>
+						<capacity>BloodFiltration</capacity>
+						<offset>-0.7</offset>
+					</li>
+					<li>
+						<capacity>Breathing</capacity>
+						<offset>-0.65</offset>
+					</li>
+					<li>
+						<capacity>BloodPumping</capacity>
+						<offset>-0.85</offset>
+					</li>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.70</offset>
+					</li>
+					<li>
+						<capacity>Sight</capacity>
+						<offset>-0.50</offset>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>-0.80</offset>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.80</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+</Defs>
