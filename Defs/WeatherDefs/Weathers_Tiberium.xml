@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<WeatherDefs>
+
+  <WeatherDef>
+    <defName>IonStorm</defName>
+    <label>Ion Storm</label>
+    <description>An Ion Storm - Not very good to life.</description>
+    <repeatable>true</repeatable>
+    <favorability>VeryBad</favorability>
+    <ambientSounds>
+      <li>AmbientRain</li>
+	  <li>AmbientWind_Storm</li>
+    </ambientSounds>   
+    <skyColorsDay>
+      <sky>(0,204,204)</sky>
+      <shadow>(0.95,0.95,0.95)</shadow>
+      <overlay>(0.7,0.7,0.7)</overlay>
+      <saturation>0.8</saturation>
+    </skyColorsDay>
+    <skyColorsDusk>
+      <sky>(0,102,102)</sky>
+      <shadow>(0.99,0.99,0.99)</shadow>
+      <overlay>(0.8,0.8,0.8)</overlay>
+      <saturation>0.8</saturation>
+    </skyColorsDusk>
+    <skyColorsNightEdge>
+      <sky>(0,204,204)</sky>
+      <shadow>(0.92,0.92,0.92)</shadow>
+      <overlay>(0.6,0.6,0.6)</overlay>
+      <saturation>0.7</saturation>
+    </skyColorsNightEdge>
+    <skyColorsNightMid>
+      <sky>(0,204,204)</sky>
+      <shadow>(0.9, 0.9, 0.9)</shadow>
+      <overlay>(0.6,0.6,0.6)</overlay>
+      <saturation>0.5</saturation>
+    </skyColorsNightMid>
+	<durationRange>
+      <min>30000</min>
+      <max>80000</max>
+    </durationRange>
+	 <eventMakers>
+      <li>
+        <averageInterval>600</averageInterval>
+        <eventClass>WeatherEvent_LightningFlash</eventClass>
+      </li>
+      <li>
+        <averageInterval>600</averageInterval>
+        <eventClass>WeatherEvent_LightningStrike</eventClass>
+      </li>
+    </eventMakers>
+  </WeatherDef>
+
+</WeatherDefs>
+
+
+
+
+
+
+
+
