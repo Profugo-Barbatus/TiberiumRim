@@ -3,10 +3,10 @@
 	<ThingDef ParentName="TiberiumBase" Class="TiberiumRim.TiberiumDef">
 		<defName>TiberiumGreen</defName>
 		<label>Green Tiberium</label>
-		<description>A glowy green crystal. Highly toxic.</description>
+		<description>A glowy green crystal. Looks strangely appealing. Beware of interaction.</description>
 		<statBases>
 			<MaxHitPoints>1500</MaxHitPoints>
-			<Beauty>100</Beauty>
+			<Beauty>45</Beauty>
 		</statBases>
 		<graphicData>
 			<texPath>Plant/Tiberium/Green</texPath>
@@ -19,7 +19,7 @@
 			<growDays>1</growDays>
 			<visualSizeRange>
 				<min>0.3</min>
-				<max>1</max>
+				<max>0.5</max>
 			</visualSizeRange>
 		</plant>
 		<corruptsInto>TiberiumSoilGreen</corruptsInto>
@@ -28,10 +28,10 @@
     <ThingDef ParentName="TiberiumBase" Class="TiberiumRim.TiberiumDef">
 		<defName>TiberiumBlue</defName>
 		<label>Blue Tiberium</label>
-		<description>A glowy blue crystal. Highly toxic. Very expensive.</description>
+		<description>A glowy blue crystal. Beautiful to the eye but of unknown proberties.</description>
 		<statBases>
 			<MaxHitPoints>2000</MaxHitPoints>
-			<Beauty>180</Beauty>
+			<Beauty>75</Beauty>
 		</statBases>
 		<graphicData>
 			<texPath>Plant/Tiberium/Blue</texPath>
@@ -44,7 +44,7 @@
 			<growDays>1</growDays>
 			<visualSizeRange>
 				<min>0.3</min>
-				<max>1</max>
+				<max>0.5</max>
 			</visualSizeRange>
 		</plant>
 		<corruptsInto>TiberiumSoilBlue</corruptsInto>
