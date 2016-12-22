@@ -15,13 +15,14 @@
 		<drawGUIOverlay>true</drawGUIOverlay>
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
-			<Flammability>1.0</Flammability>
+			<Flammability>0.6</Flammability>
 			<DeteriorationRate>1</DeteriorationRate>
-			<SellPriceFactor>0.5</SellPriceFactor>
+			<SellPriceFactor>0.7</SellPriceFactor>
 		</statBases>
 		<altitudeLayer>Item</altitudeLayer>
 		<alwaysHaulable>True</alwaysHaulable>
 		<tickerType>Never</tickerType>
+		<!-- Need "Tiberium" techlevel-->
 		<techLevel>Industrial</techLevel>
 		<thingCategories>
 			<li>WeaponsRanged</li>
@@ -94,7 +95,7 @@
 			<Speed>85</Speed>
 		</projectile>
 		<graphicData>
-			<texPath>Things/Projectile/Bullet_Shotgun</texPath>
+			<texPath>Projectile/Bullet_Tiberium</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 	</ThingDef>
@@ -106,7 +107,7 @@
 		<label>Tiberium Flechette Rifle</label>
 		<description>The Tiberium Flechette Rifle fires dozens of small shards of Tiberium at its target. Its extremely effective against infantry, but fairs poorly against anything else.</description>
 		<graphicData>
-			<texPath>Things/Item/Equipment/WeaponRanged/ChargeRifle</texPath>
+			<texPath>Item/Equipment/WeaponRanged/TiberiumFlechetteRifle</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>InteractChargeRifle</soundInteract>

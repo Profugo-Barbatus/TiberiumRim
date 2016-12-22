@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Plants>
+	<ThingDef ParentName="TiberiumFaunaBase">
+		<defName>TiberiumPlant</defName>
+		<label>Tiberium Plant</label>
+		<description>A weird-looking lifeform. Looks infested with Tiberium.</description>
+		<statBases>
+			<MaxHitPoints>1500</MaxHitPoints>
+			<Beauty>100</Beauty>
+		</statBases>
+		<graphicData>
+			<texPath>Plant/Tiberium/Fauna</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<selectable>true</selectable>
+		<pathCost>12</pathCost>
+		<plant>
+			<dieIfLeafless>false</dieIfLeafless>
+			<growDays>1</growDays>
+			<visualSizeRange>
+				<min>0.3</min>
+				<max>1</max>
+			</visualSizeRange>
+		</plant>
+	</ThingDef>
+  
+
+</Plants>
