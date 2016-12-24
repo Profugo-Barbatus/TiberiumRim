@@ -86,18 +86,6 @@
         </surpriseAttack>
       </li>
     </verbs>
-    <comps>
-	  	<li Class="CompProperties_Spawner">
-				<thingToSpawn>TiberiumGreen</thingToSpawn>
-				<spawnCount>1</spawnCount>
-				<spawnIntervalRange>
-					<min>3000000</min>
-					<max>3000000</max>
-				</spawnIntervalRange>
-				<spawnMaxAdjacent>3</spawnMaxAdjacent>
-				<spawnForbidden>false</spawnForbidden>
-			</li>
-    </comps>
     <race>
       <body>Visceroid</body>
       <predator>true</predator>
