@@ -21,7 +21,7 @@
 			<isEdifice>false</isEdifice>
 			<deconstructible>false</deconstructible>
 		</building>
-		<altitudeLayer>Floor</altitudeLayer>
+		<altitudeLayer>Building</altitudeLayer>
 		<rotatable>false</rotatable>
 		<destroyable>false</destroyable>
 		<useHitPoints>false</useHitPoints>
@@ -38,6 +38,7 @@
 			<shaderType>Transparent</shaderType>
 			<drawSize>(4,4)</drawSize>
 		</graphicData>
+		<altitudeLayer>Floor</altitudeLayer>
 		<statBases>
 		<Beauty>180</Beauty>
 		</statBases>
@@ -79,18 +80,10 @@
 	<Beauty>240</Beauty>
 	</statBases>
     <altitudeLayer>Floor</altitudeLayer>
-	<rotatable>false</rotatable>
-    <destroyable>false</destroyable>
-    <useHitPoints>false</useHitPoints>
     <tickerType>Normal</tickerType>
     <selectable>true</selectable>
     <neverOverlapFloors>true</neverOverlapFloors>
     <blockPlants>true</blockPlants>
-    <building>
-      <isEdifice>false</isEdifice>
-      <claimable>false</claimable>
-      <deconstructible>false</deconstructible>
-    </building>
   <comps>
         <li Class="CompProperties_HeatPusher">
         <heatPerSecond>47</heatPerSecond>
@@ -115,7 +108,7 @@
 	
 	  <ThingDef ParentName="BuildingBase">
     <defName>TiberiumMeteor</defName>
-	<description>An extraterrastrial meteor. Contains glowing crystal of all sorts.</description>
+	<description>An extraterrestrial meteor. Contains glowing crystal of all sorts.</description>
     <label>Tiberium Meteor</label>
     <category>Building</category>
     <graphicData>
@@ -132,7 +125,7 @@
     <statBases>
       <MaxHitPoints>10000</MaxHitPoints>
       <Flammability>0</Flammability>
-      <Beauty>60</Beauty>
+      <Beauty>20</Beauty>
       <WorkToBuild>56000</WorkToBuild>
     </statBases>
     <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
@@ -140,8 +133,9 @@
       <ChunkSlagSteel>2</ChunkSlagSteel>
     </killedLeavings>
     <costList>
-      <Steel>240</Steel>
-	  <Plasteel>60</Plasteel>
+	  <RedTiberiumRaw>10</RedTiberiumRaw>
+      <BlueTiberiumRaw>20</BlueTiberiumRaw>
+	  <GreenTiberiumRaw>70</GreenTiberiumRaw>
     </costList>
     <building>
       <claimable>false</claimable>
@@ -167,4 +161,124 @@
 	</comps>
     </ThingDef>
 
+	<ThingDef ParentName="TiberiumBuildingBase">
+    <defName>TiberiumMonolith</defName>
+	<description>A blue monolith growing out of the ground.</description>
+    <label>blue Tiberium monolith</label>
+    <thingClass>Building</thingClass>
+	<size>(1,1)</size>
+	<graphicData>
+      <texPath>Building/Natural/TiberiumMonolith</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>Transparent</shaderType>
+      <drawSize>(4,8)</drawSize>
+    </graphicData>
+	<statBases>
+	<Beauty>240</Beauty>
+	</statBases>
+	<rotatable>false</rotatable>
+    <destroyable>false</destroyable>
+    <useHitPoints>false</useHitPoints>
+    <tickerType>Normal</tickerType>
+    <selectable>true</selectable>
+    <blockPlants>true</blockPlants>
+    <building>
+      <isEdifice>false</isEdifice>
+      <claimable>false</claimable>
+      <deconstructible>false</deconstructible>
+    </building>
+  <comps>
+        <li Class="CompProperties_HeatPusher">
+        <heatPerSecond>20</heatPerSecond>
+        <heatPushMaxTemperature>207</heatPushMaxTemperature>
+      </li>
+       <li Class="CompProperties_Glower">
+        <glowRadius>5</glowRadius>
+        <glowColor>(0,128,255,0)</glowColor>
+       </li>
+        <li Class="CompProperties_Spawner">
+        <thingToSpawn>TiberiumBlue</thingToSpawn>
+        <spawnCount>3</spawnCount>
+        <spawnIntervalRange>
+          <min>3600</min>
+          <max>6000</max>
+        </spawnIntervalRange>
+        <spawnMaxAdjacent>3</spawnMaxAdjacent>
+        <spawnForbidden>false</spawnForbidden>
+      </li>
+  </comps>
+    </ThingDef>
+	
+	<ThingDef ParentName="TiberiumBuildingBase">
+		<defName>BlossomTree</defName>
+		<description>A weird tree of sorts. It seems to grow green crystals.</description>
+		<label>blossom tree</label>
+		<thingClass>Building</thingClass>
+		<size>(1,1)</size>
+		<graphicData>
+			<texPath>Building/Natural/BlossomTree</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Transparent</shaderType>
+			<drawSize>(4,8)</drawSize>
+		</graphicData>
+		<statBases>
+		<Beauty>-60</Beauty>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<selectable>true</selectable>
+		<blockPlants>true</blockPlants>
+		<comps>
+			<li Class="CompProperties_Glower">
+				<glowRadius>8</glowRadius>
+				<glowColor>(51,255,51,0)</glowColor>
+			</li>
+			<li Class="CompProperties_Spawner">
+				<thingToSpawn>TiberiumGreen</thingToSpawn>
+				<spawnCount>6</spawnCount>
+				<spawnIntervalRange>
+					<min>1200</min>
+					<max>2000</max>
+				</spawnIntervalRange>
+				<spawnMaxAdjacent>8</spawnMaxAdjacent>
+				<spawnForbidden>false</spawnForbidden>
+			</li>
+		</comps>
+    </ThingDef>
+	
+	<ThingDef ParentName="TiberiumBuildingBase">
+		<defName>TiberiumShard</defName>
+		<description>An extraterrestrial shard. Looks unusual.</description>
+		<label>tiberium shard</label>
+		<thingClass>Building</thingClass>
+		<size>(1,1)</size>
+		<graphicData>
+			<texPath>Building/Exotic/RedTiberiumShard</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Transparent</shaderType>
+			<drawSize>(4,8)</drawSize>
+		</graphicData>
+		<statBases>
+		<Beauty>180</Beauty>
+		</statBases>
+		<tickerType>Rare</tickerType>
+		<selectable>true</selectable>
+		<blockPlants>true</blockPlants>
+		<comps>
+			<li Class="CompProperties_Glower">
+				<glowRadius>6</glowRadius>
+				<glowColor>(255,0,0,0)</glowColor>
+			</li>
+			<li Class="CompProperties_Spawner">
+				<thingToSpawn>TiberiumRed</thingToSpawn>
+				<spawnCount>6</spawnCount>
+				<spawnIntervalRange>
+					<min>3000</min>
+					<max>5000</max>
+				</spawnIntervalRange>
+				<spawnMaxAdjacent>6</spawnMaxAdjacent>
+				<spawnForbidden>false</spawnForbidden>
+			</li>
+		</comps>
+    </ThingDef>
+	
 </ThingDefs>

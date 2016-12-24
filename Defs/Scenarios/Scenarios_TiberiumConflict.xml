@@ -120,8 +120,8 @@
         </li>
 		<li Class="ScenPart_ScatterThingsAnywhere">
           <def>ScatterThingsAnywhere</def>
-          <thingDef>TiberiumGreen</thingDef>
-          <count>1000</count>
+          <thingDef>TiberiumRed</thingDef>
+          <count>50</count>
         </li>
         
         <!-- Game start dialog -->

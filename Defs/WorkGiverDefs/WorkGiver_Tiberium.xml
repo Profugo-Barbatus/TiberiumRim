@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<WorkGivers>
+	
+	<WorkGiverDef>
+		<defName>DoBillsRefinery</defName>
+		<label>works at Tiberium refinery</label>
+		<giverClass>WorkGiver_DoBill</giverClass>
+		<workType>Crafting</workType>
+		<priorityInType>97</priorityInType>
+		<fixedBillGiverDefs>
+			<li>TiberiumRefinery</li>
+		</fixedBillGiverDefs>
+		<verb>refine Tiberium</verb>
+		<gerund>refine Tiberium at</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+		<prioritizeSustains>true</prioritizeSustains>
+	</WorkGiverDef>
+	
+</WorkGivers>
