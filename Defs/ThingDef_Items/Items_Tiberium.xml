@@ -23,7 +23,7 @@
 
    <ThingDef ParentName="ResourceBase">
       <defName>GreenTiberiumRaw</defName>
-      <label>Raw Green Tiberium Crystal</label>
+      <label>raw green Tiberium crystal</label>
       <description>The raw form of Tiberium. Be careful how you hanlde it! It can be refined.</description>
       <graphicData>
         <texPath>Item/Resource_TiberiumGreen</texPath>
@@ -35,7 +35,7 @@
       <soundDrop>Silver_Drop</soundDrop>
 	  <useHitPoints>false</useHitPoints>
 	  <statBases>
-      <MarketValue>0.5</MarketValue>
+      <MarketValue>1</MarketValue>
       <Mass>0.1</Mass>
     </statBases>
     <thingCategories>
@@ -46,7 +46,7 @@
 	  
 	<ThingDef ParentName="ResourceBase">
       <defName>BlueTiberiumRaw</defName>
-      <label>Raw Blue Tiberium Crystal</label>
+      <label>raw blue Tiberium crystal</label>
       <description>The raw form of Tiberium. Be careful how you hanlde it! It can be refined.</description>
       <graphicData>
         <texPath>Item/Resource_TiberiumBlue</texPath>
@@ -58,7 +58,7 @@
       <soundDrop>Silver_Drop</soundDrop>
 	  <useHitPoints>false</useHitPoints>
 	  <statBases>
-      <MarketValue>1</MarketValue>
+      <MarketValue>4</MarketValue>
       <Mass>0.2</Mass>
     </statBases>
     <thingCategories>
@@ -66,5 +66,29 @@
     </thingCategories>
     <stackLimit>250</stackLimit>
       </ThingDef>
+	  
+	  <ThingDef ParentName="ResourceBase">
+      <defName>RedTiberiumRaw</defName>
+      <label>raw red Tiberium crystal</label>
+      <description>The raw form of Tiberium. Be careful how you hanlde it! It can be refined.</description>
+      <graphicData>
+        <texPath>Item/Resource_TiberiumRed</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+	  <resourceReadoutPriority>First</resourceReadoutPriority>
+	  <resourceReadoutAlwaysShow>true</resourceReadoutAlwaysShow>
+	  <soundInteract>Silver_Drop</soundInteract>
+      <soundDrop>Silver_Drop</soundDrop>
+	  <useHitPoints>false</useHitPoints>
+	  <statBases>
+      <MarketValue>10</MarketValue>
+      <Mass>0.5</Mass>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <stackLimit>250</stackLimit>
+      </ThingDef>
+
 
 </Defs>
