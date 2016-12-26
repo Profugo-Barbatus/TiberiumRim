@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
     <name>Tiberium Rim</name>
-	<targetVersion>0.16.1392</targetVersion>
+	<targetVersion>0.16.1393</targetVersion>
     <author>Telefonmast and Profugo Barbatus</author>
     <description>
-		Tiberium Rim, bringing Tiberium and all its joys and terrors to a Rimworld near you!
+		-----Transmission Begin-----
+		Welcome back Commander.
+		Tiberium has spread across space. 
+		Humanity thought they could flee from earth 
+		as it was becoming crystalized.
+		But now it is back, closer than ever.
+		Now get on this Rimworld and get it under control.
+		Your people are counting on you.
+		-----Transmisson End-----
 	</description>
 </ModMetaData>

@@ -6,7 +6,7 @@
 		<label>green tiberium asteroid</label>
 		<targetType>BaseMap</targetType>
 		<workerClass>TiberiumRim.IncidentWorker_GreenAsteroid</workerClass>
-		<baseChance>5.0</baseChance>
+		<baseChance>25.0</baseChance>
 		<letterLabel>Green Tiberium Asteroid</letterLabel>
 		<letterText>An unusual meteorite has crashed nearby and made a crater.\n\nThere seems to be some unusual crystals poking out of it, and a few have broken off and scattered around the site.\n\nBe careful, the substance could be dangerous!</letterText>
 		<letterType>BadNonUrgent</letterType>
@@ -20,7 +20,7 @@
 		<label>blue tiberium asteroid</label>
 		<targetType>BaseMap</targetType>
 		<workerClass>TiberiumRim.IncidentWorker_GreenAsteroid</workerClass>
-		<baseChance>1.0</baseChance>
+		<baseChance>10.0</baseChance>
 		<letterLabel>Blue Tiberium Asteroid</letterLabel>
 		<letterText>An unusual meteorite has crashed nearby and made a crater.\n\nThere seems to be some unusual crystals poking out of it, and a few have broken off and scattered around the site.\n\nBe careful, the substance could be dangerous!</letterText>
 		<letterType>BadNonUrgent</letterType>
@@ -34,7 +34,7 @@
 		<label>tiberium meteor</label>
 		<targetType>BaseMap</targetType>
 		<workerClass>TiberiumRim.IncidentWorker_GreenAsteroid</workerClass>
-		<baseChance>15.0</baseChance>
+		<baseChance>50.0</baseChance>
 		<letterLabel>Tiberium Meteor Drop</letterLabel>
 		<letterText>An unusual meteorite has crashed nearby.\n\nThere seems to be some unusual crystals poking out of it.\n\nBe careful, the substance could be dangerous!</letterText>
 		<letterType>BadNonUrgent</letterType>
@@ -43,5 +43,32 @@
 		<asteroidType>TiberiumMeteor</asteroidType>
 	</IncidentDef>
 
+	<IncidentDef Class="TiberiumRim.AsteroidDef">
+		<defName>TiberiumShard</defName>
+		<label>tiberium shard</label>
+		<targetType>BaseMap</targetType>
+		<workerClass>TiberiumRim.IncidentWorker_GreenAsteroid</workerClass>
+		<baseChance>5.0</baseChance>
+		<letterLabel>Tiberium shard</letterLabel>
+		<letterText>A unsual type of shard has dropped. It's spreading red crystals around itself.\n\nBe careful, the substance could be dangerous!</letterText>
+		<letterType>BadNonUrgent</letterType>
+		<minRefireDays>70</minRefireDays>
+		<category>ThreatSmall</category>
+		<asteroidType>TiberiumShard</asteroidType>
+	</IncidentDef>
+	
+	<IncidentDef Class="TiberiumRim.AsteroidDef">
+		<defName>BlossomTree</defName>
+		<label>blossom tree</label>
+		<targetType>BaseMap</targetType>
+		<workerClass>TiberiumRim.IncidentWorker_GreenAsteroid</workerClass>
+		<baseChance>50.0</baseChance>
+		<letterLabel>Unknown gas!</letterLabel>
+		<letterText>A cloud of unknown gas has passed the map and mutated a tree. Be careful around it!</letterText>
+		<letterType>BadNonUrgent</letterType>
+		<minRefireDays>70</minRefireDays>
+		<category>ThreatSmall</category>
+		<asteroidType>BlossomTree</asteroidType>
+	</IncidentDef>
 	
 </Defs>
