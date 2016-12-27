@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+
+
+	<ThingDef Name="BenchBase" ParentName="BuildingBase" Abstract="True">
+		<castEdgeShadows>true</castEdgeShadows>
+		<staticSunShadowHeight>0.20</staticSunShadowHeight>
+		<building>
+			<workSpeedPenaltyOutdoors>true</workSpeedPenaltyOutdoors>
+			<workSpeedPenaltyTemperature>true</workSpeedPenaltyTemperature>
+		</building>
+		<comps>
+			<li>
+				<compClass>CompReportWorkSpeed</compClass>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_ReportWorkSpeedPenalties</li>
+		</placeWorkers>
+	</ThingDef>
+
+
+	<ThingDef ParentName="BenchBase">
+		<defName>TiberiumRefinery</defName>
+		<label>tiberium refinery</label>
+		<description>A specialized chemical refining plant. Used to refine lethal Tiberium to useful resources.</description>
+		<thingClass>Building_WorkTable</thingClass>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>70</pathCost>
+		<statBases>
+			<MaxHitPoints>600</MaxHitPoints>
+			<WorkToBuild>3000</WorkToBuild>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<size>(5,2)</size>
+		<costList>
+			<Uranium>25</Uranium>
+			<Plasteel>50</Plasteel>
+			<Gold>25</Gold>
+			<Steel>250</Steel>
+			<Component>7</Component>
+			<BookRiparius>1</BookRiparius>
+			<BookVinifera>1</BookVinifera>
+			<BookRutila>1</BookRutila>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Glower">
+				<glowRadius>2</glowRadius>
+				<glowColor>(51,255,51,0)</glowColor>
+			</li>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>230</basePowerConsumption>
+				<startElectricalFires>true</startElectricalFires>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Breakdownable"/>
+		</comps>
+		<recipes>
+			<li>ExtractResourcesFromGreenTiberium</li>
+			<li>ExtractResourcesFromBlueTiberium</li>
+			<li>ExtractResourcesFromRedTiberium</li>
+		</recipes>
+		<castEdgeShadows>false</castEdgeShadows>
+		<staticSunShadowHeight>0</staticSunShadowHeight>
+		<graphicData>
+			<texPath>Building/Tiberium/TibRefinery</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(7,4)</drawSize>
+			<shadowData>
+				<volume>(1.5,1,1.5)</volume>
+			</shadowData>
+			<damageData>
+				<rect>(0.3,0.1,2.4,1.8)</rect>
+			</damageData>
+		</graphicData>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+		<building>
+			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+		</building>
+		<fillPercent>0.5</fillPercent>
+		<interactionCellOffset>(1,0,-2)</interactionCellOffset>
+		<hasInteractionCell>true</hasInteractionCell>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<designationCategory>Production</designationCategory>
+		<surfaceType>Item</surfaceType>
+		<researchPrerequisites>
+			<li>TiberiumResearchRefining</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+</ThingDefs>
