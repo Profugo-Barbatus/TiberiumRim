@@ -1,14 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using UnityEngine;
 using Verse;
 using RimWorld;
-using Verse.AI;
-using Verse.AI.Group;
-using TiberiumRim;
 
 namespace TiberiumRim
 {
@@ -60,7 +54,6 @@ namespace TiberiumRim
             /* Tiberium Cannot become Leafless. Lets save the effort on the check.
             CheckTemperatureMakeLeafless();
             */
-
             if (Destroyed)
                 return;
 
@@ -166,30 +159,61 @@ namespace TiberiumRim
             cachedLabelMouseover = null;
         }
 
-        //Infects the selected pawn
         public void infect(Pawn p)
         {
-            //Fetch the reference to the specific hediff. Eventually should be replaced with a variable reference thats read in from XML.
             HediffDef tiberium = DefDatabase<HediffDef>.GetNamed("TiberiumContactPoison", true);
 
-            //If the pawn already has tiberium poisoning, don't give it to them again.
-            if (!p.health.hediffSet.HasHediff(tiberium))
+            if (!p.health.hediffSet.HasHediff(tiberium) || !p.RaceProps.IsMechanoid)
             {
-                //Build a list of all the body parts in the pawn.
                 List<BodyPartRecord> list = new List<BodyPartRecord>();
+
                 foreach (BodyPartRecord i in p.RaceProps.body.AllParts)
                 {
-                    //Chop down the list of the bodyparts so that only externally facing parts can be infected. This should allow compatibility with mods such as Orassans and other 'Alien' mods.
-                    if(i.depth == BodyPartDepth.Outside)
+                    if (i.depth == BodyPartDepth.Outside)
                     {
                         list.Add(i);
                     }
                 }
 
-                //Once we've got all that, just chose one of the random lucky victims, and mess it up. Yes, this means a pawn can somehow get tiberium poisoning in their eye. Assume they took *far* too close of a look at a thing.
-                //Luckily, there's alot more things like toes, or fingers that'll probably get picked. So Amputation shouldn't be such a big deal there.
                 BodyPartRecord target = list.RandomElement();
 
+                List<BodyPartGroupDef> groups = target.groups;
+
+                List<Apparel> Clothing = p.apparel.WornApparel;
+
+                float protection = 0;
+
+                for (int j = 0; j < Clothing.Count; j++)
+                {
+                    List<BodyPartGroupDef> covered = Clothing[j].def.apparel.bodyPartGroups;
+
+                    if (covered.Count > 0)
+                    {
+                        for (int k = 0; k < covered.Count; k++)
+                        {
+                            if (groups.Contains(covered[k]))
+                            {
+                                if(Clothing[j].def.defName.Contains("TBP"))
+                                {
+                                    Log.Message("Prevented an infection due to special clothing");
+                                    return;
+                                }
+                                if (protection < Clothing[j].GetStatValue(DefDatabase<StatDef>.GetNamed("ArmorRating_Sharp")))
+                                {
+                                    protection = Clothing[j].GetStatValue(DefDatabase<StatDef>.GetNamed("ArmorRating_Sharp"));
+                                }
+                            }
+                        }
+                    }
+                }
+                
+                if(Rand.Chance(protection * 1.8f) )
+                {
+                    Log.Message("Prevented an infection due to armor rating");
+                    return;
+                }
+
+                Log.Message("Failed to Prevent an Infection with an Armor Rating of " + protection);
                 p.health.AddHediff(tiberium, target, null);
             }
         }
