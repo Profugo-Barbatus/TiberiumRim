@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+
+
+	<ThingDef ParentName="BenchBase">
+		<defName>TiberiumResearchBench</defName>
+		<label>tiberium research bench</label>
+		<description>A specialized research bench for Tiberium knowledge. Research is sped up by the high-tech tools. Requires power.</description>
+		<thingClass>Building_ResearchBench</thingClass>
+		<size>(5,2)</size>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>150</costStuffCount>
+		<costList>
+			<Uranium>10</Uranium>
+			<Plasteel>10</Plasteel>
+			<Steel>300</Steel>
+			<Component>8</Component>
+			<RedTiberiumRaw>5</RedTiberiumRaw>
+			<BlueTiberiumRaw>10</BlueTiberiumRaw>
+			<GreenTiberiumRaw>15</GreenTiberiumRaw>
+		</costList>
+		<graphicData>
+			<texPath>Building/Tiberium/TibResearch</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(7,4)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>70</pathCost>
+		<statBases>
+			<MaxHitPoints>700</MaxHitPoints>
+			<WorkToBuild>8000</WorkToBuild>
+			<Flammability>1.0</Flammability>
+			<ResearchSpeedFactor>1.0</ResearchSpeedFactor>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>270</basePowerConsumption>
+				<startElectricalFires>true</startElectricalFires>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Breakdownable"/>
+			<li Class="CompProperties_AffectedByFacilities">
+				<linkableFacilities>
+					<li>MultiAnalyzer</li>
+				</linkableFacilities>
+			</li>
+		</comps>
+		<fillPercent>0.5</fillPercent>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<hasInteractionCell>true</hasInteractionCell>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<designationCategory>Production</designationCategory>
+		<surfaceType>Item</surfaceType>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+		</placeWorkers>
+		<researchPrerequisites>
+			<li>MicroelectronicsBasics</li>
+		</researchPrerequisites>
+	</ThingDef>
+	
+	
+	<ThingDef ParentName="BenchBase">
+		<defName>TiberiumResearchCraftingBench</defName>
+		<label>Tiberium research crafting adapter</label>
+		<description>Allow crafting of Tiberium information items.</description>
+		<thingClass>Building_WorkTable</thingClass>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>70</pathCost>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>500</WorkToBuild>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<size>(2,2)</size>
+		<costList>
+			<Uranium>10</Uranium>
+			<Plasteel>10</Plasteel>
+			<Gold>1</Gold>
+			<Steel>100</Steel>
+			<Component>2</Component>
+		</costList>
+		<recipes>
+			<li>MakeBookRiparius</li>
+			<li>MakeBookVinifera</li>
+			<li>MakeBookRutila</li>
+		</recipes>
+		<castEdgeShadows>false</castEdgeShadows>
+		<staticSunShadowHeight>0</staticSunShadowHeight>
+		<graphicData>
+			<texPath>Building/Tiberium/TibResearchCrafter</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4,4)</drawSize>
+			<shadowData>
+				<volume>(1.5,1,1.5)</volume>
+			</shadowData>
+			<damageData>
+				<rect>(0.3,0.1,2.4,1.8)</rect>
+			</damageData>
+		</graphicData>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+		<building>
+			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+		</building>
+		<fillPercent>0.5</fillPercent>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<hasInteractionCell>true</hasInteractionCell>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<designationCategory>Production</designationCategory>
+		<surfaceType>Item</surfaceType>
+		<researchPrerequisites>
+			<li>TiberiumKnowledge</li>
+		</researchPrerequisites>
+	</ThingDef>
+    
+</ThingDefs>

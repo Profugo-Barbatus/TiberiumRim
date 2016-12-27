@@ -111,17 +111,17 @@
 		<li Class="ScenPart_ScatterThingsAnywhere">
           <def>ScatterThingsAnywhere</def>
           <thingDef>TiberiumCraterGreen</thingDef>
-          <count>40</count>
-        </li>
-		<li Class="ScenPart_ScatterThingsAnywhere">
-          <def>ScatterThingsAnywhere</def>
-          <thingDef>TiberiumCraterBlue</thingDef>
           <count>10</count>
         </li>
 		<li Class="ScenPart_ScatterThingsAnywhere">
           <def>ScatterThingsAnywhere</def>
-          <thingDef>TiberiumGreen</thingDef>
-          <count>1000</count>
+          <thingDef>TiberiumCraterBlue</thingDef>
+          <count>3</count>
+        </li>
+		<li Class="ScenPart_ScatterThingsAnywhere">
+          <def>ScatterThingsAnywhere</def>
+          <thingDef>TiberiumRed</thingDef>
+          <count>50</count>
         </li>
         
         <!-- Game start dialog -->

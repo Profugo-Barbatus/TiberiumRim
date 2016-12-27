@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<ResearchProjectDef>
+		<defName>TiberiumResearch</defName>
+		<label>tiberium research</label>
+		<description>Allows the research of Tiberium technologies.</description>
+		<baseCost>1500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>Electricity</li>
+		</prerequisites>
+		<requiredResearchBuilding>TiberiumResearchBench</requiredResearchBuilding>
+		<researchViewX>4</researchViewX>
+		<researchViewY>0.5</researchViewY>
+	</ResearchProjectDef>
+	
+	
+	<ResearchProjectDef>
+		<defName>TiberiumKnowledge</defName>
+		<label>tiberium knowledge</label>
+		<description>Allows the understanding of Tiberium.</description>
+		<baseCost>400</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>TiberiumResearch</li>
+		</prerequisites>
+		<requiredResearchBuilding>TiberiumResearchBench</requiredResearchBuilding>
+		<researchViewX>4.5</researchViewX>
+		<researchViewY>0.5</researchViewY>
+	</ResearchProjectDef>
+	
+	
+	<ResearchProjectDef>
+		<defName>TiberiumResearchRefining</defName>
+		<label>tiberium Refining</label>
+		<description>Allows Tiberium to be refined.</description>
+		<baseCost>800</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>TiberiumResearch</li>
+		</prerequisites>
+		<requiredResearchBuilding>TiberiumResearchBench</requiredResearchBuilding>
+		<researchViewX>4.5</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+
+	
+</Defs>
