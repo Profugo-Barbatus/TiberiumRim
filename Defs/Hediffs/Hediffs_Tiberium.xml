@@ -241,4 +241,93 @@
 			</li>
 		</stages>
 	</HediffDef>
+	
+	
+	<HediffDef>
+		<defName>TiberiumBuildup</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
+		<label>tiberium buildup</label>
+		<makesSickThought>true</makesSickThought>
+		<scenarioCanAdd>true</scenarioCanAdd>
+		<comps>
+			<li Class="HediffCompProperties_Immunizable">
+				<severityPerDayNotImmune>-0.05</severityPerDayNotImmune>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<label>initial-hidden</label>
+				<everVisible>false</everVisible>
+			</li>
+			<li>
+				<label>initial</label>
+				<minSeverity>0.04</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.05</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<label>minor</label>
+				<minSeverity>0.2</minSeverity>
+				<capMods>
+				<li>
+					<capacity>Consciousness</capacity>
+					<offset>-0.10</offset>
+				</li>
+				</capMods>
+			</li>
+			<li>
+				<label>moderate</label>
+				<minSeverity>0.40</minSeverity>
+				<vomitMtbDays>5</vomitMtbDays>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.15</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<label>serious</label>
+				<minSeverity>0.60</minSeverity>
+				<vomitMtbDays>1</vomitMtbDays>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.25</offset>
+					</li>
+				</capMods>
+				<hediffGivers>
+				<li Class="HediffGiver_Random">
+					<hediff>TiberiumContactPoison</hediff>
+					<mtbDays>2</mtbDays>
+					<canAffectAnyLivePart>true</canAffectAnyLivePart>
+				</li>
+				</hediffGivers>
+			</li>
+			<li>
+				<label>extreme</label>
+				<minSeverity>0.80</minSeverity>
+				<vomitMtbDays>0.5</vomitMtbDays>
+				<capMods>
+				<li>
+					<capacity>Consciousness</capacity>
+					<setMax>0.40</setMax>
+				</li>
+				</capMods>
+				<hediffGivers>
+					<li Class="HediffGiver_Random">
+						<hediff>TiberiumContactPoison</hediff>
+						<mtbDays>1</mtbDays>
+						<canAffectAnyLivePart>true</canAffectAnyLivePart>
+					</li>
+				</hediffGivers>
+			</li>
+		</stages>
+	</HediffDef>
+	
 </Defs>

@@ -71,4 +71,23 @@
 		<asteroidType>BlossomTree</asteroidType>
 	</IncidentDef>
 	
+	<IncidentDef>
+		<defName>TiberianWinter</defName>
+		<label>tiberian winter</label>
+		<targetType>BaseMap</targetType>
+		<workerClass>IncidentWorker_MakeMapCondition</workerClass>
+		<mapCondition>TiberianWinter</mapCondition>
+		<letterLabel>Tiberian Winter!</letterLabel>
+		<letterText>An nearby Tiberium vessel explosion caused immense Tiberium radition and temperature drops in your region.</letterText>
+		<letterType>BadNonUrgent</letterType>
+		<baseChance>0.15</baseChance>
+		<earliestDay>20</earliestDay>
+		<minRefireDays>90</minRefireDays>
+		<minDifficulty>3</minDifficulty>
+		<durationDays>
+			<min>2.5</min>
+			<max>10.5</max>
+		</durationDays>
+	</IncidentDef>
+	
 </Defs>

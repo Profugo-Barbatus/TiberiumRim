@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<MapConditionDefs>
+
+
+	<MapConditionDef>
+		<defName>TiberianWinter</defName>
+		<conditionClass>TiberiumRim.MapCondition_TiberianWinter</conditionClass>
+		<label>tiberian winter</label>
+		<description>A Tiberium winter has begun. Be aware of tiberium sickness.</description>
+		<endMessage>The Tiberian winter has ended.</endMessage>
+		<canBePermanent>true</canBePermanent>
+	</MapConditionDef>
+  
+  
+</MapConditionDefs>
