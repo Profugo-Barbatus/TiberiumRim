@@ -162,35 +162,43 @@ namespace TiberiumRim
         public void infect(Pawn p)
         {
             HediffDef tiberium = DefDatabase<HediffDef>.GetNamed("TiberiumContactPoison", true);
-
+            //Log.Message("DEBUG: DIF ACQUIRED");
             if (!p.health.hediffSet.HasHediff(tiberium) || !p.RaceProps.IsMechanoid)
             {
                 List<BodyPartRecord> list = new List<BodyPartRecord>();
+                //Log.Message("DEBUG: NO HEDIFF EXISTS");
 
                 foreach (BodyPartRecord i in p.RaceProps.body.AllParts)
                 {
                     if (i.depth == BodyPartDepth.Outside)
                     {
                         list.Add(i);
+                        //Log.Message("DEBUG: BODYPART ADDED TO POTENTIAL TARGETS");
                     }
                 }
-
+                
                 BodyPartRecord target = list.RandomElement();
+                //Log.Message("DEBUG: RANDOM BODYPART SELECTED");
 
                 List<BodyPartGroupDef> groups = target.groups;
+                //Log.Message("DEBUG: SUCCESSFULLY GOTTEN BODYPART GROUPS");
+
+                if(p.apparel == null)
+                {
+                    //Log.Message("Infected a naked pawn");
+                    p.health.AddHediff(tiberium, target, null);
+                    return;
+                }
 
                 List<Apparel> Clothing = p.apparel.WornApparel;
-
-                if(Clothing.CountAllowNull() == null)
-                {
-
-                }
+                //Log.Message("DEBUG: SUCCESSFULLY GOTTEN APPAREL LIST");
 
                 float protection = 0;
 
                 for (int j = 0; j < Clothing.Count; j++)
                 {
                     List<BodyPartGroupDef> covered = Clothing[j].def.apparel.bodyPartGroups;
+                    //Log.Message("DEBUG: GOT COVERED BODYPART LIST");
 
                     if (covered.Count > 0)
                     {
@@ -200,7 +208,7 @@ namespace TiberiumRim
                             {
                                 if(Clothing[j].def.defName.Contains("TBP"))
                                 {
-                                    Log.Message("Prevented an infection due to special clothing");
+                                    //Log.Message("Prevented an infection due to special clothing");
                                     return;
                                 }
                                 if (protection < Clothing[j].GetStatValue(DefDatabase<StatDef>.GetNamed("ArmorRating_Sharp")))
@@ -214,11 +222,11 @@ namespace TiberiumRim
                 
                 if(Rand.Chance(protection * 1.8f) )
                 {
-                    Log.Message("Prevented an infection due to armor rating");
+                    //Log.Message("Prevented an infection due to armor rating");
                     return;
                 }
 
-                Log.Message("Failed to Prevent an Infection with an Armor Rating of " + protection);
+                //Log.Message("Failed to Prevent an Infection with an Armor Rating of " + protection);
                 p.health.AddHediff(tiberium, target, null);
             }
         }

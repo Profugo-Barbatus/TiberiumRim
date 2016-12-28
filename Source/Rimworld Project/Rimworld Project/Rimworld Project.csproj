@@ -47,8 +47,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AsteroidDef.cs" />
+    <Compile Include="HediffDefOf_Tiberium.cs" />
     <Compile Include="IncidentWorker_AsteroidDrop.cs" />
     <Compile Include="IncidentWorker_GreenAsteroid.cs" />
+    <Compile Include="MapCondition_TiberianWinter.cs" />
     <Compile Include="TiberiumDef.cs" />
     <Compile Include="TiberiumPlant.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

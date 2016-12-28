@@ -68,9 +68,9 @@
 			<MaxHitPoints>260</MaxHitPoints>
 			<WorkToMake>25000</WorkToMake>
 			<Mass>4</Mass>
-			<ArmorRating_Blunt>2</ArmorRating_Blunt>
+			<ArmorRating_Blunt>0.04</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.04</ArmorRating_Sharp>
-			<ArmorRating_Heat>2</ArmorRating_Heat>
+			<ArmorRating_Heat>0.05</ArmorRating_Heat>
 			<Insulation_Cold>-50</Insulation_Cold>
 			<Insulation_Heat>50</Insulation_Heat>
 		</statBases>
@@ -83,6 +83,8 @@
 				<li>Shoulders</li>
 				<li>Arms</li>
 				<li>Legs</li>
+				<li>Hands</li>
+				<li>Feet</li>
 			</bodyPartGroups>
 			<worngraphicPath>Pawn/Humanlike/Apparel/TiberiumSuitParts/TiberiumSuit</worngraphicPath>
 			<layers>
