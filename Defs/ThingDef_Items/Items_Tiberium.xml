@@ -21,6 +21,7 @@
 			<pathCost>15</pathCost>
 	</ThingDef>
 
+	
 	<ThingDef ParentName="ResourceBase">
 		<defName>GreenTiberiumRaw</defName>
 		<label>raw green Tiberium crystal</label>
@@ -44,6 +45,7 @@
 		<stackLimit>250</stackLimit>
     </ThingDef>
 	  
+	  
 	<ThingDef ParentName="ResourceBase">
 		<defName>BlueTiberiumRaw</defName>
 		<label>raw blue Tiberium crystal</label>
@@ -66,6 +68,7 @@
 		</thingCategories>
 		<stackLimit>250</stackLimit>
     </ThingDef>
+	  
 	  
 	<ThingDef ParentName="ResourceBase">
 		<defName>RedTiberiumRaw</defName>
@@ -115,6 +118,7 @@
 		<stackLimit>1</stackLimit>
     </ThingDef>
 	
+	
 	<ThingDef ParentName="ResourceBase">
 		<defName>BookVinifera</defName>
 		<label>vinifera book</label>
@@ -138,6 +142,7 @@
 		</thingCategories>
 		<stackLimit>1</stackLimit>
     </ThingDef>
+	
 	
 	<ThingDef ParentName="ResourceBase">
 		<defName>BookRutila</defName>

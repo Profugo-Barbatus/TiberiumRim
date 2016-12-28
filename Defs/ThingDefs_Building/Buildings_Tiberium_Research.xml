@@ -5,7 +5,7 @@
 	<ThingDef ParentName="BenchBase">
 		<defName>TiberiumResearchBench</defName>
 		<label>tiberium research bench</label>
-		<description>A specialized research bench for Tiberium knowledge. Research is sped up by the high-tech tools. Requires power.</description>
+		<description>A specialized research bench for Tiberium knowledge./n/nResearch is sped up by the high-tech tools./n/nRequires power.</description>
 		<thingClass>Building_ResearchBench</thingClass>
 		<size>(5,2)</size>
 		<stuffCategories>
@@ -14,7 +14,6 @@
 		<costStuffCount>150</costStuffCount>
 		<costList>
 			<Uranium>10</Uranium>
-			<Plasteel>10</Plasteel>
 			<Steel>300</Steel>
 			<Component>8</Component>
 			<RedTiberiumRaw>5</RedTiberiumRaw>

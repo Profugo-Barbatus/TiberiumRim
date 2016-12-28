@@ -35,7 +35,7 @@
 	
 	<ThingDef ParentName="BasePawn" Name="AnimalThingBase" Abstract="True">
 		<statBases>
-			<Flammability>1.0</Flammability>
+			<Flammability>0.6</Flammability>
 			<LeatherAmount>25</LeatherAmount>
 		</statBases>
 		<race>
@@ -60,6 +60,8 @@
 
 	
 	<PawnKindDef Name="AnimalKindBase" Abstract="True">
+	    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
+		<wildSpawn_EcoSystemWeight>0.1</wildSpawn_EcoSystemWeight>
 	</PawnKindDef>
 
 
@@ -90,6 +92,7 @@
 			</li>
 		</verbs>
     <race>
+		<herdAnimal>true</herdAnimal>
 		<body>Visceroid</body>
 		<predator>true</predator>
 		<maxPreyBodySize>1.0</maxPreyBodySize>
