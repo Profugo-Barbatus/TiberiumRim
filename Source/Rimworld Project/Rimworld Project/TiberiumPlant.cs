@@ -181,6 +181,11 @@ namespace TiberiumRim
 
                 List<Apparel> Clothing = p.apparel.WornApparel;
 
+                if(Clothing.CountAllowNull() == null)
+                {
+
+                }
+
                 float protection = 0;
 
                 for (int j = 0; j < Clothing.Count; j++)
