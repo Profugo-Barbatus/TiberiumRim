@@ -2,7 +2,7 @@
 <WorkGivers>
 	
 	<WorkGiverDef>
-		<defName>DoBillsRefinery</defName>
+		<defName>DoBillsTibRefinery</defName>
 		<label>works at Tiberium refinery</label>
 		<giverClass>WorkGiver_DoBill</giverClass>
 		<workType>Crafting</workType>
@@ -20,7 +20,7 @@
 	
 	
 	<WorkGiverDef>
-		<defName>DoBillsResearch</defName>
+		<defName>DoBillsTibResearch</defName>
 		<label>works at Tiberium research bench</label>
 		<giverClass>WorkGiver_DoBill</giverClass>
 		<workType>Crafting</workType>
