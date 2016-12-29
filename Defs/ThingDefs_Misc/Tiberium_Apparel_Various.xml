@@ -48,7 +48,7 @@
 	<ThingDef ParentName="ApparelMakeableBase">
 		<defName>TiberiumSuit_TBP</defName>
 		<description>A suit to protect from Tiberium.</description>
-		<label>TBP suit</label>
+		<label>Tiberium protection suit</label>
 		<recipeMaker>
 		<researchPrerequisite>TiberiumKnowledge</researchPrerequisite>
 		</recipeMaker>

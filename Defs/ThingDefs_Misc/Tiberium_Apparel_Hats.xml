@@ -21,7 +21,7 @@
 
 	<ThingDef ParentName="HatMakeableBase">
 		<defName>TiberiumSuitMask_TBP</defName>
-		<label>TBP suit mask</label>
+		<label>Tiberium protection mask</label>
 		<description>A mask to protect your head from Tiberium radiation.</description>
 		<recipeMaker>
 			<researchPrerequisite>TiberiumKnowledge</researchPrerequisite>
