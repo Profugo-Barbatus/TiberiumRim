@@ -21,7 +21,7 @@
 
 	<ThingDef ParentName="HatMakeableBase">
 		<defName>TiberiumSuitMask_TBP</defName>
-		<label>Tiberium radiation suit mask</label>
+		<label>Tiberium protection mask</label>
 		<description>A mask to protect your head from Tiberium radiation.</description>
 		<recipeMaker>
 			<researchPrerequisite>TiberiumKnowledge</researchPrerequisite>
@@ -30,13 +30,13 @@
 			<texPath>Pawn/Humanlike/Apparel/TiberiumSuitParts/TiberiumSuitMask</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 		</graphicData>
-		<costStuffCount>95</costStuffCount>
+		<costStuffCount>75</costStuffCount>
 		<stuffCategories>
 			<li>Metallic</li>
 			<li>Leathery</li>
 		</stuffCategories>
 		<statBases>
-			<WorkToMake>6000</WorkToMake>
+			<WorkToMake>5000</WorkToMake>
 			<Mass>0.3</Mass>
 			<ArmorRating_Blunt>0.03</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.03</ArmorRating_Sharp>
@@ -53,7 +53,7 @@
 			<layers>
 				<li>Overhead</li>
 			</layers>
-				<commonality>1</commonality>
+				<commonality>0.25</commonality>
 			<tags>
 				<li>Outlander</li>
 			</tags>

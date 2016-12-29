@@ -163,7 +163,14 @@ namespace TiberiumRim
         {
             HediffDef tiberium = DefDatabase<HediffDef>.GetNamed("TiberiumContactPoison", true);
             //Log.Message("DEBUG: DIF ACQUIRED");
-            if (!p.health.hediffSet.HasHediff(tiberium) || !p.RaceProps.IsMechanoid)
+
+
+            if(p.RaceProps.IsMechanoid)
+            {
+                return;
+            }
+
+            if (!p.health.hediffSet.HasHediff(tiberium))
             {
                 List<BodyPartRecord> list = new List<BodyPartRecord>();
                 //Log.Message("DEBUG: NO HEDIFF EXISTS");

@@ -63,7 +63,7 @@
         </li>
         <li Class="ScenPart_StartingThing_Defined">
           <def>StartingThing_Defined</def>
-          <thingDef>Gun_TiberiumRifle</thingDef>
+          <thingDef>Gun_SurvivalRifle</thingDef>
         </li>
         <li Class="ScenPart_StartingThing_Defined">
           <def>StartingThing_Defined</def>
@@ -73,6 +73,14 @@
           <def>StartingThing_Defined</def>
           <thingDef>MeleeWeapon_Knife</thingDef>
           <stuff>Plasteel</stuff>
+        </li>
+		<li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>TiberiumSuitMask_TBP</thingDef>
+        </li>
+		<li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>TiberiumSuit_TBP</thingDef>
         </li>
         <li Class="ScenPart_StartingAnimal">
           <def>StartingAnimal</def>
@@ -124,12 +132,6 @@
           <count>50</count>
         </li>
         
-        <!-- Game start dialog -->
-        <li Class="ScenPart_GameStartDialog">
-          <def>GameStartDialog</def>
-          <textKey>GameStartDialog</textKey>
-          <closeSound>GameStartSting</closeSound>
-        </li>
         
       </parts>
     </scenario>
