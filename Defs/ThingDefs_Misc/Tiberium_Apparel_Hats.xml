@@ -30,11 +30,10 @@
 			<texPath>Pawn/Humanlike/Apparel/TiberiumSuitParts/TiberiumSuitMask</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 		</graphicData>
-		<costStuffCount>75</costStuffCount>
-		<stuffCategories>
-			<li>Metallic</li>
-			<li>Leathery</li>
-		</stuffCategories>
+		<costList>
+			<Steel>5</Steel>
+			<Cloth>30</Cloth>
+		</costList>
 		<statBases>
 			<WorkToMake>5000</WorkToMake>
 			<Mass>0.3</Mass>

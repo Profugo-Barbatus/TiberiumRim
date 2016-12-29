@@ -1,9 +1,5 @@
 ﻿using RimWorld;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Verse;
 
 namespace TiberiumRim
@@ -65,7 +61,7 @@ namespace TiberiumRim
 
         public virtual void dropRock(Map map, IntVec3 cell)
         {
-            //Virtual class, to be overriden later.
+
         }
     }
 }

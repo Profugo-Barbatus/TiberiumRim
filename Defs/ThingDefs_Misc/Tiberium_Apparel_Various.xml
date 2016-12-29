@@ -56,11 +56,10 @@
 		<texPath>Pawn/Humanlike/Apparel/TiberiumSuitParts/TiberiumSuit</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<costStuffCount>125</costStuffCount>
-		<stuffCategories>
-			<li>Metallic</li>
-			<li>Leathery</li>
-		</stuffCategories>
+		<costList>
+			<Steel>15</Steel>
+			<Cloth>60</Cloth>
+		</costList>
 		<thingCategories>
 			<li>Apparel</li>
 		</thingCategories>
