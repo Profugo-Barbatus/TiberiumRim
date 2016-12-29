@@ -6,7 +6,7 @@
 		<label>get resources from green Tiberium</label>
 		<description>This refinery uses complex reactions to break down the lethal Tiberium into useful materials.</description>
 		<jobString>Refining green Tiberium.</jobString>
-		<workAmount>800</workAmount>
+		<workAmount>1000</workAmount>
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<ingredients>
@@ -49,7 +49,7 @@
 		  </li>
 		</ingredients>
 		<products>
-			<Plasteel>10</Plasteel>
+			<Plasteel>20</Plasteel>
 		</products>
 		<workSkill>Crafting</workSkill>
 			<fixedIngredientFilter>
@@ -64,7 +64,7 @@
 		<label>get resources from red Tiberium</label>
 		<description>This refinery uses complex reactions to break down the lethal Tiberium into useful materials.</description>
 		<jobString>Refining red Tiberium.</jobString>
-		<workAmount>1200</workAmount>
+		<workAmount>1500</workAmount>
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<ingredients>
@@ -78,7 +78,7 @@
 		  </li>
 		</ingredients>
 		<products>
-		  <Gold>4</Gold>
+		  <Gold>8</Gold>
 		</products>
 		<workSkill>Crafting</workSkill>
 			<fixedIngredientFilter>
@@ -93,7 +93,7 @@
 		<defName>MakeBookRiparius</defName>
 		<label>Write about green Tiberium.</label>
 		<jobString>Writing about green Tiberium.</jobString>
-		<workAmount>500</workAmount>
+		<workAmount>300</workAmount>
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<ingredients>
@@ -131,7 +131,7 @@
 		<defName>MakeBookVinifera</defName>
 		<label>Write about blue Tiberium.</label>
 		<jobString>Writing about blue Tiberium.</jobString>
-		<workAmount>600</workAmount>
+		<workAmount>400</workAmount>
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<ingredients>
@@ -141,7 +141,7 @@
 				<li>BlueTiberiumRaw</li>
 			  </thingDefs>
 			</filter>
-			<count>1</count>
+			<count>2</count>
 		  </li>
 		  <li>
 			<filter>
@@ -169,7 +169,7 @@
 		<defName>MakeBookRutila</defName>
 		<label>Write about red Tiberium.</label>
 		<jobString>Writing about red Tiberium.</jobString>
-		<workAmount>750</workAmount>
+		<workAmount>600</workAmount>
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<ingredients>
@@ -179,7 +179,7 @@
 				<li>RedTiberiumRaw</li>
 			  </thingDefs>
 			</filter>
-			<count>1</count>
+			<count>3</count>
 		  </li>
 		  <li>
 			<filter>

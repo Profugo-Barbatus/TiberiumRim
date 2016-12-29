@@ -35,11 +35,11 @@
 		</statBases>
 		<size>(5,2)</size>
 		<costList>
-			<Uranium>25</Uranium>
+			<Uranium>15</Uranium>
 			<Plasteel>50</Plasteel>
 			<Gold>25</Gold>
 			<Steel>250</Steel>
-			<Component>7</Component>
+			<Component>4</Component>
 			<BookRiparius>1</BookRiparius>
 			<BookVinifera>1</BookVinifera>
 			<BookRutila>1</BookRutila>
@@ -82,7 +82,7 @@
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
 		</building>
 		<fillPercent>0.5</fillPercent>
-		<interactionCellOffset>(1,0,-2)</interactionCellOffset>
+		<interactionCellOffset>(1,0,-1)</interactionCellOffset>
 		<hasInteractionCell>true</hasInteractionCell>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 		<designationCategory>Production</designationCategory>

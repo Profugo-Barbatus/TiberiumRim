@@ -6,11 +6,11 @@
 		<label>green tiberium asteroid</label>
 		<targetType>BaseMap</targetType>
 		<workerClass>TiberiumRim.IncidentWorker_GreenAsteroid</workerClass>
-		<baseChance>25.0</baseChance>
+		<baseChance>1.75</baseChance>
 		<letterLabel>Green Tiberium Asteroid</letterLabel>
 		<letterText>An unusual meteorite has crashed nearby and made a crater.\n\nThere seems to be some unusual crystals poking out of it, and a few have broken off and scattered around the site.\n\nBe careful, the substance could be dangerous!</letterText>
 		<letterType>BadNonUrgent</letterType>
-		<minRefireDays>50</minRefireDays>
+		<minRefireDays>15</minRefireDays>
 		<category>ThreatSmall</category>
 		<asteroidType>TiberiumCraterGreen</asteroidType>
 	</IncidentDef>
@@ -20,11 +20,11 @@
 		<label>blue tiberium asteroid</label>
 		<targetType>BaseMap</targetType>
 		<workerClass>TiberiumRim.IncidentWorker_GreenAsteroid</workerClass>
-		<baseChance>10.0</baseChance>
+		<baseChance>1.0</baseChance>
 		<letterLabel>Blue Tiberium Asteroid</letterLabel>
 		<letterText>An unusual meteorite has crashed nearby and made a crater.\n\nThere seems to be some unusual crystals poking out of it, and a few have broken off and scattered around the site.\n\nBe careful, the substance could be dangerous!</letterText>
 		<letterType>BadNonUrgent</letterType>
-		<minRefireDays>50</minRefireDays>
+		<minRefireDays>25</minRefireDays>
 		<category>ThreatSmall</category>
 		<asteroidType>TiberiumCraterBlue</asteroidType>
 	</IncidentDef>
@@ -34,11 +34,11 @@
 		<label>tiberium meteor</label>
 		<targetType>BaseMap</targetType>
 		<workerClass>TiberiumRim.IncidentWorker_GreenAsteroid</workerClass>
-		<baseChance>50.0</baseChance>
+		<baseChance>3.0</baseChance>
 		<letterLabel>Tiberium Meteor Drop</letterLabel>
 		<letterText>An unusual meteorite has crashed nearby.\n\nThere seems to be some unusual crystals poking out of it.\n\nBe careful, the substance could be dangerous!</letterText>
 		<letterType>BadNonUrgent</letterType>
-		<minRefireDays>10</minRefireDays>
+		<minRefireDays>5</minRefireDays>
 		<category>ThreatSmall</category>
 		<asteroidType>TiberiumMeteor</asteroidType>
 	</IncidentDef>
@@ -48,11 +48,11 @@
 		<label>tiberium shard</label>
 		<targetType>BaseMap</targetType>
 		<workerClass>TiberiumRim.IncidentWorker_GreenAsteroid</workerClass>
-		<baseChance>5.0</baseChance>
+		<baseChance>0.25</baseChance>
 		<letterLabel>Tiberium shard</letterLabel>
 		<letterText>A unsual type of shard has dropped. It's spreading red crystals around itself.\n\nBe careful, the substance could be dangerous!</letterText>
 		<letterType>BadNonUrgent</letterType>
-		<minRefireDays>70</minRefireDays>
+		<minRefireDays>30</minRefireDays>
 		<category>ThreatSmall</category>
 		<asteroidType>TiberiumShard</asteroidType>
 	</IncidentDef>
@@ -62,32 +62,27 @@
 		<label>blossom tree</label>
 		<targetType>BaseMap</targetType>
 		<workerClass>TiberiumRim.IncidentWorker_GreenAsteroid</workerClass>
-		<baseChance>50.0</baseChance>
+		<baseChance>1.0</baseChance>
 		<letterLabel>Unknown gas!</letterLabel>
 		<letterText>A cloud of unknown gas has passed the map and mutated a tree. Be careful around it!</letterText>
 		<letterType>BadNonUrgent</letterType>
-		<minRefireDays>70</minRefireDays>
+		<minRefireDays>20</minRefireDays>
 		<category>ThreatSmall</category>
 		<asteroidType>BlossomTree</asteroidType>
 	</IncidentDef>
-	
-	<IncidentDef>
-		<defName>TiberianWinter</defName>
-		<label>tiberian winter</label>
+
+	<IncidentDef Class="TiberiumRim.AsteroidDef">
+		<defName>TiberiumMonolith</defName>
+		<label>tiberium monolith</label>
 		<targetType>BaseMap</targetType>
-		<workerClass>IncidentWorker_MakeMapCondition</workerClass>
-		<mapCondition>TiberianWinter</mapCondition>
-		<letterLabel>Tiberian Winter!</letterLabel>
-		<letterText>An nearby Tiberium vessel explosion caused immense Tiberium radition and temperature drops in your region.</letterText>
+		<workerClass>TiberiumRim.IncidentWorker_GreenAsteroid</workerClass>
+		<baseChance>0.75</baseChance>
+		<letterLabel>Strange Monolith Has Risen</letterLabel>
+		<letterText>A blue crystaline monolith has risen out of the ground.\n\nBe careful around it.</letterText>
 		<letterType>BadNonUrgent</letterType>
-		<baseChance>0.15</baseChance>
-		<earliestDay>20</earliestDay>
-		<minRefireDays>90</minRefireDays>
-		<minDifficulty>3</minDifficulty>
-		<durationDays>
-			<min>2.5</min>
-			<max>10.5</max>
-		</durationDays>
+		<minRefireDays>25</minRefireDays>
+		<category>ThreatSmall</category>
+		<asteroidType>TiberiumMonolith</asteroidType>
 	</IncidentDef>
 	
 </Defs>

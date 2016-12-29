@@ -48,7 +48,7 @@
 	<ThingDef ParentName="ApparelMakeableBase">
 		<defName>TiberiumSuit_TBP</defName>
 		<description>A suit to protect from Tiberium.</description>
-		<label>tiberium suit</label>
+		<label>Tiberium protection suit</label>
 		<recipeMaker>
 		<researchPrerequisite>TiberiumKnowledge</researchPrerequisite>
 		</recipeMaker>
@@ -56,7 +56,7 @@
 		<texPath>Pawn/Humanlike/Apparel/TiberiumSuitParts/TiberiumSuit</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<costStuffCount>150</costStuffCount>
+		<costStuffCount>125</costStuffCount>
 		<stuffCategories>
 			<li>Metallic</li>
 			<li>Leathery</li>
@@ -66,11 +66,11 @@
 		</thingCategories>
 		<statBases>
 			<MaxHitPoints>260</MaxHitPoints>
-			<WorkToMake>25000</WorkToMake>
+			<WorkToMake>10000</WorkToMake>
 			<Mass>4</Mass>
-			<ArmorRating_Blunt>2</ArmorRating_Blunt>
+			<ArmorRating_Blunt>0.04</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.04</ArmorRating_Sharp>
-			<ArmorRating_Heat>2</ArmorRating_Heat>
+			<ArmorRating_Heat>0.05</ArmorRating_Heat>
 			<Insulation_Cold>-50</Insulation_Cold>
 			<Insulation_Heat>50</Insulation_Heat>
 		</statBases>
@@ -83,12 +83,14 @@
 				<li>Shoulders</li>
 				<li>Arms</li>
 				<li>Legs</li>
+				<li>Hands</li>
+				<li>Feet</li>
 			</bodyPartGroups>
 			<worngraphicPath>Pawn/Humanlike/Apparel/TiberiumSuitParts/TiberiumSuit</worngraphicPath>
 			<layers>
 			<li>Shell</li>
 			</layers>
-			<commonality>1</commonality>
+			<commonality>0.25</commonality>
 			<tags>
 			<li>Outlander</li>
 			</tags>

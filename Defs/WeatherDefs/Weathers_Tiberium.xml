@@ -41,11 +41,11 @@
     </durationRange>
 	 <eventMakers>
       <li>
-        <averageInterval>400</averageInterval>
+        <averageInterval>300</averageInterval>
         <eventClass>WeatherEvent_LightningFlash</eventClass>
       </li>
       <li>
-        <averageInterval>500</averageInterval>
+        <averageInterval>200</averageInterval>
         <eventClass>WeatherEvent_LightningStrike</eventClass>
       </li>
     </eventMakers>
