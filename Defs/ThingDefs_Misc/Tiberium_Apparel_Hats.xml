@@ -35,6 +35,7 @@
 			<Cloth>30</Cloth>
 		</costList>
 		<statBases>
+			<MarketValue>950</MarketValue>
 			<WorkToMake>5000</WorkToMake>
 			<Mass>0.3</Mass>
 			<ArmorRating_Blunt>0.03</ArmorRating_Blunt>
@@ -52,7 +53,7 @@
 			<layers>
 				<li>Overhead</li>
 			</layers>
-				<commonality>0.25</commonality>
+				<commonality>0.05</commonality>
 			<tags>
 				<li>Outlander</li>
 			</tags>
