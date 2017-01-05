@@ -7,11 +7,7 @@
 		<label>tiberium research bench</label>
 		<description>A specialized research bench for Tiberium knowledge./n/nResearch is sped up by the high-tech tools./n/nRequires power.</description>
 		<thingClass>Building_ResearchBench</thingClass>
-		<size>(5,2)</size>
-		<stuffCategories>
-			<li>Metallic</li>
-		</stuffCategories>
-		<costStuffCount>150</costStuffCount>
+		<size>(7,4)</size>
 		<costList>
 			<Uranium>10</Uranium>
 			<Steel>300</Steel>
@@ -21,9 +17,9 @@
 			<GreenTiberiumRaw>15</GreenTiberiumRaw>
 		</costList>
 		<graphicData>
-			<texPath>Building/Tiberium/TibResearch</texPath>
+			<texPath>Building/Tiberium/TiberiumLAB</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>(7,4)</drawSize>
+			<drawSize>(8,4)</drawSize>
 			<damageData>
 				<cornerTL>Damage/Corner</cornerTL>
 				<cornerTR>Damage/Corner</cornerTR>
@@ -55,7 +51,7 @@
 			</li>
 		</comps>
 		<fillPercent>0.5</fillPercent>
-		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<interactionCellOffset>(0,0,3)</interactionCellOffset>
 		<hasInteractionCell>true</hasInteractionCell>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 		<designationCategory>Production</designationCategory>
@@ -115,7 +111,7 @@
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
 		</building>
 		<fillPercent>0.5</fillPercent>
-		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<interactionCellOffset>(0,0,2)</interactionCellOffset>
 		<hasInteractionCell>true</hasInteractionCell>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 		<designationCategory>Production</designationCategory>

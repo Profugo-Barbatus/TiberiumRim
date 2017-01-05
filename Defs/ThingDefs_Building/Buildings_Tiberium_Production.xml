@@ -33,7 +33,7 @@
 			<WorkToBuild>3000</WorkToBuild>
 			<Flammability>1.0</Flammability>
 		</statBases>
-		<size>(5,2)</size>
+		<size>(3,3)</size>
 		<costList>
 			<Uranium>15</Uranium>
 			<Plasteel>50</Plasteel>
@@ -67,7 +67,7 @@
 		<graphicData>
 			<texPath>Building/Tiberium/TibRefinery</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>(7,4)</drawSize>
+			<drawSize>(4,4)</drawSize>
 			<shadowData>
 				<volume>(1.5,1,1.5)</volume>
 			</shadowData>
@@ -82,7 +82,7 @@
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
 		</building>
 		<fillPercent>0.5</fillPercent>
-		<interactionCellOffset>(1,0,-1)</interactionCellOffset>
+		<interactionCellOffset>(0,0,2)</interactionCellOffset>
 		<hasInteractionCell>true</hasInteractionCell>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 		<designationCategory>Production</designationCategory>
