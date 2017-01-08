@@ -53,12 +53,6 @@ namespace TiberiumRim
         public int DyingDamagePerTick { get; private set; }
 
 
-        public override void CropBlighted()
-        {
-            //Tiberium cannot be destroyed by blight.
-        }
-
-
         //Overriding the TickLong to respect the fact that Tiberium doesn't properly behave like a plant.
         public override void TickLong()
         {
@@ -258,7 +252,7 @@ namespace TiberiumRim
 
             if (p != null)
             {
-                if(p.def.defName.Contains("TBNS"))
+                if(!p.def.defName.Contains("TBNS"))
                 {
                     p.TakeDamage(damage);
                 }
