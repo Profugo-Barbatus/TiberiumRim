@@ -82,7 +82,7 @@
 		<letterType>BadNonUrgent</letterType>
 		<minRefireDays>20</minRefireDays>
 		<category>ThreatSmall</category>
-		<asteroidType>TiberiumMonolith</asteroidType>
+		<asteroidType>TiberiumMonolith_TBNS</asteroidType>
 	</IncidentDef>
 	
 </Defs>

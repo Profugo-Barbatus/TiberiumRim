@@ -118,12 +118,12 @@
         </li>
 		<li Class="ScenPart_ScatterThingsAnywhere">
           <def>ScatterThingsAnywhere</def>
-          <thingDef>TiberiumCraterGreen</thingDef>
+          <thingDef>TiberiumCraterGreen_TBNS</thingDef>
           <count>10</count>
         </li>
 		<li Class="ScenPart_ScatterThingsAnywhere">
           <def>ScatterThingsAnywhere</def>
-          <thingDef>TiberiumCraterBlue</thingDef>
+          <thingDef>TiberiumCraterBlue_TBNS</thingDef>
           <count>3</count>
         </li>
 		<li Class="ScenPart_ScatterThingsAnywhere">
