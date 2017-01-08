@@ -12,3 +12,4 @@ E:\Tiberium Project\In Progress\GitHub\TiberiumRim\Source\Rimworld Project\Rimwo
 E:\Tiberium Project\In Progress\GitHub\TiberiumRim\Source\Rimworld Project\Rimworld Project\bin\Debug\Rimworld Project.pdb
 E:\Tiberium Project\In Progress\GitHub\TiberiumRim\Source\Rimworld Project\Rimworld Project\bin\Debug\Assembly-CSharp.dll
 E:\Tiberium Project\In Progress\GitHub\TiberiumRim\Source\Rimworld Project\Rimworld Project\bin\Debug\UnityEngine.dll
+E:\Tiberium Project\In Progress\GitHub\TiberiumRim\Source\Rimworld Project\Rimworld Project\bin\Debug\HugsLib.dll

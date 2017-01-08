@@ -30,6 +30,12 @@
 			</visualSizeRange>
 		</plant>
 		<corruptsInto>TiberiumSoilGreen</corruptsInto>
+		<friendlyTo>
+			<li>TiberiumGreen</li>
+			<li>TiberiumBlue</li>
+			<li>TiberiumRed</li>
+		</friendlyTo>
+		<buildingDamage>20</buildingDamage>
 	</ThingDef>
   
     <ThingDef ParentName="TiberiumBase" Class="TiberiumRim.TiberiumDef">
@@ -61,6 +67,12 @@
 			</visualSizeRange>
 		</plant>
 		<corruptsInto>TiberiumSoilBlue</corruptsInto>
+		<friendlyTo>
+			<li>TiberiumGreen</li>
+			<li>TiberiumBlue</li>
+			<li>TiberiumRed</li>
+		</friendlyTo>
+		<buildingDamage>20</buildingDamage>
 	</ThingDef>
 	
 	<ThingDef ParentName="TiberiumBase" Class="TiberiumRim.TiberiumDef">
@@ -93,6 +105,12 @@
 			</visualSizeRange>
 		</plant>
 		<corruptsInto>TiberiumSoilRed</corruptsInto>
+		<friendlyTo>
+			<li>TiberiumGreen</li>
+			<li>TiberiumBlue</li>
+			<li>TiberiumRed</li>
+		</friendlyTo>
+		<buildingDamage>20</buildingDamage>
 	</ThingDef>
   
 </Plants>
