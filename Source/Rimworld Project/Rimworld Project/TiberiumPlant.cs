@@ -252,7 +252,7 @@ namespace TiberiumRim
 
             if (p != null)
             {
-                if(p.def.defName.Contains("_TBNS"))
+                if(p.def.defName.Contains("TBNS"))
                 {
                     p.TakeDamage(damage);
                 }

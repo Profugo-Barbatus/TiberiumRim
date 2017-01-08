@@ -31,7 +31,7 @@
 
 	
 	<ThingDef ParentName="TiberiumBuildingBase">
-		<defName>TiberiumCraterGreen</defName>
+		<defName>TiberiumCraterGreen_TBNS</defName>
 		<description>A green Tiberium field.</description>
 		<label>Green Tiberium Field</label>
 		<thingClass>Building</thingClass>
@@ -69,7 +69,7 @@
 	
 	
 	<ThingDef ParentName="TiberiumBuildingBase">
-		<defName>TiberiumCraterBlue</defName>
+		<defName>TiberiumCraterBlue_TBNS</defName>
 		<description>A beautiful field of blue Tiberium</description>
 		<label>Blue Tiberium Field</label>
 		<thingClass>Building</thingClass>
@@ -111,7 +111,7 @@
 	
 	
 	<ThingDef ParentName="BuildingBase">
-		<defName>TiberiumMeteor</defName>
+		<defName>TiberiumMeteor_TBNS</defName>
 		<description>An extraterrestrial meteor. Contains glowing crystal of all sorts.</description>
 		<label>Tiberium Meteor</label>
 		<category>Building</category>
@@ -167,7 +167,7 @@
 	
 
 	<ThingDef ParentName="TiberiumBuildingBase">
-		<defName>TiberiumMonolith</defName>
+		<defName>TiberiumMonolith_TBNS</defName>
 		<description>A blue monolith growing out of the ground.</description>
 		<label>blue Tiberium monolith</label>
 		<thingClass>Building</thingClass>
@@ -215,7 +215,7 @@
 	</ThingDef>
 	
 	<ThingDef ParentName="TiberiumBuildingBase">
-		<defName>BlossomTree</defName>
+		<defName>BlossomTree_TBNS</defName>
 		<description>A weird tree of sorts. It seems to grow green crystals.</description>
 		<label>blossom tree</label>
 		<thingClass>Building</thingClass>
@@ -251,7 +251,7 @@
     </ThingDef>
 	
 	<ThingDef ParentName="TiberiumBuildingBase">
-		<defName>TiberiumShard</defName>
+		<defName>TiberiumShard_TBNS</defName>
 		<description>An extraterrestrial shard. Looks unusual.</description>
 		<label>tiberium shard</label>
 		<thingClass>Building</thingClass>

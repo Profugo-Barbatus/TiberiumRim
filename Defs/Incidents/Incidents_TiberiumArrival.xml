@@ -12,7 +12,7 @@
 		<letterType>BadNonUrgent</letterType>
 		<minRefireDays>20</minRefireDays>
 		<category>ThreatSmall</category>
-		<asteroidType>TiberiumCraterGreen</asteroidType>
+		<asteroidType>TiberiumCraterGreen_TBNS</asteroidType>
 	</IncidentDef>
 	
 	<IncidentDef Class="TiberiumRim.AsteroidDef">
@@ -26,7 +26,7 @@
 		<letterType>BadNonUrgent</letterType>
 		<minRefireDays>25</minRefireDays>
 		<category>ThreatSmall</category>
-		<asteroidType>TiberiumCraterBlue</asteroidType>
+		<asteroidType>TiberiumCraterBlue_TBNS</asteroidType>
 	</IncidentDef>
 	
 	<IncidentDef Class="TiberiumRim.AsteroidDef">
@@ -40,7 +40,7 @@
 		<letterType>BadNonUrgent</letterType>
 		<minRefireDays>20</minRefireDays>
 		<category>ThreatSmall</category>
-		<asteroidType>TiberiumMeteor</asteroidType>
+		<asteroidType>TiberiumMeteor_TBNS</asteroidType>
 	</IncidentDef>
 
 	<IncidentDef Class="TiberiumRim.AsteroidDef">
@@ -54,7 +54,7 @@
 		<letterType>BadNonUrgent</letterType>
 		<minRefireDays>30</minRefireDays>
 		<category>ThreatSmall</category>
-		<asteroidType>TiberiumShard</asteroidType>
+		<asteroidType>TiberiumShard_TBNS</asteroidType>
 	</IncidentDef>
 	
 	<IncidentDef Class="TiberiumRim.AsteroidDef">
@@ -68,7 +68,7 @@
 		<letterType>BadNonUrgent</letterType>
 		<minRefireDays>20</minRefireDays>
 		<category>ThreatSmall</category>
-		<asteroidType>BlossomTree</asteroidType>
+		<asteroidType>BlossomTree_TBNS</asteroidType>
 	</IncidentDef>
 
 	
