@@ -28,11 +28,13 @@ namespace TiberiumRim
 
         public SettingHandle<bool> BuildingDamage;
         public SettingHandle<bool> TiberiumCompetes;
+        public SettingHandle<bool> EntityDamage;
 
         public override void DefsLoaded()
         {
             BuildingDamage = Settings.GetHandle<bool>("BuildingDamage", "Tiberium Damages Structures", "Determines if Tiberium will damage structures.", true);
             TiberiumCompetes = Settings.GetHandle<bool>("TiberiumCompetes", "Tiberium Competes", "Determines if Tiberium Crystals of Different Varieties will Destroy each other.", false);
+            EntityDamage = Settings.GetHandle<bool>("EntityDamage", "Tiberium Damages Items", "Determines if Tiberium will damage items", true);
         }
     }
 }

@@ -44,6 +44,11 @@ namespace TiberiumRim
             }
         }
 
+        public override void CropBlighted()
+        {
+
+        }
+
         public object cachedLabelMouseover { get; private set; }
         public int DyingDamagePerTick { get; private set; }
 
@@ -155,10 +160,14 @@ namespace TiberiumRim
                 }
             }
 
-            //If Tiberium should Damage buildings
             if (TiberiumBase.Instance.BuildingDamage)
             {
                 damageBuildings(Localdef.buildingDamage);
+            }
+            if(TiberiumBase.Instance.EntityDamage)
+            {
+                damageEntities(Localdef.buildingDamage);
+                damageChunks(Localdef.buildingDamage);
             }
 
             //State has changed, label may have to as well
@@ -239,11 +248,14 @@ namespace TiberiumRim
             var c = this.RandomAdjacentCell8Way();
             var p = c.GetFirstBuilding(this.Map);
 
-            DamageInfo damage = new DamageInfo(DamageDefOf.Blunt, amt);
+            DamageInfo damage = new DamageInfo(DamageDefOf.Deterioration, amt);
 
             if (p != null)
             {
-                p.TakeDamage(damage);
+                if(p.def.defName.Contains("_TBNS"))
+                {
+                    p.TakeDamage(damage);
+                }
             }
             else
             {
@@ -254,6 +266,46 @@ namespace TiberiumRim
                     p.TakeDamage(damage);
                 }
             }
+        }
+
+        public void damageEntities(int amt)
+        {
+            var c = this.RandomAdjacentCell8Way();
+            var p = c.GetFirstItem(this.Map);
+
+            DamageInfo damage = new DamageInfo(DamageDefOf.Deterioration, amt);
+
+            if (p != null)
+            {
+                if (p.def.IsCorpse)
+                {
+                    if (Rand.Chance(0.05f))
+                    {
+                        spawnVisceroid(c);
+                        p.Destroy(DestroyMode.Vanish);
+                        return;
+                    }
+                }
+                p.TakeDamage(damage);
+            }
+        }
+
+        public void damageChunks(int amt)
+        {
+            var c = this.RandomAdjacentCell8Way();
+            var p = c.GetFirstHaulable(this.Map);
+
+            DamageInfo damage = new DamageInfo(DamageDefOf.Deterioration, amt);
+
+            if (p != null)
+            {
+                p.TakeDamage(damage);
+            }
+        }
+
+        public void spawnVisceroid(IntVec3 pos)
+        {
+            //No Visceroids yet.
         }
         
     }
