@@ -71,5 +71,17 @@
 		<asteroidType>BlossomTree_TBNS</asteroidType>
 	</IncidentDef>
 
-	
+	<IncidentDef Class="TiberiumRim.AsteroidDef">
+		<defName>TiberiumMonolith</defName>
+		<label>Tiberium Monolith</label>
+		<targetType>BaseMap</targetType>
+		<workerClass>TiberiumRim.IncidentWorker_GreenAsteroid</workerClass>
+		<baseChance>1.0</baseChance>
+		<letterLabel>Monolith</letterLabel>
+		<letterText>A monolith has risen out of the ground. Be careful around it!</letterText>
+		<letterType>BadNonUrgent</letterType>
+		<minRefireDays>20</minRefireDays>
+		<category>ThreatSmall</category>
+		<asteroidType>TiberiumMonolith_TBNS</asteroidType>
+	</IncidentDef>
 </Defs>
