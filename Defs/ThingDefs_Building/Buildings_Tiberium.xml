@@ -43,7 +43,8 @@
 		</graphicData>
 		<altitudeLayer>Floor</altitudeLayer>
 		<statBases>
-		<Beauty>180</Beauty>
+			<MaxHitPoints>15000</MaxHitPoints>
+			<Beauty>180</Beauty>
 		</statBases>
 		<tickerType>Normal</tickerType>
 		<selectable>true</selectable>
@@ -80,6 +81,7 @@
 			<drawSize>(4,4)</drawSize>
 		</graphicData>
 		<statBases>
+			<MaxHitPoints>17000</MaxHitPoints>
 			<Beauty>240</Beauty>
 		</statBases>
 		<altitudeLayer>Floor</altitudeLayer>
@@ -179,11 +181,10 @@
 			<drawSize>(4,8)</drawSize>
 		</graphicData>
 		<statBases>
+			<MaxHitPoints>10000</MaxHitPoints>
 			<Beauty>240</Beauty>
 		</statBases>
 		<rotatable>false</rotatable>
-		<destroyable>false</destroyable>
-		<useHitPoints>false</useHitPoints>
 		<tickerType>Normal</tickerType>
 		<selectable>true</selectable>
 		<blockPlants>true</blockPlants>
@@ -227,7 +228,8 @@
 			<drawSize>(4,8)</drawSize>
 		</graphicData>
 		<statBases>
-		<Beauty>-60</Beauty>
+			<MaxHitPoints>7500</MaxHitPoints>
+			<Beauty>-60</Beauty>
 		</statBases>
 		<tickerType>Normal</tickerType>
 		<selectable>true</selectable>
@@ -263,7 +265,8 @@
 			<drawSize>(4,8)</drawSize>
 		</graphicData>
 		<statBases>
-		<Beauty>180</Beauty>
+			<MaxHitPoints>12500</MaxHitPoints>
+			<Beauty>180</Beauty>
 		</statBases>
 		<tickerType>Rare</tickerType>
 		<selectable>true</selectable>
