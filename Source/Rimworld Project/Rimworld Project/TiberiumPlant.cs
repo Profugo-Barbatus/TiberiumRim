@@ -158,6 +158,10 @@ namespace TiberiumRim
                 {
                     this.touchingPawns.Remove(pawn2);
                 }
+                else if(growthInt > 0.5)
+                {
+                    infect(pawn2);
+                }
             }
 
             if (TiberiumBase.Instance.BuildingDamage)
@@ -196,8 +200,31 @@ namespace TiberiumRim
                         list.Add(i);
                     }
                 }
-                
-                BodyPartRecord target = list.RandomElement();
+                bool search = true;
+
+                BodyPartRecord target = null;
+
+                while (search)
+                {
+                    TiberiumBase.Instance.logMessage("Rerolling for target body part");
+                    target = list.RandomElement();
+
+                    if(target.height == BodyPartHeight.Bottom && Rand.Chance(0.8f))
+                    {
+                        TiberiumBase.Instance.logMessage("Selected a body part with height of Bottom");
+                        search = false;
+                    }
+                    else if(target.height == BodyPartHeight.Middle && Rand.Chance(0.5f))
+                    {
+                        TiberiumBase.Instance.logMessage("Selected a body part with height of Middle");
+                        search = false;
+                    }
+                    else if(target.height == BodyPartHeight.Top && Rand.Chance(0.2f))
+                    {
+                        TiberiumBase.Instance.logMessage("Selected a body part with height of Top");
+                        search = false;
+                    }
+                }
 
                 List<BodyPartGroupDef> groups = target.groups;
 

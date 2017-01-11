@@ -26,6 +26,16 @@ namespace TiberiumRim
             Instance = this;
         }
 
+        public void logMessage(String message)
+        {
+            Logger.Message(message);
+        }
+
+        public void logError(String message)
+        {
+            Logger.Error(message);
+        }
+
         public SettingHandle<bool> BuildingDamage;
         public SettingHandle<bool> TiberiumCompetes;
         public SettingHandle<bool> EntityDamage;

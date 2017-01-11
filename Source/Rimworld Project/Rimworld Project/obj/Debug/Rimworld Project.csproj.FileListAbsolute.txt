@@ -13,3 +13,10 @@ E:\Tiberium Project\In Progress\GitHub\TiberiumRim\Source\Rimworld Project\Rimwo
 E:\Tiberium Project\In Progress\GitHub\TiberiumRim\Source\Rimworld Project\Rimworld Project\bin\Debug\Assembly-CSharp.dll
 E:\Tiberium Project\In Progress\GitHub\TiberiumRim\Source\Rimworld Project\Rimworld Project\bin\Debug\UnityEngine.dll
 E:\Tiberium Project\In Progress\GitHub\TiberiumRim\Source\Rimworld Project\Rimworld Project\bin\Debug\HugsLib.dll
+C:\Personal Projects\Tiberium Rim\Github\TiberiumRim\Source\Rimworld Project\Rimworld Project\bin\Debug\Rimworld Project.dll
+C:\Personal Projects\Tiberium Rim\Github\TiberiumRim\Source\Rimworld Project\Rimworld Project\bin\Debug\Rimworld Project.pdb
+C:\Personal Projects\Tiberium Rim\Github\TiberiumRim\Source\Rimworld Project\Rimworld Project\bin\Debug\Assembly-CSharp.dll
+C:\Personal Projects\Tiberium Rim\Github\TiberiumRim\Source\Rimworld Project\Rimworld Project\bin\Debug\UnityEngine.dll
+C:\Personal Projects\Tiberium Rim\Github\TiberiumRim\Source\Rimworld Project\Rimworld Project\obj\Debug\Rimworld Project.csprojResolveAssemblyReference.cache
+C:\Personal Projects\Tiberium Rim\Github\TiberiumRim\Source\Rimworld Project\Rimworld Project\obj\Debug\Rimworld Project.dll
+C:\Personal Projects\Tiberium Rim\Github\TiberiumRim\Source\Rimworld Project\Rimworld Project\obj\Debug\Rimworld Project.pdb
