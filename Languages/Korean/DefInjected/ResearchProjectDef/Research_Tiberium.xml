@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<TiberiumResearch.label>타이베리움 연구</TiberiumResearch.label>
+	<TiberiumResearch.description>모든 타이베리움 연구의 기반이 되는 전용 연구대를 건설할 수 있습니다.</TiberiumResearch.description>
+	
+	<TiberiumKnowledge.label>타이베리움 지식</TiberiumKnowledge.label>
+	<TiberiumKnowledge.description>타이베리움에 관한 이해도가 높아집니다. 타이베리움 오염에 저항하는 기초적인 방호복을 제작할 수 있습니다.</TiberiumKnowledge.description>
+	
+	<TiberiumResearchRefining.label>타이베리움 정제기술</TiberiumResearchRefining.label>
+	<TiberiumResearchRefining.description>타이베리움 정제소를 건설할 수 있습니다. 정제소는 타이베리움을 유용한 광물 자원으로 변환합니다.</TiberiumResearchRefining.description>
+
+</LanguageData>
