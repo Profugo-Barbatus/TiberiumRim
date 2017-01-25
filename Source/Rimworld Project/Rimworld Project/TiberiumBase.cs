@@ -42,9 +42,9 @@ namespace TiberiumRim
 
         public override void DefsLoaded()
         {
-            BuildingDamage = Settings.GetHandle<bool>("BuildingDamage", "Tiberium Damages Structures", "Determines if Tiberium will damage structures.", true);
-            TiberiumCompetes = Settings.GetHandle<bool>("TiberiumCompetes", "Tiberium Competes", "Determines if Tiberium Crystals of Different Varieties will Destroy each other.", false);
-            EntityDamage = Settings.GetHandle<bool>("EntityDamage", "Tiberium Damages Items", "Determines if Tiberium will damage items", true);
+            BuildingDamage = Settings.GetHandle<bool>("BuildingDamage", "Tiberium_Damages_Structures".Translate(), "Tiberium_Damages_Structures_Desc".Translate(), true);
+            TiberiumCompetes = Settings.GetHandle<bool>("TiberiumCompetes", "Tiberium_Competes".Translate(), "Tiberium_Competes_Desc".Translate(), false);
+            EntityDamage = Settings.GetHandle<bool>("EntityDamage", "Tiberium_Damages_Items".Translate(), "Tiberium_Damages_Items_Desc".Translate(), true);
         }
     }
 }
