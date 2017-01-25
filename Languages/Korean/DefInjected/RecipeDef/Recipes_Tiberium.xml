@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<ExtractResourcesFromGreenTiberium.label>그린 타이베리움 정제</ExtractResourcesFromGreenTiberium.label>
+	<ExtractResourcesFromGreenTiberium.description>정제소는 복잡한 단계를 거쳐 치명적인 타이베리움을 유용한 물질로 변환합니다.</ExtractResourcesFromGreenTiberium.description>
+	<ExtractResourcesFromBlueTiberium.label>블루 타이베리움 정제</ExtractResourcesFromBlueTiberium.label>
+	<ExtractResourcesFromBlueTiberium.description>정제소는 복잡한 단계를 거쳐 치명적인 타이베리움을 유용한 물질로 변환합니다.</ExtractResourcesFromBlueTiberium.description>
+	<ExtractResourcesFromRedTiberium.label>레드 타이베리움 정제</ExtractResourcesFromRedTiberium.label>
+	<ExtractResourcesFromRedTiberium.description>정제소는 복잡한 단계를 거쳐 치명적인 타이베리움을 유용한 물질로 변환합니다.</ExtractResourcesFromRedTiberium.description>	
+	<MakeBookRiparius.label>그린 타이베리움 교본 작성</MakeBookRiparius.label>
+	<MakeBookVinifera.label>블루 타이베리움 교본 작성</MakeBookVinifera.label>
+	<MakeBookRutila.label>레드 타이베리움 교본 작성</MakeBookRutila.label>
+</LanguageData>
