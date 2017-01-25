@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<AsteroidGreen.label>그린 타이베리움 운석</AsteroidGreen.label>
+	<AsteroidGreen.letterLabel>그린 타이베리움 운석</AsteroidGreen.letterLabel>
+	<AsteroidGreen.letterText>낯선 운석이 근처에 추락하여 분화구를 만들었습니다.\n\n운석은 특이한 결정질 광물로 이뤄져 있으며, 부서진 일부는 분화구 주변에 흩어져 있습니다.\n\n조심하세요. 이 물질은 위험할 수 있습니다!</AsteroidGreen.letterText>
+	<AsteroidBlue.label>블루 타이베리움 운석</AsteroidBlue.label>
+	<AsteroidBlue.letterLabel>블루 타이베리움 운석</AsteroidBlue.letterLabel>
+	<AsteroidBlue.letterText>낯선 운석이 근처에 추락하여 분화구를 만들었습니다.\n\n운석은 특이한 결정질 광물로 이뤄져 있으며, 부서진 일부는 분화구 주변에 흩어져 있습니다.\n\n조심하세요. 이 물질은 위험할 수 있습니다!</AsteroidBlue.letterText>
+	<AsteroidMeteor.label>비활성 타이베리움 운석</AsteroidMeteor.label>
+	<AsteroidMeteor.letterLabel>타이베리움 운석 낙하</AsteroidMeteor.letterLabel>
+	<AsteroidMeteor.letterText>낯선 운석이 근처에 추락했습니다.\n\n운석의 표면에는 특이한 결정질 광물들이 솟아있습니다.\n\n위험해 보이지는 않지만, 주의깊게 다뤄야 할 것 같습니다.</AsteroidMeteor.letterText>
+	<TiberiumShard.label>타이베리움 샤드</TiberiumShard.label>
+	<TiberiumShard.letterLabel>타이베리움 파편 기둥</TiberiumShard.letterLabel>
+	<TiberiumShard.letterText>결정질의 커다란 파편이 근처에 추락했습니다. 그것은 주변에 붉은 결정들을 퍼뜨리고 있습니다.\n\n조심하세요. 이 물질은 위험할 수 있습니다.</TiberiumShard.letterText>
+	<BlossomTree.label>포자 식물</BlossomTree.label>
+	<BlossomTree.letterLabel>정체모를 가스 분출!</BlossomTree.letterLabel>
+	<BlossomTree.letterText>가스 구름에 노출된 나무가 괴상한 모습으로 변이했습니다. 조심하세요!</BlossomTree.letterText>
+	<TiberiumMonolith.label>타이베리움 결정 기둥</TiberiumMonolith.label>
+	<TiberiumMonolith.letterLabel>결정 기둥</TiberiumMonolith.letterLabel>
+	<TiberiumMonolith.letterText>낯선 결정 기둥이 지면을 뚫고 튀어나왔습니다. 조심하세요!</TiberiumMonolith.letterText>
+</LanguageData>
