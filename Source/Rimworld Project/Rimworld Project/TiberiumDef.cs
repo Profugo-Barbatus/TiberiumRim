@@ -7,6 +7,7 @@ namespace TiberiumRim
     public class TiberiumDef : ThingDef
     {
         public TerrainDef corruptsInto;
+        public bool isExplosive = false;
         public int buildingDamage;
         public List<ThingDef> friendlyTo = new List<ThingDef>();
     }

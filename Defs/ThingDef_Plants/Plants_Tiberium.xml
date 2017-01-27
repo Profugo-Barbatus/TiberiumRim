@@ -5,7 +5,7 @@
 		<label>Green Tiberium</label>
 		<description>A glowy green crystal. Looks strangely appealing. Beware of interaction.</description>
 		<statBases>
-			<MaxHitPoints>1500</MaxHitPoints>
+			<MaxHitPoints>50</MaxHitPoints>
 			<Beauty>45</Beauty>
 		</statBases>
 		<graphicData>
@@ -43,7 +43,7 @@
 		<label>Blue Tiberium</label>
 		<description>A glowy blue crystal. Beautiful to the eye but of unknown properties.</description>
 		<statBases>
-			<MaxHitPoints>2000</MaxHitPoints>
+			<MaxHitPoints>50</MaxHitPoints>
 			<Beauty>75</Beauty>
 		</statBases>
 		<graphicData>
@@ -73,6 +73,7 @@
 			<li>TiberiumRed</li>
 		</friendlyTo>
 		<buildingDamage>20</buildingDamage>
+		<isExplosive>true</isExplosive>
 	</ThingDef>
 	
 	<ThingDef ParentName="TiberiumBase" Class="TiberiumRim.TiberiumDef">
@@ -80,7 +81,7 @@
 		<label>red Tiberium</label>
 		<description>A glowy red crystal. Beautiful to the eye but of unknown properties. Unusual.</description>
 		<statBases>
-			<MaxHitPoints>5000</MaxHitPoints>
+			<MaxHitPoints>50</MaxHitPoints>
 			<Beauty>75</Beauty>
 		</statBases>
 		<graphicData>

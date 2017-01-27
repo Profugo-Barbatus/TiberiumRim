@@ -334,7 +334,27 @@ namespace TiberiumRim
         {
             //No Visceroids yet.
         }
-        
+
+        public override void Destroy(DestroyMode mode)
+        {
+            
+            TiberiumDef Localdef = this.def as TiberiumDef;
+
+            if (Localdef.isExplosive && mode == DestroyMode.Kill)
+            {
+                if(Rand.Chance(0.05f))
+                {
+                    Explode();
+                }
+            }
+            base.Destroy(mode);
+        }
+
+        private void Explode()
+        {
+            GenExplosion.DoExplosion(this.Position, this.Map, 3.0f, DamageDefOf.Bomb, this);
+        }
+
     }
 
     //Custom Version of the Reproduction Code
