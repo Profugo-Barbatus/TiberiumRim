@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<TiberiumGreen.label>Green Tiberium</TiberiumGreen.label>
+	<TiberiumGreen.description>A glowy green crystal. Looks strangely appealing. Beware of interaction.</TiberiumGreen.description>
+	
+	<TiberiumBlue.label>Blue Tiberium</TiberiumBlue.label>
+	<TiberiumBlue.description>A glowy blue crystal. Beautiful to the eye but of unknown properties.</TiberiumBlue.description>
+	
+	<TiberiumRed.label>red Tiberium</TiberiumRed.label>
+	<TiberiumRed.description>A glowy red crystal. Beautiful to the eye but of unknown properties. Unusual.</TiberiumRed.description>
+
+</LanguageData>

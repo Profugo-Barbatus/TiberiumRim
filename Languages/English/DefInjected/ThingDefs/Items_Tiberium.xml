@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<GreenTiberiumRaw.label>raw green Tiberium crystal</GreenTiberiumRaw.label>
+	<GreenTiberiumRaw.description>The raw form of Tiberium. Be careful how you hanlde it! It can be refined.</GreenTiberiumRaw.description>
+	
+	<BlueTiberiumRaw.label>raw blue Tiberium crystal</BlueTiberiumRaw.label>
+	<BlueTiberiumRaw.description>The raw form of Tiberium. Be careful how you hanlde it! It can be refined.</BlueTiberiumRaw.description>
+	
+	<RedTiberiumRaw.label>raw red Tiberium crystal</RedTiberiumRaw.label>
+	<RedTiberiumRaw.description>The raw form of Tiberium. Be careful how you hanlde it! It can be refined.</RedTiberiumRaw.description>
+	
+	<BookRiparius.label>riparius book</BookRiparius.label>
+	<BookRiparius.description>Tiberium Riparius.\n\nThe green kind of Tiberium is the most common one.\n\nIt came to planet Earth a long time ago, long before this rim world has been infected.\n\nThis kind spreads the quickest, infecting big areas within days.\n\nSo be careful if you encounter any!\n\nAvoid touching it no matter the cost.\n\nThe substance, no matter the kind, will infect any carbon based lifeform and crystalize it.\n\nThis ability makes it highly toxic.\n\nTiberium is an unkown type of mineral that converts anything and everything that is carbon-based around itself into Tiberium.\n\nThis happens due to reactions between Tiberium nuclei and the other material's nuclei.</BookRiparius.description>
+	
+	<BookVinifera.label>vinifera book</BookVinifera.label>
+	<BookVinifera.description>Tiberium Vinifera.\n\nThe blue kind of Tiberium, it is the "mature" form of green Tiberium as it evolved.\n\nIt is rare compared to the green Tiberium.\n\nThis kind spreads more slowly in comparision.\n\nBe careful if you encounter any as it is still toxic!\n\nThis type explains the theory that Tiberium is more of a living being.\n\nTiberium in general mutates any life if it did not kill it at first.\n\nThese Tiberium lifeforms feed on Tiberium if they are animals, or spread it, if they are plants.\n\nIt is still unproven how much of living being Tiberium is.\n\nFurther investigation is needed.</BookVinifera.description>
+	
+	<BookRutila.label>rutila book</BookRutila.label>
+	<BookRutila.description>Tiberium Rutila.\n\nThe red kind of Tiberium, it is very rare.\n\nJust like the blue type, it has even more valuable resources contained.\n\nAlthough the first sightings showed that it doesn't spread, it seems to have evolved the ability to do so, however, very slowly.\n\nIt is speculated that red Tiberium matures into ---[DATA LOST]---/---\n\n§)§$%?!%%##$%---</BookRutila.description>
+
+</LanguageData>
