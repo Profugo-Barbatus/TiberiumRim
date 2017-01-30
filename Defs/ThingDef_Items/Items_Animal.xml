@@ -80,7 +80,7 @@
 		<comps>
 			<li Class="CompProperties_Hatcher">
 				<hatcherDaysToHatch>8</hatcherDaysToHatch>
-				<hatcherPawn>Crawler</hatcherPawn>
+				<hatcherPawn>Crawler_TBI</hatcherPawn>
 			</li>
 		</comps>
 	</ThingDef>
