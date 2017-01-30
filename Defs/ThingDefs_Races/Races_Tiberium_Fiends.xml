@@ -2,7 +2,7 @@
 <Defs>
 
 	<ThingDef ParentName="AnimalThingBase">
-		<defName>TiberiumThrumbo</defName>
+		<defName>Thrimbo_TBI</defName>
 		<label>Thrimbo</label>
 		<description>A gigantic creature of unknown origin. The Thrumbo, but this one seems to have an Tiberium infection. Be careful, it might be easily enraged.</description>
 		<statBases>
@@ -70,7 +70,7 @@
 	</ThingDef>
 
 	<PawnKindDef ParentName="AnimalKindBase">
-		<defName>Thrimbo</defName>
+		<defName>Thrimbo_TBI</defName>
 		<label>thrimbo</label>
 		<race>Thrumbo</race>
 		<combatPower>600</combatPower>
@@ -129,7 +129,7 @@
 	
 	
 		<ThingDef ParentName="AnimalThingBase">
-		<defName>TiberiumTerror</defName>
+		<defName>TiberiumTerror_TBI</defName>
 		<label>Tiberium terror</label>
 		<description>A gigantic creature of unknown origin. It's black and blue appearance shows great danger in this creature.</description>
 		<statBases>
@@ -197,7 +197,7 @@
 	</ThingDef>
 
 	<PawnKindDef ParentName="AnimalKindBase">
-		<defName>TiberiumTerror</defName>
+		<defName>TiberiumTerror_TBI</defName>
 		<label>tiberium terror</label>
 		<race>Thrumbo</race>
 		<combatPower>600</combatPower>
@@ -256,7 +256,7 @@
 
 	
 	<ThingDef ParentName="BaseBear">
-		<defName>BigTiberiumFiend</defName>
+		<defName>BigTiberiumFiend_TBI</defName>
 		<label>big Tiberium fiend</label>
 		<description>Huge omnivorous mammals adapted for Tiberium. Their skin and fur has been crystalized.\n\nWhile their usual diet consists of fish, berries, honey, and scavenged meat, this Fiend is capable of using its massive strength and deadly claws to kill live prey. They are startlingly quick for such lumbering creatures.</description>
 		<race>
@@ -269,7 +269,7 @@
 	</ThingDef>
 
 	<PawnKindDef ParentName="BearBase">
-		<defName>BigTiberiumFiend</defName>
+		<defName>BigTiberiumFiend_TBI</defName>
 		<label>big tiberium fiend</label>
 		<race>GrizzlyBear</race>
 		<wildSpawn_spawnWild>false</wildSpawn_spawnWild>
@@ -323,7 +323,7 @@
 	</PawnKindDef>
 	
 	<ThingDef ParentName="BaseInsect">
-		<defName>Tibscarab</defName>
+		<defName>Tibscarab_TBI</defName>
 		<label>Tibscarab</label>
 		<description>A large, genetically-engineered beetle that has come in contact with Tiberium. Once the worker caste of an artifical ecosystem of insectoids designed to fight mechanoid invasions, it is now usually seen without its deadlier insectoid cousins. Still, its size and hard shell make it dangerous when it attacks. A eusocial creature, it cannot reproduce individually.</description>
 		<statBases>
@@ -379,7 +379,7 @@
 	</ThingDef>
 
 	<PawnKindDef ParentName="AnimalKindBase">
-		<defName>Tibscarab</defName>
+		<defName>Tibscarab_TBI</defName>
 		<label>Tibscarab</label>
 		<race>Megascarab</race>
 		<combatPower>30</combatPower>
@@ -541,7 +541,7 @@
 	
 	
 	<ThingDef ParentName="ThingBaseWolf">
-		<defName>TiberiumFiend</defName>
+		<defName>TiberiumFiend_TBI</defName>
 		<label>tiberium fiend</label>
 		<description>A rugged predator long feared by many ancient Earth cultures. As pack hunters, wolves have a complex social life and are fiercely intelligent.</description>
 		<race>
@@ -553,7 +553,7 @@
 	</ThingDef>
 
 	<PawnKindDef ParentName="AnimalKindBaseWolf">
-		<defName>TiberiumFiend</defName>
+		<defName>TiberiumFiend_TBI</defName>
 		<label>tiberium fiend</label>
 		<labelPlural>tiberium fiends</labelPlural>
 		<race>WolfTimber</race>
@@ -713,7 +713,7 @@
   
   
 	<ThingDef ParentName="ThingBaseFox">
-		<defName>SmallTiberiumFiend</defName>
+		<defName>SmallTiberiumFiend_TBI</defName>
 		<label>small tiberium fiend</label>
 		<description>A small solitary canine infected with Tiberium.</description>
 		<race>
@@ -724,7 +724,7 @@
 	</ThingDef>
 
 	<PawnKindDef ParentName="AnimalKindBaseFox">
-		<defName>SmallTiberiumFiend</defName>
+		<defName>SmallTiberiumFiend_TBI</defName>
 		<label>small tiberium fiend</label>
 		<labelPlural>red foxes</labelPlural>
 		<race>FoxRed</race>
@@ -769,7 +769,7 @@
 	</PawnKindDef>
 	
 	<ThingDef ParentName="AnimalThingBase">
-		<defName>Crawler</defName>
+		<defName>Crawler_TBI</defName>
 		<label>crawler</label>
 		<description>A large snake. This one seems to be infected with Tiberium.</description>
 		<statBases>
@@ -861,7 +861,7 @@
 	</ThingDef>
 
 	<PawnKindDef ParentName="AnimalKindBase">
-		<defName>Crawler</defName>
+		<defName>Crawler_TBI</defName>
 		<label>crawler</label>
 		<race>Cobra</race>
 		<combatPower>65</combatPower>
