@@ -189,6 +189,11 @@ namespace TiberiumRim
                 return;
             }
 
+            if(p.def.defName.Contains("_TBI"))
+            {
+                return;
+            }
+
             if (!p.health.hediffSet.HasHediff(tiberium))
             {
                 List<BodyPartRecord> list = new List<BodyPartRecord>();
@@ -306,9 +311,9 @@ namespace TiberiumRim
             {
                 if (p.def.IsCorpse)
                 {
-                    if (Rand.Chance(0.05f))
+                    if (Rand.Chance(0.05f)&&!p.def.defName.Contains("_TBI"))
                     {
-                        spawnVisceroid(c);
+                        spawnFiendOrVisceroid(c,p.def.race.body);
                         p.Destroy(DestroyMode.Vanish);
                         return;
                     }
@@ -330,9 +335,44 @@ namespace TiberiumRim
             }
         }
 
-        public void spawnVisceroid(IntVec3 pos)
+        public void spawnFiendOrVisceroid(IntVec3 pos, BodyDef p)
         {
-            //No Visceroids yet.
+            if(Rand.Chance(0.25f))
+            {
+                //Unique organism based on bodytype
+                PawnKindDef creature = null;
+                switch (p.defName)
+                {
+                    case "QuadrupedAnimalWithHoovesAndHorn":
+                        creature = DefDatabase<PawnKindDef>.GetNamed("TiberiumTerror_TBI", true);
+                        break;
+
+                    case "QuadrupedAnimalWithPaws":
+                        creature = DefDatabase<PawnKindDef>.GetNamed("BigTiberiumFiend_TBI", true);
+                        break;
+
+                    case "BeetleLike":
+                        creature = DefDatabase<PawnKindDef>.GetNamed("Tibscarab_TBI", true);
+                        break;
+
+                    case "QuadrupedAnimalWithPawsAndTail":
+                        creature = DefDatabase<PawnKindDef>.GetNamed("TiberiumFiend_TBI", true);
+                        break;
+
+                    default:
+                        creature = DefDatabase<PawnKindDef>.GetNamed("Visceroid_TBI", true);
+                        break;
+                }
+
+                PawnGenerationRequest request = new PawnGenerationRequest(creature);
+                PawnGenerator.GeneratePawn(request);
+            }
+            else
+            {
+                PawnKindDef Visceroid = DefDatabase<PawnKindDef>.GetNamed("Visceroid_TBI", true);
+                PawnGenerationRequest request = new PawnGenerationRequest(Visceroid);
+                PawnGenerator.GeneratePawn(request);
+            }
         }
 
         public override void Destroy(DestroyMode mode)
