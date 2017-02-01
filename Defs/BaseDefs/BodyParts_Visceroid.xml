@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<BodyPartDef>
+		<defName>VisceroidBody</defName>
+		<label>visceroid body</label>
+		<hitPoints>165</hitPoints>
+		<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+		<skinCovered>true</skinCovered>
+	</BodyPartDef>
+  
+	<BodyPartDef>
+		<defName>VisceroidVeins</defName>
+		<label>Veins</label>
+		<hitPoints>26</hitPoints>
+		<bleedingRateMultiplier>3</bleedingRateMultiplier>
+		<activities>
+			<li>BloodPumping</li>
+			<li>BloodFiltration</li>
+		</activities>
+	</BodyPartDef>
+	
+	<BodyPartDef>
+		<defName>VisceroidDigester</defName>
+		<label>Digester</label>
+		<hitPoints>30</hitPoints>
+		<activities>
+			<li>Metabolism</li>
+		</activities>
+	</BodyPartDef>
+	
+	<BodyPartDef>
+		<defName>VisceroidBreather</defName>
+		<label>Breather</label>
+		<hitPoints>30</hitPoints>
+		<activities>
+			<li>Breathing</li>
+		</activities>
+	</BodyPartDef>
+	
+	<BodyPartDef>
+		<defName>VisceroidOrifice</defName>
+		<label>Orifice</label>
+		<hitPoints>32</hitPoints>
+		<activities>
+			<li>Breathing_way</li>
+			<li>Eating_source</li>
+			<li>Talking_source</li>
+		</activities>
+	</BodyPartDef>
+  
+	<BodyPartDef>
+		<defName>LeftTentacle</defName>
+		<label>left tentacle</label>
+		<hitPoints>48</hitPoints>
+		<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+		<skinCovered>true</skinCovered>
+		<activities>
+			<li>Moving_leftWay</li>
+			<li>Manipulation_tool</li>
+		</activities>
+	</BodyPartDef>
+
+	<BodyPartDef>
+		<defName>RightTentacle</defName>
+		<label>right tentacle</label>
+		<hitPoints>48</hitPoints>
+		<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+		<skinCovered>true</skinCovered>
+		<activities>
+			<li>Moving_rightWay</li>
+		    <li>Manipulation_tool</li>
+		</activities>
+	</BodyPartDef>
+	
+	<BodyPartDef>
+		<defName>MiddleTentacle</defName>
+		<label>middle tentacle</label>
+		<hitPoints>48</hitPoints>
+		<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+		<skinCovered>true</skinCovered>
+		<activities>
+			<li>Moving_rightWay</li>
+			<li>Manipulation_tool</li>
+		</activities>
+	</BodyPartDef>
+  
+</Defs>
