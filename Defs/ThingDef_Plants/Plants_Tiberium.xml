@@ -36,6 +36,7 @@
 			<li>TiberiumRed</li>
 		</friendlyTo>
 		<buildingDamage>20</buildingDamage>
+		<entityDamage>5</entityDamage>
 	</ThingDef>
   
     <ThingDef ParentName="TiberiumBase" Class="TiberiumRim.TiberiumDef">
@@ -73,6 +74,7 @@
 			<li>TiberiumRed</li>
 		</friendlyTo>
 		<buildingDamage>20</buildingDamage>
+		<entityDamage>5</entityDamage>
 		<isExplosive>true</isExplosive>
 	</ThingDef>
 	
@@ -112,6 +114,7 @@
 			<li>TiberiumRed</li>
 		</friendlyTo>
 		<buildingDamage>20</buildingDamage>
+		<entityDamage>5</entityDamage>
 	</ThingDef>
   
 </Plants>

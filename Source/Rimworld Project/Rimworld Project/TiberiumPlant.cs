@@ -170,7 +170,7 @@ namespace TiberiumRim
             }
             if(TiberiumBase.Instance.EntityDamage)
             {
-                damageEntities(Localdef.buildingDamage);
+                damageEntities(Localdef.entityDamage);
                 damageChunks(Localdef.buildingDamage);
             }
 
@@ -311,9 +311,10 @@ namespace TiberiumRim
             {
                 if (p.def.IsCorpse)
                 {
-                    if (Rand.Chance(0.05f)&&!p.def.defName.Contains("_TBI"))
+                    Corpse body = (Corpse)p;
+                    if (Rand.Chance(0.05f)&&!body.InnerPawn.def.defName.Contains("_TBI"))
                     {
-                        spawnFiendOrVisceroid(c,p.def.race.body);
+                        spawnFiendOrVisceroid(c,body.InnerPawn.def.race.body);
                         p.Destroy(DestroyMode.Vanish);
                         return;
                     }
@@ -337,10 +338,12 @@ namespace TiberiumRim
 
         public void spawnFiendOrVisceroid(IntVec3 pos, BodyDef p)
         {
-            if(Rand.Chance(0.25f))
+            Pawn pawn = null;
+            if (Rand.Chance(0.25f))
             {
                 //Unique organism based on bodytype
                 PawnKindDef creature = null;
+                
                 switch (p.defName)
                 {
                     case "QuadrupedAnimalWithHoovesAndHorn":
@@ -365,14 +368,15 @@ namespace TiberiumRim
                 }
 
                 PawnGenerationRequest request = new PawnGenerationRequest(creature);
-                PawnGenerator.GeneratePawn(request);
+                pawn = PawnGenerator.GeneratePawn(request);
             }
             else
             {
                 PawnKindDef Visceroid = DefDatabase<PawnKindDef>.GetNamed("Visceroid_TBI", true);
                 PawnGenerationRequest request = new PawnGenerationRequest(Visceroid);
-                PawnGenerator.GeneratePawn(request);
+                pawn = PawnGenerator.GeneratePawn(request);
             }
+            GenSpawn.Spawn(pawn, pos, Map);
         }
 
         public override void Destroy(DestroyMode mode)

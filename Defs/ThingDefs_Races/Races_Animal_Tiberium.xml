@@ -63,7 +63,7 @@
 
 
 	<ThingDef ParentName="AnimalThingBase">
-		<defName>Visceroid</defName>
+		<defName>Visceroid_TBI</defName>
 		<label>Visceroid</label>
 		<description>A blob-like and disturbing lifeform. Formed after the death of a creature by Tiberium.</description>
 		<statBases>
@@ -139,9 +139,9 @@
   
   
 	<PawnKindDef ParentName="AnimalKindBase">
-		<defName>Visceroid</defName>
+		<defName>Visceroid_TBI</defName>
 		<label>Visceroid</label>
-		<race>Visceroid</race>
+		<race>Visceroid_TBI</race>
 		<combatPower>65</combatPower>
 		<wildSpawn_spawnWild>false</wildSpawn_spawnWild>
 		<lifeStages>
