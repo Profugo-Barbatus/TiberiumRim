@@ -34,6 +34,7 @@
 			<li>TiberiumGreen</li>
 			<li>TiberiumBlue</li>
 			<li>TiberiumRed</li>
+			<li>TiberiumPlant</li>
 		</friendlyTo>
 		<buildingDamage>20</buildingDamage>
 		<entityDamage>5</entityDamage>
@@ -72,6 +73,7 @@
 			<li>TiberiumGreen</li>
 			<li>TiberiumBlue</li>
 			<li>TiberiumRed</li>
+			<li>TiberiumPlant</li>
 		</friendlyTo>
 		<buildingDamage>20</buildingDamage>
 		<entityDamage>5</entityDamage>
@@ -112,6 +114,7 @@
 			<li>TiberiumGreen</li>
 			<li>TiberiumBlue</li>
 			<li>TiberiumRed</li>
+			<li>TiberiumPlant</li>
 		</friendlyTo>
 		<buildingDamage>20</buildingDamage>
 		<entityDamage>5</entityDamage>

@@ -46,6 +46,9 @@
 		<placeWorkers>
 			<li>TiberiumRim.PlaceWorker_TiberiumInhibitor</li>
 		</placeWorkers>
+		<researchPrerequisites>
+			<li>TiberiumSonicInhibition</li>
+		</researchPrerequisites>
 	</ThingDef>
 
 </Buildings>

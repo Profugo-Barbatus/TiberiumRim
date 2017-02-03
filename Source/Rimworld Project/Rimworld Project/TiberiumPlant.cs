@@ -462,14 +462,41 @@ namespace TiberiumRim
                         {
                             if(!friendlyTo.Contains(p.def))
                             {
-                                p.Destroy(DestroyMode.Vanish);
+                                if (Rand.Chance(0.3f))
+                                {
+                                    ThingDef flora = DefDatabase<ThingDef>.GetNamed("TiberiumPlant", true);
+                                    IntVec3 loc = p.Position;
+
+                                    p.Destroy(DestroyMode.Vanish);
+
+                                    GenSpawn.Spawn(flora, loc, map);
+
+                                }
+                                else
+                                {
+                                    p.Destroy(DestroyMode.Vanish);
+                                }
                             }
                         }
                         //Otherwise, regular behavior to avoid self-killing
                         else if (p.def != plantDef)
                         {
+
                             //Kill the plant. Later, we'll consider a piece of tiberium infected plantlife in its place.
-                            p.Destroy(DestroyMode.Vanish);
+                            if (Rand.Chance(0.3f))
+                            {
+                                ThingDef flora = DefDatabase<ThingDef>.GetNamed("TiberiumPlant", true);
+                                IntVec3 loc = p.Position;
+
+                                p.Destroy(DestroyMode.Vanish);
+
+                                GenSpawn.Spawn(flora, loc, map);
+                                
+                            }
+                            else
+                            {
+                                p.Destroy(DestroyMode.Vanish);
+                            }
                         }
                     }
                 }

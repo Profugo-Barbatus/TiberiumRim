@@ -44,6 +44,20 @@
 		<researchViewX>4.5</researchViewX>
 		<researchViewY>0</researchViewY>
 	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>TiberiumSonicInhibition</defName>
+		<label>Tiberium Inhibition</label>
+		<description>Exploit the crystalline nature of Tiberium to shatter it with Sonic frequencies. Allows you to begin building Sonic Inhibitors.</description>
+		<baseCost>800</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>TiberiumResearch</li>
+		</prerequisites>
+		<requiredResearchBuilding>TiberiumResearchBench</requiredResearchBuilding>
+		<researchViewX>5.0</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
 
 	
 </Defs>
