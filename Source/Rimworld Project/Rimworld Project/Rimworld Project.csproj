@@ -50,6 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AsteroidDef.cs" />
+    <Compile Include="CompSonicEmitter.cs" />
     <Compile Include="IncidentWorker_AsteroidDrop.cs" />
     <Compile Include="IncidentWorker_GreenAsteroid.cs" />
     <Compile Include="TiberiumBase.cs" />
