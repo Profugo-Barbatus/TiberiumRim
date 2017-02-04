@@ -72,7 +72,7 @@
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>Thrimbo_TBI</defName>
 		<label>thrimbo</label>
-		<race>Thrumbo</race>
+		<race>Thrimbo_TBI</race>
 		<combatPower>600</combatPower>
 		<wildSpawn_spawnWild>false</wildSpawn_spawnWild>
 		<lifeStages>
@@ -199,7 +199,7 @@
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>TiberiumTerror_TBI</defName>
 		<label>tiberium terror</label>
-		<race>Thrumbo</race>
+		<race>TiberiumTerror_TBI</race>
 		<combatPower>600</combatPower>
 		<wildSpawn_spawnWild>false</wildSpawn_spawnWild>
 		<lifeStages>
@@ -271,7 +271,7 @@
 	<PawnKindDef ParentName="BearBase">
 		<defName>BigTiberiumFiend_TBI</defName>
 		<label>big tiberium fiend</label>
-		<race>GrizzlyBear</race>
+		<race>BigTiberiumFiend_TBI</race>
 		<wildSpawn_spawnWild>false</wildSpawn_spawnWild>
 		<lifeStages>
 		  <li>
@@ -381,7 +381,7 @@
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>Tibscarab_TBI</defName>
 		<label>Tibscarab</label>
-		<race>Megascarab</race>
+		<race>Tibscarab_TBI</race>
 		<combatPower>30</combatPower>
 		<wildSpawn_EcoSystemWeight>0</wildSpawn_EcoSystemWeight>
 		<wildSpawn_spawnWild>false</wildSpawn_spawnWild>
@@ -556,7 +556,7 @@
 		<defName>TiberiumFiend_TBI</defName>
 		<label>tiberium fiend</label>
 		<labelPlural>tiberium fiends</labelPlural>
-		<race>WolfTimber</race>
+		<race>TiberiumFiend_TBI</race>
 		<lifeStages>
 			<li>
 				<label>tiberium fiend puppy</label>
@@ -726,8 +726,8 @@
 	<PawnKindDef ParentName="AnimalKindBaseFox">
 		<defName>SmallTiberiumFiend_TBI</defName>
 		<label>small tiberium fiend</label>
-		<labelPlural>red foxes</labelPlural>
-		<race>FoxRed</race>
+		<labelPlural>small tiberium fiends</labelPlural>
+		<race>SmallTiberiumFiend_TBI</race>
 		<lifeStages>
 			<li>
 				<label>small tiberium fiend puppy</label>
@@ -863,7 +863,7 @@
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>Crawler_TBI</defName>
 		<label>crawler</label>
-		<race>Cobra</race>
+		<race>Crawler_TBI</race>
 		<combatPower>65</combatPower>
 		<wildSpawn_spawnWild>false</wildSpawn_spawnWild>
 		<lifeStages>
