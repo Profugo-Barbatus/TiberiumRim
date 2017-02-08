@@ -362,6 +362,10 @@ namespace TiberiumRim
                         creature = DefDatabase<PawnKindDef>.GetNamed("TiberiumFiend_TBI", true);
                         break;
 
+                    case "Snake":
+                        creature = DefDatabase<PawnKindDef>.GetNamed("Crawler_TBI", true);
+                        break;
+
                     default:
                         creature = DefDatabase<PawnKindDef>.GetNamed("Visceroid_TBI", true);
                         break;
@@ -462,7 +466,7 @@ namespace TiberiumRim
                         {
                             if(!friendlyTo.Contains(p.def))
                             {
-                                if (Rand.Chance(0.3f))
+                                if (Rand.Chance(0.05f))
                                 {
                                     ThingDef flora = DefDatabase<ThingDef>.GetNamed("TiberiumPlant", true);
                                     IntVec3 loc = p.Position;
@@ -483,7 +487,7 @@ namespace TiberiumRim
                         {
 
                             //Kill the plant. Later, we'll consider a piece of tiberium infected plantlife in its place.
-                            if (Rand.Chance(0.3f))
+                            if (Rand.Chance(0.05f))
                             {
                                 ThingDef flora = DefDatabase<ThingDef>.GetNamed("TiberiumPlant", true);
                                 IntVec3 loc = p.Position;
