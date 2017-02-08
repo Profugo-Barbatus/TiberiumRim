@@ -33,6 +33,9 @@
     <Reference Include="Assembly-CSharp">
       <HintPath>Source-DLLs\Assembly-CSharp.dll</HintPath>
     </Reference>
+    <Reference Include="HugsLib">
+      <HintPath>..\..\..\..\..\Hugslib\HugsLib\Assemblies\HugsLib.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -47,8 +50,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AsteroidDef.cs" />
+    <Compile Include="CompSonicEmitter.cs" />
     <Compile Include="IncidentWorker_AsteroidDrop.cs" />
     <Compile Include="IncidentWorker_GreenAsteroid.cs" />
+    <Compile Include="TiberiumBase.cs" />
     <Compile Include="TiberiumDef.cs" />
     <Compile Include="TiberiumPlant.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

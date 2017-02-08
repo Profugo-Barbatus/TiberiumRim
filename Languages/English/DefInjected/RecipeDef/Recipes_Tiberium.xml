@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<ExtractResourcesFromGreenTiberium.label>get resources from green Tiberium</ExtractResourcesFromGreenTiberium.label>
+	<ExtractResourcesFromGreenTiberium.description>This refinery uses complex reactions to break down the lethal Tiberium into useful materials.</ExtractResourcesFromGreenTiberium.description>
+	
+	<ExtractResourcesFromBlueTiberium.label>get resources from blue Tiberium</ExtractResourcesFromBlueTiberium.label>
+	<ExtractResourcesFromBlueTiberium.description>This refinery uses complex reactions to break down the lethal Tiberium into useful materials.</ExtractResourcesFromBlueTiberium.description>
+	
+	<ExtractResourcesFromRedTiberium.label>get resources from red Tiberium</ExtractResourcesFromRedTiberium.label>
+	<ExtractResourcesFromRedTiberium.description>This refinery uses complex reactions to break down the lethal Tiberium into useful materials.</ExtractResourcesFromRedTiberium.description>
+	
+	<MakeBookRiparius.label>Write about green Tiberium.</MakeBookRiparius.label>
+	<MakeBookVinifera.label>Write about blue Tiberium.</MakeBookVinifera.label>
+	<MakeBookRutila.label>Write about red Tiberium.</MakeBookRutila.label>
+</LanguageData>

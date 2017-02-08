@@ -44,14 +44,13 @@ namespace TiberiumRim
             }
         }
 
-        public object cachedLabelMouseover { get; private set; }
-        public int DyingDamagePerTick { get; private set; }
-
-
         public override void CropBlighted()
         {
-            //Tiberium cannot be destroyed by blight.
+
         }
+
+        public object cachedLabelMouseover { get; private set; }
+        public int DyingDamagePerTick { get; private set; }
 
 
         //Overriding the TickLong to respect the fact that Tiberium doesn't properly behave like a plant.
@@ -62,6 +61,12 @@ namespace TiberiumRim
             */
             if (Destroyed)
                 return;
+
+            //Fetch a reference to the ThingDef.
+            TiberiumDef Localdef = this.def as TiberiumDef;
+
+            corruptsTo = Localdef.corruptsInto;
+            List<ThingDef> friendlyTo = Localdef.friendlyTo;
 
             //Previously, checked if it was growing season. Tiberium doesn't have a restricted growth season.
             if (true)
@@ -114,33 +119,6 @@ namespace TiberiumRim
                     }
                 }
 
-                //Murder. Doing this on the longtick should give a bit of an element of randomness to crossing a tiberium field. Its not instantly infectious, anyhow.
-                //Build a list of every item occupying the same space as the tiberium.
-                List<Thing> thingList = base.Position.GetThingList(base.Map);
-                for (int i = 0; i < thingList.Count; i++)
-                {
-                    //Going through the list. If the item is a pawn, then it won't null out in the latter check, and will be able to be added to the list if its not already in it.
-                    Pawn pawn = thingList[i] as Pawn;
-                    if (pawn != null && !this.touchingPawns.Contains(pawn))
-                    {
-                        this.touchingPawns.Add(pawn);
-                        //Small Tiberium Growths won't infect, to prevent micro'd pawns from getting infected by newly spawned formations
-                        if (growthInt > 0.5)
-                        {
-                            infect(pawn);
-                        }
-                    }
-                }
-
-                for (int j = 0; j < this.touchingPawns.Count; j++)
-                {
-                    Pawn pawn2 = this.touchingPawns[j];
-                    if (!pawn2.Spawned || pawn2.Position != base.Position)
-                    {
-                        this.touchingPawns.Remove(pawn2);
-                    }
-                }
-
                 //Reproduce
                 if (def.plant.reproduces && growthInt >= SeedShootMinGrowthPercent)
                 {
@@ -149,15 +127,51 @@ namespace TiberiumRim
                         if (!GenPlant.SnowAllowsPlanting(Position, Map))
                             return;
 
-                        //Fetch a reference to the ThingDef.
-                        TiberiumDef Localdef = this.def as TiberiumDef;
-
-                        corruptsTo = DefDatabase<TerrainDef>.GetNamed(Localdef.corruptsInto, true);
-
-                        GenPlantReproduction.TryReproduceFrom(Position, def, SeedTargFindMode.Reproduce, Map, corruptsTo);
+                        GenPlantReproduction.TryReproduceFrom(Position, def, SeedTargFindMode.Reproduce, Map, corruptsTo, friendlyTo);
                     }
                 }
 
+            }
+
+            //Murder. Doing this on the longtick should give a bit of an element of randomness to crossing a tiberium field. Its not instantly infectious, anyhow.
+            //Build a list of every item occupying the same space as the tiberium.
+            List<Thing> thingList = base.Position.GetThingList(base.Map);
+            for (int i = 0; i < thingList.Count; i++)
+            {
+                //Going through the list. If the item is a pawn, then it won't null out in the latter check, and will be able to be added to the list if its not already in it.
+                Pawn pawn = thingList[i] as Pawn;
+                if (pawn != null && !this.touchingPawns.Contains(pawn))
+                {
+                    this.touchingPawns.Add(pawn);
+                    //Small Tiberium Growths won't infect, to prevent micro'd pawns from getting infected by newly spawned formations
+                    if (growthInt > 0.5)
+                    {
+                        infect(pawn);
+                    }
+                }
+            }
+
+            for (int j = 0; j < this.touchingPawns.Count; j++)
+            {
+                Pawn pawn2 = this.touchingPawns[j];
+                if (!pawn2.Spawned || pawn2.Position != base.Position)
+                {
+                    this.touchingPawns.Remove(pawn2);
+                }
+                else if(growthInt > 0.5)
+                {
+                    infect(pawn2);
+                }
+            }
+
+            if (TiberiumBase.Instance.BuildingDamage)
+            {
+                damageBuildings(Localdef.buildingDamage);
+            }
+            if(TiberiumBase.Instance.EntityDamage)
+            {
+                damageEntities(Localdef.entityDamage);
+                damageChunks(Localdef.buildingDamage);
             }
 
             //State has changed, label may have to as well
@@ -168,7 +182,6 @@ namespace TiberiumRim
         public void infect(Pawn p)
         {
             HediffDef tiberium = DefDatabase<HediffDef>.GetNamed("TiberiumContactPoison", true);
-            //Log.Message("DEBUG: DIF ACQUIRED");
 
 
             if(p.RaceProps.IsMechanoid)
@@ -176,42 +189,63 @@ namespace TiberiumRim
                 return;
             }
 
+            if(p.def.defName.Contains("_TBI"))
+            {
+                return;
+            }
+
             if (!p.health.hediffSet.HasHediff(tiberium))
             {
                 List<BodyPartRecord> list = new List<BodyPartRecord>();
-                //Log.Message("DEBUG: NO HEDIFF EXISTS");
 
                 foreach (BodyPartRecord i in p.RaceProps.body.AllParts)
                 {
                     if (i.depth == BodyPartDepth.Outside)
                     {
                         list.Add(i);
-                        //Log.Message("DEBUG: BODYPART ADDED TO POTENTIAL TARGETS");
                     }
                 }
-                
-                BodyPartRecord target = list.RandomElement();
-                //Log.Message("DEBUG: RANDOM BODYPART SELECTED");
+                bool search = true;
+
+                BodyPartRecord target = null;
+
+                while (search)
+                {
+                    TiberiumBase.Instance.logMessage("Rerolling for target body part");
+                    target = list.RandomElement();
+
+                    if(target.height == BodyPartHeight.Bottom && Rand.Chance(0.8f))
+                    {
+                        TiberiumBase.Instance.logMessage("Selected a body part with height of Bottom");
+                        search = false;
+                    }
+                    else if(target.height == BodyPartHeight.Middle && Rand.Chance(0.5f))
+                    {
+                        TiberiumBase.Instance.logMessage("Selected a body part with height of Middle");
+                        search = false;
+                    }
+                    else if(target.height == BodyPartHeight.Top && Rand.Chance(0.2f))
+                    {
+                        TiberiumBase.Instance.logMessage("Selected a body part with height of Top");
+                        search = false;
+                    }
+                }
 
                 List<BodyPartGroupDef> groups = target.groups;
-                //Log.Message("DEBUG: SUCCESSFULLY GOTTEN BODYPART GROUPS");
 
                 if(p.apparel == null)
                 {
-                    //Log.Message("Infected a naked pawn");
                     p.health.AddHediff(tiberium, target, null);
                     return;
                 }
 
                 List<Apparel> Clothing = p.apparel.WornApparel;
-                //Log.Message("DEBUG: SUCCESSFULLY GOTTEN APPAREL LIST");
 
                 float protection = 0;
 
                 for (int j = 0; j < Clothing.Count; j++)
                 {
                     List<BodyPartGroupDef> covered = Clothing[j].def.apparel.bodyPartGroups;
-                    //Log.Message("DEBUG: GOT COVERED BODYPART LIST");
 
                     if (covered.Count > 0)
                     {
@@ -221,7 +255,6 @@ namespace TiberiumRim
                             {
                                 if(Clothing[j].def.defName.Contains("TBP"))
                                 {
-                                    //Log.Message("Prevented an infection due to special clothing");
                                     return;
                                 }
                                 if (protection < Clothing[j].GetStatValue(DefDatabase<StatDef>.GetNamed("ArmorRating_Sharp")))
@@ -235,30 +268,156 @@ namespace TiberiumRim
                 
                 if(Rand.Chance(protection * 1.8f) )
                 {
-                    //Log.Message("Prevented an infection due to armor rating");
                     return;
                 }
 
-                //Log.Message("Failed to Prevent an Infection with an Armor Rating of " + protection);
                 p.health.AddHediff(tiberium, target, null);
             }
         }
-        
+
+        public void damageBuildings(int amt)
+        {
+            var c = this.RandomAdjacentCell8Way();
+            var p = c.GetFirstBuilding(this.Map);
+
+            DamageInfo damage = new DamageInfo(DamageDefOf.Deterioration, amt);
+
+            if (p != null)
+            {
+                if(!p.def.defName.Contains("TBNS"))
+                {
+                    p.TakeDamage(damage);
+                }
+            }
+            else
+            {
+                //Dunno if the game explicitly treats doors different from buildings, but this'll cover just in case.
+                p = c.GetDoor(this.Map);
+                if (p != null)
+                {
+                    p.TakeDamage(damage);
+                }
+            }
+        }
+
+        public void damageEntities(int amt)
+        {
+            var c = this.RandomAdjacentCell8Way();
+            var p = c.GetFirstItem(this.Map);
+
+            DamageInfo damage = new DamageInfo(DamageDefOf.Deterioration, amt);
+
+            if (p != null)
+            {
+                if (p.def.IsCorpse)
+                {
+                    Corpse body = (Corpse)p;
+                    if (Rand.Chance(0.05f)&&!body.InnerPawn.def.defName.Contains("_TBI"))
+                    {
+                        spawnFiendOrVisceroid(c,body.InnerPawn.def.race.body);
+                        p.Destroy(DestroyMode.Vanish);
+                        return;
+                    }
+                }
+                p.TakeDamage(damage);
+            }
+        }
+
+        public void damageChunks(int amt)
+        {
+            var c = this.RandomAdjacentCell8Way();
+            var p = c.GetFirstHaulable(this.Map);
+
+            DamageInfo damage = new DamageInfo(DamageDefOf.Deterioration, amt);
+
+            if (p != null)
+            {
+                p.TakeDamage(damage);
+            }
+        }
+
+        public void spawnFiendOrVisceroid(IntVec3 pos, BodyDef p)
+        {
+            Pawn pawn = null;
+            if (Rand.Chance(0.25f))
+            {
+                //Unique organism based on bodytype
+                PawnKindDef creature = null;
+                
+                switch (p.defName)
+                {
+                    case "QuadrupedAnimalWithHoovesAndHorn":
+                        creature = DefDatabase<PawnKindDef>.GetNamed("TiberiumTerror_TBI", true);
+                        break;
+
+                    case "QuadrupedAnimalWithPaws":
+                        creature = DefDatabase<PawnKindDef>.GetNamed("BigTiberiumFiend_TBI", true);
+                        break;
+
+                    case "BeetleLike":
+                        creature = DefDatabase<PawnKindDef>.GetNamed("Tibscarab_TBI", true);
+                        break;
+
+                    case "QuadrupedAnimalWithPawsAndTail":
+                        creature = DefDatabase<PawnKindDef>.GetNamed("TiberiumFiend_TBI", true);
+                        break;
+
+                    case "Snake":
+                        creature = DefDatabase<PawnKindDef>.GetNamed("Crawler_TBI", true);
+                        break;
+
+                    default:
+                        creature = DefDatabase<PawnKindDef>.GetNamed("Visceroid_TBI", true);
+                        break;
+                }
+
+                PawnGenerationRequest request = new PawnGenerationRequest(creature);
+                pawn = PawnGenerator.GeneratePawn(request);
+            }
+            else
+            {
+                PawnKindDef Visceroid = DefDatabase<PawnKindDef>.GetNamed("Visceroid_TBI", true);
+                PawnGenerationRequest request = new PawnGenerationRequest(Visceroid);
+                pawn = PawnGenerator.GeneratePawn(request);
+            }
+            GenSpawn.Spawn(pawn, pos, Map);
+        }
+
+        public override void Destroy(DestroyMode mode)
+        {
+            
+            TiberiumDef Localdef = this.def as TiberiumDef;
+
+            if (Localdef.isExplosive && mode == DestroyMode.Kill)
+            {
+                if(Rand.Chance(0.05f))
+                {
+                    Explode();
+                }
+            }
+            base.Destroy(mode);
+        }
+
+        private void Explode()
+        {
+            GenExplosion.DoExplosion(this.Position, this.Map, 3.0f, DamageDefOf.Bomb, this);
+        }
+
     }
 
     //Custom Version of the Reproduction Code
     public static class GenPlantReproduction
     {
-        public static Plant TryReproduceFrom(IntVec3 source, ThingDef plantDef, SeedTargFindMode mode, Map map, TerrainDef setTerrain)
+        public static Plant TryReproduceFrom(IntVec3 source, ThingDef plantDef, SeedTargFindMode mode, Map map, TerrainDef setTerrain, List<ThingDef> friendlyTo)
         {
             IntVec3 dest;
-            if (!TryFindReproductionDestination(source, plantDef, mode, map, out dest))
+            if (!TryFindReproductionDestination(source, plantDef, mode, map, friendlyTo, out dest))
                 return null;
 
-            return TryReproduceInto(dest, plantDef, map, setTerrain);
+            return TryReproduceInto(dest, plantDef, map, setTerrain, friendlyTo);
         }
 
-        public static Plant TryReproduceInto(IntVec3 dest, ThingDef plantDef, Map map, TerrainDef setTerrain)
+        public static Plant TryReproduceInto(IntVec3 dest, ThingDef plantDef, Map map, TerrainDef setTerrain, List<ThingDef> friendlyTo)
         {
             if (!plantDef.CanEverPlantAt(dest, map))
                 return null;
@@ -278,7 +437,7 @@ namespace TiberiumRim
             map.terrainGrid.SetTerrain(c, setTerrain);
         }
 
-        public static bool TryFindReproductionDestination(IntVec3 source, ThingDef plantDef, SeedTargFindMode mode, Map map, out IntVec3 foundCell)
+        public static bool TryFindReproductionDestination(IntVec3 source, ThingDef plantDef, SeedTargFindMode mode, Map map, List<ThingDef> friendlyTo, out IntVec3 foundCell)
         {
             float radius = -1;
             if (mode == SeedTargFindMode.Reproduce)
@@ -302,12 +461,46 @@ namespace TiberiumRim
                     //If we do find a plant here, lets mess around a bit.
                     if (p != null)
                     {
-                        //If the plant is different from us, lets do something.
-                        //This does mean tiberium fields of different crystal types will engage in competition. 
-                        if (p.def != plantDef)
+                        //If Tiberium shouldn't compete, then we check against the list of Tiberium Crystal Varieties, and if the 
+                        if(!TiberiumBase.Instance.TiberiumCompetes)
                         {
+                            if(!friendlyTo.Contains(p.def))
+                            {
+                                if (Rand.Chance(0.05f))
+                                {
+                                    ThingDef flora = DefDatabase<ThingDef>.GetNamed("TiberiumPlant", true);
+                                    IntVec3 loc = p.Position;
+
+                                    p.Destroy(DestroyMode.Vanish);
+
+                                    GenSpawn.Spawn(flora, loc, map);
+
+                                }
+                                else
+                                {
+                                    p.Destroy(DestroyMode.Vanish);
+                                }
+                            }
+                        }
+                        //Otherwise, regular behavior to avoid self-killing
+                        else if (p.def != plantDef)
+                        {
+
                             //Kill the plant. Later, we'll consider a piece of tiberium infected plantlife in its place.
-                            p.Destroy(DestroyMode.Kill);
+                            if (Rand.Chance(0.05f))
+                            {
+                                ThingDef flora = DefDatabase<ThingDef>.GetNamed("TiberiumPlant", true);
+                                IntVec3 loc = p.Position;
+
+                                p.Destroy(DestroyMode.Vanish);
+
+                                GenSpawn.Spawn(flora, loc, map);
+                                
+                            }
+                            else
+                            {
+                                p.Destroy(DestroyMode.Vanish);
+                            }
                         }
                     }
                 }
@@ -367,11 +560,7 @@ namespace TiberiumRim
 
                 return true;
             };
-            return CellFinder.TryFindRandomCellNear(source,
-                                                map,
-                                                Mathf.CeilToInt(radius),
-                                                destValidator,
-                                                out foundCell);
+            return CellFinder.TryFindRandomCellNear(source, map, Mathf.CeilToInt(radius), destValidator, out foundCell);
         }
     }
 }

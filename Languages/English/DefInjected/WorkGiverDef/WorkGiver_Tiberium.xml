@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<DoBillsTibRefinery.label>works at Tiberium refinery</DoBillsTibRefinery.label>
+	<DoBillsTibRefinery.verb>refine Tiberium</DoBillsTibRefinery.verb>
+	<DoBillsTibRefinery.gerund>refine Tiberium at</DoBillsTibRefinery.gerund>
+	
+	<DoBillsTibResearch.label>works at Tiberium research bench</DoBillsTibResearch.label>
+	<DoBillsTibResearch.verb>make book</DoBillsTibResearch.verb>
+	<DoBillsTibResearch.gerund>make book at</DoBillsTibResearch.gerund>
+	
+</LanguageData>

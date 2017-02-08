@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<Tiberium_Damages_Structures>PLACEHOLDER_KOREAN</Tiberium_Damages_Structures>
+	<Tiberium_Damages_Structures_Desc>Determines if Tiberium will damage structures.</Tiberium_Damages_Structures_Desc>
+	<Tiberium_Competes>Tiberium Competes</Tiberium_Competes>
+	<Tiberium_Competes_Desc>Determines if Tiberium Crystals of Different Varieties will Destroy each other.</Tiberium_Competes_Desc>
+	<Tiberium_Damages_Items>Tiberium Damages Items</Tiberium_Damages_Items>
+	<Tiberium_Damages_Items_Desc>Determines if Tiberium will damage items.</Tiberium_Damages_Items_Desc>
+
+</LanguageData>

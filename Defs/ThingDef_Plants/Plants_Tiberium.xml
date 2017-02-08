@@ -5,7 +5,7 @@
 		<label>Green Tiberium</label>
 		<description>A glowy green crystal. Looks strangely appealing. Beware of interaction.</description>
 		<statBases>
-			<MaxHitPoints>1500</MaxHitPoints>
+			<MaxHitPoints>50</MaxHitPoints>
 			<Beauty>45</Beauty>
 		</statBases>
 		<graphicData>
@@ -30,6 +30,14 @@
 			</visualSizeRange>
 		</plant>
 		<corruptsInto>TiberiumSoilGreen</corruptsInto>
+		<friendlyTo>
+			<li>TiberiumGreen</li>
+			<li>TiberiumBlue</li>
+			<li>TiberiumRed</li>
+			<li>TiberiumPlant</li>
+		</friendlyTo>
+		<buildingDamage>20</buildingDamage>
+		<entityDamage>5</entityDamage>
 	</ThingDef>
   
     <ThingDef ParentName="TiberiumBase" Class="TiberiumRim.TiberiumDef">
@@ -37,7 +45,7 @@
 		<label>Blue Tiberium</label>
 		<description>A glowy blue crystal. Beautiful to the eye but of unknown properties.</description>
 		<statBases>
-			<MaxHitPoints>2000</MaxHitPoints>
+			<MaxHitPoints>50</MaxHitPoints>
 			<Beauty>75</Beauty>
 		</statBases>
 		<graphicData>
@@ -61,6 +69,15 @@
 			</visualSizeRange>
 		</plant>
 		<corruptsInto>TiberiumSoilBlue</corruptsInto>
+		<friendlyTo>
+			<li>TiberiumGreen</li>
+			<li>TiberiumBlue</li>
+			<li>TiberiumRed</li>
+			<li>TiberiumPlant</li>
+		</friendlyTo>
+		<buildingDamage>20</buildingDamage>
+		<entityDamage>5</entityDamage>
+		<isExplosive>true</isExplosive>
 	</ThingDef>
 	
 	<ThingDef ParentName="TiberiumBase" Class="TiberiumRim.TiberiumDef">
@@ -68,7 +85,7 @@
 		<label>red Tiberium</label>
 		<description>A glowy red crystal. Beautiful to the eye but of unknown properties. Unusual.</description>
 		<statBases>
-			<MaxHitPoints>5000</MaxHitPoints>
+			<MaxHitPoints>50</MaxHitPoints>
 			<Beauty>75</Beauty>
 		</statBases>
 		<graphicData>
@@ -93,6 +110,14 @@
 			</visualSizeRange>
 		</plant>
 		<corruptsInto>TiberiumSoilRed</corruptsInto>
+		<friendlyTo>
+			<li>TiberiumGreen</li>
+			<li>TiberiumBlue</li>
+			<li>TiberiumRed</li>
+			<li>TiberiumPlant</li>
+		</friendlyTo>
+		<buildingDamage>20</buildingDamage>
+		<entityDamage>5</entityDamage>
 	</ThingDef>
   
 </Plants>

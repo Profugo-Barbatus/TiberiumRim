@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
-
 <Defs>
 	<ThingDef Name="BasePawn" Abstract="True">
 		<thingClass>Pawn</thingClass>
@@ -12,7 +11,7 @@
 		<hasTooltip>true</hasTooltip>
 		<soundImpactDefault>BulletImpactFlesh</soundImpactDefault>
 		<statBases>
-			<Mass>70</Mass>
+			<Mass>86</Mass>
 		</statBases>
 		<inspectorTabs>
 			<li>ITab_Pawn_Health</li>
@@ -64,7 +63,7 @@
 
 
 	<ThingDef ParentName="AnimalThingBase">
-		<defName>Visceroid</defName>
+		<defName>Visceroid_TBI</defName>
 		<label>Visceroid</label>
 		<description>A blob-like and disturbing lifeform. Formed after the death of a creature by Tiberium.</description>
 		<statBases>
@@ -77,8 +76,8 @@
 				<verbClass>Verb_MeleeAttack</verbClass>
 				<defaultCooldownTime>60</defaultCooldownTime>
 				<meleeDamageBaseAmount>20</meleeDamageBaseAmount>
+				<!-- Keeping the ToxicBite since I don't want it to be Tiberium damage that is dealt. But still something poionous. -->
 				<meleeDamageDef>ToxicBite</meleeDamageDef>
-				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
 				<surpriseAttack>
 					<extraMeleeDamages>
 						<li>
@@ -100,11 +99,11 @@
 		<trainableIntelligence>Simple</trainableIntelligence>
 		<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
 		<leatherColor>(204,102,0)</leatherColor>
-		<leatherLabel>VisceroidSkin</leatherLabel>
+		<leatherLabel>Visceroid Skin</leatherLabel>
 		<leatherInsulation>0.5</leatherInsulation>
-		<meatLabel>VisceroidMatter</meatLabel>
+		<meatLabel>Visceroid Matter</meatLabel>
 		<wildness>0.75</wildness>
-		<manhunterOnTameFailChance>0.2</manhunterOnTameFailChance>
+		<manhunterOnTameFailChance>0.8</manhunterOnTameFailChance>
 		<manhunterOnDamageChance>1</manhunterOnDamageChance>
 		<gestationPeriodDays>25</gestationPeriodDays>
 		<nameOnTameChance>1</nameOnTameChance>
@@ -121,6 +120,7 @@
 				<li>
 					<def>AnimalAdult</def>
 					<minAge>1</minAge>
+					<!-- Keeping the Cobra sounds because it fits the Visceroid.-->
 					<soundWounded>Pawn_Cobra_Wounded</soundWounded>
 					<soundDeath>Pawn_Cobra_Death</soundDeath>
 					<soundCall>Pawn_Cobra_Call</soundCall>
@@ -139,9 +139,9 @@
   
   
 	<PawnKindDef ParentName="AnimalKindBase">
-		<defName>Visceroid</defName>
+		<defName>Visceroid_TBI</defName>
 		<label>Visceroid</label>
-		<race>Visceroid</race>
+		<race>Visceroid_TBI</race>
 		<combatPower>65</combatPower>
 		<wildSpawn_spawnWild>false</wildSpawn_spawnWild>
 		<lifeStages>

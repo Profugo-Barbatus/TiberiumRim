@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Buildings>
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>SonicInhibitor</defName>
+		<label>Sonic Inhibitor</label>
+		<description>A device designed to destroy Tiberium and prevent further growth. Due to the experimental nature of the device, it requires direct line of sight to the Tiberium to function</description>
+		<thingClass>Building</thingClass>
+		<category>Building</category>
+		<designationCategory>Security</designationCategory>
+		<graphicData>
+			<texPath>Building/Defense/Inhibiter_small</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shadowData>
+				<volume>(0.5,0.5,0.5)</volume>
+				<offset>(0,0,0)</offset>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>2500</WorkToBuild>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<fillPercent>0.65</fillPercent>
+		<costList>
+			<Steel>80</Steel>
+			<Component>5</Component>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>250</basePowerConsumption>
+				<shortCircuitInRain>false</shortCircuitInRain>
+			</li>
+			<li Class="CompProperties_Breakdownable"/>
+			<li Class="TiberiumRim.CompProperties_SonicEmitter">
+				<compClass>TiberiumRim.CompSonicEmitter</compClass>
+				<radius>7</radius>
+				<damageShutdownPercent>0.5</damageShutdownPercent>
+			</li>
+		</comps>
+		<tickerType>Rare</tickerType>
+		<placeWorkers>
+			<li>TiberiumRim.PlaceWorker_TiberiumInhibitor</li>
+		</placeWorkers>
+		<researchPrerequisites>
+			<li>TiberiumSonicInhibition</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+</Buildings>
