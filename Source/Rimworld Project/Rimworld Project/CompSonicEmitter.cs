@@ -61,7 +61,7 @@ namespace TiberiumRim
             foreach(IntVec3 c in cells)
             {
                 Plant plant = c.GetPlant(this.parent.Map);
-                if (plant != null && plant.def.defName.Contains("Tiberium"))
+                if (plant != null && plant.def.defName.Contains("Tiberium") && !plant.def.defName.Contains("TiberiumPlant"))
                 {
                     if (GenSight.LineOfSight(this.parent.Position, c, this.parent.Map, true))
                     {

@@ -11,6 +11,7 @@
 		<graphicData>
 			<texPath>Building/Defense/Inhibiter_small</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.5</drawSize>
 			<shadowData>
 				<volume>(0.5,0.5,0.5)</volume>
 				<offset>(0,0,0)</offset>
