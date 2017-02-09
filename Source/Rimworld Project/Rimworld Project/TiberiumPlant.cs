@@ -466,7 +466,7 @@ namespace TiberiumRim
                         {
                             if(!friendlyTo.Contains(p.def))
                             {
-                                if (Rand.Chance(0.02f))
+                                if (Rand.Chance(0.05f))
                                 {
                                     ThingDef flora = DefDatabase<ThingDef>.GetNamed("TiberiumPlant", true);
                                     IntVec3 loc = p.Position;
@@ -487,7 +487,7 @@ namespace TiberiumRim
                         {
 
                             //Kill the plant. Later, we'll consider a piece of tiberium infected plantlife in its place.
-                            if (Rand.Chance(0.02f))
+                            if (Rand.Chance(0.05f))
                             {
                                 ThingDef flora = DefDatabase<ThingDef>.GetNamed("TiberiumPlant", true);
                                 IntVec3 loc = p.Position;

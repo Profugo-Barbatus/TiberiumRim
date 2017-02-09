@@ -23,10 +23,10 @@ namespace TiberiumRim
             this.powerComp = this.parent.TryGetComp<CompPowerTrader>();
             this.def = (CompProperties_SonicEmitter)this.props;
 
-            if(def == null)
+            /*if(def == null)
             {
                 Debug.LogError("XML property failure at" + this.ToString());
-            }
+            }*/
             cacheCells();
         }
 
@@ -35,7 +35,7 @@ namespace TiberiumRim
             TiberiumBase.Instance.logMessage("Ticking");
             if (parent.HitPoints/parent.def.BaseMaxHitPoints > def.damageShutdownPercent && this.powerComp != null && this.powerComp.PowerOn)
             {
-                TiberiumBase.Instance.logMessage("Checking plants");
+                //TiberiumBase.Instance.logMessage("Checking plants");
                 checkPlantLife();
             }
         }
@@ -61,11 +61,11 @@ namespace TiberiumRim
             foreach(IntVec3 c in cells)
             {
                 Plant plant = c.GetPlant(this.parent.Map);
-                if (plant != null && plant.def.defName.Contains("Tiberium") && !plant.def.defName.Contains("TiberiumPlant"))
+                if (plant != null && plant.def.defName.Contains("Tiberium"))
                 {
                     if (GenSight.LineOfSight(this.parent.Position, c, this.parent.Map, true))
                     {
-                        TiberiumBase.Instance.logMessage("This should kill the plant");
+                        //TiberiumBase.Instance.logMessage("This should kill the plant");
                         plant.Destroy(DestroyMode.Vanish);
                     }
                 }
