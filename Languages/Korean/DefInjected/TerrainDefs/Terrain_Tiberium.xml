@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-	<TiberiumSoilGreen.label>그린 타이베리움 토양</TiberiumSoilGreen.label>
-	<TiberiumSoilBlue.label>블루 타이베리움 토양</TiberiumSoilBlue.label>
-	<TiberiumSoilRed.label>레드 타이베리움 토양</TiberiumSoilRed.label>
+	<TiberiumSoilGreen.label>오염된 녹색 토양</TiberiumSoilGreen.label>
+	<TiberiumSoilBlue.label>오염된 푸른색 토양</TiberiumSoilBlue.label>
+	<TiberiumSoilRed.label>오염된 붉은색 토양</TiberiumSoilRed.label>
 
 </LanguageData>

@@ -10,4 +10,7 @@
 	<TiberiumResearchRefining.label>tiberium Refining</TiberiumResearchRefining.label>
 	<TiberiumResearchRefining.description>Allows Tiberium to be refined.</TiberiumResearchRefining.description>
 
+	<TiberiumSonicInhibition.label>Tiberium Inhibition</TiberiumSonicInhibition.label>
+	<TiberiumSonicInhibition.description>Exploit the crystalline nature of Tiberium to shatter it with Sonic frequencies. Allows you to begin building Sonic Inhibitors.</TiberiumSonicInhibition.description>
+	
 </LanguageData>

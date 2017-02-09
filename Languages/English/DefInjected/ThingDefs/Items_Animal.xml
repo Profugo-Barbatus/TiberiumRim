@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!--EggCrawelerUnfertilized-->
+  <EggCrawelerUnfertilized.label>crawler egg (unfert.)</EggCrawelerUnfertilized.label>
+  <EggCrawelerUnfertilized.description>Unfertilized crawler egg. It can be eaten raw, but it's much, much better cooked.</EggCrawelerUnfertilized.description>
+  <!--EggCrawlerFertilized-->
+  <EggCrawlerFertilized.label>crawler egg (fert.)</EggCrawlerFertilized.label>
+  <EggCrawlerFertilized.description>Fertilized crawler egg. If all goes well, it should hatch into a baby crawler. It can be eaten raw, but it's much better cooked.</EggCrawlerFertilized.description>
+</LanguageData>

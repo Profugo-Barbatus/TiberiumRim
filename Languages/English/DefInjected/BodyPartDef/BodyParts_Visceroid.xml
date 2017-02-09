@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!--VisceroidBody-->
+  <VisceroidBody.label>visceroid body</VisceroidBody.label>
+  <!--VisceroidVeins-->
+  <VisceroidVeins.label>Veins</VisceroidVeins.label>
+  <!--VisceroidDigester-->
+  <VisceroidDigester.label>Digester</VisceroidDigester.label>
+  <!--VisceroidBreather-->
+  <VisceroidBreather.label>Breather</VisceroidBreather.label>
+  <!--VisceroidOrifice-->
+  <VisceroidOrifice.label>Orifice</VisceroidOrifice.label>
+  <!--LeftTentacle-->
+  <LeftTentacle.label>left tentacle</LeftTentacle.label>
+  <!--RightTentacle-->
+  <RightTentacle.label>right tentacle</RightTentacle.label>
+  <!--MiddleTentacle-->
+  <MiddleTentacle.label>middle tentacle</MiddleTentacle.label>
+</LanguageData>

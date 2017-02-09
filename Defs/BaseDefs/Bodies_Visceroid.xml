@@ -32,7 +32,7 @@
 				<li>
 					<def>VisceroidOrifice</def>
 					<coverage>0.04</coverage>
-					<depth>Inside</depth>
+					<depth>Outside</depth>
 				</li>
 				<li>
 					<def>LeftTentacle</def>

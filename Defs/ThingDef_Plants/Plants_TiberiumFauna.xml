@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Plants>
+
 	<ThingDef ParentName="TiberiumFaunaBase">
 		<defName>TiberiumPlant</defName>
 		<label>Tiberium Plant</label>
-		<description>A weird-looking lifeform. Looks infested with Tiberium.</description>
+		<description>A strange-looking lifeform. Looks infested with Tiberium.</description>
 		<statBases>
-			<MaxHitPoints>150</MaxHitPoints>
+			<MaxHitPoints>350</MaxHitPoints>
 			<Beauty>-2</Beauty>
 		</statBases>
 		<graphicData>
@@ -18,8 +19,8 @@
 			<dieIfLeafless>false</dieIfLeafless>
 			<growDays>4</growDays>
 			<visualSizeRange>
-				<min>0.3</min>
-				<max>1</max>
+				<min>0.6</min>
+				<max>1.59</max>
 			</visualSizeRange>
 			<reproduces>false</reproduces>
 			<fertilitySensitivity>0</fertilitySensitivity>

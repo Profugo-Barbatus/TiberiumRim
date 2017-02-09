@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<GreenTiberiumRaw.label>roher grüner Tiberium Kristall</GreenTiberiumRaw.label>
+	<GreenTiberiumRaw.description>Die rohe Form des Tiberiums. Sei vorsichtig wie du damit umgehst. Es kann raffiniert werden.</GreenTiberiumRaw.description>
+	
+	<BlueTiberiumRaw.label>roher blauer Tiberium Kristall</BlueTiberiumRaw.label>
+	<BlueTiberiumRaw.description>Die rohe Form des Tiberiums. Sei vorsichtig wie du damit umgehst. Es kann raffiniert werden.</BlueTiberiumRaw.description>
+	
+	<RedTiberiumRaw.label>roher roter Tiberium Kristall</RedTiberiumRaw.label>
+	<RedTiberiumRaw.description>Die rohe Form des Tiberiums. Sei vorsichtig wie du damit umgehst. Es kann raffiniert werden.</RedTiberiumRaw.description>
+	
+	<BookRiparius.label>riparius Buch</BookRiparius.label>
+	<BookRiparius.description>Tiberium Riparius.\n\nDie grüne Art von Tiberium ist die am häufigsten vorkommende Variante.\n\nEs kam vor langen Zeiten auf Planet Erde, lang bevor diese Randwelt infiziert wurde.\n\nDiese Variante wächst am schnellsten, und infiziert große Flächen innerhalb von Tagen.\n\nAlso sei vorsichtig wenn es in deiner Nähe ist!\n\nVermeide jeglichen Kontakt damit.\n\nDie Substanz, egal welcher Art, wird jede Kohlenstoff-basierende Lebensart infizieren und kristallisieren.\n\nDiese Fähigkeit macht es höchst toxisch.\n\nTiberium ist eine unbekannte Art von mineral, dass alles was um es herum ist in Tiberium umwandelt.\n\nDies passiert durch physikalische Reaktione zwischen Tiberium Nukleinen und den Nukleinen anderer Materie.</BookRiparius.description>
+	
+	<BookVinifera.label>vinifera Buch</BookVinifera.label>
+	<BookVinifera.description>Tiberium Vinifera.\n\nDie blaue Art von Tiberium, es ist die "erwachsene" Form des grünen Tiberiums als es sich weiter entwickelte.\n\nEs ist selten im Vergleich zu grünem Tiberium.\n\nDiese Art wächst um einiges langsamer.\n\nSei dennoch vorsichtig, es ist immernoch toxisch!\n\nDiese Art erklärt die Theorie dass Tiberium ein Lebewesen sein könnte.\n\nGenerel mutiert Tiberium jedes Lebewesen dass es nicht komplett getötet hat.\n\nDiese Lebensformen ernähren sich von Tiberium wenn sie Tiere sind, oder verbreiten es wenn sie Pflanzen sind.\n\nEs ist immernoch unklar inwiefern Tiberium eine Lebensform ist.\n\nWeitere Untersuchungen sind nötig.</BookVinifera.description>
+	
+	<BookRutila.label>rutila Buch</BookRutila.label>
+	<BookRutila.description>Tiberium Rutila.\n\nDie rote Art von Tiberium, es ist sehr selten.\n\nGenau wie die blaue Variante hat es sogar noch wertvollere Resourcen in sich.\n\nObwohl die ersten Sichtungen zeigten dass es sich nicht verbreitet, scheint es die Fähigkeit entwickelt zu haben dies zu tun, wenn auch nur langsam.\n\nEs wird spekuliert dass sich rotes Tiberium in ---[DATEN VERLOREN]---/---\n\n§)§$%?!%%##$%---</BookRutila.description>
+
+</LanguageData>

@@ -31,8 +31,8 @@
 			<graphicClass>Graphic_Multi</graphicClass>
 		</graphicData>
 		<costList>
-			<Steel>5</Steel>
-			<Cloth>30</Cloth>
+			<Steel>30</Steel>
+			<Cloth>60</Cloth>
 		</costList>
 		<statBases>
 			<MarketValue>950</MarketValue>

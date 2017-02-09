@@ -57,8 +57,8 @@
 		<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<costList>
-			<Steel>15</Steel>
-			<Cloth>60</Cloth>
+			<Steel>75</Steel>
+			<Cloth>120</Cloth>
 		</costList>
 		<thingCategories>
 			<li>Apparel</li>

@@ -2,15 +2,15 @@
 <LanguageData>
 	<AsteroidGreen.label>green tiberium asteroid</AsteroidGreen.label>
 	<AsteroidGreen.letterLabel>Green Tiberium Asteroid</AsteroidGreen.letterLabel>
-	<AsteroidGreen.letterText>An unusual meteorite has crashed nearby and made a crater.\n\nThere seems to be some unusual crystals poking out of it, and a few have broken off and scattered around the site.\n\nBe careful, the substance could be dangerous!</AsteroidGreen.letterText>
+	<AsteroidGreen.letterText>An unusual meteorite has crashed nearby and made a crater.\n\nThere seems to be some strange crystals poking out of it, and a few have broken off and scattered around the site.\n\nBe careful, the substance could be dangerous!</AsteroidGreen.letterText>
 	
 	<AsteroidBlue.label>blue tiberium asteroid</AsteroidBlue.label>
 	<AsteroidBlue.letterLabel>Blue Tiberium Asteroid</AsteroidBlue.letterLabel>
-	<AsteroidBlue.letterText>An unusual meteorite has crashed nearby and made a crater.\n\nThere seems to be some unusual crystals poking out of it, and a few have broken off and scattered around the site.\n\nBe careful, the substance could be dangerous!</AsteroidBlue.letterText>
+	<AsteroidBlue.letterText>An unusual meteorite has crashed nearby and made a crater.\n\nThere seems to be some strange crystals poking out of it, and a few have broken off and scattered around the site.\n\nBe careful, the substance could be dangerous!</AsteroidBlue.letterText>
 	
 	<AsteroidMeteor.label>tiberium meteor</AsteroidMeteor.label>
 	<AsteroidMeteor.letterLabel>Tiberium Meteor Drop</AsteroidMeteor.letterLabel>
-	<AsteroidMeteor.letterText>An unusual meteorite has crashed nearby.\n\nThere seems to be some unusual crystals poking out of it.\n\nBe careful, the substance could be dangerous!</AsteroidMeteor.letterText>
+	<AsteroidMeteor.letterText>An unusual meteorite has crashed nearby.\n\nThere seems to be some strange crystals poking out of it.\n\nBe careful, the substance could be dangerous!</AsteroidMeteor.letterText>
 	
 	<TiberiumShard.label>tiberium shard</TiberiumShard.label>
 	<TiberiumShard.letterLabel>Tiberium shard</TiberiumShard.letterLabel>

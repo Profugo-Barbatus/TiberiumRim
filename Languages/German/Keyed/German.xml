@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<Tiberium_Damages_Structures>Tiberium beschädigt Gebäude</Tiberium_Damages_Structures>
+	<Tiberium_Damages_Structures_Desc>Entscheidet ob Tiberium Gebäude beschädigt.</Tiberium_Damages_Structures_Desc>
+	<Tiberium_Competes>Tiberium bekämpft sich gegenseitig</Tiberium_Competes>
+	<Tiberium_Competes_Desc>Entscheidet ob Tiberium Kristalle verschiedener Arten sich gegenseitig töten.</Tiberium_Competes_Desc>
+	<Tiberium_Damages_Items>Tiberium beschädigt Items</Tiberium_Damages_Items>
+	<Tiberium_Damages_Items_Desc>Entscheidet ob Tiberium Items beschädigt.</Tiberium_Damages_Items_Desc>
+
+</LanguageData>
