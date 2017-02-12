@@ -278,7 +278,6 @@
 			<bodyGraphicData>
 			  <texPath>Pawn/Animals/BigFiend/BigTiberiumFiend</texPath>
 			  <drawSize>1.4</drawSize>
-			  <color>(112,82,65)</color>
 			  <shadowData>
 				<volume>(0.4, 0.3, 0.3)</volume>
 				<offset>(0,0,-0.2)</offset>
@@ -293,7 +292,6 @@
 			<bodyGraphicData>
 			  <texPath>Pawn/Animals/BigFiend/BigTiberiumFiend</texPath>
 			  <drawSize>2</drawSize>
-			  <color>(112,82,65)</color>
 			  <shadowData>
 				<volume>(0.6, 0.45, 0.45)</volume>
 				<offset>(0,0,-0.25)</offset>
@@ -308,7 +306,6 @@
 			<bodyGraphicData>
 			  <texPath>Pawn/Animals/BigFiend/BigTiberiumFiend</texPath>
 			  <drawSize>2.7</drawSize>
-			  <color>(112,82,65)</color>
 			  <shadowData>
 				<volume>(0.8, 0.6, 0.6)</volume>
 				<offset>(0,0,-0.3)</offset>
@@ -390,7 +387,6 @@
 				<bodyGraphicData>
 					<texPath>Pawn/Animals/Tibscarab/TibScarab</texPath>
 					<drawSize>1</drawSize>
-					<color>(114,107,84)</color>
 				</bodyGraphicData>
 					<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
@@ -401,7 +397,6 @@
 				<bodyGraphicData>
 					<texPath>Pawn/Animals/Tibscarab/TibScarab</texPath>
 					<drawSize>1.25</drawSize>
-					<color>(114,107,84)</color>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
@@ -412,7 +407,6 @@
 				<bodyGraphicData>
 					<texPath>Pawn/Animals/Tibscarab/TibScarab</texPath>
 					<drawSize>1.5</drawSize>
-					<color>(114,107,84)</color>
 					<shadowData>
 						<volume>(0.2, 0.3, 0.2)</volume>
 						<offset>(0,0,0)</offset>
