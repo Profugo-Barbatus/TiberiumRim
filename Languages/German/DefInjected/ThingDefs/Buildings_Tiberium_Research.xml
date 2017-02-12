@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<TiberiumResearchBench.label>tiberium Forschungstisch</TiberiumResearchBench.label>
+	<TiberiumResearchBench.description>Ein spezialisierter Forschungstisch für Tiberium Wissenskenntnisse.\n\nForschung wird durch high-tech tools beschleunigt.\n\nVerbraucht Strom.</TiberiumResearchBench.description>
+	
+	<TiberiumResearchCraftingBench.label>Tiberium research crafting adapter</TiberiumResearchCraftingBench.label>
+	<TiberiumResearchCraftingBench.description>Allow crafting of Tiberium information items.</TiberiumResearchCraftingBench.description>
+	
+
+</LanguageData>

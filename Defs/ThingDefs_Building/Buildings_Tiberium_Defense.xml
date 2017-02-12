@@ -18,8 +18,9 @@
 			</shadowData>
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
+		<minifiedDef>MinifiedFurniture</minifiedDef>
 		<statBases>
-			<MaxHitPoints>150</MaxHitPoints>
+			<MaxHitPoints>500</MaxHitPoints>
 			<WorkToBuild>2500</WorkToBuild>
 			<Flammability>1.0</Flammability>
 		</statBases>

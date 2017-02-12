@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<TiberiumResearch.label>tiberium research</TiberiumResearch.label>
+	<TiberiumResearch.description>Allows the research of Tiberium technologies.</TiberiumResearch.description>
+	
+	<TiberiumKnowledge.label>tiberium knowledge</TiberiumKnowledge.label>
+	<TiberiumKnowledge.description>Allows the understanding of Tiberium.</TiberiumKnowledge.description>
+	
+	<TiberiumResearchRefining.label>tiberium Refining</TiberiumResearchRefining.label>
+	<TiberiumResearchRefining.description>Allows Tiberium to be refined.</TiberiumResearchRefining.description>
+
+	<TiberiumSonicInhibition.label>Tiberium Unterdrückung</TiberiumSonicInhibition.label>
+	<TiberiumSonicInhibition.description>Nutze die Art des Tiberiums um es mit Ultraschall Frequenzen zu zerstören. Erlaubt das Bauen von Sonic Inhibitoren.</TiberiumSonicInhibition.description>
+	
+</LanguageData>

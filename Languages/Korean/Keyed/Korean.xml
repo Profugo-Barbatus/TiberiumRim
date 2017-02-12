@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-	<Tiberium_Damages_Structures>PLACEHOLDER_KOREAN</Tiberium_Damages_Structures>
-	<Tiberium_Damages_Structures_Desc>Determines if Tiberium will damage structures.</Tiberium_Damages_Structures_Desc>
-	<Tiberium_Competes>Tiberium Competes</Tiberium_Competes>
-	<Tiberium_Competes_Desc>Determines if Tiberium Crystals of Different Varieties will Destroy each other.</Tiberium_Competes_Desc>
-	<Tiberium_Damages_Items>Tiberium Damages Items</Tiberium_Damages_Items>
-	<Tiberium_Damages_Items_Desc>Determines if Tiberium will damage items.</Tiberium_Damages_Items_Desc>
+	<Tiberium_Damages_Structures>타이베리움에 의한 구조물 침식</Tiberium_Damages_Structures>
+	<Tiberium_Damages_Structures_Desc>타이베리움이 주변 구조물을 침식하여 파괴합니다.</Tiberium_Damages_Structures_Desc>
+	<Tiberium_Competes>타이베리움에 의한 경쟁종 침식</Tiberium_Competes>
+	<Tiberium_Competes_Desc>타이베리움이 다른 색상의 경쟁종을 침식하여 파괴합니다. 복제력이 높은 쪽이 우위를 가집니다.</Tiberium_Competes_Desc>
+	<Tiberium_Damages_Items>타이베리움에 의한 아이템 침식</Tiberium_Damages_Items>
+	<Tiberium_Damages_Items_Desc>타이베리움이 주변 아이템을 침식하여 파괴합니다.</Tiberium_Damages_Items_Desc>
 
 </LanguageData>

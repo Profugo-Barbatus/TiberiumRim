@@ -2,10 +2,10 @@
 <LanguageData>
 
 	<TiberiumResearchBench.label>타이베리움 연구 벤치</TiberiumResearchBench.label>
-	<TiberiumResearchBench.description>본격적인 타이베리움 연구를 위한 시설입니다./n/n복합 분석기에 의해 연구속도가 증가합니다./n/n전기로 작동합니다.</TiberiumResearchBench.description>
+	<TiberiumResearchBench.description>본격적인 타이베리움 연구를 위한 시설입니다. 복합 분석기에 의해 연구속도가 증가합니다. 전기로 작동합니다.</TiberiumResearchBench.description>
 	
 	<TiberiumResearchCraftingBench.label>타이베리움 연구 준비대</TiberiumResearchCraftingBench.label>
-	<TiberiumResearchCraftingBench.description>타이베리움 연구의 전초 단계입니다. 각종 타이베리움 설비를 건설하는 데 필요한 교본 아이템을 제작합니다.</TiberiumResearchCraftingBench.description>
+	<TiberiumResearchCraftingBench.description>타이베리움 연구의 전초 단계입니다. 각종 타이베리움 설비에 필요한 취급서를 제작합니다.</TiberiumResearchCraftingBench.description>
 	
 
 </LanguageData>

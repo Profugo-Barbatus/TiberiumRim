@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!--EggCrawelerUnfertilized-->
+  <EggCrawelerUnfertilized.label>crawler Ei (Unbefr.)</EggCrawelerUnfertilized.label>
+  <EggCrawelerUnfertilized.description>Unbefruchtetes Crawler Ei. Es kann roh gegessen werden, aber gekocht ist es viel besser.</EggCrawelerUnfertilized.description>
+  <!--EggCrawlerFertilized-->
+  <EggCrawlerFertilized.label>crawler Ei (Befr.)</EggCrawlerFertilized.label>
+  <EggCrawlerFertilized.description>Befruchtetes crawler Ei. Wenn alles gut läuft, sollte daraus ein Baby Crawler schlüpfen. Es kann roh gegessen werden, aber gekocht ist es viel besser.</EggCrawlerFertilized.description>
+</LanguageData>

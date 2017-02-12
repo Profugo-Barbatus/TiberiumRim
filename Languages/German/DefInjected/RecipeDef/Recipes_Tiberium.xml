@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<ExtractResourcesFromGreenTiberium.label>bekomme Resourcen von grünem Tiberium</ExtractResourcesFromGreenTiberium.label>
+	<ExtractResourcesFromGreenTiberium.description>Diese Raffinerie nutzt komplexe Reaktion um das tödliche Tiberium in nutzbare Materialien zu zerlegen.</ExtractResourcesFromGreenTiberium.description>
+	
+	<ExtractResourcesFromBlueTiberium.label>bekomme Resourcen von blauem Tiberium</ExtractResourcesFromBlueTiberium.label>
+	<ExtractResourcesFromBlueTiberium.description>Diese Raffinerie nutzt komplexe Reaktion um das tödliche Tiberium in nutzbare Materialien zu zerlegen.</ExtractResourcesFromBlueTiberium.description>
+	
+	<ExtractResourcesFromRedTiberium.label>bekomme Resourcen von rotem Tiberium</ExtractResourcesFromRedTiberium.label>
+	<ExtractResourcesFromRedTiberium.description>Diese Raffinerie nutzt komplexe Reaktion um das tödliche Tiberium in nutzbare Materialien zu zerlegen.</ExtractResourcesFromRedTiberium.description>
+	
+	<MakeBookRiparius.label>Schreibe über grünes Tiberium.</MakeBookRiparius.label>
+	<MakeBookVinifera.label>Schreibe über blaues Tiberium.</MakeBookVinifera.label>
+	<MakeBookRutila.label>Schreibe über rotes Tiberium.</MakeBookRutila.label>
+</LanguageData>

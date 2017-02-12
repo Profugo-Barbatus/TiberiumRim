@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<DoBillsTibRefinery.label>arbeitet an der Tiberium Raffinerie</DoBillsTibRefinery.label>
+	<DoBillsTibRefinery.verb>raffiniert Tiberium</DoBillsTibRefinery.verb>
+	<DoBillsTibRefinery.gerund>raffiniere Tiberium an</DoBillsTibRefinery.gerund>
+	
+	<DoBillsTibResearch.label>arbeitet am Tiberium Forschungstisch</DoBillsTibResearch.label>
+	<DoBillsTibResearch.verb>schreibe ein Buch</DoBillsTibResearch.verb>
+	<DoBillsTibResearch.gerund>schreibe ein Buch an</DoBillsTibResearch.gerund>
+	
+</LanguageData>

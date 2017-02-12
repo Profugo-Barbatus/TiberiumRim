@@ -2,7 +2,7 @@
 <LanguageData>
 
 	<TiberiumResearchBench.label>tiberium research bench</TiberiumResearchBench.label>
-	<TiberiumResearchBench.description>A specialized research bench for Tiberium knowledge./n/nResearch is sped up by the high-tech tools./n/nRequires power.</TiberiumResearchBench.description>
+	<TiberiumResearchBench.description>A specialized research bench for Tiberium knowledge.\n\nResearch is sped up by the high-tech tools.\n\nRequires power.</TiberiumResearchBench.description>
 	
 	<TiberiumResearchCraftingBench.label>Tiberium research crafting adapter</TiberiumResearchCraftingBench.label>
 	<TiberiumResearchCraftingBench.description>Allow crafting of Tiberium information items.</TiberiumResearchCraftingBench.description>

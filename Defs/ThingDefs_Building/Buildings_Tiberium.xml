@@ -217,7 +217,7 @@
 	
 	<ThingDef ParentName="TiberiumBuildingBase">
 		<defName>BlossomTree_TBNS</defName>
-		<description>A weird tree of sorts. It seems to grow green crystals.</description>
+		<description>A strange tree with alien properties. It seems to grow green crystals.</description>
 		<label>blossom tree</label>
 		<thingClass>Building</thingClass>
 		<size>(1,1)</size>

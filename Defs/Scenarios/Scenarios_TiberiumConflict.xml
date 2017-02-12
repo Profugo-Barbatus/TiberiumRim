@@ -4,7 +4,7 @@
   <ScenarioDef>
     <defName>TiberiumConflict</defName>
     <label>Tiberium Conflict</label>
-    <description>Four of you awake in cryptosleep caskets. You don't rememner when you were put to sleep. All you can tell for now is that the world has a strange glow. It's covered in red, green and blue crystals. You quickly learn their dangers and risks.</description>
+    <description>Four of you awake in cryptosleep caskets. You don't remember when you were put to sleep. All you can tell for now is that the world has a strange glow. It's covered in red, green and blue crystals. You quickly learn their dangers and risks.</description>
     <scenario>
       <summary>Four survivors on the remains of a Tiberium infested planet.</summary>
       <playerFaction>
@@ -46,6 +46,11 @@
           <thingDef>Silver</thingDef>
           <count>1200</count>
         </li>
+		<li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Uranium</thingDef>
+          <count>75</count>
+        </li>
         <li Class="ScenPart_StartingThing_Defined">
           <def>StartingThing_Defined</def>
           <thingDef>MealSurvivalPack</thingDef>
@@ -81,6 +86,11 @@
 		<li Class="ScenPart_StartingThing_Defined">
           <def>StartingThing_Defined</def>
           <thingDef>TiberiumSuit_TBP</thingDef>
+        </li>
+		<li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>SonicInhibitor</thingDef>
+          <count>2</count>
         </li>
         <li Class="ScenPart_StartingAnimal">
           <def>StartingAnimal</def>
@@ -129,7 +139,7 @@
 		<li Class="ScenPart_ScatterThingsAnywhere">
           <def>ScatterThingsAnywhere</def>
           <thingDef>TiberiumRed</thingDef>
-          <count>50</count>
+          <count>75</count>
         </li>
         
         

@@ -3,7 +3,7 @@
 	<ThingDef ParentName="TiberiumBase" Class="TiberiumRim.TiberiumDef">
 		<defName>TiberiumGreen</defName>
 		<label>Green Tiberium</label>
-		<description>A glowy green crystal. Looks strangely appealing. Beware of interaction.</description>
+		<description>A glowy green crystal. Looks strangely appealing. Interaction might be dangerous.</description>
 		<statBases>
 			<MaxHitPoints>50</MaxHitPoints>
 			<Beauty>45</Beauty>

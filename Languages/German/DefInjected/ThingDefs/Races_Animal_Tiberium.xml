@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<Visceroid_TBI.label>visceroid</Visceroid_TBI.label>
+	<Visceroid_TBI.description>Eine schleimartige schreckliche Lebensform. Entstanden nach dem Tod einer Kreatur durch Tiberium.</Visceroid_TBI.description>
+	
+	<Thrimbo_TBI.label>thrimbo</Thrimbo_TBI.label>
+	<Thrimbo_TBI.description>Eine gigantische Kreatur unbekannter Herkunft. Das Thrumbo, aber dieses scheint eine Tiberium Infektion zu haben. Sei vorsichtig, es kann leicht verärgert werden.</Thrimbo_TBI.description>
+	
+	<TiberiumTerror_TBI.label>tiberium Schrecken</TiberiumTerror_TBI.label>
+	<TiberiumTerror_TBI.description>Eine gigantische Kreatur unbekannter Herkunft. Das schwarz-blaue Aussehen zeugt von großer Gefahr in dieser Kreatur.</TiberiumTerror_TBI.description>
+	
+	<BigTiberiumFiend_TBI.label>großes Tiberium Unold</BigTiberiumFiend_TBI.label>
+	<BigTiberiumFiend_TBI.description>Riesige alles fressende Lebensformen die an Tiberium angepasst sind. Ihre Haut und ihr Fell wurden kristallisiert.\n\nObwohl ihre übliche Ernährung von Fisch, Beeren und Honig besteht, kann dieses Unhold seine Stärke und scharfen Klauen nutzen um lebende Beute zu fangen. Sie sind fürchterlich schnell für solch trampelndes Erscheinen.</BigTiberiumFiend_TBI.description>
+	
+	<Tibscarab_TBI.label>tibscarab</Tibscarab_TBI.label>
+	<Tibscarab_TBI.description>Eine großer, genetisch veänderter Käfer der mit Tiberium in Kontakt kam.</Tibscarab_TBI.description>
+	
+	<TiberiumFiend_TBI.label>tiberium Unhold</TiberiumFiend_TBI.label>
+	<TiberiumFiend_TBI.description>Ein robuster Jäger lang gefüchtet von Menschen. Als Pack Jäger haben diese Unholde die selben furchterregenden Fähigkeiten von Wölfen.</TiberiumFiend_TBI.description>
+	
+	<SmallTiberiumFiend_TBI.label>kleines Tiberium Unhold</SmallTiberiumFiend_TBI.label>
+	<SmallTiberiumFiend_TBI.description>Ein kleines mit Tiberium infiziertes Wesen.</SmallTiberiumFiend_TBI.description>
+	
+	<Crawler_TBI.label>Kriecher</Crawler_TBI.label>
+	<Crawler_TBI.description>Eine große mit Tiberium infizierte Schlange.</Crawler_TBI.description>
+	
+</LanguageData>

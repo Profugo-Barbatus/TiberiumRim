@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<AsteroidGreen.label>grüner Tiberium Asteroid</AsteroidGreen.label>
+	<AsteroidGreen.letterLabel>Grüner Tiberium Asteroid</AsteroidGreen.letterLabel>
+	<AsteroidGreen.letterText>Ein ungewöhnlicher Meteor is gelandet und hat einen Krater erzeugt.\n\nEs wachsen seltsame Kristalle aus dem Krater, einige sind beim Absturz abgebrochen und haben sich verteilt.\n\nSei vorsichtig, die Subtsanz könnte gefährlich sein!</AsteroidGreen.letterText>
+	
+	<AsteroidBlue.label>blauer Tiberium Asteroid</AsteroidBlue.label>
+	<AsteroidBlue.letterLabel>Blauer Tiberium Asteroid</AsteroidBlue.letterLabel>
+	<AsteroidBlue.letterText>Ein ungewöhnlicher Meteor is gelandet und hat einen Krater erzeugt.\n\nEs wachsen seltsame Kristalle aus dem Krater, einige sind beim Absturz abgebrochen und haben sich verteilt.\n\nSei vorsichtig, die Subtsanz könnte gefährlich sein!</AsteroidBlue.letterText>
+	
+	<AsteroidMeteor.label>tiberium Meteor</AsteroidMeteor.label>
+	<AsteroidMeteor.letterLabel>Tiberium Meteor Absturz</AsteroidMeteor.letterLabel>
+	<AsteroidMeteor.letterText>Ein ungewöhnlicher Meteor ist gelandet.\n\nEs hängen ein paar seltsame Kristalle aus diesem heraus.\n\nSei vorsichtig!</AsteroidMeteor.letterText>
+	
+	<TiberiumShard.label>tiberium Splitter</TiberiumShard.label>
+	<TiberiumShard.letterLabel>Tiberium Splitter</TiberiumShard.letterLabel>
+	<TiberiumShard.letterText>Eine ungewöhnliche Art von Splitter ist gelandet. Es verbreitet rote Kristalle um sich herum.\n\nSei vorsichtig, die Subtsanz könnte gefährlich sein!</TiberiumShard.letterText>
+	
+	<BlossomTree.label>blüten Baum </BlossomTree.label>
+	<BlossomTree.letterLabel>Unbekanntes Gas!</BlossomTree.letterLabel>
+	<BlossomTree.letterText>Eine unbekannte Gaswolke ist über die Karte geflogen und hat einen Baum mutiert. Sei vorsichtig!</BlossomTree.letterText>
+	
+	<TiberiumMonolith.label>Tiberium Monolith</TiberiumMonolith.label>
+	<TiberiumMonolith.letterLabel>Monolith!</TiberiumMonolith.letterLabel>
+	<TiberiumMonolith.letterText>Ein Monolith ist entstanden. Sei vorsichtig!</TiberiumMonolith.letterText>
+</LanguageData>
