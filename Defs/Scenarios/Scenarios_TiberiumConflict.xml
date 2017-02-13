@@ -49,7 +49,7 @@
 		<li Class="ScenPart_StartingThing_Defined">
           <def>StartingThing_Defined</def>
           <thingDef>Uranium</thingDef>
-          <count>75</count>
+          <count>50</count>
         </li>
         <li Class="ScenPart_StartingThing_Defined">
           <def>StartingThing_Defined</def>
@@ -73,6 +73,7 @@
         <li Class="ScenPart_StartingThing_Defined">
           <def>StartingThing_Defined</def>
           <thingDef>Gun_Pistol</thingDef>
+	  <count>2</count>
         </li>
         <li Class="ScenPart_StartingThing_Defined">
           <def>StartingThing_Defined</def>
@@ -86,15 +87,16 @@
 		<li Class="ScenPart_StartingThing_Defined">
           <def>StartingThing_Defined</def>
           <thingDef>TiberiumSuit_TBP</thingDef>
+	  <count>2</count>
         </li>
 		<li Class="ScenPart_StartingThing_Defined">
           <def>StartingThing_Defined</def>
           <thingDef>SonicInhibitor</thingDef>
-          <count>2</count>
+          <count>4</count>
         </li>
         <li Class="ScenPart_StartingAnimal">
           <def>StartingAnimal</def>
-          <count>2</count>
+          <count>1</count>
           <bondToRandomPlayerPawnChance>1.0</bondToRandomPlayerPawnChance>
         </li>
 
@@ -119,22 +121,27 @@
         <li Class="ScenPart_ScatterThingsAnywhere">
           <def>ScatterThingsAnywhere</def>
           <thingDef>Steel</thingDef>
-          <count>1720</count>
+          <count>1550</count>
+        </li>
+      	<li Class="ScenPart_ScatterThingsAnywhere">
+          <def>ScatterThingsAnywhere</def>
+          <thingDef>Plasteel</thingDef>
+          <count>50</count>
         </li>
         <li Class="ScenPart_ScatterThingsAnywhere">
           <def>ScatterThingsAnywhere</def>
           <thingDef>MealSurvivalPack</thingDef>
-          <count>7</count>
+          <count>17</count>
         </li>
 		<li Class="ScenPart_ScatterThingsAnywhere">
           <def>ScatterThingsAnywhere</def>
           <thingDef>TiberiumCraterGreen_TBNS</thingDef>
-          <count>10</count>
+          <count>6</count>
         </li>
 		<li Class="ScenPart_ScatterThingsAnywhere">
           <def>ScatterThingsAnywhere</def>
           <thingDef>TiberiumCraterBlue_TBNS</thingDef>
-          <count>3</count>
+          <count>4</count>
         </li>
 		<li Class="ScenPart_ScatterThingsAnywhere">
           <def>ScatterThingsAnywhere</def>
