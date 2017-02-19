@@ -44,7 +44,7 @@
 		<label>Blue Tiberium</label>
 		<description>A glowy blue crystal. Beautiful to the eye but of unknown properties.</description>
 		<statBases>
-			<MaxHitPoints>75</MaxHitPoints>
+			<MaxHitPoints>50</MaxHitPoints>
 			<Beauty>75</Beauty>
 		</statBases>
 		<graphicData>
@@ -84,7 +84,7 @@
 		<label>red Tiberium</label>
 		<description>A glowy red crystal. Beautiful to the eye but of unknown properties. Unusual.</description>
 		<statBases>
-			<MaxHitPoints>100</MaxHitPoints>
+			<MaxHitPoints>75</MaxHitPoints>
 			<Beauty>75</Beauty>
 		</statBases>
 		<graphicData>
