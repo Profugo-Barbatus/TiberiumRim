@@ -13,9 +13,9 @@
 
   <TiberiumTerror_TBI.label>恐慌变异敲击兽尸体</TiberiumTerror_TBI.label>
   <TiberiumTerror_TBI.description>巨型生物,起源不明.变异后那蓝黑色的皮毛是它危险性极高的证明</TiberiumTerror_TBI.description>
-  <TiberiumTerror_TBI_Leather.label>tiberiumterrorfur</TiberiumTerror_TBI_Leather.label>
-  <TiberiumTerror_TBI_Leather.description>tiberiumterrorfur</TiberiumTerror_TBI_Leather.description>
-  <TiberiumTerror_TBI_Leather.stuffProps.stuffAdjective>tiberiumterrorfur</TiberiumTerror_TBI_Leather.stuffProps.stuffAdjective>
+  <TiberiumTerror_TBI_Leather.label>恐慌变异敲击兽毛皮</TiberiumTerror_TBI_Leather.label>
+  <TiberiumTerror_TBI_Leather.description>恐慌变异敲击兽毛皮</TiberiumTerror_TBI_Leather.description>
+  <TiberiumTerror_TBI_Leather.stuffProps.stuffAdjective>恐慌变异敲击兽毛皮</TiberiumTerror_TBI_Leather.stuffProps.stuffAdjective>
   <TiberiumTerror_TBI_Meat.label>恐慌变异敲击兽肉</TiberiumTerror_TBI_Meat.label>
   <TiberiumTerror_TBI_Meat.description>恐慌变异敲击兽肉</TiberiumTerror_TBI_Meat.description>
   <TiberiumTerror_TBI_Corpse.label>恐慌变异敲击兽尸体</TiberiumTerror_TBI_Corpse.label>
@@ -57,7 +57,7 @@
   <SmallTiberiumFiend_TBI_Corpse.label>小变异生物尸体</SmallTiberiumFiend_TBI_Corpse.label>
   <SmallTiberiumFiend_TBI_Corpse.description>小变异生物尸体</SmallTiberiumFiend_TBI_Corpse.description>
 
-  <Crawler_TBI.label>crawler</Crawler_TBI.label>
+  <Crawler_TBI.label>变异蛇</Crawler_TBI.label>
   <Crawler_TBI.description>一条巨大的蛇,好像已经被泰伯利亚所侵蚀</Crawler_TBI.description>
   <Crawler_TBI_Leather.label>感染蛇的皮</Crawler_TBI_Leather.label>
   <Crawler_TBI_Leather.description>感染蛇皮</Crawler_TBI_Leather.description>
