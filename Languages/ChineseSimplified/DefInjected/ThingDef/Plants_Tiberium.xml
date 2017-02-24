@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <TiberiumGreen.label>绿色泰伯利亚水晶</TiberiumGreen.label>
+  <TiberiumGreen.description>发光的绿色水晶,以诡异的频率闪动着,无保护的接触非常危险</TiberiumGreen.description>
+
+  <TiberiumBlue.label>蓝色泰伯利亚水晶</TiberiumBlue.label>
+  <TiberiumBlue.description>发光的蓝色水晶,未知的组成让它特别漂亮,但同样危险</TiberiumBlue.description>
+
+  <TiberiumRed.label>红色泰伯利亚水晶</TiberiumRed.label>
+  <TiberiumRed.description>发光的红色水晶,虽然少见但也很危险</TiberiumRed.description>
+
+
+</LanguageData>

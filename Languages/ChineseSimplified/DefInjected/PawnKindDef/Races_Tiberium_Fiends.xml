@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Thrimbo_TBI.label>变异敲击兽</Thrimbo_TBI.label>
+  <Thrimbo_TBI.lifeStages.0.labelMale>变异敲击兽</Thrimbo_TBI.lifeStages.0.labelMale>
+  <Thrimbo_TBI.lifeStages.0.labelFemale>变异敲击兽</Thrimbo_TBI.lifeStages.0.labelFemale>
+  <Thrimbo_TBI.lifeStages.1.labelMale>变异敲击兽</Thrimbo_TBI.lifeStages.1.labelMale>
+  <Thrimbo_TBI.lifeStages.1.labelFemale>变异敲击兽</Thrimbo_TBI.lifeStages.1.labelFemale>
+  <Thrimbo_TBI.lifeStages.2.labelMale>变异敲击兽</Thrimbo_TBI.lifeStages.2.labelMale>
+  <Thrimbo_TBI.lifeStages.2.labelFemale>变异敲击兽</Thrimbo_TBI.lifeStages.2.labelFemale>
+
+  <TiberiumTerror_TBI.label>恐慌变异敲击兽</TiberiumTerror_TBI.label>
+  <TiberiumTerror_TBI.lifeStages.0.labelMale>恐慌变异敲击兽</TiberiumTerror_TBI.lifeStages.0.labelMale>
+  <TiberiumTerror_TBI.lifeStages.0.labelFemale>恐慌变异敲击兽</TiberiumTerror_TBI.lifeStages.0.labelFemale>
+  <TiberiumTerror_TBI.lifeStages.1.labelMale>恐慌变异敲击兽</TiberiumTerror_TBI.lifeStages.1.labelMale>
+  <TiberiumTerror_TBI.lifeStages.1.labelFemale>恐慌变异敲击兽</TiberiumTerror_TBI.lifeStages.1.labelFemale>
+  <TiberiumTerror_TBI.lifeStages.2.labelMale>恐慌变异敲击兽</TiberiumTerror_TBI.lifeStages.2.labelMale>
+  <TiberiumTerror_TBI.lifeStages.2.labelFemale>恐慌变异敲击兽</TiberiumTerror_TBI.lifeStages.2.labelFemale>
+
+  <BigTiberiumFiend_TBI.label>大变异熊</BigTiberiumFiend_TBI.label>
+  <BigTiberiumFiend_TBI.lifeStages.0.labelMale>大变异熊</BigTiberiumFiend_TBI.lifeStages.0.labelMale>
+  <BigTiberiumFiend_TBI.lifeStages.0.labelFemale>大变异熊</BigTiberiumFiend_TBI.lifeStages.0.labelFemale>
+  <BigTiberiumFiend_TBI.lifeStages.1.labelMale>大变异熊</BigTiberiumFiend_TBI.lifeStages.1.labelMale>
+  <BigTiberiumFiend_TBI.lifeStages.1.labelFemale>大变异熊</BigTiberiumFiend_TBI.lifeStages.1.labelFemale>
+  <BigTiberiumFiend_TBI.lifeStages.2.labelMale>大变异熊</BigTiberiumFiend_TBI.lifeStages.2.labelMale>
+  <BigTiberiumFiend_TBI.lifeStages.2.labelFemale>大变异熊</BigTiberiumFiend_TBI.lifeStages.2.labelFemale>
+
+  <Tibscarab_TBI.label>变异甲虫</Tibscarab_TBI.label>
+  <Tibscarab_TBI.lifeStages.0.labelMale>变异甲虫</Tibscarab_TBI.lifeStages.0.labelMale>
+  <Tibscarab_TBI.lifeStages.0.labelFemale>变异甲虫</Tibscarab_TBI.lifeStages.0.labelFemale>
+  <Tibscarab_TBI.lifeStages.1.labelMale>变异甲虫</Tibscarab_TBI.lifeStages.1.labelMale>
+  <Tibscarab_TBI.lifeStages.1.labelFemale>变异甲虫</Tibscarab_TBI.lifeStages.1.labelFemale>
+  <Tibscarab_TBI.lifeStages.2.labelMale>变异甲虫</Tibscarab_TBI.lifeStages.2.labelMale>
+  <Tibscarab_TBI.lifeStages.2.labelFemale>变异甲虫</Tibscarab_TBI.lifeStages.2.labelFemale>
+
+  <TiberiumFiend_TBI.label>变异狼</TiberiumFiend_TBI.label>
+  <TiberiumFiend_TBI.lifeStages.0.labelMale>变异狼</TiberiumFiend_TBI.lifeStages.0.labelMale>
+  <TiberiumFiend_TBI.lifeStages.0.labelFemale>变异狼</TiberiumFiend_TBI.lifeStages.0.labelFemale>
+  <TiberiumFiend_TBI.lifeStages.1.labelMale>变异狼</TiberiumFiend_TBI.lifeStages.1.labelMale>
+  <TiberiumFiend_TBI.lifeStages.1.labelFemale>变异狼</TiberiumFiend_TBI.lifeStages.1.labelFemale>
+  <TiberiumFiend_TBI.lifeStages.2.labelMale>变异狼</TiberiumFiend_TBI.lifeStages.2.labelMale>
+  <TiberiumFiend_TBI.lifeStages.2.labelFemale>变异狼</TiberiumFiend_TBI.lifeStages.2.labelFemale>
+
+  <SmallTiberiumFiend_TBI.label>变异狗</SmallTiberiumFiend_TBI.label>
+  <SmallTiberiumFiend_TBI.lifeStages.0.labelMale>变异狗</SmallTiberiumFiend_TBI.lifeStages.0.labelMale>
+  <SmallTiberiumFiend_TBI.lifeStages.0.labelFemale>变异狗</SmallTiberiumFiend_TBI.lifeStages.0.labelFemale>
+  <SmallTiberiumFiend_TBI.lifeStages.1.labelMale>变异狗</SmallTiberiumFiend_TBI.lifeStages.1.labelMale>
+  <SmallTiberiumFiend_TBI.lifeStages.1.labelFemale>变异狗</SmallTiberiumFiend_TBI.lifeStages.1.labelFemale>
+  <SmallTiberiumFiend_TBI.lifeStages.2.labelMale>变异狗</SmallTiberiumFiend_TBI.lifeStages.2.labelMale>
+  <SmallTiberiumFiend_TBI.lifeStages.2.labelFemale>变异狗</SmallTiberiumFiend_TBI.lifeStages.2.labelFemale>
+
+  <Crawler_TBI.label>变异蛇</Crawler_TBI.label>
+  <Crawler_TBI.lifeStages.0.labelMale>变异蛇</Crawler_TBI.lifeStages.0.labelMale>
+  <Crawler_TBI.lifeStages.0.labelFemale>变异蛇</Crawler_TBI.lifeStages.0.labelFemale>
+  <Crawler_TBI.lifeStages.1.labelMale>变异蛇</Crawler_TBI.lifeStages.1.labelMale>
+  <Crawler_TBI.lifeStages.1.labelFemale>变异蛇</Crawler_TBI.lifeStages.1.labelFemale>
+  <Crawler_TBI.lifeStages.2.labelMale>变异蛇</Crawler_TBI.lifeStages.2.labelMale>
+  <Crawler_TBI.lifeStages.2.labelFemale>变异蛇</Crawler_TBI.lifeStages.2.labelFemale>
+
+
+</LanguageData>

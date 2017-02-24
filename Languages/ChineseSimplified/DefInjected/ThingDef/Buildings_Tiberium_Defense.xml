@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <SonicInhibitor.label>声波抑制器</SonicInhibitor.label>
+  <SonicInhibitor.description>一个用来限制并阻止泰伯利亚生长的装置.由于其仍处于实验中它只有在无障碍的情况下才能工作</SonicInhibitor.description>
+  <SonicInhibitor_Blueprint.label>声波抑制器(蓝图)</SonicInhibitor_Blueprint.label>
+  <SonicInhibitor_Blueprint_Install.label>等待安装的声波抑制器</SonicInhibitor_Blueprint_Install.label>
+  <SonicInhibitor_Frame.label>正在建造的声波抑制器</SonicInhibitor_Frame.label>
+
+
+</LanguageData>

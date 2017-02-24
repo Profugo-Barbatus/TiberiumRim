@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <TiberiumResearchBench.label>泰伯利亚研究室</TiberiumResearchBench.label>
+  <TiberiumResearchBench.description>特种隔离研究室,需要供电</TiberiumResearchBench.description>
+  <TiberiumResearchBench_Blueprint.label>泰伯利亚研究室(蓝图)</TiberiumResearchBench_Blueprint.label>
+  <TiberiumResearchBench_Frame.label>泰伯利亚研究室(建造中)</TiberiumResearchBench_Frame.label>
+
+  <TiberiumResearchCraftingBench.label>泰伯利亚知识库编写台</TiberiumResearchCraftingBench.label>
+  <TiberiumResearchCraftingBench.description>允许编写泰伯利亚知识库</TiberiumResearchCraftingBench.description>
+  <TiberiumResearchCraftingBench_Blueprint.label>泰伯利亚知识库编写台(蓝图)</TiberiumResearchCraftingBench_Blueprint.label>
+  <TiberiumResearchCraftingBench_Frame.label>泰伯利亚知识库编写台(建造中)</TiberiumResearchCraftingBench_Frame.label>
+
+
+</LanguageData>

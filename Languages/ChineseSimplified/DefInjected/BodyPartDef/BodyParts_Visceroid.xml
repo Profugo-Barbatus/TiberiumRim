@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <VisceroidBody.label>变异的身体</VisceroidBody.label>
+  <VisceroidVeins.label>血管</VisceroidVeins.label>
+  <VisceroidDigester.label>消化器官</VisceroidDigester.label>
+  <VisceroidBreather.label>呼吸器官</VisceroidBreather.label>
+  <VisceroidOrifice.label>孔</VisceroidOrifice.label>
+  <LeftTentacle.label>左触手</LeftTentacle.label>
+  <RightTentacle.label>右触手</RightTentacle.label>
+  <MiddleTentacle.label>中触手</MiddleTentacle.label>
+
+
+</LanguageData>
