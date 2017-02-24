@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <TiberiumResearch.label>泰伯利亚研究准备</TiberiumResearch.label>
+  <TiberiumResearch.description>允许研究泰伯利亚技术</TiberiumResearch.description>
+
+  <TiberiumKnowledge.label>泰伯利亚资料</TiberiumKnowledge.label>
+  <TiberiumKnowledge.description>理解泰伯利亚,制作安全数据库手册</TiberiumKnowledge.description>
+
+  <TiberiumResearchRefining.label>提炼泰伯利亚</TiberiumResearchRefining.label>
+  <TiberiumResearchRefining.description>允许提炼泰伯利亚晶体</TiberiumResearchRefining.description>
+
+  <TiberiumSonicInhibition.label>Tiberium Inhibition</TiberiumSonicInhibition.label>
+  <TiberiumSonicInhibition.description>分析泰伯利亚的自然结构以通过特殊的声波频率阻止其蔓延,解锁建造声波围栏</TiberiumSonicInhibition.description>
+</LanguageData>

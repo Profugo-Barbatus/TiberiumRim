@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <DoBillsTibRefinery.label>正在提炼泰伯利亚</DoBillsTibRefinery.label>
+  <DoBillsTibRefinery.verb>提炼泰伯利亚</DoBillsTibRefinery.verb>
+  <DoBillsTibRefinery.gerund>提炼泰伯利亚于</DoBillsTibRefinery.gerund>
+
+  <DoBillsTibResearch.label>正在研究泰伯利亚</DoBillsTibResearch.label>
+  <DoBillsTibResearch.verb>正在制作书本</DoBillsTibResearch.verb>
+  <DoBillsTibResearch.gerund>制作书本于</DoBillsTibResearch.gerund>
+
+
+</LanguageData>

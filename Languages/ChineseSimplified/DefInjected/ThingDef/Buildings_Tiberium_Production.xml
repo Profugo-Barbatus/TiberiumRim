@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <TiberiumRefinery.label>泰伯利亚精炼厂</TiberiumRefinery.label>
+  <TiberiumRefinery.description>一个特种精炼设备. 用来提炼泰伯利亚</TiberiumRefinery.description>
+  <TiberiumRefinery_Blueprint.label>泰伯利亚精炼厂(蓝图)</TiberiumRefinery_Blueprint.label>
+  <TiberiumRefinery_Frame.label>泰伯利亚精炼厂(建造中)</TiberiumRefinery_Frame.label>
+
+
+</LanguageData>

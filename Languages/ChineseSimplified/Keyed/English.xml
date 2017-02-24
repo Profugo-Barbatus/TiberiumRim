@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Tiberium_Damages_Structures>泰伯利亚是否破坏建筑物</Tiberium_Damages_Structures>
+  <Tiberium_Damages_Structures_Desc>决定泰伯利亚是否破坏建筑物</Tiberium_Damages_Structures_Desc>
+  <Tiberium_Competes>Tiberium Competes</Tiberium_Competes>
+  <Tiberium_Competes_Desc>决定不同种类的泰伯利亚之间是否互相破坏</Tiberium_Competes_Desc>
+  <Tiberium_Damages_Items>泰伯利亚破坏物品</Tiberium_Damages_Items>
+  <Tiberium_Damages_Items_Desc>决定泰伯利亚会不会破坏物品</Tiberium_Damages_Items_Desc>
+
+</LanguageData>

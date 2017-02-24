@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <TiberiumCraterGreen_TBNS.description>绿色泰伯利亚晶体</TiberiumCraterGreen_TBNS.description>
+  <TiberiumCraterGreen_TBNS.label>绿色泰伯利亚晶体</TiberiumCraterGreen_TBNS.label>
+
+  <TiberiumCraterBlue_TBNS.description>蓝色泰伯利亚晶体</TiberiumCraterBlue_TBNS.description>
+  <TiberiumCraterBlue_TBNS.label>蓝色泰伯利亚晶体</TiberiumCraterBlue_TBNS.label>
+
+  <TiberiumMeteor_TBNS.description>一个外星陨石,包括所有的泰伯利亚晶体</TiberiumMeteor_TBNS.description>
+  <TiberiumMeteor_TBNS.label>泰伯利亚陨石</TiberiumMeteor_TBNS.label>
+
+  <TiberiumMonolith_TBNS.description>地里长出来的蓝色巨大晶体</TiberiumMonolith_TBNS.description>
+  <TiberiumMonolith_TBNS.label>蓝色巨大泰伯利亚晶体</TiberiumMonolith_TBNS.label>
+
+  <BlossomTree_TBNS.description>一棵奇怪的树,好像生长着绿色的晶体</BlossomTree_TBNS.description>
+  <BlossomTree_TBNS.label>泰伯利亚散播树</BlossomTree_TBNS.label>
+
+  <TiberiumShard_TBNS.description>一个外星碎片.看上去很不寻常.</TiberiumShard_TBNS.description>
+  <TiberiumShard_TBNS.label>泰伯利亚碎片</TiberiumShard_TBNS.label>
+
+
+</LanguageData>

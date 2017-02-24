@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ExtractResourcesFromGreenTiberium.label>提取绿色泰伯利亚</ExtractResourcesFromGreenTiberium.label>
+  <ExtractResourcesFromGreenTiberium.description>通过复杂的反应原理将泰伯利亚变为有用的原材料</ExtractResourcesFromGreenTiberium.description>
+  <ExtractResourcesFromGreenTiberium.jobString>提炼绿色泰伯利亚中</ExtractResourcesFromGreenTiberium.jobString>
+
+  <ExtractResourcesFromBlueTiberium.label>提取蓝色泰伯利亚</ExtractResourcesFromBlueTiberium.label>
+  <ExtractResourcesFromBlueTiberium.description>通过复杂的反应原理将泰伯利亚变为有用的原材料</ExtractResourcesFromBlueTiberium.description>
+  <ExtractResourcesFromBlueTiberium.jobString>提炼蓝色泰伯利亚中</ExtractResourcesFromBlueTiberium.jobString>
+
+  <ExtractResourcesFromRedTiberium.label>提取红色泰伯利亚</ExtractResourcesFromRedTiberium.label>
+  <ExtractResourcesFromRedTiberium.description>通过复杂的反应原理将泰伯利亚变为有用的原材料</ExtractResourcesFromRedTiberium.description>
+  <ExtractResourcesFromRedTiberium.jobString>提炼红色泰伯利亚中</ExtractResourcesFromRedTiberium.jobString>
+
+  <MakeBookRiparius.label>编写绿色泰伯利亚知识库</MakeBookRiparius.label>
+  <MakeBookRiparius.jobString>正在编写绿色泰伯利亚知识库</MakeBookRiparius.jobString>
+
+  <MakeBookVinifera.label>编写蓝色泰伯利亚知识库</MakeBookVinifera.label>
+  <MakeBookVinifera.jobString>正在编写蓝色泰伯利亚知识库</MakeBookVinifera.jobString>
+
+  <MakeBookRutila.label>编写红色泰伯利亚知识库</MakeBookRutila.label>
+  <MakeBookRutila.jobString>正在编写红色泰伯利亚知识库</MakeBookRutila.jobString>
+
+
+</LanguageData>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AsteroidGreen.label>绿色泰伯利亚陨石!</AsteroidGreen.label>
+  <AsteroidGreen.letterLabel>绿色泰伯利亚陨石!</AsteroidGreen.letterLabel>
+  <AsteroidGreen.letterText>一颗不正常的陨石好像坠毁在附近并造成了一个陨石坑\n\n看样子好像有一些奇怪的绿色水晶暴露了出来,有几个已经裂开了,碎片满地都是\n\n小心,这种东西可能很危险!!</AsteroidGreen.letterText>
+
+  <AsteroidBlue.label>蓝色泰伯利亚陨石!</AsteroidBlue.label>
+  <AsteroidBlue.letterLabel>蓝色泰伯利亚陨石!</AsteroidBlue.letterLabel>
+  <AsteroidBlue.letterText>一颗不正常的陨石好像坠毁在附近并造成了一个陨石坑\n\n看样子好像有一些奇怪的蓝色水晶暴露了出来,有几个已经裂开了,碎片满地都是\n\n小心,这种东西可能很危险!!</AsteroidBlue.letterText>
+
+  <AsteroidMeteor.label>泰伯利亚流星!</AsteroidMeteor.label>
+  <AsteroidMeteor.letterLabel>泰伯利亚流星坠毁</AsteroidMeteor.letterLabel>
+  <AsteroidMeteor.letterText>已确认一个不寻常的流星撞击在附近.\n\n看样子好像有一些奇怪的水晶暴露了出来.\n\n小心,这种东西可能很危险!!</AsteroidMeteor.letterText>
+
+  <TiberiumShard.label>泰伯利亚碎片!</TiberiumShard.label>
+  <TiberiumShard.letterLabel>泰伯利亚碎片</TiberiumShard.letterLabel>
+  <TiberiumShard.letterText>一个异常的碎片掉落了.在它周围正在产生红色的水晶!.\n\n小心,这种东西可能很危险!!</TiberiumShard.letterText>
+
+  <BlossomTree.label>blossom tree</BlossomTree.label>
+  <BlossomTree.letterLabel>未知气体!</BlossomTree.letterLabel>
+  <BlossomTree.letterText>一股未知气体飘过了地图并转化了一棵树!保持距离!</BlossomTree.letterText>
+
+  <TiberiumMonolith.label>巨大泰伯利亚晶体</TiberiumMonolith.label>
+  <TiberiumMonolith.letterLabel>巨大晶体!</TiberiumMonolith.letterLabel>
+  <TiberiumMonolith.letterText>一个巨大的泰伯利亚晶体从地下升起. 保持距离!</TiberiumMonolith.letterText>
+
+
+</LanguageData>

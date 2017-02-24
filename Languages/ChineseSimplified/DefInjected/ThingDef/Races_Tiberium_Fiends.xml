@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Thrimbo_TBI.label>Thrimbo</Thrimbo_TBI.label>
+  <Thrimbo_TBI.description>被泰伯利亚侵蚀的敲击兽,小心,非常容易暴躁.</Thrimbo_TBI.description>
+  <Thrimbo_TBI_Leather.label>变异敲击兽毛皮</Thrimbo_TBI_Leather.label>
+  <Thrimbo_TBI_Leather.description>变异敲击兽毛皮</Thrimbo_TBI_Leather.description>
+  <Thrimbo_TBI_Leather.stuffProps.stuffAdjective>变异敲击兽毛皮</Thrimbo_TBI_Leather.stuffProps.stuffAdjective>
+  <Thrimbo_TBI_Meat.label>变异敲击兽肉</Thrimbo_TBI_Meat.label>
+  <Thrimbo_TBI_Meat.description>变异敲击兽肉</Thrimbo_TBI_Meat.description>
+  <Thrimbo_TBI_Corpse.label>变异敲击兽尸体</Thrimbo_TBI_Corpse.label>
+  <Thrimbo_TBI_Corpse.description>变异敲击兽尸体</Thrimbo_TBI_Corpse.description>
+
+  <TiberiumTerror_TBI.label>恐慌变异敲击兽尸体</TiberiumTerror_TBI.label>
+  <TiberiumTerror_TBI.description>巨型生物,起源不明.变异后那蓝黑色的皮毛是它危险性极高的证明</TiberiumTerror_TBI.description>
+  <TiberiumTerror_TBI_Leather.label>tiberiumterrorfur</TiberiumTerror_TBI_Leather.label>
+  <TiberiumTerror_TBI_Leather.description>tiberiumterrorfur</TiberiumTerror_TBI_Leather.description>
+  <TiberiumTerror_TBI_Leather.stuffProps.stuffAdjective>tiberiumterrorfur</TiberiumTerror_TBI_Leather.stuffProps.stuffAdjective>
+  <TiberiumTerror_TBI_Meat.label>恐慌变异敲击兽肉</TiberiumTerror_TBI_Meat.label>
+  <TiberiumTerror_TBI_Meat.description>恐慌变异敲击兽肉</TiberiumTerror_TBI_Meat.description>
+  <TiberiumTerror_TBI_Corpse.label>恐慌变异敲击兽尸体</TiberiumTerror_TBI_Corpse.label>
+  <TiberiumTerror_TBI_Corpse.description>恐慌变异敲击兽尸体</TiberiumTerror_TBI_Corpse.description>
+
+  <BigTiberiumFiend_TBI.label>大泰伯利亚变异熊</BigTiberiumFiend_TBI.label>
+  <BigTiberiumFiend_TBI.description>巨型的哺乳动物,生物结构都被泰伯利亚改造了,皮毛都已经结晶化了.\n\n虽然它们正常的食谱包括鱼,野莓和蜂蜜还有腐肉,但这种变异生物能以其巨大的力量和爪子杀死任何活物..对于它们的体型而言它们有无法想象的速度.</BigTiberiumFiend_TBI.description>
+  <BigTiberiumFiend_TBI_Leather.label>泰伯利亚熊皮</BigTiberiumFiend_TBI_Leather.label>
+  <BigTiberiumFiend_TBI_Leather.description>泰伯利亚熊皮</BigTiberiumFiend_TBI_Leather.description>
+  <BigTiberiumFiend_TBI_Leather.stuffProps.stuffAdjective>泰伯利亚熊皮</BigTiberiumFiend_TBI_Leather.stuffProps.stuffAdjective>
+  <BigTiberiumFiend_TBI_Meat.label>泰伯利亚熊肉</BigTiberiumFiend_TBI_Meat.label>
+  <BigTiberiumFiend_TBI_Meat.description>泰伯利亚熊肉</BigTiberiumFiend_TBI_Meat.description>
+  <BigTiberiumFiend_TBI_Corpse.label>巨型泰伯利亚熊尸体</BigTiberiumFiend_TBI_Corpse.label>
+  <BigTiberiumFiend_TBI_Corpse.description>巨型泰伯利亚熊尸体</BigTiberiumFiend_TBI_Corpse.description>
+
+  <Tibscarab_TBI.label>变异甲虫</Tibscarab_TBI.label>
+  <Tibscarab_TBI.description>一个巨型的,已被泰伯利亚侵蚀的甲虫.自从虫族开始和机械巢穴的战争以来,它们现在不经常结对行动. 但这个生物的大小和厚重的甲壳使它仍然难以对付.作为一种雌雄异体的生物,不能自己孵化后代</Tibscarab_TBI.description>
+  <!-- Leather Amount: 0 -->
+  <!-- Use Meat From: Megaspider -->
+  <Tibscarab_TBI_Corpse.label>变异甲虫尸体</Tibscarab_TBI_Corpse.label>
+  <Tibscarab_TBI_Corpse.description>变异甲虫尸体</Tibscarab_TBI_Corpse.description>
+
+  <TiberiumFiend_TBI.label>变异狼</TiberiumFiend_TBI.label>
+  <TiberiumFiend_TBI.description>被很多旧时代的地球人所惧怕,作为群体捕食的生物,狼有非常复杂的社会并且有非常高的智商,就算变异了也是如此</TiberiumFiend_TBI.description>
+  <TiberiumFiend_TBI_Leather.label> 变异生物皮</TiberiumFiend_TBI_Leather.label>
+  <TiberiumFiend_TBI_Leather.description>变异生物皮</TiberiumFiend_TBI_Leather.description>
+  <TiberiumFiend_TBI_Leather.stuffProps.stuffAdjective>变异生物皮</TiberiumFiend_TBI_Leather.stuffProps.stuffAdjective>
+  <TiberiumFiend_TBI_Meat.label>变异生物肉</TiberiumFiend_TBI_Meat.label>
+  <TiberiumFiend_TBI_Meat.description>变异生物肉</TiberiumFiend_TBI_Meat.description>
+  <TiberiumFiend_TBI_Corpse.label>变异生物尸体</TiberiumFiend_TBI_Corpse.label>
+  <TiberiumFiend_TBI_Corpse.description> 变异生物尸体</TiberiumFiend_TBI_Corpse.description>
+
+  <SmallTiberiumFiend_TBI.label>变异狗</SmallTiberiumFiend_TBI.label>
+  <SmallTiberiumFiend_TBI.description>可怜的小狗被泰伯利亚所侵蚀.</SmallTiberiumFiend_TBI.description>
+  <SmallTiberiumFiend_TBI_Leather.label>小变异生物皮</SmallTiberiumFiend_TBI_Leather.label>
+  <SmallTiberiumFiend_TBI_Leather.description>小变异生物皮</SmallTiberiumFiend_TBI_Leather.description>
+  <SmallTiberiumFiend_TBI_Leather.stuffProps.stuffAdjective>小变异生物皮</SmallTiberiumFiend_TBI_Leather.stuffProps.stuffAdjective>
+  <!-- Use Meat From: FoxFennec -->
+  <SmallTiberiumFiend_TBI_Corpse.label>小变异生物尸体</SmallTiberiumFiend_TBI_Corpse.label>
+  <SmallTiberiumFiend_TBI_Corpse.description>小变异生物尸体</SmallTiberiumFiend_TBI_Corpse.description>
+
+  <Crawler_TBI.label>crawler</Crawler_TBI.label>
+  <Crawler_TBI.description>一条巨大的蛇,好像已经被泰伯利亚所侵蚀</Crawler_TBI.description>
+  <Crawler_TBI_Leather.label>感染蛇的皮</Crawler_TBI_Leather.label>
+  <Crawler_TBI_Leather.description>感染蛇皮</Crawler_TBI_Leather.description>
+  <Crawler_TBI_Leather.stuffProps.stuffAdjective>感染蛇皮</Crawler_TBI_Leather.stuffProps.stuffAdjective>
+  <Crawler_TBI_Meat.label>感染蛇肉</Crawler_TBI_Meat.label>
+  <Crawler_TBI_Meat.description>感染蛇肉</Crawler_TBI_Meat.description>
+  <Crawler_TBI_Corpse.label>感染蛇尸体</Crawler_TBI_Corpse.label>
+  <Crawler_TBI_Corpse.description>感染蛇尸体</Crawler_TBI_Corpse.description>
+
+
+</LanguageData>

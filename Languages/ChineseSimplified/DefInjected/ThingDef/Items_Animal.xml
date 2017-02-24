@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Crawler Egg -->
+
+  <EggCrawelerUnfertilized.label>未受精的Craweler卵</EggCrawelerUnfertilized.label>
+  <EggCrawelerUnfertilized.description>未受精的Craweler卵,建议烹饪后使用,但也可以生吃</EggCrawelerUnfertilized.description>
+
+  <EggCrawlerFertilized.label>受精的Craweler卵</EggCrawlerFertilized.label>
+  <EggCrawlerFertilized.description>受精的Craweler卵,一切顺利的话就会产生Craweler,在孵化完成之前仍然可以食用</EggCrawlerFertilized.description>
+
+
+</LanguageData>
