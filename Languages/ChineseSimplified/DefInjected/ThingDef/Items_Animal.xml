@@ -3,11 +3,11 @@
 
   <!-- Crawler Egg -->
 
-  <EggCrawelerUnfertilized.label>未受精的Craweler卵</EggCrawelerUnfertilized.label>
-  <EggCrawelerUnfertilized.description>未受精的Craweler卵,建议烹饪后使用,但也可以生吃</EggCrawelerUnfertilized.description>
+  <EggCrawelerUnfertilized.label>变异蛇卵(未受精)</EggCrawelerUnfertilized.label>
+  <EggCrawelerUnfertilized.description>未受精的变异蛇卵,建议烹饪后使用,但也可以生吃</EggCrawelerUnfertilized.description>
 
-  <EggCrawlerFertilized.label>受精的Craweler卵</EggCrawlerFertilized.label>
-  <EggCrawlerFertilized.description>受精的Craweler卵,一切顺利的话就会产生Craweler,在孵化完成之前仍然可以食用</EggCrawlerFertilized.description>
+  <EggCrawlerFertilized.label>变异蛇卵(已受精)</EggCrawlerFertilized.label>
+  <EggCrawlerFertilized.description>受精的变异蛇卵,一切顺利的话就会产生变异蛇,在孵化完成之前仍然可以食用</EggCrawlerFertilized.description>
 
 
 </LanguageData>

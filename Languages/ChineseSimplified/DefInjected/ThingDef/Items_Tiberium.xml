@@ -10,14 +10,14 @@
   <RedTiberiumRaw.label>红色泰伯利亚原水晶</RedTiberiumRaw.label>
   <RedTiberiumRaw.description>未加工的泰伯利亚水晶,小心搬运,可以提炼</RedTiberiumRaw.description>
 
-  <BookRiparius.label>riparius book</BookRiparius.label>
-  <BookRiparius.description>Tiberium Riparius.\n\n绿色泰伯利亚是最常见的一种泰伯利亚结晶体\n在边缘世界被侵蚀之前早就来到了地球.\n\n这种水晶的传播速度是最快的,可以在数天内侵蚀一大片地区\n\n遇到时务必小心.\n\n请不计一切代价避免接触\n\n这种物质能把任何接触的碳基生物水晶化,使得它极其危险.\n\n泰伯利亚是一种不明矿石,可将任何物体转变为其结晶形态.\n\nThis happens due to reactions between Tiberium nuclei and the other material's nuclei.</BookRiparius.description>
+  <BookRiparius.label>绿色水晶安全手册</BookRiparius.label>
+  <BookRiparius.description>绿色泰伯利亚是最常见的一种泰伯利亚结晶体\n在边缘世界被侵蚀之前早就来到了地球.\n\n这种水晶的传播速度是最快的,可以在数天内侵蚀一大片地区\n\n遇到时务必小心.\n\n请不计一切代价避免接触\n\n这种物质能把任何接触的碳基生物水晶化,使得它极其危险.\n\n泰伯利亚是一种不明矿石,可将任何物体转变为其结晶形态.\n\n这是由于其对其他原子结构的物体特殊的反应活跃度导致的</BookRiparius.description>
 
-  <BookVinifera.label>vinifera book</BookVinifera.label>
-  <BookVinifera.description>Tiberium Vinifera.\n\n蓝色泰伯利亚晶体,从绿色的"进化"而来.\n比绿色更稀有,侵蚀速度更慢,但更危险,这种泰伯利亚更像是某种寄生性的活物,如果接触的生物没死,那么就会被这种水晶所改造\n\nThese Tiberium lifeforms feed on Tiberium if they are animals, or spread it, if they are plants.\n\nIt is still unproven how much of living being Tiberium is.\n\nFurther investigation is needed.</BookVinifera.description>
+  <BookVinifera.label>蓝色水晶安全手册</BookVinifera.label>
+  <BookVinifera.description>蓝色泰伯利亚晶体,从绿色的"进化"而来.\n比绿色更稀有,侵蚀速度更慢,但更危险,这种泰伯利亚更像是某种寄生性的活物,如果接触的生物没死,那么就会被这种水晶所改造\n这些变异生物以泰伯利亚水晶为食,或者变异植物会散播更多的泰伯利亚\n到目前仍没有确凿证据证明它是不是一种生物.仍需要继续研究</BookVinifera.description>
 
-  <BookRutila.label>rutila book</BookRutila.label>
-  <BookRutila.description>Tiberium Rutila.\n\nThe red kind of Tiberium, it is very rare.\n\nJust like the blue type, it has even more valuable resources contained.\n\nAlthough the first sightings showed that it doesn't spread, it seems to have evolved the ability to do so, however, very slowly.\n\nIt is speculated that red Tiberium matures into ---[DATA LOST]---/---\n\n§)§$%?!%%##$%---</BookRutila.description>
+  <BookRutila.label>红色水晶安全手册</BookRutila.label>
+  <BookRutila.description>红色泰伯利亚水晶,是一种非常稀有的泰伯利亚分支\n就像蓝色水晶一样,但它比蓝色包含更多资源n虽然第一眼看上去它并不会侵蚀周围的东西,则并不代表它没有能力去侵蚀,只是非常慢而已\n我们推测这种红色的变种来自[数据丢失]---乱码</BookRutila.description>
 
 
 </LanguageData>
