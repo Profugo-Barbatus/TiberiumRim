@@ -43,7 +43,7 @@
 		</graphicData>
 		<altitudeLayer>Floor</altitudeLayer>
 		<statBases>
-			<MaxHitPoints>15000</MaxHitPoints>
+			<MaxHitPoints>7500</MaxHitPoints>
 			<Beauty>180</Beauty>
 		</statBases>
 		<tickerType>Normal</tickerType>
@@ -81,7 +81,7 @@
 			<drawSize>(4,4)</drawSize>
 		</graphicData>
 		<statBases>
-			<MaxHitPoints>17000</MaxHitPoints>
+			<MaxHitPoints>9500</MaxHitPoints>
 			<Beauty>240</Beauty>
 		</statBases>
 		<altitudeLayer>Floor</altitudeLayer>
@@ -228,8 +228,8 @@
 			<drawSize>(4,8)</drawSize>
 		</graphicData>
 		<statBases>
-			<MaxHitPoints>7500</MaxHitPoints>
-			<Beauty>-60</Beauty>
+			<MaxHitPoints>5000</MaxHitPoints>
+			<Beauty>-160</Beauty>
 		</statBases>
 		<tickerType>Normal</tickerType>
 		<selectable>true</selectable>
