@@ -30,7 +30,7 @@
 		<lethalSeverity>10</lethalSeverity>
 		<comps>
 			<li Class="HediffCompProperties_Immunizable">
-				<severityPerDayNotImmune>10</severityPerDayNotImmune>
+				<severityPerDayNotImmune>5</severityPerDayNotImmune>
 			</li>
 		</comps>
 		<stages>
