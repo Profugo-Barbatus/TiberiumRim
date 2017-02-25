@@ -13,7 +13,7 @@
 			<graphicClass>Graphic_Random</graphicClass>
 		</graphicData>
 		<selectable>true</selectable>
-		<pathCost>12</pathCost>
+		<pathCost>75</pathCost>
 		<plant>
 			<dieIfLeafless>false</dieIfLeafless>
 			<harvestWork>300</harvestWork>
@@ -52,7 +52,7 @@
 			<graphicClass>Graphic_Random</graphicClass>
 		</graphicData>
 		<selectable>true</selectable>
-		<pathCost>12</pathCost>
+		<pathCost>75</pathCost>
 		<plant>
 			<dieIfLeafless>false</dieIfLeafless>
 			<harvestWork>500</harvestWork>
@@ -92,7 +92,7 @@
 			<graphicClass>Graphic_Random</graphicClass>
 		</graphicData>
 		<selectable>true</selectable>
-		<pathCost>12</pathCost>
+		<pathCost>75</pathCost>
 		<plant>
 			<reproduces>true</reproduces>
 			<dieIfLeafless>false</dieIfLeafless>
