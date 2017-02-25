@@ -31,6 +31,7 @@
 			<graphicClass>Graphic_Multi</graphicClass>
 		</graphicData>
 		<costList>
+			<Uranium>5</Uranium>
 			<Steel>30</Steel>
 			<Cloth>60</Cloth>
 		</costList>
@@ -43,7 +44,7 @@
 			<Insulation_Heat>8</Insulation_Heat>
 		</statBases>
 		<equippedStatOffsets>
-			<SocialImpact>0.15</SocialImpact>
+			<SocialImpact>-0.15</SocialImpact>
 		</equippedStatOffsets>
 		<apparel>
 			<bodyPartGroups>
