@@ -73,7 +73,7 @@
 	</ThingDef>
 
   
-	<ThingDef ParentName="PlantBase" Name="TiberiumFloreBase" Abstract="True">
+	<ThingDef ParentName="PlantBase" Name="TiberiumFloraBase" Abstract="True">
 		<statBases>
 			<MaxHitPoints>300</MaxHitPoints>
 		</statBases>
