@@ -11,7 +11,7 @@
 			<li>MicroelectronicsBasics</li>
 		</prerequisites>
 		<requiredResearchBuilding>TiberiumResearchBench</requiredResearchBuilding>
-		<researchViewX>14</researchViewX>
+		<researchViewX>13</researchViewX>
 		<researchViewY>2.5</researchViewY>
 	</ResearchProjectDef>
 	
