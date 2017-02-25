@@ -9,12 +9,10 @@
 		<thingClass>Building_ResearchBench</thingClass>
 		<size>(7,4)</size>
 		<costList>
-			<Uranium>10</Uranium>
-			<Steel>300</Steel>
+			<Uranium>25</Uranium>
+			<Steel>450</Steel>
 			<Component>8</Component>
-			<RedTiberiumRaw>5</RedTiberiumRaw>
-			<BlueTiberiumRaw>10</BlueTiberiumRaw>
-			<GreenTiberiumRaw>15</GreenTiberiumRaw>
+			<GreenTiberiumRaw>50</GreenTiberiumRaw>
 		</costList>
 		<graphicData>
 			<texPath>Building/Tiberium/TiberiumLAB</texPath>
@@ -31,7 +29,7 @@
 		<passability>PassThroughOnly</passability>
 		<pathCost>70</pathCost>
 		<statBases>
-			<MaxHitPoints>700</MaxHitPoints>
+			<MaxHitPoints>750</MaxHitPoints>
 			<WorkToBuild>8000</WorkToBuild>
 			<Flammability>1.0</Flammability>
 			<ResearchSpeedFactor>1.0</ResearchSpeedFactor>
@@ -39,7 +37,7 @@
 		<comps>
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
-				<basePowerConsumption>270</basePowerConsumption>
+				<basePowerConsumption>175</basePowerConsumption>
 				<startElectricalFires>true</startElectricalFires>
 			</li>
 			<li Class="CompProperties_Flickable"/>
@@ -74,16 +72,14 @@
 		<passability>PassThroughOnly</passability>
 		<pathCost>70</pathCost>
 		<statBases>
-			<MaxHitPoints>200</MaxHitPoints>
+			<MaxHitPoints>250</MaxHitPoints>
 			<WorkToBuild>500</WorkToBuild>
 			<Flammability>1.0</Flammability>
 		</statBases>
 		<size>(2,2)</size>
 		<costList>
-			<Uranium>10</Uranium>
-			<Plasteel>10</Plasteel>
-			<Gold>1</Gold>
-			<Steel>100</Steel>
+			<Gold>5</Gold>
+			<Steel>75</Steel>
 			<Component>2</Component>
 		</costList>
 		<recipes>
