@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Plants>
 
-	<ThingDef ParentName="TiberiumFaunaBase">
+	<ThingDef ParentName="TiberiumFloraBase">
 		<defName>TiberiumPlant</defName>
 		<label>Tiberium plant</label>
 		<description>A strange-looking lifeform. Looks infested with Tiberium.</description>
