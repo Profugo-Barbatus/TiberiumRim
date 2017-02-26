@@ -31,7 +31,6 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<resourceReadoutPriority>First</resourceReadoutPriority>
-		<resourceReadoutAlwaysShow>true</resourceReadoutAlwaysShow>
 		<soundInteract>Silver_Drop</soundInteract>
 		<soundDrop>Silver_Drop</soundDrop>
 		<useHitPoints>false</useHitPoints>
@@ -55,7 +54,6 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<resourceReadoutPriority>First</resourceReadoutPriority>
-		<resourceReadoutAlwaysShow>true</resourceReadoutAlwaysShow>
 		<soundInteract>Silver_Drop</soundInteract>
 		<soundDrop>Silver_Drop</soundDrop>
 		<useHitPoints>false</useHitPoints>
@@ -79,7 +77,6 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<resourceReadoutPriority>First</resourceReadoutPriority>
-		<resourceReadoutAlwaysShow>true</resourceReadoutAlwaysShow>
 		<soundInteract>Silver_Drop</soundInteract>
 		<soundDrop>Silver_Drop</soundDrop>
 		<useHitPoints>false</useHitPoints>
@@ -103,7 +100,6 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<resourceReadoutPriority>First</resourceReadoutPriority>
-		<resourceReadoutAlwaysShow>true</resourceReadoutAlwaysShow>
 		<soundInteract>Wood_Drop</soundInteract>
 		<soundDrop>Wood_Drop</soundDrop>	
 		<useHitPoints>true</useHitPoints>
@@ -128,7 +124,6 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<resourceReadoutPriority>First</resourceReadoutPriority>
-		<resourceReadoutAlwaysShow>true</resourceReadoutAlwaysShow>
 		<soundInteract>Wood_Drop</soundInteract>
 		<soundDrop>Wood_Drop</soundDrop>	
 		<useHitPoints>true</useHitPoints>
@@ -153,7 +148,6 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<resourceReadoutPriority>First</resourceReadoutPriority>
-		<resourceReadoutAlwaysShow>true</resourceReadoutAlwaysShow>
 		<soundInteract>Wood_Drop</soundInteract>
 		<soundDrop>Wood_Drop</soundDrop>	
 		<useHitPoints>true</useHitPoints>
