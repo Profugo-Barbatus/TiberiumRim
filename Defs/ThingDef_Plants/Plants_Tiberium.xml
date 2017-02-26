@@ -15,6 +15,7 @@
 		<selectable>true</selectable>
 		<pathCost>75</pathCost>
 		<plant>
+			<reproduceMtbDays>0.8</reproduceMtbDays>
 			<dieIfLeafless>false</dieIfLeafless>
 			<harvestWork>300</harvestWork>
 			<harvestTag>Standard</harvestTag>
@@ -54,6 +55,7 @@
 		<selectable>true</selectable>
 		<pathCost>75</pathCost>
 		<plant>
+			<reproduceMtbDays>0.8</reproduceMtbDays>
 			<dieIfLeafless>false</dieIfLeafless>
 			<harvestWork>500</harvestWork>
 			<harvestTag>Standard</harvestTag>
