@@ -31,7 +31,6 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<resourceReadoutPriority>First</resourceReadoutPriority>
-		<resourceReadoutAlwaysShow>true</resourceReadoutAlwaysShow>
 		<soundInteract>Silver_Drop</soundInteract>
 		<soundDrop>Silver_Drop</soundDrop>
 		<useHitPoints>false</useHitPoints>
@@ -40,9 +39,9 @@
 			<Mass>0.1</Mass>
 		</statBases>
 		<thingCategories>
-			<li>ResourcesRaw</li>
+			<li>Tiberium</li>
 		</thingCategories>
-		<stackLimit>250</stackLimit>
+		<stackLimit>150</stackLimit>
     </ThingDef>
 	  
 	  
@@ -55,7 +54,6 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<resourceReadoutPriority>First</resourceReadoutPriority>
-		<resourceReadoutAlwaysShow>true</resourceReadoutAlwaysShow>
 		<soundInteract>Silver_Drop</soundInteract>
 		<soundDrop>Silver_Drop</soundDrop>
 		<useHitPoints>false</useHitPoints>
@@ -64,9 +62,9 @@
 			<Mass>0.2</Mass>
 		</statBases>
 		<thingCategories>
-			<li>ResourcesRaw</li>
+			<li>Tiberium</li>
 		</thingCategories>
-		<stackLimit>250</stackLimit>
+		<stackLimit>150</stackLimit>
     </ThingDef>
 	  
 	  
@@ -79,7 +77,6 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<resourceReadoutPriority>First</resourceReadoutPriority>
-		<resourceReadoutAlwaysShow>true</resourceReadoutAlwaysShow>
 		<soundInteract>Silver_Drop</soundInteract>
 		<soundDrop>Silver_Drop</soundDrop>
 		<useHitPoints>false</useHitPoints>
@@ -88,9 +85,9 @@
 			<Mass>0.5</Mass>
 		</statBases>
 		<thingCategories>
-			<li>ResourcesRaw</li>
+			<li>Tiberium</li>
 		</thingCategories>
-		<stackLimit>250</stackLimit>
+		<stackLimit>150</stackLimit>
     </ThingDef>
 	
 	
@@ -103,9 +100,8 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<resourceReadoutPriority>First</resourceReadoutPriority>
-		<resourceReadoutAlwaysShow>true</resourceReadoutAlwaysShow>
-		<soundInteract>Silver_Drop</soundInteract>
-		<soundDrop>Silver_Drop</soundDrop>	
+		<soundInteract>Wood_Drop</soundInteract>
+		<soundDrop>Wood_Drop</soundDrop>	
 		<useHitPoints>true</useHitPoints>
 		<statBases>
 			<MarketValue>30</MarketValue>
@@ -113,7 +109,7 @@
 			<Flammability>1.0</Flammability>
 		</statBases>
 		<thingCategories>
-			<li>ResourcesRaw</li>
+			<li>Tiberium</li>
 		</thingCategories>
 		<stackLimit>1</stackLimit>
     </ThingDef>
@@ -128,17 +124,16 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<resourceReadoutPriority>First</resourceReadoutPriority>
-		<resourceReadoutAlwaysShow>true</resourceReadoutAlwaysShow>
-		<soundInteract>Silver_Drop</soundInteract>
-		<soundDrop>Silver_Drop</soundDrop>	
+		<soundInteract>Wood_Drop</soundInteract>
+		<soundDrop>Wood_Drop</soundDrop>	
 		<useHitPoints>true</useHitPoints>
 		<statBases>
-			<MarketValue>30</MarketValue>
+			<MarketValue>50</MarketValue>
 			<Mass>0.1</Mass>
 			<Flammability>1.0</Flammability>
 		</statBases>
 		<thingCategories>
-			<li>ResourcesRaw</li>
+			<li>Tiberium</li>
 		</thingCategories>
 		<stackLimit>1</stackLimit>
     </ThingDef>
@@ -153,17 +148,16 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<resourceReadoutPriority>First</resourceReadoutPriority>
-		<resourceReadoutAlwaysShow>true</resourceReadoutAlwaysShow>
-		<soundInteract>Silver_Drop</soundInteract>
-		<soundDrop>Silver_Drop</soundDrop>	
+		<soundInteract>Wood_Drop</soundInteract>
+		<soundDrop>Wood_Drop</soundDrop>	
 		<useHitPoints>true</useHitPoints>
 		<statBases>
-			<MarketValue>30</MarketValue>
+			<MarketValue>80</MarketValue>
 			<Mass>0.1</Mass>
 			<Flammability>1.0</Flammability>
 		</statBases>
 		<thingCategories>
-			<li>ResourcesRaw</li>
+			<li>Tiberium</li>
 		</thingCategories>
 		<stackLimit>1</stackLimit>
     </ThingDef>

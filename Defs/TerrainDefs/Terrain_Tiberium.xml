@@ -8,10 +8,10 @@
 		<texturePath>Terrain/Surfaces/TiberiumSoilGreen</texturePath>
 		<EdgeType>FadeRough</EdgeType>
 		<RenderPrecedence>340</RenderPrecedence>
-		<PathCost>50</PathCost>
+		<PathCost>25</PathCost>
 		<statBases>
-			<Beauty>1</Beauty>
-			<Cleanliness>-1</Cleanliness>
+			<Beauty>-10</Beauty>
+			<Cleanliness>-100</Cleanliness>
 		</statBases>
 		<ScatterType>Rocky</ScatterType>
 		<affordances>
@@ -30,10 +30,10 @@
 		<texturePath>Terrain/Surfaces/TiberiumSoilBlue</texturePath>
 		<EdgeType>FadeRough</EdgeType>
 		<RenderPrecedence>340</RenderPrecedence>
-		<PathCost>50</PathCost>
+		<PathCost>25</PathCost>
 		<statBases>
-			<Beauty>2</Beauty>
-			<Cleanliness>-1</Cleanliness>
+			<Beauty>-5</Beauty>
+			<Cleanliness>-100</Cleanliness>
 		</statBases>
 		<ScatterType>Rocky</ScatterType>
 		<affordances>
@@ -52,10 +52,10 @@
 		<texturePath>Terrain/Surfaces/TiberiumSoilRed</texturePath>
 		<EdgeType>FadeRough</EdgeType>
 		<RenderPrecedence>340</RenderPrecedence>
-		<PathCost>50</PathCost>
+		<PathCost>25</PathCost>
 		<statBases>
-			<Beauty>4</Beauty>
-			<Cleanliness>-1</Cleanliness>
+			<Beauty>-2</Beauty>
+			<Cleanliness>-100</Cleanliness>
 		</statBases>
 		<ScatterType>Rocky</ScatterType>
 		<affordances>

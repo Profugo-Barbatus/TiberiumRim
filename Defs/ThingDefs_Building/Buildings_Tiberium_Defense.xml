@@ -34,14 +34,14 @@
 		<comps>
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
-				<basePowerConsumption>250</basePowerConsumption>
+				<basePowerConsumption>50</basePowerConsumption>
 				<shortCircuitInRain>false</shortCircuitInRain>
 			</li>
 			<li Class="CompProperties_Breakdownable"/>
 			<li Class="TiberiumRim.CompProperties_SonicEmitter">
 				<compClass>TiberiumRim.CompSonicEmitter</compClass>
 				<radius>7</radius>
-				<damageShutdownPercent>0.5</damageShutdownPercent>
+				<damageShutdownPercent>0.6</damageShutdownPercent>
 			</li>
 		</comps>
 		<tickerType>Rare</tickerType>

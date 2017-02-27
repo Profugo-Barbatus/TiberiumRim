@@ -5,14 +5,14 @@
 		<defName>TiberiumResearch</defName>
 		<label>tiberium research</label>
 		<description>Allows the research of Tiberium technologies.</description>
-		<baseCost>1500</baseCost>
+		<baseCost>1250</baseCost>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
-			<li>Electricity</li>
+			<li>MicroelectronicsBasics</li>
 		</prerequisites>
 		<requiredResearchBuilding>TiberiumResearchBench</requiredResearchBuilding>
-		<researchViewX>4</researchViewX>
-		<researchViewY>0.5</researchViewY>
+		<researchViewX>13</researchViewX>
+		<researchViewY>2.5</researchViewY>
 	</ResearchProjectDef>
 	
 	
@@ -20,14 +20,14 @@
 		<defName>TiberiumKnowledge</defName>
 		<label>tiberium knowledge</label>
 		<description>Allows the understanding of Tiberium.</description>
-		<baseCost>400</baseCost>
+		<baseCost>450</baseCost>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
 			<li>TiberiumResearch</li>
 		</prerequisites>
 		<requiredResearchBuilding>TiberiumResearchBench</requiredResearchBuilding>
-		<researchViewX>4.5</researchViewX>
-		<researchViewY>0.5</researchViewY>
+		<researchViewX>14</researchViewX>
+		<researchViewY>1.5</researchViewY>
 	</ResearchProjectDef>
 	
 	
@@ -35,28 +35,28 @@
 		<defName>TiberiumResearchRefining</defName>
 		<label>tiberium Refining</label>
 		<description>Allows Tiberium to be refined.</description>
-		<baseCost>800</baseCost>
+		<baseCost>550</baseCost>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
 			<li>TiberiumResearch</li>
 		</prerequisites>
 		<requiredResearchBuilding>TiberiumResearchBench</requiredResearchBuilding>
-		<researchViewX>4.5</researchViewX>
-		<researchViewY>0</researchViewY>
+		<researchViewX>14</researchViewX>
+		<researchViewY>2.5</researchViewY>
 	</ResearchProjectDef>
 	
 	<ResearchProjectDef>
 		<defName>TiberiumSonicInhibition</defName>
 		<label>Tiberium Inhibition</label>
 		<description>Exploit the crystalline nature of Tiberium to shatter it with Sonic frequencies. Allows you to begin building Sonic Inhibitors.</description>
-		<baseCost>800</baseCost>
+		<baseCost>750</baseCost>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
 			<li>TiberiumResearch</li>
 		</prerequisites>
 		<requiredResearchBuilding>TiberiumResearchBench</requiredResearchBuilding>
-		<researchViewX>5.0</researchViewX>
-		<researchViewY>0</researchViewY>
+		<researchViewX>14.0</researchViewX>
+		<researchViewY>3.5</researchViewY>
 	</ResearchProjectDef>
 
 	

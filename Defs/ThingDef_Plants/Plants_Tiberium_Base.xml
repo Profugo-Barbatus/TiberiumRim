@@ -56,7 +56,7 @@
 		<plant>
 			<reproduces>true</reproduces>
 			<growMinGlow>0</growMinGlow>
-			<reproduceMtbDays>0.1</reproduceMtbDays>
+			<reproduceMtbDays>0.5</reproduceMtbDays>
 			<reproduceRadius>1</reproduceRadius>
 			<fertilityMin>0</fertilityMin>
 			<fertilitySensitivity>0</fertilitySensitivity>
@@ -73,7 +73,7 @@
 	</ThingDef>
 
   
-	<ThingDef ParentName="PlantBase" Name="TiberiumFaunaBase" Abstract="True">
+	<ThingDef ParentName="PlantBase" Name="TiberiumFloraBase" Abstract="True">
 		<statBases>
 			<MaxHitPoints>300</MaxHitPoints>
 		</statBases>
