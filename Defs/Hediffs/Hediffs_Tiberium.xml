@@ -26,9 +26,13 @@
 		<defName>TiberiumContactPoison</defName>
 		<label>Natural Tiberium Poisoning</label>
 		<makesSickThought>true</makesSickThought>
-		<tendable>false</tendable>
+		<tendable>true</tendable>
 		<lethalSeverity>10</lethalSeverity>
 		<comps>
+			<li Class="HediffCompProperties_TendDuration">
+				<tendDuration>10000</tendDuration>
+				<severityPerDayTended>-0.5</severityPerDayTended>
+			</li>
 			<li Class="HediffCompProperties_Immunizable">
 				<severityPerDayNotImmune>5</severityPerDayNotImmune>
 			</li>
