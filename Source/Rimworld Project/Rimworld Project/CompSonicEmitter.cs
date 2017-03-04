@@ -32,7 +32,7 @@ namespace TiberiumRim
 
         public override void CompTickRare()
         {
-            TiberiumBase.Instance.logMessage("Ticking");
+            //TiberiumBase.Instance.logMessage("Ticking");
             if (parent.HitPoints/parent.def.BaseMaxHitPoints > def.damageShutdownPercent && this.powerComp != null && this.powerComp.PowerOn)
             {
                 //TiberiumBase.Instance.logMessage("Checking plants");

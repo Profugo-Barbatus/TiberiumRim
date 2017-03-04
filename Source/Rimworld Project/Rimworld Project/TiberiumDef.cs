@@ -12,4 +12,5 @@ namespace TiberiumRim
         public int entityDamage;
         public List<ThingDef> friendlyTo = new List<ThingDef>();
     }
+
 }

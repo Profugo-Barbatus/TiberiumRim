@@ -61,7 +61,6 @@ namespace TiberiumRim
 
         public virtual void dropRock(Map map, IntVec3 cell)
         {
-
         }
     }
 }
