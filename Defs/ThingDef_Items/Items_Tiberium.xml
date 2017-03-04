@@ -31,7 +31,6 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<resourceReadoutPriority>First</resourceReadoutPriority>
-		<resourceReadoutAlwaysShow>true</resourceReadoutAlwaysShow>
 		<soundInteract>Silver_Drop</soundInteract>
 		<soundDrop>Silver_Drop</soundDrop>
 		<useHitPoints>false</useHitPoints>
@@ -40,9 +39,9 @@
 			<Mass>0.1</Mass>
 		</statBases>
 		<thingCategories>
-			<li>ResourcesRaw</li>
+			<li>Tiberium</li>
 		</thingCategories>
-		<stackLimit>250</stackLimit>
+		<stackLimit>150</stackLimit>
     </ThingDef>
 	  
 	  
@@ -55,7 +54,6 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<resourceReadoutPriority>First</resourceReadoutPriority>
-		<resourceReadoutAlwaysShow>true</resourceReadoutAlwaysShow>
 		<soundInteract>Silver_Drop</soundInteract>
 		<soundDrop>Silver_Drop</soundDrop>
 		<useHitPoints>false</useHitPoints>
@@ -64,9 +62,9 @@
 			<Mass>0.2</Mass>
 		</statBases>
 		<thingCategories>
-			<li>ResourcesRaw</li>
+			<li>Tiberium</li>
 		</thingCategories>
-		<stackLimit>250</stackLimit>
+		<stackLimit>150</stackLimit>
     </ThingDef>
 	  
 	  
@@ -79,7 +77,6 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<resourceReadoutPriority>First</resourceReadoutPriority>
-		<resourceReadoutAlwaysShow>true</resourceReadoutAlwaysShow>
 		<soundInteract>Silver_Drop</soundInteract>
 		<soundDrop>Silver_Drop</soundDrop>
 		<useHitPoints>false</useHitPoints>
@@ -88,11 +85,32 @@
 			<Mass>0.5</Mass>
 		</statBases>
 		<thingCategories>
-			<li>ResourcesRaw</li>
+			<li>Tiberium</li>
 		</thingCategories>
-		<stackLimit>250</stackLimit>
+		<stackLimit>150</stackLimit>
     </ThingDef>
 	
+	<ThingDef ParentName="ResourceBase">
+		<defName>VeinTiberiumRaw</defName>
+		<label>raw vein</label>
+		<description>A harvested vein. It is unknown how this creature works, and why the veins act similar to crystals.</description>
+		<graphicData>
+			<texPath>Item/Resource_TiberiumVein</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<resourceReadoutPriority>First</resourceReadoutPriority>
+		<soundInteract>Wood_Drop</soundInteract>
+		<soundDrop>Wood_Drop</soundDrop>
+		<useHitPoints>false</useHitPoints>
+		<statBases>
+			<MarketValue>15</MarketValue>
+			<Mass>0.6</Mass>
+		</statBases>
+		<thingCategories>
+			<li>Tiberium</li>
+		</thingCategories>
+		<stackLimit>150</stackLimit>
+    </ThingDef>
 	
 	<ThingDef ParentName="ResourceBase">
 		<defName>BookRiparius</defName>
@@ -103,9 +121,8 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<resourceReadoutPriority>First</resourceReadoutPriority>
-		<resourceReadoutAlwaysShow>true</resourceReadoutAlwaysShow>
-		<soundInteract>Silver_Drop</soundInteract>
-		<soundDrop>Silver_Drop</soundDrop>	
+		<soundInteract>Wood_Drop</soundInteract>
+		<soundDrop>Wood_Drop</soundDrop>	
 		<useHitPoints>true</useHitPoints>
 		<statBases>
 			<MarketValue>30</MarketValue>
@@ -113,7 +130,7 @@
 			<Flammability>1.0</Flammability>
 		</statBases>
 		<thingCategories>
-			<li>ResourcesRaw</li>
+			<li>Tiberium</li>
 		</thingCategories>
 		<stackLimit>1</stackLimit>
     </ThingDef>
@@ -128,9 +145,8 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<resourceReadoutPriority>First</resourceReadoutPriority>
-		<resourceReadoutAlwaysShow>true</resourceReadoutAlwaysShow>
-		<soundInteract>Silver_Drop</soundInteract>
-		<soundDrop>Silver_Drop</soundDrop>	
+		<soundInteract>Wood_Drop</soundInteract>
+		<soundDrop>Wood_Drop</soundDrop>	
 		<useHitPoints>true</useHitPoints>
 		<statBases>
 			<MarketValue>30</MarketValue>
@@ -138,7 +154,7 @@
 			<Flammability>1.0</Flammability>
 		</statBases>
 		<thingCategories>
-			<li>ResourcesRaw</li>
+			<li>Tiberium</li>
 		</thingCategories>
 		<stackLimit>1</stackLimit>
     </ThingDef>
@@ -153,9 +169,8 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<resourceReadoutPriority>First</resourceReadoutPriority>
-		<resourceReadoutAlwaysShow>true</resourceReadoutAlwaysShow>
-		<soundInteract>Silver_Drop</soundInteract>
-		<soundDrop>Silver_Drop</soundDrop>	
+		<soundInteract>Wood_Drop</soundInteract>
+		<soundDrop>Wood_Drop</soundDrop>	
 		<useHitPoints>true</useHitPoints>
 		<statBases>
 			<MarketValue>30</MarketValue>
@@ -163,11 +178,9 @@
 			<Flammability>1.0</Flammability>
 		</statBases>
 		<thingCategories>
-			<li>ResourcesRaw</li>
+			<li>Tiberium</li>
 		</thingCategories>
 		<stackLimit>1</stackLimit>
     </ThingDef>
-
-	
 	
 </Defs>

@@ -13,19 +13,20 @@
 			<graphicClass>Graphic_Random</graphicClass>
 		</graphicData>
 		<selectable>true</selectable>
-		<pathCost>12</pathCost>
+		<pathCost>75</pathCost>
 		<plant>
 			<dieIfLeafless>false</dieIfLeafless>
+			<reproduceMtbDays>0.8</reproduceMtbDays>
 			<harvestWork>300</harvestWork>
 			<harvestTag>Standard</harvestTag>
 			<harvestedThingDef>GreenTiberiumRaw</harvestedThingDef>
 			<harvestDestroys>true</harvestDestroys>
 			<harvestYield>1</harvestYield>
-			<reproduceRadius>2</reproduceRadius>
+			<reproduceRadius>3</reproduceRadius>
 			<growDays>3</growDays>
 			<visualSizeRange>
 				<min>0.5</min>
-				<max>0.8</max>
+				<max>1</max>
 			</visualSizeRange>
 		</plant>
 		<corruptsInto>TiberiumSoilGreen</corruptsInto>
@@ -34,9 +35,59 @@
 			<li>TiberiumBlue</li>
 			<li>TiberiumRed</li>
 			<li>TiberiumPlant</li>
+			<li>TiberiumVein</li>
+			<li>TiberiumGlacier</li>
+			<li>TiberiumGreenDesert</li>
+			<li>TiberiumBlueDesert</li>
+			<li>TiberiumRedDesert</li>
 		</friendlyTo>
 		<buildingDamage>10</buildingDamage>
 		<entityDamage>2</entityDamage>
+	</ThingDef>
+	
+	<ThingDef ParentName="TiberiumBase" Class="TiberiumRim.TiberiumDef">
+		<defName>TiberiumGreenDesert</defName>
+		<label>Green Tiberium shards</label>
+		<description>It seems like these crystals only spread in shards.</description>
+		<statBases>
+			<MaxHitPoints>25</MaxHitPoints>
+			<Beauty>10</Beauty>
+		</statBases>
+		<graphicData>
+			<texPath>Plant/Tiberium/DesertGreen</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<selectable>true</selectable>
+		<pathCost>40</pathCost>
+		<plant>
+			<dieIfLeafless>false</dieIfLeafless>
+			<reproduceMtbDays>0.8</reproduceMtbDays>
+			<harvestWork>300</harvestWork>
+			<harvestTag>Standard</harvestTag>
+			<harvestedThingDef>GreenTiberiumRaw</harvestedThingDef>
+			<harvestDestroys>true</harvestDestroys>
+			<harvestYield>1</harvestYield>
+			<reproduceRadius>4</reproduceRadius>
+			<growDays>6</growDays>
+			<visualSizeRange>
+				<min>0.5</min>
+				<max>0.7</max>
+			</visualSizeRange>
+		</plant>
+		<corruptsInto>GreenTiberiumSand</corruptsInto>
+		<friendlyTo>
+			<li>TiberiumGreen</li>
+			<li>TiberiumBlue</li>
+			<li>TiberiumRed</li>
+			<li>TiberiumPlant</li>
+			<li>TiberiumVein</li>
+			<li>TiberiumGlacier</li>
+			<li>TiberiumGreenDesert</li>
+			<li>TiberiumBlueDesert</li>
+			<li>TiberiumRedDesert</li>
+		</friendlyTo>
+		<buildingDamage>4</buildingDamage>
+		<entityDamage>1</entityDamage>
 	</ThingDef>
   
     <ThingDef ParentName="TiberiumBase" Class="TiberiumRim.TiberiumDef">
@@ -52,16 +103,17 @@
 			<graphicClass>Graphic_Random</graphicClass>
 		</graphicData>
 		<selectable>true</selectable>
-		<pathCost>12</pathCost>
+		<pathCost>75</pathCost>
 		<plant>
 			<dieIfLeafless>false</dieIfLeafless>
+			<reproduceMtbDays>0.8</reproduceMtbDays>
 			<harvestWork>500</harvestWork>
 			<harvestTag>Standard</harvestTag>
 			<harvestedThingDef>BlueTiberiumRaw</harvestedThingDef>
 			<harvestDestroys>true</harvestDestroys>
 			<harvestYield>1</harvestYield>
-			<growDays>6</growDays>
-			<reproduceRadius>2</reproduceRadius>
+			<growDays>4.5</growDays>
+			<reproduceRadius>3</reproduceRadius>
 			<visualSizeRange>
 				<min>0.5</min>
 				<max>1</max>
@@ -73,9 +125,60 @@
 			<li>TiberiumBlue</li>
 			<li>TiberiumRed</li>
 			<li>TiberiumPlant</li>
+			<li>TiberiumVein</li>
+			<li>TiberiumGlacier</li>
+			<li>TiberiumGreenDesert</li>
+			<li>TiberiumBlueDesert</li>
+			<li>TiberiumRedDesert</li>
 		</friendlyTo>
 		<buildingDamage>15</buildingDamage>
 		<entityDamage>3</entityDamage>
+		<isExplosive>true</isExplosive>
+	</ThingDef>
+	
+	<ThingDef ParentName="TiberiumBase" Class="TiberiumRim.TiberiumDef">
+		<defName>TiberiumBlueDesert</defName>
+		<label>Blue Tiberium shards</label>
+		<description>It seems like these crystals only spread in shards.</description>
+		<statBases>
+			<MaxHitPoints>35</MaxHitPoints>
+			<Beauty>50</Beauty>
+		</statBases>
+		<graphicData>
+			<texPath>Plant/Tiberium/DesertBlue</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<selectable>true</selectable>
+		<pathCost>40</pathCost>
+		<plant>
+			<dieIfLeafless>false</dieIfLeafless>
+			<reproduceMtbDays>0.8</reproduceMtbDays>
+			<harvestWork>500</harvestWork>
+			<harvestTag>Standard</harvestTag>
+			<harvestedThingDef>BlueTiberiumRaw</harvestedThingDef>
+			<harvestDestroys>true</harvestDestroys>
+			<harvestYield>1</harvestYield>
+			<growDays>7</growDays>
+			<reproduceRadius>3</reproduceRadius>
+			<visualSizeRange>
+				<min>0.5</min>
+				<max>0.7</max>
+			</visualSizeRange>
+		</plant>
+		<corruptsInto>BlueTiberiumSand</corruptsInto>
+		<friendlyTo>
+			<li>TiberiumGreen</li>
+			<li>TiberiumBlue</li>
+			<li>TiberiumRed</li>
+			<li>TiberiumPlant</li>
+			<li>TiberiumVein</li>
+			<li>TiberiumGlacier</li>
+			<li>TiberiumGreenDesert</li>
+			<li>TiberiumBlueDesert</li>
+			<li>TiberiumRedDesert</li>
+		</friendlyTo>
+		<buildingDamage>6</buildingDamage>
+		<entityDamage>1</entityDamage>
 		<isExplosive>true</isExplosive>
 	</ThingDef>
 	
@@ -92,7 +195,7 @@
 			<graphicClass>Graphic_Random</graphicClass>
 		</graphicData>
 		<selectable>true</selectable>
-		<pathCost>12</pathCost>
+		<pathCost>75</pathCost>
 		<plant>
 			<reproduces>true</reproduces>
 			<dieIfLeafless>false</dieIfLeafless>
@@ -101,7 +204,7 @@
 			<harvestedThingDef>RedTiberiumRaw</harvestedThingDef>
 			<harvestDestroys>true</harvestDestroys>
 			<harvestYield>2</harvestYield>
-			<growDays>15</growDays>
+			<growDays>14</growDays>
 			<reproduceRadius>1</reproduceRadius>
 			<visualSizeRange>
 				<min>0.5</min>
@@ -114,8 +217,148 @@
 			<li>TiberiumBlue</li>
 			<li>TiberiumRed</li>
 			<li>TiberiumPlant</li>
+			<li>TiberiumVein</li>
+			<li>TiberiumGlacier</li>
+			<li>TiberiumGreenDesert</li>
+			<li>TiberiumBlueDesert</li>
+			<li>TiberiumRedDesert</li>
 		</friendlyTo>
 		<buildingDamage>25</buildingDamage>
+		<entityDamage>5</entityDamage>
+	</ThingDef>
+	
+	<ThingDef ParentName="TiberiumBase" Class="TiberiumRim.TiberiumDef">
+		<defName>TiberiumRedDesert</defName>
+		<label>red Tiberium shards</label>
+		<description>It seems like these crystals only spread in shards.</description>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<Beauty>60</Beauty>
+		</statBases>
+		<graphicData>
+			<texPath>Plant/Tiberium/DesertRed</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<selectable>true</selectable>
+		<pathCost>40</pathCost>
+		<plant>
+			<reproduces>true</reproduces>
+			<dieIfLeafless>false</dieIfLeafless>
+			<harvestWork>800</harvestWork>
+			<harvestTag>Standard</harvestTag>
+			<harvestedThingDef>RedTiberiumRaw</harvestedThingDef>
+			<harvestDestroys>true</harvestDestroys>
+			<harvestYield>1</harvestYield>
+			<growDays>16</growDays>
+			<reproduceRadius>1</reproduceRadius>
+			<visualSizeRange>
+				<min>0.5</min>
+				<max>0.7</max>
+			</visualSizeRange>
+		</plant>
+		<corruptsInto>RedTiberiumSand</corruptsInto>
+		<friendlyTo>
+			<li>TiberiumGreen</li>
+			<li>TiberiumBlue</li>
+			<li>TiberiumRed</li>
+			<li>TiberiumPlant</li>
+			<li>TiberiumVein</li>
+			<li>TiberiumGlacier</li>
+			<li>TiberiumGreenDesert</li>
+			<li>TiberiumBlueDesert</li>
+			<li>TiberiumRedDesert</li>
+		</friendlyTo>
+		<buildingDamage>10</buildingDamage>
+		<entityDamage>2</entityDamage>
+	</ThingDef>
+	
+	<ThingDef ParentName="TiberiumBase" Class="TiberiumRim.TiberiumDef">
+		<defName>TiberiumGlacier</defName>
+		<label>Tiberium Glacier</label>
+		<description>Huge formations of crystalized water.</description>
+		<statBases>
+			<MaxHitPoints>2500</MaxHitPoints>
+			<Beauty>30</Beauty>
+		</statBases>
+		<graphicData>
+			<texPath>Plant/Tiberium/Glaciers</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<selectable>true</selectable>
+		<pathCost>999998</pathCost>
+		<plant>
+			<dieIfLeafless>false</dieIfLeafless>
+			<harvestWork>1000000</harvestWork>
+			<harvestDestroys>true</harvestDestroys>
+			<reproduceRadius>1</reproduceRadius>
+			<growDays>4</growDays>
+			<visualSizeRange>
+				<min>1</min>
+				<max>1.2</max>
+			</visualSizeRange>
+		</plant>
+		<corruptsInto>TiberiumWater</corruptsInto>
+		<friendlyTo>
+			<li>TiberiumGreen</li>
+			<li>TiberiumBlue</li>
+			<li>TiberiumRed</li>
+			<li>TiberiumPlant</li>
+			<li>TiberiumVein</li>
+			<li>TiberiumGlacier</li>
+			<li>TiberiumGreenDesert</li>
+			<li>TiberiumBlueDesert</li>
+			<li>TiberiumRedDesert</li>
+		</friendlyTo>
+		<buildingDamage>0</buildingDamage>
+		<entityDamage>0</entityDamage>
+	</ThingDef>
+	
+	<ThingDef ParentName="TiberiumVeinBase" Class="TiberiumRim.TiberiumDef">
+		<defName>TiberiumVein</defName>
+		<label>Vein</label>
+		<description>A stringy, throbbing brown-reddish vein. It grows out of a veinhole.</description>
+		<statBases>
+			<MaxHitPoints>75</MaxHitPoints>
+			<Beauty>-75</Beauty>
+		</statBases>
+		<graphicData>
+			<texPath>Plant/Tiberium/Vein</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<selectable>true</selectable>
+		<pathCost>100</pathCost>
+		<plant>
+			<reproduces>true</reproduces>
+			<dieIfLeafless>false</dieIfLeafless>
+			<harvestWork>800</harvestWork>
+			<harvestTag>Standard</harvestTag>
+			<harvestedThingDef>GreenTiberiumRaw</harvestedThingDef>
+			<harvestDestroys>true</harvestDestroys>
+			<harvestYield>2</harvestYield>
+			<growDays>5</growDays>
+			<reproduceRadius>1</reproduceRadius>
+			<visualSizeRange>
+				<min>0.5</min>
+				<max>1</max>
+			</visualSizeRange>
+		</plant>
+		<corruptsInto>VeinSoilRed</corruptsInto>
+		<friendlyTo>
+			<li>TiberiumGreen</li>
+			<li>TiberiumBlue</li>
+			<li>TiberiumRed</li>
+			<li>TiberiumPlant</li>
+			<li>TiberiumVein</li>
+			<li>TiberiumGlacier</li>
+			<li>TiberiumGreenDesert</li>
+			<li>TiberiumBlueDesert</li>
+			<li>TiberiumRedDesert</li>
+			<!--Some trees should not be affected by Veins-->
+			<li>PlantTreeOak</li>
+			<li>PlantTreeTeak</li>
+			<li>PlantTreePine</li>
+		</friendlyTo>
+		<buildingDamage>0</buildingDamage>
 		<entityDamage>5</entityDamage>
 	</ThingDef>
   

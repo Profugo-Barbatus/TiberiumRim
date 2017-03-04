@@ -44,27 +44,27 @@
         <li Class="ScenPart_StartingThing_Defined">
           <def>StartingThing_Defined</def>
           <thingDef>Silver</thingDef>
-          <count>1200</count>
+          <count>900</count>
         </li>
 		<li Class="ScenPart_StartingThing_Defined">
           <def>StartingThing_Defined</def>
           <thingDef>Uranium</thingDef>
-          <count>50</count>
+          <count>80</count>
         </li>
         <li Class="ScenPart_StartingThing_Defined">
           <def>StartingThing_Defined</def>
           <thingDef>MealSurvivalPack</thingDef>
-          <count>60</count>
+          <count>45</count>
         </li>
         <li Class="ScenPart_StartingThing_Defined">
           <def>StartingThing_Defined</def>
           <thingDef>Medicine</thingDef>
-          <count>46</count>
+          <count>30</count>
         </li>
         <li Class="ScenPart_StartingThing_Defined">
           <def>StartingThing_Defined</def>
           <thingDef>Component</thingDef>
-          <count>100</count>
+          <count>75</count>
         </li>
         <li Class="ScenPart_StartingThing_Defined">
           <def>StartingThing_Defined</def>
@@ -73,7 +73,7 @@
         <li Class="ScenPart_StartingThing_Defined">
           <def>StartingThing_Defined</def>
           <thingDef>Gun_Pistol</thingDef>
-	  <count>2</count>
+		  <count>2</count>
         </li>
         <li Class="ScenPart_StartingThing_Defined">
           <def>StartingThing_Defined</def>
@@ -87,7 +87,7 @@
 		<li Class="ScenPart_StartingThing_Defined">
           <def>StartingThing_Defined</def>
           <thingDef>TiberiumSuit_TBP</thingDef>
-	  <count>2</count>
+		  <count>2</count>
         </li>
 		<li Class="ScenPart_StartingThing_Defined">
           <def>StartingThing_Defined</def>
@@ -104,24 +104,29 @@
         <li Class="ScenPart_ScatterThingsNearPlayerStart">
           <def>ScatterThingsNearPlayerStart</def>
           <thingDef>Steel</thingDef>
-          <count>450</count>
+          <count>250</count>
         </li>
         <li Class="ScenPart_ScatterThingsNearPlayerStart">
           <def>ScatterThingsNearPlayerStart</def>
           <thingDef>WoodLog</thingDef>
-          <count>300</count>
-        </li>      
+          <count>350</count>
+        </li>     
+      	<li Class="ScenPart_ScatterThingsNearPlayerStart">
+          <def>ScatterThingsNearPlayerStart</def>
+          <thingDef>Component</thingDef>
+          <count>25</count>
+        </li>  
 
         <!-- Scatter some things anywhere -->
         <li Class="ScenPart_ScatterThingsAnywhere">
           <def>ScatterThingsAnywhere</def>
           <thingDef>ShipChunk</thingDef>
-          <count>6</count>
+          <count>10</count>
         </li>
         <li Class="ScenPart_ScatterThingsAnywhere">
           <def>ScatterThingsAnywhere</def>
           <thingDef>Steel</thingDef>
-          <count>1550</count>
+          <count>750</count>
         </li>
       	<li Class="ScenPart_ScatterThingsAnywhere">
           <def>ScatterThingsAnywhere</def>
@@ -145,13 +150,22 @@
         </li>
 		<li Class="ScenPart_ScatterThingsAnywhere">
           <def>ScatterThingsAnywhere</def>
-          <thingDef>TiberiumRed</thingDef>
-          <count>75</count>
+          <thingDef>Veinhole_TBNS</thingDef>
+          <count>1</count>
         </li>
-        
-        
+		<li Class="ScenPart_ScatterThingsAnywhere">
+          <def>ScatterThingsAnywhere</def>
+          <thingDef>TiberiumRed</thingDef>
+          <count>155</count>
+        </li>
+	<!-- Abandoned refinery -->
+		<li Class="ScenPart_ScatterThingsAnywhere">
+          <def>ScatterThingsAnywhere</def>
+          <thingDef>TiberiumRefinery</thingDef>
+          <count>1</count>
+        </li>  
       </parts>
     </scenario>
   </ScenarioDef>
-  
+ 
 </Defs>

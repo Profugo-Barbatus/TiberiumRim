@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Plants>
 
-	<ThingDef ParentName="TiberiumFaunaBase">
+	<ThingDef ParentName="TiberiumFloraBase">
 		<defName>TiberiumPlant</defName>
 		<label>Tiberium plant</label>
 		<description>A strange-looking lifeform. Looks infested with Tiberium.</description>
 		<statBases>
-			<MaxHitPoints>350</MaxHitPoints>
-			<Beauty>-2</Beauty>
+			<MaxHitPoints>250</MaxHitPoints>
+			<Beauty>-26</Beauty>
 		</statBases>
 		<graphicData>
 			<texPath>Plant/Tiberium/Flora</texPath>

@@ -22,7 +22,7 @@
 	<ThingDef ParentName="HatMakeableBase">
 		<defName>TiberiumSuitMask_TBP</defName>
 		<label>Tiberium protection mask</label>
-		<description>A mask to protect your head from Tiberium radiation.</description>
+		<description>A mask to protect your head from Tiberium radiation.\n\n Also protects from toxic fallout.</description>
 		<recipeMaker>
 			<researchPrerequisite>TiberiumKnowledge</researchPrerequisite>
 		</recipeMaker>
@@ -31,6 +31,7 @@
 			<graphicClass>Graphic_Multi</graphicClass>
 		</graphicData>
 		<costList>
+			<Uranium>5</Uranium>
 			<Steel>30</Steel>
 			<Cloth>60</Cloth>
 		</costList>
@@ -43,7 +44,8 @@
 			<Insulation_Heat>8</Insulation_Heat>
 		</statBases>
 		<equippedStatOffsets>
-			<SocialImpact>0.15</SocialImpact>
+			<SocialImpact>-0.15</SocialImpact>
+			<ToxicSensitivity>-1</ToxicSensitivity>
 		</equippedStatOffsets>
 		<apparel>
 			<bodyPartGroups>
