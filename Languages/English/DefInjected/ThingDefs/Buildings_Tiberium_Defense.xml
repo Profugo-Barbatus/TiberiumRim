@@ -2,6 +2,12 @@
 <LanguageData>
 	
 	<SonicInhibitor.label>Sonic Inhibitor</SonicInhibitor.label>
-	<SonicInhibitor.description>A powered device designed to destroy Tiberium and prevent further growth. Due to the limited nature of this device, it requires direct line of sight to the crystals</SonicInhibitor.description>
+	<SonicInhibitor.description>A powered device designed to destroy Tiberium and prevent further growth. Due to the limited nature of this device, it requires direct line of sight to the crystals.</SonicInhibitor.description>
 
+	<SonicFence.label>Sonic Inhibitor Fence</SonicFence.label>
+	<SonicFence.description>This fence allows you to cut off Tiberium spread. Requires power.</SonicFence.description>
+	
+	<Decrystallizer.label>Tiberium Soil Decrystallizer</Decrystallizer.label>
+	<Decrystallizer.description>Very slowly removes Tiberium from infected ground, converting any Tiberium ground into decrystallized soil that can be used again. Does not affect contaminated water. Requires power.</Decrystallizer.description>
+	
 </LanguageData>

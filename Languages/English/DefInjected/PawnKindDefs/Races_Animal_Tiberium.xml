@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<Visceroid_TBI.label>visceroid</Visceroid_TBI.label>
+	<Visceroid_TBI.description>A blob-like and disturbing lifeform. Formed after the death of a creature by Tiberium.</Visceroid_TBI.description>
+	
+	<Thrimbo_TBI.label>thrimbo</Thrimbo_TBI.label>
+	<Thrimbo_TBI.description>A gigantic creature of unknown origin. The Thrumbo, but this one seems to have an Tiberium infection. Be careful, it might be easily enraged.</Thrimbo_TBI.description>
+	
+	<TiberiumTerror_TBI.label>tiberium terror</TiberiumTerror_TBI.label>
+	<TiberiumTerror_TBI.description>A gigantic creature of unknown origin. It's black and blue appearance shows great danger in this creature.</TiberiumTerror_TBI.description>
+	
+	<BigTiberiumFiend_TBI.label>big tiberium fiend</BigTiberiumFiend_TBI.label>
+	<BigTiberiumFiend_TBI.description>Huge omnivorous mammals adapted for Tiberium. Their skin and fur has been crystalized.\n\nWhile their usual diet consists of fish, berries, honey, and scavenged meat, this Fiend is capable of using its massive strength and deadly claws to kill live prey. They are startlingly quick for such lumbering creatures.</BigTiberiumFiend_TBI.description>
+	
+	<Tibscarab_TBI.label>tibscarab</Tibscarab_TBI.label>
+	<Tibscarab_TBI.description>A large, genetically-engineered beetle that has come in contact with Tiberium. Once the worker caste of an artifical ecosystem of insectoids designed to fight mechanoid invasions, it is now usually seen without its deadlier insectoid cousins. Still, its size and hard shell make it dangerous when it attacks. A eusocial creature, it cannot reproduce individually.</Tibscarab_TBI.description>
+	
+	<TiberiumFiend_TBI.label>tiberium fiend</TiberiumFiend_TBI.label>
+	<TiberiumFiend_TBI.description>A rugged predator long feared by many ancient Earth cultures. As pack hunters, wolves have a complex social life and are fiercely intelligent.</TiberiumFiend_TBI.description>
+	
+	<SmallTiberiumFiend_TBI.label>small tiberium fiend</SmallTiberiumFiend_TBI.label>
+	<SmallTiberiumFiend_TBI.description>A small solitary canine infected with Tiberium.</SmallTiberiumFiend_TBI.description>
+	
+	<Crawler_TBI.label>crawler</Crawler_TBI.label>
+	<Crawler_TBI.description>A large snake. This one seems to be infected with Tiberium.</Crawler_TBI.description>
+	
+</LanguageData>

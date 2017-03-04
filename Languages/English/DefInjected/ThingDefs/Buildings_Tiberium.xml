@@ -18,4 +18,11 @@
 	
 	<TiberiumShard_TBNS.label>tiberium shard</TiberiumShard_TBNS.label>
 	<TiberiumShard_TBNS.description>An extraterrestrial shard. Looks unusual.</TiberiumShard_TBNS.description>
+	
+	<Veinhole_TBNS.label>Veinhole</Veinhole_TBNS.label>
+	<Veinhole_TBNS.description>A veinhole. A strange lifeform developed by Tiberium. It produces veins around itself that can be harvested. Be aware of blunt damage. Coming too close to the center might cause infection by poisonous gases.</Veinhole_TBNS.description>
+	
+	<TiberiumTower_TBNS.label>green Tiberium tower</TiberiumTower_TBNS.label>
+	<TiberiumTower_TBNS.description>A green tower rising from the ground. These structures normally take years to form.</TiberiumTower_TBNS.description>
+	
 </LanguageData>

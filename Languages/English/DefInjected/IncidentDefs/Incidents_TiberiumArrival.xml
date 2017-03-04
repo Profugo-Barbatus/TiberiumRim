@@ -20,7 +20,8 @@
 	<BlossomTree.letterLabel>Unknown gas!</BlossomTree.letterLabel>
 	<BlossomTree.letterText>A cloud of unknown gas has passed the map and mutated a tree. Be careful around it!</BlossomTree.letterText>
 	
-	<TiberiumMonolith.label>Tiberium Monolith</TiberiumMonolith.label>
-	<TiberiumMonolith.letterLabel>Monolith</TiberiumMonolith.letterLabel>
-	<TiberiumMonolith.letterText>A monolith has risen out of the ground. Be careful around it!</TiberiumMonolith.letterText>
+	<VeinholeArrival.label>Veinhole Arrival</VeinholeArrival.label>
+	<VeinholeArrival.letterLabel>Veinhole!</VeinholeArrival.letterLabel>
+	<VeinholeArrival.letterText>A veinhole monster appeared on your map!</VeinholeArrival.letterText>
+	
 </LanguageData>

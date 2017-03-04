@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<GreenTiberiumRock_TBNS.label>Green Tiberium rock</GreenTiberiumRock_TBNS.label>
+	<GreenTiberiumRock_TBNS.description>Rocks infested with green Tiberium.</GreenTiberiumRock_TBNS.description>
+	
+	<BlueTiberiumRock_TBNS.label>Blue Tiberium rock</BlueTiberiumRock_TBNS.label>
+	<BlueTiberiumRock_TBNS.description>Rocks infested with blue Tiberium.</BlueTiberiumRock_TBNS.description>
+	
+	<RedTiberiumRock_TBNS.label>Red Tiberium rock</RedTiberiumRock_TBNS.label>
+	<RedTiberiumRock_TBNS.description>Rocks infested with red Tiberium.</RedTiberiumRock_TBNS.description>
+	
+	<VeinTiberiumRock_TBNS.label>Vein rock</VeinTiberiumRock_TBNS.label>
+	<VeinTiberiumRock_TBNS.description>Rocks infested with Tiberium veins.</VeinTiberiumRock_TBNS.description>
+	
+</LanguageData>

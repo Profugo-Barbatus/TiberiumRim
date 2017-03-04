@@ -9,5 +9,20 @@
 	
 	<TiberiumRed.label>red Tiberium</TiberiumRed.label>
 	<TiberiumRed.description>A glowy red crystal. Beautiful to the eye but of unknown properties. Unusual.</TiberiumRed.description>
+	
+	<TiberiumGlacier.label>Tiberium glacier</TiberiumGlacier.label>
+	<TiberiumGlacier.description>Huge formations of crystalized water.</TiberiumGlacier.description>
+	
+	<TiberiumVein.label>Vein</TiberiumVein.label>
+	<TiberiumVein.description>A stringy, throbbing brown-reddish vein. It grows out of a veinhole.</TiberiumVein.description>
+	
+	<TiberiumGreenDesert.label>Green Tiberium shards</TiberiumGreenDesert.label>
+	<TiberiumGreenDesert.description>It seems like these crystals only spread in shards.</TiberiumGreenDesert.description>
+	
+	<TiberiumBlueDesert.label>Blue Tiberium shards</TiberiumBlueDesert.label>
+	<TiberiumBlueDesert.description>It seems like these crystals only spread in shards.</TiberiumBlueDesert.description>
+	
+	<TiberiumRedDesert.label>Red Tiberium shards</TiberiumRedDesert.label>
+	<TiberiumRedDesert.description>It seems like these crystals only spread in shards.</TiberiumRedDesert.description>
 
 </LanguageData>

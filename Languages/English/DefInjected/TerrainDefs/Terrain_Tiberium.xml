@@ -4,5 +4,12 @@
 	<TiberiumSoilGreen.label>green tiberium soil</TiberiumSoilGreen.label>
 	<TiberiumSoilBlue.label>blue tiberium soil</TiberiumSoilBlue.label>
 	<TiberiumSoilRed.label>red tiberium soil</TiberiumSoilRed.label>
+	<TiberiumWater.label>Tiberium contaminated water</TiberiumWater.label>
+	<VeinSoilRed.label>red vein soil</VeinSoilRed.label>
+	<GreenTiberiumSand.label>Green Tiberium Sand</GreenTiberiumSand.label>
+	<BlueTiberiumSand.label>Blue Tiberium Sand</BlueTiberiumSand.label>
+	<RedTiberiumSand.label>Red Tiberium Sand</RedTiberiumSand.label>
+	<TiberiumSandDecrystallized.label>Decrystallized Tiberium sand</TiberiumSandDecrystallized.label>
+	<DecrystallizedSoil.label>Decrystallized soil</DecrystallizedSoil.label>
 
 </LanguageData>
