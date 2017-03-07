@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <TiberiumResearch.label>泰伯利姆研究基础</TiberiumResearch.label>
+  <TiberiumResearch.description>解锁泰伯利姆技术的研究：\n\n- 泰伯利姆研究站</TiberiumResearch.description>
+
+  <TiberiumKnowledge.label>泰伯利姆知识</TiberiumKnowledge.label>
+  <TiberiumKnowledge.description>理解泰伯利姆，解锁：\n\n- 泰伯利姆书籍制作\n- 泰伯利姆隔离服制作</TiberiumKnowledge.description>
+
+  <TiberiumResearchRefining.label>泰伯利姆精炼</TiberiumResearchRefining.label>
+  <TiberiumResearchRefining.description>解锁泰伯利姆的精炼：\n\n- 泰伯利姆精炼机</TiberiumResearchRefining.description>
+
+  <TiberiumSonicInhibition.label>泰伯利姆抑制器</TiberiumSonicInhibition.label>
+  <TiberiumSonicInhibition.description>解析泰伯利姆的晶体性质，以利用声波频率将其破坏：\n\n- 声波抑制器\n- 声波抑制器护栏\n- 反晶体化装置</TiberiumSonicInhibition.description>
+
+
+</LanguageData>

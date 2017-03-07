@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Thrimbo_TBI.label>泰伯獨角獸</Thrimbo_TBI.label>
+  <Thrimbo_TBI.description>來歷不明的巨大生物。但這隻獨角獸看起來被泰伯利姆感染了。極易被激怒。</Thrimbo_TBI.description>
+  <Thrimbo_TBI_Leather.label>泰伯獨角獸皮</Thrimbo_TBI_Leather.label>
+  <Thrimbo_TBI_Leather.description>泰伯獨角獸皮</Thrimbo_TBI_Leather.description>
+  <Thrimbo_TBI_Leather.stuffProps.stuffAdjective>泰伯獨角獸皮</Thrimbo_TBI_Leather.stuffProps.stuffAdjective>
+  <Thrimbo_TBI_Meat.label>泰伯獨角獸皮肉</Thrimbo_TBI_Meat.label>
+  <Thrimbo_TBI_Meat.description>泰伯獨角獸皮肉</Thrimbo_TBI_Meat.description>
+  <Thrimbo_TBI_Corpse.label>泰伯獨角獸皮屍體</Thrimbo_TBI_Corpse.label>
+  <Thrimbo_TBI_Corpse.description>泰伯獨角獸皮屍體</Thrimbo_TBI_Corpse.description>
+
+  <TiberiumTerror_TBI.label>泰伯恐慌獸</TiberiumTerror_TBI.label>
+  <TiberiumTerror_TBI.description>來歷不明的巨大生物。黑藍相間的顏色就是這種生物的極端危險性的证明。</TiberiumTerror_TBI.description>
+  <TiberiumTerror_TBI_Leather.label>泰伯恐慌獸皮</TiberiumTerror_TBI_Leather.label>
+  <TiberiumTerror_TBI_Leather.description>泰伯恐慌獸皮</TiberiumTerror_TBI_Leather.description>
+  <TiberiumTerror_TBI_Leather.stuffProps.stuffAdjective>泰伯恐慌獸皮</TiberiumTerror_TBI_Leather.stuffProps.stuffAdjective>
+  <TiberiumTerror_TBI_Meat.label>泰伯恐慌獸肉</TiberiumTerror_TBI_Meat.label>
+  <TiberiumTerror_TBI_Meat.description>泰伯恐慌獸肉</TiberiumTerror_TBI_Meat.description>
+  <TiberiumTerror_TBI_Corpse.label>泰伯恐慌獸屍體</TiberiumTerror_TBI_Corpse.label>
+  <TiberiumTerror_TBI_Corpse.description>泰伯恐慌獸屍體</TiberiumTerror_TBI_Corpse.description>
+
+  <BigTiberiumFiend_TBI.label>泰伯變異熊</BigTiberiumFiend_TBI.label>
+  <BigTiberiumFiend_TBI.description>適應了泰伯利姆的巨大雜食性動物。其皮毛已晶體化。食譜中囊括了魚類、莓果、蜂蜜，以及腐肉，這種怪物依靠巨大的力量和致命的爪子捕獵。笨重的外表之下實際擁有著驚人的速度</BigTiberiumFiend_TBI.description>
+  <BigTiberiumFiend_TBI_Leather.label>泰伯變異熊皮</BigTiberiumFiend_TBI_Leather.label>
+  <BigTiberiumFiend_TBI_Leather.description>泰伯變異熊皮</BigTiberiumFiend_TBI_Leather.description>
+  <BigTiberiumFiend_TBI_Leather.stuffProps.stuffAdjective>泰伯變異熊皮</BigTiberiumFiend_TBI_Leather.stuffProps.stuffAdjective>
+  <BigTiberiumFiend_TBI_Meat.label>泰伯變異熊肉</BigTiberiumFiend_TBI_Meat.label>
+  <BigTiberiumFiend_TBI_Meat.description>泰伯變異熊肉</BigTiberiumFiend_TBI_Meat.description>
+  <BigTiberiumFiend_TBI_Corpse.label>泰伯變異熊屍體</BigTiberiumFiend_TBI_Corpse.label>
+  <BigTiberiumFiend_TBI_Corpse.description>泰伯變異熊屍體</BigTiberiumFiend_TBI_Corpse.description>
+
+  <Tibscarab_TBI.label>泰伯甲蟲</Tibscarab_TBI.label>
+  <Tibscarab_TBI.description>一種經過基因修改的巨大甲蟲，接觸過泰伯利姆。曾經是設計用於對抗機械入侵的人工生態蟲巢系統中的工人階層，現在很難看到其更具致命性的遠親了。但是他的體型和堅固的外殼讓牠在攻擊時依舊十分危險。作為一種真社會性生物，無法自行繁殖。</Tibscarab_TBI.description>
+  <!-- Leather Amount: 0 -->
+  <!-- Use Meat From: Megaspider -->
+  <Tibscarab_TBI_Corpse.label>泰伯甲蟲屍體</Tibscarab_TBI_Corpse.label>
+  <Tibscarab_TBI_Corpse.description>泰伯甲蟲屍體</Tibscarab_TBI_Corpse.description>
+
+  <TiberiumFiend_TBI.label>泰伯變異狼</TiberiumFiend_TBI.label>
+  <TiberiumFiend_TBI.description>一种强健的肉食动物，一直以来被许多古老的地球文明所畏惧。狼作为一种群居性猎食动物，具有复杂的社会结构，并且非常聪明。</TiberiumFiend_TBI.description>
+  <TiberiumFiend_TBI_Leather.label>泰伯變異狼皮</TiberiumFiend_TBI_Leather.label>
+  <TiberiumFiend_TBI_Leather.description>泰伯變異狼皮</TiberiumFiend_TBI_Leather.description>
+  <TiberiumFiend_TBI_Leather.stuffProps.stuffAdjective>泰伯變異狼皮</TiberiumFiend_TBI_Leather.stuffProps.stuffAdjective>
+  <TiberiumFiend_TBI_Meat.label>泰伯變異狼肉</TiberiumFiend_TBI_Meat.label>
+  <TiberiumFiend_TBI_Meat.description>泰伯變異狼肉</TiberiumFiend_TBI_Meat.description>
+  <TiberiumFiend_TBI_Corpse.label>泰伯變異狼屍體</TiberiumFiend_TBI_Corpse.label>
+  <TiberiumFiend_TBI_Corpse.description>泰伯變異狼屍體</TiberiumFiend_TBI_Corpse.description>
+
+  <SmallTiberiumFiend_TBI.label>泰伯變異狐</SmallTiberiumFiend_TBI.label>
+  <SmallTiberiumFiend_TBI.description>小型獨居型犬科動物，已感染泰伯利姆。</SmallTiberiumFiend_TBI.description>
+  <SmallTiberiumFiend_TBI_Leather.label>泰伯變異狐皮</SmallTiberiumFiend_TBI_Leather.label>
+  <SmallTiberiumFiend_TBI_Leather.description>泰伯變異狐皮</SmallTiberiumFiend_TBI_Leather.description>
+  <SmallTiberiumFiend_TBI_Leather.stuffProps.stuffAdjective>泰伯變異狐皮</SmallTiberiumFiend_TBI_Leather.stuffProps.stuffAdjective>
+  <!-- Use Meat From: FoxFennec -->
+  <SmallTiberiumFiend_TBI_Corpse.label>泰伯變異狐屍體</SmallTiberiumFiend_TBI_Corpse.label>
+  <SmallTiberiumFiend_TBI_Corpse.description>泰伯變異狐屍體</SmallTiberiumFiend_TBI_Corpse.description>
+
+  <Crawler_TBI.label>泰伯變異蛇</Crawler_TBI.label>
+  <Crawler_TBI.description>大型蛇類。看上去似乎感染了泰伯利姆。</Crawler_TBI.description>
+  <Crawler_TBI_Leather.label>泰伯變異蛇皮</Crawler_TBI_Leather.label>
+  <Crawler_TBI_Leather.description>泰伯變異蛇皮</Crawler_TBI_Leather.description>
+  <Crawler_TBI_Leather.stuffProps.stuffAdjective>泰伯變異蛇皮</Crawler_TBI_Leather.stuffProps.stuffAdjective>
+  <Crawler_TBI_Meat.label>泰伯變異蛇肉</Crawler_TBI_Meat.label>
+  <Crawler_TBI_Meat.description>泰伯變異蛇肉</Crawler_TBI_Meat.description>
+  <Crawler_TBI_Corpse.label>泰伯變異蛇屍體</Crawler_TBI_Corpse.label>
+  <Crawler_TBI_Corpse.description>泰伯變異蛇屍體</Crawler_TBI_Corpse.description>
+
+
+</LanguageData>

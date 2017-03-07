@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <GreenTiberiumRock_TBNS.label>绿色泰伯利姆岩石</GreenTiberiumRock_TBNS.label>
+  <GreenTiberiumRock_TBNS.description>被绿色泰伯利姆所侵蚀的岩石。</GreenTiberiumRock_TBNS.description>
+
+  <BlueTiberiumRock_TBNS.label>蓝色泰伯利姆岩石</BlueTiberiumRock_TBNS.label>
+  <BlueTiberiumRock_TBNS.description>被蓝色泰伯利姆所侵蚀的岩石。</BlueTiberiumRock_TBNS.description>
+
+  <RedTiberiumRock_TBNS.label>红色泰伯利姆岩石</RedTiberiumRock_TBNS.label>
+  <RedTiberiumRock_TBNS.description>被红色泰伯利姆所侵蚀的岩石。</RedTiberiumRock_TBNS.description>
+
+  <VeinTiberiumRock_TBNS.label>血管岩石</VeinTiberiumRock_TBNS.label>
+  <VeinTiberiumRock_TBNS.description>被血管所侵蚀的岩石。</VeinTiberiumRock_TBNS.description>
+
+
+</LanguageData>

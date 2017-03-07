@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AsteroidGreen.label>绿色泰伯利姆陨石</AsteroidGreen.label>
+  <AsteroidGreen.letterLabel>绿色泰伯利姆陨石</AsteroidGreen.letterLabel>
+  <AsteroidGreen.letterText>一颗不正常的陨石坠落了在附近并形成了一个陨石坑。\n\n陨石上似乎蔓延出一些奇怪的晶体，并且有些散落在周围。\n\n小心，这种物质可能非常危险！</AsteroidGreen.letterText>
+
+  <AsteroidBlue.label>蓝色泰伯利姆陨石</AsteroidBlue.label>
+  <AsteroidBlue.letterLabel>蓝色泰伯利姆陨石</AsteroidBlue.letterLabel>
+  <AsteroidBlue.letterText>一颗不正常的陨石坠落了在附近并形成了一个陨石坑。\n\n陨石上似乎蔓延出一些奇怪的晶体，并且有些散落在周围。\n\n小心，这种物质可能非常危险！</AsteroidBlue.letterText>
+
+  <AsteroidMeteor.label>泰伯利姆流星</AsteroidMeteor.label>
+  <AsteroidMeteor.letterLabel>泰伯利姆流星坠落</AsteroidMeteor.letterLabel>
+  <AsteroidMeteor.letterText>一颗不正常的陨石坠落在了附近。\n\n陨石上似乎蔓延出一些奇怪的晶体，并且有些散落在周围。\n\n小心，这种物质可能非常危险！</AsteroidMeteor.letterText>
+
+  <TiberiumShard.label>泰伯利姆碎片</TiberiumShard.label>
+  <TiberiumShard.letterLabel>泰伯利姆碎片</TiberiumShard.letterLabel>
+  <TiberiumShard.letterText>一块不正常的碎片坠落在了附近。这颗陨石正在向周围蔓延红色水晶。\n\n小心，这种物质可能非常危险！</TiberiumShard.letterText>
+
+  <BlossomTree.label>变异树</BlossomTree.label>
+  <BlossomTree.letterLabel>不明气体！</BlossomTree.letterLabel>
+  <BlossomTree.letterText>一片不明气体云飘过了这片地图，并变异了一颗树。小心！</BlossomTree.letterText>
+
+  <VeinholeArrival.label>血管洞</VeinholeArrival.label>
+  <VeinholeArrival.letterLabel>血管洞！</VeinholeArrival.letterLabel>
+  <VeinholeArrival.letterText>一只血管洞怪兽出现在你的地图！</VeinholeArrival.letterText>
+
+  <IonStormIncident.label>离子风暴</IonStormIncident.label>
+  <IonStormIncident.letterLabel>离子风暴！</IonStormIncident.letterLabel>
+  <IonStormIncident.letterText>一场离子风暴爆发了。\n\n强烈的电磁波会导致电器设备停机。\n\n小心泰伯利姆的蔓延。</IonStormIncident.letterText>
+
+
+  <!--<TiberiumMonolith.label>泰伯利姆巨石柱</TiberiumMonolith.label>-->
+  <!--<TiberiumMonolith.letterLabel>泰伯利姆巨石柱</TiberiumMonolith.letterLabel>-->
+  <!--<TiberiumMonolith.letterText>从地下升起了一个巨大的石柱，小心！</TiberiumMonolith.letterText>-->
+
+</LanguageData>

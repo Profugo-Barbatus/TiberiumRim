@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <TiberiumGreen.label>綠色泰伯利姆</TiberiumGreen.label>
+  <TiberiumGreen.description>生長中的綠色晶體。奇異而迷人。無保護措施的接觸非常危險。</TiberiumGreen.description>
+
+  <TiberiumGreenDesert.label>綠色泰伯利姆碎片</TiberiumGreenDesert.label>
+  <TiberiumGreenDesert.description>看起來這些晶體只以碎片形式蔓延。</TiberiumGreenDesert.description>
+
+  <TiberiumBlue.label>藍色泰伯利姆</TiberiumBlue.label>
+  <TiberiumBlue.description>生長中的藍色泰伯利姆。未知而美麗。</TiberiumBlue.description>
+
+  <TiberiumBlueDesert.label>藍色泰伯利姆碎片</TiberiumBlueDesert.label>
+  <TiberiumBlueDesert.description>看起來這些晶體只以碎片形式蔓延。</TiberiumBlueDesert.description>
+
+  <TiberiumRed.label>紅色泰伯利姆</TiberiumRed.label>
+  <TiberiumRed.description>生長中的紅色泰伯利姆。未知而美麗。非常罕見。</TiberiumRed.description>
+
+  <TiberiumRedDesert.label>紅色泰伯利姆碎片</TiberiumRedDesert.label>
+  <TiberiumRedDesert.description>看起來這些晶體只以碎片形式蔓延。</TiberiumRedDesert.description>
+
+  <TiberiumGlacier.label>泰伯利姆冰山</TiberiumGlacier.label>
+  <TiberiumGlacier.description>巨型的晶體化水。</TiberiumGlacier.description>
+
+  <TiberiumVein.label>血管</TiberiumVein.label>
+  <TiberiumVein.description>從血管洞長出來的，搏動著的紅褐色根狀血管。</TiberiumVein.description>
+
+
+</LanguageData>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <SonicInhibitor.label>声波抑制器</SonicInhibitor.label>
+  <SonicInhibitor.description>用于破坏泰伯利姆并阻止其进一步生长的设备。实验表明，只在无遮挡物的情况下才对泰伯利姆起效。</SonicInhibitor.description>
+  <SonicInhibitor_Blueprint.label>声波抑制器（蓝图）</SonicInhibitor_Blueprint.label>
+  <SonicInhibitor_Blueprint_Install.label>声波抑制器（蓝图）</SonicInhibitor_Blueprint_Install.label>
+  <SonicInhibitor_Frame.label>声波抑制器（建造中）</SonicInhibitor_Frame.label>
+
+  <Decrystallizer.label>泰伯利姆土壤反晶体化装置</Decrystallizer.label>
+  <Decrystallizer.description>可以缓慢去除被侵蚀土壤中的泰伯利姆，将任意种类的泰伯利姆地面转换成可再次使用的反晶体化土壤。不能影响受污染的水体。需要电力。</Decrystallizer.description>
+  <Decrystallizer_Blueprint.label>泰伯利姆土壤反晶体化装置（蓝图）</Decrystallizer_Blueprint.label>
+  <Decrystallizer_Blueprint_Install.label>泰伯利姆土壤反晶体化装置（蓝图）</Decrystallizer_Blueprint_Install.label>
+  <Decrystallizer_Frame.label>泰伯利姆土壤反晶体化装置（建造中）</Decrystallizer_Frame.label>
+
+  <SonicFence.label>声波抑制器护栏</SonicFence.label>
+  <SonicFence.description>能够阻止泰伯利姆蔓延的护栏。需要电力。</SonicFence.description>
+  <SonicFence_Blueprint.label>声波抑制器护栏（蓝图）</SonicFence_Blueprint.label>
+  <SonicFence_Frame.label>声波抑制器护栏（建造中）</SonicFence_Frame.label>
+
+
+</LanguageData>

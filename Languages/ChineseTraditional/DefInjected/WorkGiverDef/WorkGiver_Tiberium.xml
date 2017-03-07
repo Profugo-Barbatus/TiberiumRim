@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <DoBillsTibRefinery.label>操作泰伯利姆精煉機</DoBillsTibRefinery.label>
+  <DoBillsTibRefinery.verb>精煉泰伯利姆</DoBillsTibRefinery.verb>
+  <DoBillsTibRefinery.gerund>精煉泰伯利姆於</DoBillsTibRefinery.gerund>
+
+  <DoBillsTibResearch.label>操作泰伯利姆知識製作轉寫臺</DoBillsTibResearch.label>
+  <DoBillsTibResearch.verb>编写书籍</DoBillsTibResearch.verb>
+  <DoBillsTibResearch.gerund>编写书籍</DoBillsTibResearch.gerund>
+
+
+</LanguageData>

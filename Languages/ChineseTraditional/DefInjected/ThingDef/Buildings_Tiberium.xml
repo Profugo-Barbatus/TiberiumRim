@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <TiberiumCraterGreen_TBNS.label>綠色泰伯利姆晶場</TiberiumCraterGreen_TBNS.label>
+  <TiberiumCraterGreen_TBNS.description>綠色泰伯利姆晶場。</TiberiumCraterGreen_TBNS.description>
+
+  <TiberiumCraterBlue_TBNS.label>藍色泰伯利姆晶場</TiberiumCraterBlue_TBNS.label>
+  <TiberiumCraterBlue_TBNS.description>藍色泰伯利姆晶場。</TiberiumCraterBlue_TBNS.description>
+
+  <TiberiumMeteor_TBNS.label>泰伯利姆隕石</TiberiumMeteor_TBNS.label>
+  <TiberiumMeteor_TBNS.description>一顆外星隕石。包含所有種類的晶體。</TiberiumMeteor_TBNS.description>
+
+  <TiberiumMonolith_TBNS.label>藍色泰伯利姆巨石柱</TiberiumMonolith_TBNS.label>
+  <TiberiumMonolith_TBNS.description>從地下長出來的藍色泰伯利姆巨石柱。</TiberiumMonolith_TBNS.description>
+
+  <BlossomTree_TBNS.label>变异树</BlossomTree_TBNS.label>
+  <BlossomTree_TBNS.description>一棵奇怪的帶有外星特性的樹。似乎會長出綠色晶體。</BlossomTree_TBNS.description>
+
+  <TiberiumShard_TBNS.label>泰伯利姆碎片</TiberiumShard_TBNS.label>
+  <TiberiumShard_TBNS.description>一塊外星碎片。看上去很不尋常。</TiberiumShard_TBNS.description>
+
+  <Veinhole_TBNS.label>血管洞</Veinhole_TBNS.label>
+  <Veinhole_TBNS.description>血管洞，一種由泰伯利姆發展而來的怪異生命形式。會在自身周圍產生可收穫的血管。對鈍器傷害有反應。太過靠近中心可能會因有害氣體導致感染。</Veinhole_TBNS.description>
+
+  <TiberiumTower_TBNS.label>綠色泰伯利姆石塔</TiberiumTower_TBNS.label>
+  <TiberiumTower_TBNS.description>從地下長出來的綠色石塔。這種結構通常需要經過數年才能形成。</TiberiumTower_TBNS.description>
+
+
+</LanguageData>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <GreenTiberiumRaw.label>未加工的綠泰晶</GreenTiberiumRaw.label>
+  <GreenTiberiumRaw.description>未加工形態的泰伯利姆。小心搬運！可精煉。</GreenTiberiumRaw.description>
+
+  <BlueTiberiumRaw.label>未加工的藍泰晶</BlueTiberiumRaw.label>
+  <BlueTiberiumRaw.description>未加工形態的泰伯利姆。小心搬運！可精煉。</BlueTiberiumRaw.description>
+
+  <RedTiberiumRaw.label>未加工的紅泰晶</RedTiberiumRaw.label>
+  <RedTiberiumRaw.description>未加工形態的泰伯利姆。小心搬運！可精煉。</RedTiberiumRaw.description>
+
+  <VeinTiberiumRaw.label>未加工的血管</VeinTiberiumRaw.label>
+  <VeinTiberiumRaw.description>收穫後的血管。這種生物的機制以及靠近晶體的原因任然不明。</VeinTiberiumRaw.description>
+
+  <BookRiparius.label>綠晶書</BookRiparius.label>
+  <BookRiparius.description>綠色泰伯利姆。\n\n綠色泰伯利姆是最常見的一種泰伯利姆晶體。\n在這顆邊緣世界星球被感染之前的久遠年代就已經來到地球。\n這種晶體的擴散速度最快，數天之內就能感染大片區域。\n所以如果你遇見這種晶體，請務必當心！必須不惜一切代價避免接觸。\n這種物質（包括其他類型）能感染任何形式的碳基生命並將之晶體化。這使其成為劇毒物質。\n泰伯利姆是一種未知的物質類型，可將周圍的任何碳基物體同化。\n這是由於泰伯利姆原子與其他物質的原子之間發生反應所導致的。</BookRiparius.description>
+
+  <BookVinifera.label>藍晶書</BookVinifera.label>
+  <BookVinifera.description>藍色泰伯利姆。\n\n藍色泰伯利姆是由綠色泰伯利姆演變而來的「成熟」形態。\n相比起綠色泰伯利姆，藍色泰伯利姆更為稀有，擴散速度也更慢。\n如果你遇見了這種晶體，仍需小心，因為這仍具備毒性！\n這種類型的泰伯利姆展現出了更多的生命性質。如果生命體在接觸這種晶體後存活下來，通常會被改造。而這些泰伯利姆生命形式會以泰伯利姆為食，而如果是植物，則會散播更多的泰伯利姆。\n到目前位置仍沒有確切證據證明其是不是一種生命形式，仍需繼續研究。</BookVinifera.description>
+
+  <BookRutila.label>紅晶書</BookRutila.label>
+  <BookRutila.description>紅色泰伯利姆。\n\n紅色泰伯利姆，非常稀有。\n類似藍色晶體，但含有跟多的可用資源。\n雖然第一起報告中稱這種晶體並不會擴散，但現在似乎已經演變出了擴散能力，只不過非常緩慢。據推測，紅色泰伯利姆會演變成 ---[資料丟失]---/---\n嶆噳鎵€灏庤嚧鐨勩€</BookRutila.description>
+
+
+</LanguageData>

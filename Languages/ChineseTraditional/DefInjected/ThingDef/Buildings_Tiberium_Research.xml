@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <TiberiumResearchBench.label>泰伯利姆研究站</TiberiumResearchBench.label>
+  <TiberiumResearchBench.description>用於研究泰伯利姆知識的專用研究臺。\n可通過多重分析裝置提速。\n需要電力。</TiberiumResearchBench.description>
+  <TiberiumResearchBench_Blueprint.label>泰伯利姆研究站（藍圖）</TiberiumResearchBench_Blueprint.label>
+  <TiberiumResearchBench_Frame.label>泰伯利姆研究站（建造中）</TiberiumResearchBench_Frame.label>
+
+  <TiberiumResearchCraftingBench.label>泰伯利姆知識製作轉寫臺</TiberiumResearchCraftingBench.label>
+  <TiberiumResearchCraftingBench.description>用於製作泰伯利姆信息物品。</TiberiumResearchCraftingBench.description>
+  <TiberiumResearchCraftingBench_Blueprint.label>泰伯利姆知識製作轉寫臺（藍圖）</TiberiumResearchCraftingBench_Blueprint.label>
+  <TiberiumResearchCraftingBench_Frame.label>泰伯利姆知識製作轉寫臺（建造中）</TiberiumResearchCraftingBench_Frame.label>
+
+
+</LanguageData>

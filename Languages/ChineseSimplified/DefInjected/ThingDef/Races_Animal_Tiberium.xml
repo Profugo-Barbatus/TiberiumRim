@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Visceroid_TBI.label>器官兽</Visceroid_TBI.label>
+  <Visceroid_TBI.description>球状的可怕生物。由因泰伯利姆死亡的动物构成。</Visceroid_TBI.description>
+  <Visceroid_TBI_Leather.label>器官兽皮</Visceroid_TBI_Leather.label>
+  <Visceroid_TBI_Leather.description>器官兽皮</Visceroid_TBI_Leather.description>
+  <Visceroid_TBI_Leather.stuffProps.stuffAdjective>器官兽皮</Visceroid_TBI_Leather.stuffProps.stuffAdjective>
+  <Visceroid_TBI_Meat.label>器官兽肉</Visceroid_TBI_Meat.label>
+  <Visceroid_TBI_Meat.description>器官兽的……肉？你确定要吃这玩意？</Visceroid_TBI_Meat.description>
+  <Visceroid_TBI_Corpse.label>器官兽尸体</Visceroid_TBI_Corpse.label>
+  <Visceroid_TBI_Corpse.description>器官兽尸体</Visceroid_TBI_Corpse.description>
+
+  <Veinmonster_TBI.label>血管兽</Veinmonster_TBI.label>
+  <Veinmonster_TBI.description>血管兽，和原型器官兽一样出名，是由血管所喷出的生物。虽然形体小且脆弱，但在庞大数量之下依然能造成巨大的破坏，请确保尽在血管洞变大之前尽快将其毁去！</Veinmonster_TBI.description>
+  <Veinmonster_TBI_Leather.label>血管兽皮</Veinmonster_TBI_Leather.label>
+  <Veinmonster_TBI_Leather.description>血管兽皮</Veinmonster_TBI_Leather.description>
+  <Veinmonster_TBI_Leather.stuffProps.stuffAdjective>血管兽皮</Veinmonster_TBI_Leather.stuffProps.stuffAdjective>
+  <Veinmonster_TBI_Meat.label>血管兽肉</Veinmonster_TBI_Meat.label>
+  <Veinmonster_TBI_Meat.description>血管兽的……肉？你确定要吃这玩意？</Veinmonster_TBI_Meat.description>
+  <Veinmonster_TBI_Corpse.label>血管兽尸体</Veinmonster_TBI_Corpse.label>
+  <Veinmonster_TBI_Corpse.description>血管兽尸体</Veinmonster_TBI_Corpse.description>
+
+
+</LanguageData>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <TiberiumSoilGreen.label>綠色泰伯利姆侵蝕土壤</TiberiumSoilGreen.label>
+  <GreenTiberiumSand.label>綠色泰伯利姆侵蝕沙地</GreenTiberiumSand.label>
+  <BlueTiberiumSand.label>藍色泰伯利姆侵蝕沙地</BlueTiberiumSand.label>
+  <RedTiberiumSand.label>紅色泰伯利姆侵蝕沙地</RedTiberiumSand.label>
+  <TiberiumSandDecrystallized.label>反晶體化泰伯利姆沙地</TiberiumSandDecrystallized.label>
+  <TiberiumSoilBlue.label>藍色泰伯利姆侵蝕土壤</TiberiumSoilBlue.label>
+  <TiberiumSoilRed.label>綠紅色泰伯利姆侵蝕土壤</TiberiumSoilRed.label>
+  <VeinSoilRed.label>紅色血管侵蝕土壤</VeinSoilRed.label>
+  <TiberiumWater.label>泰伯利姆污染水體</TiberiumWater.label>
+  <DecrystallizedSoil.label>反晶體化土壤</DecrystallizedSoil.label>
+
+
+</LanguageData>

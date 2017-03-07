@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ExtractResourcesFromGreenTiberium.label>从绿色泰伯利姆中获取资源</ExtractResourcesFromGreenTiberium.label>
+  <ExtractResourcesFromGreenTiberium.description>利用复杂的反应将危险的泰伯利姆破坏，并精炼成可用材料。</ExtractResourcesFromGreenTiberium.description>
+  <ExtractResourcesFromGreenTiberium.jobString>正在精炼绿色泰伯利姆。</ExtractResourcesFromGreenTiberium.jobString>
+
+  <ExtractResourcesFromBlueTiberium.label>从蓝色泰伯利姆中获取资源</ExtractResourcesFromBlueTiberium.label>
+  <ExtractResourcesFromBlueTiberium.description>利用复杂的反应将危险的泰伯利姆破坏，并精炼成可用材料。</ExtractResourcesFromBlueTiberium.description>
+  <ExtractResourcesFromBlueTiberium.jobString>正在精炼蓝色泰伯利姆。</ExtractResourcesFromBlueTiberium.jobString>
+
+  <ExtractResourcesFromRedTiberium.label>从红色泰伯利姆中获取资源</ExtractResourcesFromRedTiberium.label>
+  <ExtractResourcesFromRedTiberium.description>利用复杂的反应将危险的泰伯利姆破坏，并精炼成可用材料。</ExtractResourcesFromRedTiberium.description>
+  <ExtractResourcesFromRedTiberium.jobString>正在精炼红色泰伯利姆。</ExtractResourcesFromRedTiberium.jobString>
+
+  <ExtractResourcesFromVeinTiberium.label>从泰伯利姆血管中获取资源</ExtractResourcesFromVeinTiberium.label>
+  <ExtractResourcesFromVeinTiberium.description>利用复杂的反应将危险的泰伯利姆破坏，并精炼成铀和绿色泰伯利姆。</ExtractResourcesFromVeinTiberium.description>
+  <ExtractResourcesFromVeinTiberium.jobString>正在精炼泰伯利姆血管。</ExtractResourcesFromVeinTiberium.jobString>
+
+  <MakeBookRiparius.label>编写绿晶书</MakeBookRiparius.label>
+  <MakeBookRiparius.jobString>正在编写绿晶书。</MakeBookRiparius.jobString>
+
+  <MakeBookVinifera.label>编写蓝晶书</MakeBookVinifera.label>
+  <MakeBookVinifera.jobString>正在编写蓝晶书。</MakeBookVinifera.jobString>
+
+  <MakeBookRutila.label>编写红晶书</MakeBookRutila.label>
+  <MakeBookRutila.jobString>正在编写红晶书。</MakeBookRutila.jobString>
+
+
+</LanguageData>
