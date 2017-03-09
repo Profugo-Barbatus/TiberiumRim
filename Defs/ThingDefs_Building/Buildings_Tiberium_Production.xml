@@ -101,7 +101,7 @@
 		<graphicData>
 			<texPath>Building/Tiberium/PowerPlant</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(3,4)</drawSize>
+			<drawSize>(5,5)</drawSize>
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
@@ -117,7 +117,7 @@
 		</statBases>
 		<tickerType>Normal</tickerType>
 		<description>Produces power by consuming liquid Tiberium. Must be fueled by hand.</description>
-		<size>(3,3)</size>
+		<size>(4,4)</size>
 		<building>
 			<ignoreNeedsPower>true</ignoreNeedsPower>
 		</building>
@@ -136,8 +136,8 @@
 			</li>
 			<li Class="CompProperties_Flickable" />
 			<li Class="CompProperties_Refuelable">
-			<fuelConsumptionRate>5.0</fuelConsumptionRate>
-			<fuelCapacity>25.0</fuelCapacity>
+			<fuelConsumptionRate>2.0</fuelConsumptionRate>
+			<fuelCapacity>24.0</fuelCapacity>
 			<fuelFilter>
 				<thingDefs>
 					<li>LiquidTiberium</li>
