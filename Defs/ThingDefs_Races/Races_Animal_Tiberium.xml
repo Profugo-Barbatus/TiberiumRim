@@ -93,7 +93,7 @@
 		<body>Visceroid</body>
 		<predator>true</predator>
 		<maxPreyBodySize>1.0</maxPreyBodySize>
-		<baseBodySize>2</baseBodySize>
+		<baseBodySize>2.4</baseBodySize>
 		<baseHungerRate>0.4</baseHungerRate>
 		<baseHealthScale>0.5</baseHealthScale>
 		<trainableIntelligence>Simple</trainableIntelligence>
@@ -149,16 +149,6 @@
 				<label>baby visceroid</label>
 				<bodyGraphicData>
 					<texPath>Pawn/Animals/Visceroid/visceroid</texPath>
-					<drawSize>0.5</drawSize>
-				</bodyGraphicData>
-				<dessicatedBodyGraphicData>
-					<texPath>Pawn/Animals/Visceroid/VisceroidDessicated</texPath>
-					<drawSize>0.5</drawSize>
-				</dessicatedBodyGraphicData>
-			</li>
-			<li>
-				<bodyGraphicData>
-					<texPath>Pawn/Animals/Visceroid/visceroid</texPath>
 					<drawSize>0.8</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
@@ -169,11 +159,139 @@
 			<li>
 				<bodyGraphicData>
 					<texPath>Pawn/Animals/Visceroid/visceroid</texPath>
-					<drawSize>1.2</drawSize>
+					<drawSize>1</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>Pawn/Animals/Visceroid/VisceroidDessicated</texPath>
-					<drawSize>1.2</drawSize>
+					<drawSize>1</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Pawn/Animals/Visceroid/visceroid</texPath>
+					<drawSize>1.4</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Pawn/Animals/Visceroid/VisceroidDessicated</texPath>
+					<drawSize>1.4</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+	
+	
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>Veinmonster_TBI</defName>
+		<label>Veinmonster</label>
+		<description>Veinmonster, also known as Proto-Visceroids, are creatures expelled by Veins. Small and weak on it's own they can cause huge damage in masses, be sure to destroy a Veinhole asap when it gets too big!</description>
+		<statBases>
+			<MoveSpeed>6</MoveSpeed>
+			<ComfyTemperatureMin>0</ComfyTemperatureMin>
+			<MarketValue>150</MarketValue>
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_MeleeAttack</verbClass>
+				<defaultCooldownTime>60</defaultCooldownTime>
+				<meleeDamageBaseAmount>5</meleeDamageBaseAmount>
+				<!-- Keeping the ToxicBite since I don't want it to be Tiberium damage that is dealt. But still something poionous. -->
+				<meleeDamageDef>ToxicBite</meleeDamageDef>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>3</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+		</verbs>
+    <race>
+		<herdAnimal>true</herdAnimal>
+		<body>Veinmonster</body>
+		<predator>true</predator>
+		<maxPreyBodySize>1.0</maxPreyBodySize>
+		<baseBodySize>1.0</baseBodySize>
+		<baseHungerRate>0.8</baseHungerRate>
+		<baseHealthScale>1</baseHealthScale>
+		<trainableIntelligence>Simple</trainableIntelligence>
+		<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
+		<leatherColor>(204,102,0)</leatherColor>
+		<leatherLabel>Veinmonster skin</leatherLabel>
+		<leatherInsulation>0.5</leatherInsulation>
+		<meatLabel>Veinmonster flesh</meatLabel>
+		<wildness>1</wildness>
+		<manhunterOnTameFailChance>1</manhunterOnTameFailChance>
+		<manhunterOnDamageChance>1</manhunterOnDamageChance>
+		<gestationPeriodDays>25</gestationPeriodDays>
+		<nameOnTameChance>1</nameOnTameChance>
+		<lifeExpectancy>0.5</lifeExpectancy>
+		<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.25</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>1</minAge>
+					<!-- Keeping the Cobra sounds because it fits the Visceroid.-->
+					<soundWounded>Pawn_Cobra_Wounded</soundWounded>
+					<soundDeath>Pawn_Cobra_Death</soundDeath>
+					<soundCall>Pawn_Cobra_Call</soundCall>
+					<soundAngry>Pawn_Cobra_Angry</soundAngry>
+				</li>
+		</lifeStageAges>
+		<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+		<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+		<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+	</race>
+		<tradeTags>
+		  <li>StandardAnimal</li>
+		  <li>BadassAnimal</li>
+		</tradeTags>
+	</ThingDef> 
+  
+  
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>Veinmonster_TBI</defName>
+		<label>Veinmonster</label>
+		<race>Veinmonster_TBI</race>
+		<combatPower>65</combatPower>
+		<wildSpawn_spawnWild>false</wildSpawn_spawnWild>
+		<lifeStages>
+			<li>
+				<label>baby Veinmonster</label>
+				<bodyGraphicData>
+					<texPath>Pawn/Animals/Veinmonster/Veinmonster</texPath>
+					<drawSize>0.4</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Pawn/Animals/Veinmonster/VeinmonsterDessicated</texPath>
+					<drawSize>0.4</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Pawn/Animals/Veinmonster/Veinmonster</texPath>
+					<drawSize>0.6</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Pawn/Animals/Visceroid/VisceroidDessicated</texPath>
+					<drawSize>0.6</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Pawn/Animals/Veinmonster/Veinmonster</texPath>
+					<drawSize>0.8</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Pawn/Animals/Veinmonster/Veinmonster</texPath>
+					<drawSize>0.8</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 		</lifeStages>
