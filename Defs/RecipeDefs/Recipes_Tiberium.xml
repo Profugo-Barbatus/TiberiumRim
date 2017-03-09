@@ -118,6 +118,35 @@
 				</thingDefs>
 			</fixedIngredientFilter>
 	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>MakeLiquidTiberium</defName>
+		<label>Create liquid Tiberium</label>
+		<description>This refinery uses complex reactions to liquify Tiberium.</description>
+		<jobString>Making liquid Tiberium.</jobString>
+		<workAmount>1800</workAmount>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<ingredients>
+		  <li>
+			<filter>
+			  <thingDefs>
+				<li>GreenTiberiumRaw</li>
+			  </thingDefs>
+			</filter>
+			<count>5</count>
+		  </li>
+		</ingredients>
+		<products>
+		  <LiquidTiberium>1</LiquidTiberium>
+		</products>
+		<workSkill>Crafting</workSkill>
+			<fixedIngredientFilter>
+				<thingDefs>
+					<li>GreenTiberiumRaw</li>
+				</thingDefs>
+			</fixedIngredientFilter>
+	</RecipeDef>
 
 	<RecipeDef>
 		<defName>MakeBookRiparius</defName>

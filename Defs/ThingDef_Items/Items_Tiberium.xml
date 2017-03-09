@@ -113,6 +113,28 @@
     </ThingDef>
 	
 	<ThingDef ParentName="ResourceBase">
+		<defName>LiquidTiberium</defName>
+		<label>liquid Tiberium</label>
+		<description>The liquid form of Tiberium. Use it carefully!</description>
+		<graphicData>
+			<texPath>Item/Resource_TiberiumLQ</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<resourceReadoutPriority>First</resourceReadoutPriority>
+		<soundInteract>Silver_Drop</soundInteract>
+		<soundDrop>Silver_Drop</soundDrop>
+		<useHitPoints>false</useHitPoints>
+		<statBases>
+			<MarketValue>1</MarketValue>
+			<Mass>0.1</Mass>
+		</statBases>
+		<thingCategories>
+			<li>Tiberium</li>
+		</thingCategories>
+		<stackLimit>175</stackLimit>
+    </ThingDef>
+	
+	<ThingDef ParentName="ResourceBase">
 		<defName>BookRiparius</defName>
 		<label>riparius book</label>
 		<description>Tiberium Riparius.\n\nThe green kind of Tiberium is the most common one.\n\nIt came to planet Earth a long time ago, long before this rim world has been infected.\n\nThis kind spreads the quickest, infecting big areas within days.\n\nSo be careful if you encounter any!\n\nAvoid touching it no matter the cost.\n\nThe substance, no matter the kind, will infect any carbon based lifeform and crystalize it.\n\nThis ability makes it highly toxic.\n\nTiberium is an unkown type of mineral that converts anything and everything that is carbon-based around itself into Tiberium.\n\nThis happens due to reactions between Tiberium nuclei and the other material's nuclei.</description>
