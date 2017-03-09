@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <TiberiumResearch.label>tiberium base research</TiberiumResearch.label>
+  <TiberiumResearch.description>Allows the research of Tiberium technologies:\n\n -Construction of the Tiberium Research Building</TiberiumResearch.description>
+
+  <TiberiumKnowledge.label>tiberium knowledge</TiberiumKnowledge.label>
+  <TiberiumKnowledge.description>Allows the understanding of Tiberium:\n\n -Craft Tiberium (lore) books\n\n -Craft Tiberium Protection Suits.</TiberiumKnowledge.description>
+
+  <TiberiumResearchRefining.label>tiberium Refining</TiberiumResearchRefining.label>
+  <TiberiumResearchRefining.description>Allows Tiberium to be refined.\n\n -Construction of the Tiberium refinery</TiberiumResearchRefining.description>
+
+  <TiberiumSonicInhibition.label>Tiberium Inhibition</TiberiumSonicInhibition.label>
+  <TiberiumSonicInhibition.description>Exploit the crystalline nature of Tiberium to shatter it with Sonic frequencies:\n\n -Construction of Sonic Inhibitors\n\n -Construction of Sonic Inhibitor Fences \n\n -Construction of the Decrystallizer (Misc)</TiberiumSonicInhibition.description>
+
+
+</LanguageData>

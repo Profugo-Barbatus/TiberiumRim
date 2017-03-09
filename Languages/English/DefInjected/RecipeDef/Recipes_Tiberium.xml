@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ExtractResourcesFromGreenTiberium.label>get resources from green Tiberium</ExtractResourcesFromGreenTiberium.label>
+  <ExtractResourcesFromGreenTiberium.description>This refinery uses complex reactions to break down green Tiberium into steel.</ExtractResourcesFromGreenTiberium.description>
+  <ExtractResourcesFromGreenTiberium.jobString>Refining green Tiberium.</ExtractResourcesFromGreenTiberium.jobString>
+
+  <ExtractResourcesFromBlueTiberium.label>get resources from blue Tiberium</ExtractResourcesFromBlueTiberium.label>
+  <ExtractResourcesFromBlueTiberium.description>This refinery uses complex reactions to break down blue Tiberium into plasteel.</ExtractResourcesFromBlueTiberium.description>
+  <ExtractResourcesFromBlueTiberium.jobString>Refining blue Tiberium.</ExtractResourcesFromBlueTiberium.jobString>
+
+  <ExtractResourcesFromRedTiberium.label>get resources from red Tiberium</ExtractResourcesFromRedTiberium.label>
+  <ExtractResourcesFromRedTiberium.description>This refinery uses complex reactions to break down red Tiberium into gold and Uranium.</ExtractResourcesFromRedTiberium.description>
+  <ExtractResourcesFromRedTiberium.jobString>Refining red Tiberium.</ExtractResourcesFromRedTiberium.jobString>
+
+  <ExtractResourcesFromVeinTiberium.label>get resources from Tiberium veins</ExtractResourcesFromVeinTiberium.label>
+  <ExtractResourcesFromVeinTiberium.description>This refinery uses complex reactions to break down Tiberium veins into Uranium and green Tiberium.</ExtractResourcesFromVeinTiberium.description>
+  <ExtractResourcesFromVeinTiberium.jobString>Refining Tiberium veins.</ExtractResourcesFromVeinTiberium.jobString>
+
+  <MakeBookRiparius.label>Write about green Tiberium.</MakeBookRiparius.label>
+  <MakeBookRiparius.jobString>Writing about green Tiberium.</MakeBookRiparius.jobString>
+
+  <MakeBookVinifera.label>Write about blue Tiberium.</MakeBookVinifera.label>
+  <MakeBookVinifera.jobString>Writing about blue Tiberium.</MakeBookVinifera.jobString>
+
+  <MakeBookRutila.label>Write about red Tiberium.</MakeBookRutila.label>
+  <MakeBookRutila.jobString>Writing about red Tiberium.</MakeBookRutila.jobString>
+
+
+</LanguageData>

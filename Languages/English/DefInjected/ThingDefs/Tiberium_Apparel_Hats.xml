@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<TiberiumSuitMask_TBP.label>Tiberium protection mask</TiberiumSuitMask_TBP.label>
-	<TiberiumSuitMask_TBP.description>A mask to protect your head from Tiberium radiation.</TiberiumSuitMask_TBP.description>
+  <TiberiumSuitMask_TBP.label>Tiberium protection mask</TiberiumSuitMask_TBP.label>
+  <TiberiumSuitMask_TBP.description>A mask to protect your head from Tiberium radiation.\n\n Also protects from toxic fallout.</TiberiumSuitMask_TBP.description>
+
 
 </LanguageData>

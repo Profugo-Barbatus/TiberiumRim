@@ -1,21 +1,29 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<TiberiumCraterGreen_TBNS.label>Green Tiberium Field</TiberiumCraterGreen_TBNS.label>
-	<TiberiumCraterGreen_TBNS.description>A green Tiberium field.</TiberiumCraterGreen_TBNS.description>
-	
-	<TiberiumCraterBlue_TBNS.label>Blue Tiberium Field</TiberiumCraterBlue_TBNS.label>
-	<TiberiumCraterBlue_TBNS.description>A beautiful field of blue Tiberium</TiberiumCraterBlue_TBNS.description>
+  <TiberiumCraterGreen_TBNS.label>Green Tiberium Field</TiberiumCraterGreen_TBNS.label>
+  <TiberiumCraterGreen_TBNS.description>A green Tiberium field.</TiberiumCraterGreen_TBNS.description>
 
-	<TiberiumMeteor_TBNS.label>Tiberium Meteor</TiberiumMeteor_TBNS.label>
-	<TiberiumMeteor_TBNS.description>An extraterrestrial meteor. Contains glowing crystal of all sorts.</TiberiumMeteor_TBNS.description>
-	
-	<TiberiumMonolith_TBNS.label>blue Tiberium monolith</TiberiumMonolith_TBNS.label>
-	<TiberiumMonolith_TBNS.description>A blue monolith growing out of the ground.</TiberiumMonolith_TBNS.description>
-	
-	<BlossomTree_TBNS.label>blossom tree</BlossomTree_TBNS.label>
-	<BlossomTree_TBNS.description>A strange tree with alien properties. It seems to grow green crystals.</BlossomTree_TBNS.description>
-	
-	<TiberiumShard_TBNS.label>tiberium shard</TiberiumShard_TBNS.label>
-	<TiberiumShard_TBNS.description>An extraterrestrial shard. Looks unusual.</TiberiumShard_TBNS.description>
+  <TiberiumCraterBlue_TBNS.label>Blue Tiberium Field</TiberiumCraterBlue_TBNS.label>
+  <TiberiumCraterBlue_TBNS.description>A beautiful field of blue Tiberium</TiberiumCraterBlue_TBNS.description>
+
+  <TiberiumMeteor_TBNS.label>Tiberium Meteor</TiberiumMeteor_TBNS.label>
+  <TiberiumMeteor_TBNS.description>An extraterrestrial meteor. Contains glowing crystal of all sorts.</TiberiumMeteor_TBNS.description>
+
+  <TiberiumMonolith_TBNS.label>blue Tiberium monolith</TiberiumMonolith_TBNS.label>
+  <TiberiumMonolith_TBNS.description>A blue monolith growing out of the ground.</TiberiumMonolith_TBNS.description>
+
+  <BlossomTree_TBNS.label>blossom tree</BlossomTree_TBNS.label>
+  <BlossomTree_TBNS.description>A strange tree with alien properties. It seems to grow green crystals.</BlossomTree_TBNS.description>
+
+  <TiberiumShard_TBNS.label>tiberium shard</TiberiumShard_TBNS.label>
+  <TiberiumShard_TBNS.description>An extraterrestrial shard. Looks unusual.</TiberiumShard_TBNS.description>
+
+  <Veinhole_TBNS.label>Veinhole</Veinhole_TBNS.label>
+  <Veinhole_TBNS.description>A veinhole. A strange lifeform developed by Tiberium. It produces veins around itself that can be harvested. Be aware of blunt damage. Coming too close to the center might cause infection by poisonous gases.</Veinhole_TBNS.description>
+
+  <TiberiumTower_TBNS.label>green Tiberium tower</TiberiumTower_TBNS.label>
+  <TiberiumTower_TBNS.description>A green tower rising from the ground. These structures normally take years to form.</TiberiumTower_TBNS.description>
+
+
 </LanguageData>

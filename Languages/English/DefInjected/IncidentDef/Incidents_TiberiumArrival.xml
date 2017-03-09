@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AsteroidGreen.label>green tiberium asteroid</AsteroidGreen.label>
+  <AsteroidGreen.letterLabel>Green Tiberium Asteroid</AsteroidGreen.letterLabel>
+  <AsteroidGreen.letterText>An unusual meteorite has crashed nearby and made a crater.\n\nThere seems to be some strange crystals poking out of it, and a few have broken off and scattered around the site.\n\nBe careful, the substance could be dangerous!</AsteroidGreen.letterText>
+
+  <AsteroidBlue.label>blue tiberium asteroid</AsteroidBlue.label>
+  <AsteroidBlue.letterLabel>Blue Tiberium Asteroid</AsteroidBlue.letterLabel>
+  <AsteroidBlue.letterText>An unusual meteorite has crashed nearby and made a crater.\n\nThere seems to be some strange crystals poking out of it, and a few have broken off and scattered around the site.\n\nBe careful, the substance could be dangerous!</AsteroidBlue.letterText>
+
+  <AsteroidMeteor.label>tiberium meteor</AsteroidMeteor.label>
+  <AsteroidMeteor.letterLabel>Tiberium Meteor Drop</AsteroidMeteor.letterLabel>
+  <AsteroidMeteor.letterText>An unusual meteorite has crashed nearby.\n\nThere seems to be some strange crystals poking out of it.\n\nBe careful, the substance could be dangerous!</AsteroidMeteor.letterText>
+
+  <TiberiumShard.label>tiberium shard</TiberiumShard.label>
+  <TiberiumShard.letterLabel>Tiberium shard</TiberiumShard.letterLabel>
+  <TiberiumShard.letterText>A unsual type of shard has dropped. It's spreading red crystals around itself.\n\nBe careful, the substance could be dangerous!</TiberiumShard.letterText>
+
+  <BlossomTree.label>blossom tree</BlossomTree.label>
+  <BlossomTree.letterLabel>Unknown gas!</BlossomTree.letterLabel>
+  <BlossomTree.letterText>A cloud of unknown gas has passed the map and mutated a tree. Be careful around it!</BlossomTree.letterText>
+
+  <VeinholeArrival.label>Veinhole Arrival</VeinholeArrival.label>
+  <VeinholeArrival.letterLabel>Veinhole!</VeinholeArrival.letterLabel>
+  <VeinholeArrival.letterText>A veinhole monster appeared on your map!</VeinholeArrival.letterText>
+
+  <IonStormIncident.label>Ion storm</IonStormIncident.label>
+  <IonStormIncident.letterLabel>Ion storm!</IonStormIncident.letterLabel>
+  <IonStormIncident.letterText>An Ion storm has begun.\n\nThe intense radiation will shut down all electrical devices.\n\nBe careful about Tiberium spread.</IonStormIncident.letterText>
+
+
+</LanguageData>
