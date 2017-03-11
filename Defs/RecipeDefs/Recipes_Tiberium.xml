@@ -120,10 +120,10 @@
 	</RecipeDef>
 	
 	<RecipeDef>
-		<defName>MakeLiquidTiberium</defName>
-		<label>Create liquid Tiberium</label>
-		<description>This refinery uses complex reactions to liquify Tiberium.</description>
-		<jobString>Making liquid Tiberium.</jobString>
+		<defName>MakeTiberiumFuel</defName>
+		<label>Make Tiberium fuel</label>
+		<description>This refinery uses complex reactions to refine Tiberium.</description>
+		<jobString>Making Tiberium fuel.</jobString>
 		<workAmount>1800</workAmount>
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>
@@ -134,15 +134,32 @@
 				<li>GreenTiberiumRaw</li>
 			  </thingDefs>
 			</filter>
-			<count>5</count>
+			<count>8</count>
+		  </li>
+		  <li>
+			<filter>
+			  <thingDefs>
+				<li>BlueTiberiumRaw</li>
+			  </thingDefs>
+			</filter>
+			<count>4</count>
+		  </li>
+		  <li>
+			<filter>
+			  <thingDefs>
+				<li>RedTiberiumRaw</li>
+			  </thingDefs>
+			</filter>
+			<count>2</count>
 		  </li>
 		</ingredients>
 		<products>
-		  <LiquidTiberium>1</LiquidTiberium>
+		  <TiberiumFuel>1</TiberiumFuel>
 		</products>
 		<workSkill>Crafting</workSkill>
 			<fixedIngredientFilter>
 				<thingDefs>
+					<li>BlueTiberiumRaw</li>
 					<li>GreenTiberiumRaw</li>
 				</thingDefs>
 			</fixedIngredientFilter>

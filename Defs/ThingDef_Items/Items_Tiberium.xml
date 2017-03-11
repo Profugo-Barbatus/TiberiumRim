@@ -35,7 +35,7 @@
 		<soundDrop>Silver_Drop</soundDrop>
 		<useHitPoints>false</useHitPoints>
 		<statBases>
-			<MarketValue>1</MarketValue>
+			<MarketValue>21</MarketValue>
 			<Mass>0.1</Mass>
 		</statBases>
 		<thingCategories>
@@ -58,7 +58,7 @@
 		<soundDrop>Silver_Drop</soundDrop>
 		<useHitPoints>false</useHitPoints>
 		<statBases>
-			<MarketValue>4</MarketValue>
+			<MarketValue>35</MarketValue>
 			<Mass>0.2</Mass>
 		</statBases>
 		<thingCategories>
@@ -81,7 +81,7 @@
 		<soundDrop>Silver_Drop</soundDrop>
 		<useHitPoints>false</useHitPoints>
 		<statBases>
-			<MarketValue>10</MarketValue>
+			<MarketValue>50</MarketValue>
 			<Mass>0.5</Mass>
 		</statBases>
 		<thingCategories>
@@ -103,7 +103,7 @@
 		<soundDrop>Wood_Drop</soundDrop>
 		<useHitPoints>false</useHitPoints>
 		<statBases>
-			<MarketValue>15</MarketValue>
+			<MarketValue>60</MarketValue>
 			<Mass>0.6</Mass>
 		</statBases>
 		<thingCategories>
@@ -113,11 +113,11 @@
     </ThingDef>
 	
 	<ThingDef ParentName="ResourceBase">
-		<defName>LiquidTiberium</defName>
-		<label>liquid Tiberium</label>
-		<description>The liquid form of Tiberium. Use it carefully!</description>
+		<defName>TiberiumFuel</defName>
+		<label>Tiberium Fuel</label>
+		<description>A refined form of Tiberium. Useful as fuel.</description>
 		<graphicData>
-			<texPath>Item/Resource_TiberiumLQ</texPath>
+			<texPath>Item/Resource_TiberiumFuel</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<resourceReadoutPriority>First</resourceReadoutPriority>
@@ -125,7 +125,7 @@
 		<soundDrop>Silver_Drop</soundDrop>
 		<useHitPoints>false</useHitPoints>
 		<statBases>
-			<MarketValue>1</MarketValue>
+			<MarketValue>250</MarketValue>
 			<Mass>0.1</Mass>
 		</statBases>
 		<thingCategories>
@@ -147,6 +147,8 @@
 		<soundDrop>Wood_Drop</soundDrop>	
 		<useHitPoints>true</useHitPoints>
 		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<DeteriorationRate>2</DeteriorationRate>
 			<MarketValue>30</MarketValue>
 			<Mass>0.1</Mass>
 			<Flammability>1.0</Flammability>
@@ -171,7 +173,9 @@
 		<soundDrop>Wood_Drop</soundDrop>	
 		<useHitPoints>true</useHitPoints>
 		<statBases>
-			<MarketValue>30</MarketValue>
+			<MaxHitPoints>50</MaxHitPoints>
+			<DeteriorationRate>2</DeteriorationRate>
+			<MarketValue>40</MarketValue>
 			<Mass>0.1</Mass>
 			<Flammability>1.0</Flammability>
 		</statBases>
@@ -195,7 +199,9 @@
 		<soundDrop>Wood_Drop</soundDrop>	
 		<useHitPoints>true</useHitPoints>
 		<statBases>
-			<MarketValue>30</MarketValue>
+			<MaxHitPoints>50</MaxHitPoints>
+			<DeteriorationRate>2</DeteriorationRate>
+			<MarketValue>50</MarketValue>
 			<Mass>0.1</Mass>
 			<Flammability>1.0</Flammability>
 		</statBases>

@@ -44,6 +44,7 @@
 			<li Class="CompProperties_AffectedByFacilities">
 				<linkableFacilities>
 					<li>MultiAnalyzer</li>
+					<li>TiberiumResearchCraftingBench</li>
 				</linkableFacilities>
 			</li>
 		</comps>
@@ -75,7 +76,7 @@
 			<WorkToBuild>500</WorkToBuild>
 			<Flammability>1.0</Flammability>
 		</statBases>
-		<size>(2,2)</size>
+		<size>(3,4)</size>
 		<costList>
 			<Gold>5</Gold>
 			<Steel>75</Steel>
@@ -91,7 +92,7 @@
 		<graphicData>
 			<texPath>Building/Tiberium/TibResearchCrafter</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>(4,4)</drawSize>
+			<drawSize>(4.5,4.5)</drawSize>
 			<shadowData>
 				<volume>(1.5,1,1.5)</volume>
 			</shadowData>
@@ -106,7 +107,7 @@
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
 		</building>
 		<fillPercent>0.5</fillPercent>
-		<interactionCellOffset>(0,0,2)</interactionCellOffset>
+		<interactionCellOffset>(0,0,3)</interactionCellOffset>
 		<hasInteractionCell>true</hasInteractionCell>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 		<designationCategory>Production</designationCategory>
@@ -114,6 +115,23 @@
 		<researchPrerequisites>
 			<li>TiberiumKnowledge</li>
 		</researchPrerequisites>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<startElectricalFires>true</startElectricalFires>
+				<basePowerConsumption>75</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Facility">
+				<statOffsets>
+					<ResearchSpeedFactor>0</ResearchSpeedFactor>
+				</statOffsets>
+				<maxSimultaneous>1</maxSimultaneous>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+		</placeWorkers>
 	</ThingDef>
     
 </ThingDefs>

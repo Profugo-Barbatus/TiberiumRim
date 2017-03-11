@@ -5,7 +5,7 @@
 		<defName>TiberiumResearch</defName>
 		<label>tiberium base research</label>
 		<description>Allows the research of Tiberium technologies:\n\n -Construction of the Tiberium Research Building</description>
-		<baseCost>1250</baseCost>
+		<baseCost>1550</baseCost>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
 			<li>MicroelectronicsBasics</li>
@@ -20,7 +20,7 @@
 		<defName>TiberiumKnowledge</defName>
 		<label>tiberium knowledge</label>
 		<description>Allows the understanding of Tiberium:\n\n -Craft Tiberium (lore) books\n\n -Craft Tiberium Protection Suits.</description>
-		<baseCost>450</baseCost>
+		<baseCost>350</baseCost>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
 			<li>TiberiumResearch</li>
@@ -35,11 +35,14 @@
 		<defName>TiberiumResearchRefining</defName>
 		<label>tiberium Refining</label>
 		<description>Allows Tiberium to be refined.\n\n -Construction of the Tiberium refinery</description>
-		<baseCost>550</baseCost>
+		<baseCost>250</baseCost>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
 			<li>TiberiumResearch</li>
 		</prerequisites>
+		<requiredResearchFacilities>
+			<li>TiberiumResearchCraftingBench</li>
+		</requiredResearchFacilities>
 		<requiredResearchBuilding>TiberiumResearchBench</requiredResearchBuilding>
 		<researchViewX>14</researchViewX>
 		<researchViewY>2.5</researchViewY>
@@ -49,11 +52,15 @@
 		<defName>TiberiumPower</defName>
 		<label>tiberium Power</label>
 		<description>Allows the construction of the Tiberium power plant.</description>
-		<baseCost>750</baseCost>
+		<baseCost>450</baseCost>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
 			<li>TiberiumResearch</li>
 		</prerequisites>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+			<li>TiberiumResearchCraftingBench</li>
+		</requiredResearchFacilities>
 		<requiredResearchBuilding>TiberiumResearchBench</requiredResearchBuilding>
 		<researchViewX>14</researchViewX>
 		<researchViewY>3.5</researchViewY>
@@ -63,15 +70,18 @@
 		<defName>TiberiumSonicInhibition</defName>
 		<label>Tiberium Inhibition</label>
 		<description>Exploit the crystalline nature of Tiberium to shatter it with Sonic frequencies:\n\n -Construction of Sonic Inhibitors\n\n -Construction of Sonic Inhibitor Fences \n\n -Construction of the Decrystallizer (Misc)</description>
-		<baseCost>750</baseCost>
+		<baseCost>150</baseCost>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
 			<li>TiberiumResearch</li>
 		</prerequisites>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+			<li>TiberiumResearchCraftingBench</li>
+		</requiredResearchFacilities>
 		<requiredResearchBuilding>TiberiumResearchBench</requiredResearchBuilding>
 		<researchViewX>14.0</researchViewX>
 		<researchViewY>4.5</researchViewY>
 	</ResearchProjectDef>
-
 	
 </Defs>

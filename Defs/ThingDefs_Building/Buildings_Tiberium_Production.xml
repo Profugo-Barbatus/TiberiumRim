@@ -52,7 +52,6 @@
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
 				<basePowerConsumption>375</basePowerConsumption>
-				<startElectricalFires>true</startElectricalFires>
 			</li>
 			<li Class="CompProperties_Flickable"/>
 			<li Class="CompProperties_Breakdownable"/>
@@ -62,14 +61,14 @@
 			<li>ExtractResourcesFromBlueTiberium</li>
 			<li>ExtractResourcesFromRedTiberium</li>
 			<li>ExtractResourcesFromVeinTiberium</li>
-			<li>MakeLiquidTiberium</li>
+			<li>MakeTiberiumFuel</li>
 		</recipes>
 		<castEdgeShadows>false</castEdgeShadows>
 		<staticSunShadowHeight>0</staticSunShadowHeight>
 		<graphicData>
 			<texPath>Building/Tiberium/TibRefinery</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>(4,4)</drawSize>
+			<drawSize>(5,5)</drawSize>
 			<shadowData>
 				<volume>(1.5,1,1.5)</volume>
 			</shadowData>
@@ -116,7 +115,7 @@
 			<Flammability>1.0</Flammability>
 		</statBases>
 		<tickerType>Normal</tickerType>
-		<description>Produces power by consuming liquid Tiberium. Must be fueled by hand.</description>
+		<description>Produces power by consuming Tiberium fuel. Must be fueled by hand.</description>
 		<size>(4,4)</size>
 		<building>
 			<ignoreNeedsPower>true</ignoreNeedsPower>
@@ -126,21 +125,21 @@
 			<Uranium>35</Uranium>
 			<Plasteel>25</Plasteel>
 			<Component>5</Component>
-			<LiquidTiberium>5</LiquidTiberium>
+			<TiberiumFuel>5</TiberiumFuel>
 		</costList>
 		<comps>
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerPlant</compClass>
-				<basePowerConsumption>-3500</basePowerConsumption>
+				<basePowerConsumption>-2750</basePowerConsumption>
 				<transmitsPower>true</transmitsPower>
 			</li>
 			<li Class="CompProperties_Flickable" />
 			<li Class="CompProperties_Refuelable">
-			<fuelConsumptionRate>2.0</fuelConsumptionRate>
-			<fuelCapacity>24.0</fuelCapacity>
+			<fuelConsumptionRate>2</fuelConsumptionRate>
+			<fuelCapacity>40.0</fuelCapacity>
 			<fuelFilter>
 				<thingDefs>
-					<li>LiquidTiberium</li>
+					<li>TiberiumFuel</li>
 				</thingDefs>
 			</fuelFilter>
 			</li>
