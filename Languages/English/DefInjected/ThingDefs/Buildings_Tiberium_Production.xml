@@ -6,5 +6,10 @@
   <TiberiumRefinery_Blueprint.label>tiberium refinery (blueprint)</TiberiumRefinery_Blueprint.label>
   <TiberiumRefinery_Frame.label>tiberium refinery (building)</TiberiumRefinery_Frame.label>
 
+  <TiberiumPowerPlant.label>Tiberium power plant</TiberiumPowerPlant.label>
+  <TiberiumPowerPlant.description>Produces power by consuming Tiberium fuel. Must be fueled by hand.</TiberiumPowerPlant.description>
+  <TiberiumPowerPlant_Blueprint.label>Tiberium power plant (blueprint)</TiberiumPowerPlant_Blueprint.label>
+  <TiberiumPowerPlant_Frame.label>Tiberium power plant (building)</TiberiumPowerPlant_Frame.label>
+
 
 </LanguageData>

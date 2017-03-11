@@ -17,6 +17,10 @@
   <ExtractResourcesFromVeinTiberium.description>This refinery uses complex reactions to break down Tiberium veins into Uranium and green Tiberium.</ExtractResourcesFromVeinTiberium.description>
   <ExtractResourcesFromVeinTiberium.jobString>Refining Tiberium veins.</ExtractResourcesFromVeinTiberium.jobString>
 
+  <MakeTiberiumFuel.label>Make Tiberium fuel</MakeTiberiumFuel.label>
+  <MakeTiberiumFuel.description>This refinery uses complex reactions to refine Tiberium.</MakeTiberiumFuel.description>
+  <MakeTiberiumFuel.jobString>Making Tiberium fuel.</MakeTiberiumFuel.jobString>
+
   <MakeBookRiparius.label>Write about green Tiberium.</MakeBookRiparius.label>
   <MakeBookRiparius.jobString>Writing about green Tiberium.</MakeBookRiparius.jobString>
 

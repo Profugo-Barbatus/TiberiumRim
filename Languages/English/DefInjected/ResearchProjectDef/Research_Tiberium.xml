@@ -10,6 +10,9 @@
   <TiberiumResearchRefining.label>tiberium Refining</TiberiumResearchRefining.label>
   <TiberiumResearchRefining.description>Allows Tiberium to be refined.\n\n -Construction of the Tiberium refinery</TiberiumResearchRefining.description>
 
+  <TiberiumPower.label>tiberium Power</TiberiumPower.label>
+  <TiberiumPower.description>Allows the construction of the Tiberium power plant.</TiberiumPower.description>
+
   <TiberiumSonicInhibition.label>Tiberium Inhibition</TiberiumSonicInhibition.label>
   <TiberiumSonicInhibition.description>Exploit the crystalline nature of Tiberium to shatter it with Sonic frequencies:\n\n -Construction of Sonic Inhibitors\n\n -Construction of Sonic Inhibitor Fences \n\n -Construction of the Decrystallizer (Misc)</TiberiumSonicInhibition.description>
 
