@@ -156,7 +156,7 @@
 		<li Class="ScenPart_ScatterThingsAnywhere">
           <def>ScatterThingsAnywhere</def>
           <thingDef>TiberiumRed</thingDef>
-          <count>155</count>
+          <count>25</count>
         </li>
 	<!-- Abandoned refinery -->
 		<li Class="ScenPart_ScatterThingsAnywhere">
