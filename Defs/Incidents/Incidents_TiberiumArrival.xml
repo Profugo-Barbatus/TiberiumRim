@@ -50,7 +50,7 @@
 		<workerClass>TiberiumRim.IncidentWorker_GreenAsteroid</workerClass>
 		<baseChance>0.055</baseChance>
 		<letterLabel>Tiberium shard</letterLabel>
-		<letterText>A unsual type of shard has dropped. It's spreading red crystals around itself.\n\nBe careful, the substance could be dangerous!</letterText>
+		<letterText>An unusual type of shard has dropped. It's spreading red crystals around itself.\n\nBe careful, the substance could be dangerous!</letterText>
 		<letterType>BadNonUrgent</letterType>
 		<minRefireDays>356</minRefireDays>
 		<category>ThreatSmall</category>

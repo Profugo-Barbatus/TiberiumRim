@@ -77,12 +77,12 @@
 		<description>A beautiful field of blue Tiberium</description>
 		<label>Blue Tiberium Field</label>
 		<thingClass>Building</thingClass>
-		<size>(1,1)</size>
+		<size>(2,2)</size>
 		<graphicData>
-			<texPath>Building/Natural/TiberiumCraterBlue</texPath>
+			<texPath>Building/Natural/BigTiberiumCraterBlue</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>Transparent</shaderType>
-			<drawSize>(4,4)</drawSize>
+			<drawSize>(5,5)</drawSize>
 		</graphicData>
 		<statBases>
 			<MaxHitPoints>9500</MaxHitPoints>
