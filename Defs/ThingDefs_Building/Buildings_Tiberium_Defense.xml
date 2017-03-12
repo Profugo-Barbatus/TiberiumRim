@@ -52,6 +52,7 @@
 		<placeWorkers>
 			<li>TiberiumRim.PlaceWorker_TiberiumInhibitor</li>
 		</placeWorkers>
+		<rotatable>false</rotatable>
 		<researchPrerequisites>
 			<li>TiberiumSonicInhibition</li>
 		</researchPrerequisites>
@@ -162,7 +163,7 @@
 			<li Class="TiberiumRim.CompProperties_SonicEmitter">
 				<compClass>TiberiumRim.CompSonicEmitter</compClass>
 				<radius>1</radius>
-				<damageShutdownPercent>0.4</damageShutdownPercent>
+				<damageShutdownPercent>0.8</damageShutdownPercent>
 			</li>
 			<li Class="CompProperties_Glower">
 				<glowRadius>1</glowRadius>

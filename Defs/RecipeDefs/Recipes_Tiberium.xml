@@ -159,6 +159,7 @@
 		<workSkill>Crafting</workSkill>
 			<fixedIngredientFilter>
 				<thingDefs>
+					<li>RedTiberiumRaw</li>
 					<li>BlueTiberiumRaw</li>
 					<li>GreenTiberiumRaw</li>
 				</thingDefs>

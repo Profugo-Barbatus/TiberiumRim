@@ -56,7 +56,7 @@
 		<plant>
 			<reproduces>true</reproduces>
 			<growMinGlow>0</growMinGlow>
-			<reproduceMtbDays>0.5</reproduceMtbDays>
+			<reproduceMtbDays>0.3</reproduceMtbDays>
 			<reproduceRadius>1</reproduceRadius>
 			<fertilityMin>0</fertilityMin>
 			<fertilitySensitivity>0</fertilitySensitivity>
@@ -91,7 +91,7 @@
 		<plant>
 			<reproduces>true</reproduces>
 			<growMinGlow>10</growMinGlow>
-			<reproduceMtbDays>0.5</reproduceMtbDays>
+			<reproduceMtbDays>0.3</reproduceMtbDays>
 			<reproduceRadius>1</reproduceRadius>
 			<fertilityMin>0</fertilityMin>
 			<fertilitySensitivity>0</fertilitySensitivity>

@@ -68,7 +68,7 @@
 		<graphicData>
 			<texPath>Building/Tiberium/TibRefinery</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>(5,5)</drawSize>
+			<drawSize>(4,4)</drawSize>
 			<shadowData>
 				<volume>(1.5,1,1.5)</volume>
 			</shadowData>
@@ -80,6 +80,7 @@
 			<li>ITab_Bills</li>
 		</inspectorTabs>
 		<building>
+			<workSpeedPenaltyOutdoors>false</workSpeedPenaltyOutdoors>
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
 		</building>
 		<fillPercent>0.5</fillPercent>

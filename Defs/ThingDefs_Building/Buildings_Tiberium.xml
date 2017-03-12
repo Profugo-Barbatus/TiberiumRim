@@ -35,7 +35,7 @@
 		<description>A green Tiberium field.</description>
 		<label>Green Tiberium Field</label>
 		<thingClass>Building</thingClass>
-		<size>(2,2)</size>
+		<size>(3,3)</size>
 		<graphicData>
 			<texPath>Building/Natural/BigTiberiumCraterGreen</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -77,7 +77,7 @@
 		<description>A beautiful field of blue Tiberium</description>
 		<label>Blue Tiberium Field</label>
 		<thingClass>Building</thingClass>
-		<size>(2,2)</size>
+		<size>(3,3)</size>
 		<graphicData>
 			<texPath>Building/Natural/BigTiberiumCraterBlue</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

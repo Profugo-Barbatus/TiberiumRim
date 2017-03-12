@@ -16,7 +16,7 @@
 		<pathCost>75</pathCost>
 		<plant>
 			<dieIfLeafless>false</dieIfLeafless>
-			<reproduceMtbDays>0.8</reproduceMtbDays>
+			<reproduceMtbDays>0.5</reproduceMtbDays>
 			<harvestWork>300</harvestWork>
 			<harvestTag>Standard</harvestTag>
 			<harvestedThingDef>GreenTiberiumRaw</harvestedThingDef>
@@ -26,7 +26,7 @@
 			<maxMeshCount>4</maxMeshCount>
 			<growDays>3</growDays>
 			<visualSizeRange>
-				<min>0.7</min>
+				<min>0.4</min>
 				<max>1.0</max>
 			</visualSizeRange>
 		</plant>
@@ -59,7 +59,7 @@
 		<pathCost>75</pathCost>
 		<plant>
 			<dieIfLeafless>false</dieIfLeafless>
-			<reproduceMtbDays>0.8</reproduceMtbDays>
+			<reproduceMtbDays>0.3</reproduceMtbDays>
 			<harvestWork>500</harvestWork>
 			<harvestTag>Standard</harvestTag>
 			<harvestedThingDef>BlueTiberiumRaw</harvestedThingDef>
@@ -69,7 +69,7 @@
 			<reproduceRadius>3</reproduceRadius>
 			<maxMeshCount>4</maxMeshCount>
 			<visualSizeRange>
-				<min>0.7</min>
+				<min>0.4</min>
 				<max>1.0</max>
 			</visualSizeRange>
 		</plant>
@@ -113,7 +113,7 @@
 			<reproduceRadius>1</reproduceRadius>
 			<maxMeshCount>4</maxMeshCount>
 			<visualSizeRange>
-				<min>0.7</min>
+				<min>0.4</min>
 				<max>1.0</max>
 			</visualSizeRange>
 		</plant>
