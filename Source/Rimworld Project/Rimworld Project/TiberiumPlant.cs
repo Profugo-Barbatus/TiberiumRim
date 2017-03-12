@@ -189,10 +189,15 @@ namespace TiberiumRim
             cachedLabelMouseover = null;
         }
 
+       /* public virtual void startinfect(Pawn p)
+        {
+                float num = 0.1f;
+                HealthUtility.AdjustSeverity(p, DefDatabase<HediffDef>.GetNamed("TiberiumBuildup"), num);
+        } */
+
         public virtual void infect(Pawn p)
         {
             HediffDef tiberium = DefDatabase<HediffDef>.GetNamed("TiberiumContactPoison", true);
-
 
             if (p.RaceProps.IsMechanoid)
             {
@@ -589,14 +594,14 @@ namespace TiberiumRim
             }
             */
 
-            if (Rand.Chance(0.7f))
+            if (Rand.Chance(0.8f))
             {
-                Log.Message("Spawn Tiberium: " + plantDef);
+                //Log.Message("Spawn Tiberium: " + plantDef);
                 changeTerrain(dest, map, setTerrain);
 
                 return (Plant)GenSpawn.Spawn(plantDef, dest, map);
             }
-            Log.Message("You got unlucky! No tiberium spread, or is that lucky actually?");
+            //Log.Message("You got unlucky! No tiberium spread, or is that lucky actually?");
             return null;
         }
 
