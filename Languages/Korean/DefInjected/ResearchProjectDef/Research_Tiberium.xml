@@ -1,16 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-	<TiberiumResearch.label>타이베리움 기초연구</TiberiumResearch.label>
-	<TiberiumResearch.description>타이베리움에 관한 모든 연구의 기초가 됩니다.</TiberiumResearch.description>
+<TiberiumResearch.label>타이베리움 기초연구</TiberiumResearch.label>
+<TiberiumResearch.description>타이베리움에 관한 모든 연구의 기초가 됩니다.</TiberiumResearch.description>
 	
-	<TiberiumKnowledge.label>타이베리움 취급기술</TiberiumKnowledge.label>
-	<TiberiumKnowledge.description>타이베리움 오염을 막아주는 기초 방호복과, 각종 취급서를 제작할 수 있습니다.</TiberiumKnowledge.description>
+<TiberiumKnowledge.label>타이베리움 취급기술</TiberiumKnowledge.label>
+<TiberiumKnowledge.description>타이베리움 오염을 막아주는 기초 방호복과 각종 취급서를 제작할 수 있습니다.</TiberiumKnowledge.description>
 	
-	<TiberiumResearchRefining.label>타이베리움 정제기술</TiberiumResearchRefining.label>
-	<TiberiumResearchRefining.description>타이베리움 정제소를 건설할 수 있습니다. 정제소는 타이베리움을 유용한 광물 자원으로 변환합니다.</TiberiumResearchRefining.description>
+<TiberiumResearchRefining.label>타이베리움 정제기술</TiberiumResearchRefining.label>
+<TiberiumResearchRefining.description>타이베리움 정제소를 건설할 수 있습니다. 정제소는 타이베리움을 유용한 광물 자원으로 변환합니다.</TiberiumResearchRefining.description>
 
-	<TiberiumSonicInhibition.label>타이베리움 억제기술</TiberiumSonicInhibition.label>
-	<TiberiumSonicInhibition.description>음파 억제기를 만들 수 있습니다. 억제기는 음파 공명을 통해 타이베리움 결정의 분자 결합을 파괴합니다.</TiberiumSonicInhibition.description>
+<TiberiumPower.label>타이베리움 응용기술</TiberiumPower.label>
+<TiberiumPower.description>타이베리움 발전소를 건설할 수 있습니다.</TiberiumPower.description>
+	
+<TiberiumSonicInhibition.label>타이베리움 억제기술</TiberiumSonicInhibition.label>
+<TiberiumSonicInhibition.description>음파 억제기 및 관련 건물들을 만들 수 있습니다. 억제기는 음파 공명을 통해 타이베리움 결정의 분자 결합을 파괴합니다.</TiberiumSonicInhibition.description>
 	
 </LanguageData>
