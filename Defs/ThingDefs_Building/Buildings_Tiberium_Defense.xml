@@ -11,7 +11,7 @@
 		<graphicData>
 			<texPath>Building/Defense/Inhibiter_small</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.5</drawSize>
+			<drawSize>(1.5,1.5)</drawSize>
 			<shadowData>
 				<volume>(0.5,0.5,0.5)</volume>
 				<offset>(0,0,0)</offset>
@@ -32,22 +32,157 @@
 			<Component>5</Component>
 		</costList>
 		<comps>
+			<li Class="CompProperties_Glower">
+				<glowRadius>3</glowRadius>
+				<glowColor>(0,128,255,0)</glowColor>
+			</li>
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
-				<basePowerConsumption>250</basePowerConsumption>
+				<basePowerConsumption>85</basePowerConsumption>
 				<shortCircuitInRain>false</shortCircuitInRain>
 			</li>
 			<li Class="CompProperties_Breakdownable"/>
 			<li Class="TiberiumRim.CompProperties_SonicEmitter">
 				<compClass>TiberiumRim.CompSonicEmitter</compClass>
 				<radius>7</radius>
-				<damageShutdownPercent>0.5</damageShutdownPercent>
+				<damageShutdownPercent>0.6</damageShutdownPercent>
 			</li>
 		</comps>
 		<tickerType>Rare</tickerType>
 		<placeWorkers>
 			<li>TiberiumRim.PlaceWorker_TiberiumInhibitor</li>
 		</placeWorkers>
+		<rotatable>false</rotatable>
+		<researchPrerequisites>
+			<li>TiberiumSonicInhibition</li>
+		</researchPrerequisites>
+	</ThingDef>
+	
+	<ThingDef ParentName="BuildingBase">
+		<defName>Decrystallizer</defName>
+		<label>Tiberium Soil Decrystallizer</label>
+		<description>Very slowly removes Tiberium from infected ground, converting any Tiberium ground into decrystallized soil that can be used again. Does not affect contaminated water. Requires power.</description>
+		<size>(1,1)</size>
+		<graphicData>
+			<texPath>Building/Defense/Decrystallizer</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1.5,1.5)</drawSize>
+			<shadowData>
+				<volume>(0.25, 0.5, 0.25)</volume>
+				<offset>(0,0,-0.1)</offset>
+			</shadowData>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+		</graphicData>
+		<comps>
+			<li Class="CompProperties_Glower">
+				<glowRadius>3</glowRadius>
+				<glowColor>(51,255,51,0)</glowColor>
+			</li>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<startElectricalFires>false</startElectricalFires>
+				<basePowerConsumption>250</basePowerConsumption>
+				<shortCircuitInRain>false</shortCircuitInRain>
+			</li>
+			<li Class="TiberiumRim.CompProperties_Decrystallizer">
+				<radius>12</radius>
+				<daysToRadius>7</daysToRadius>
+			</li>
+		</comps>
+		<tickerType>Rare</tickerType>
+		<altitudeLayer>Building</altitudeLayer>
+		<minifiedDef>MinifiedFurniture</minifiedDef>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>2500</WorkToBuild>
+			<Flammability>1.0</Flammability>
+			<Beauty>-12</Beauty>
+		</statBases>
+		<fillPercent>0.15</fillPercent>
+		<building>
+			<ai_chillDestination>false</ai_chillDestination>
+		</building>
+		<costList>
+			<Uranium>5</Uranium>
+			<Steel>100</Steel>
+			<Component>8</Component>
+		</costList>
+		<specialDisplayRadius>12</specialDisplayRadius>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<pathCost>30</pathCost>
+		<designationCategory>Misc</designationCategory>
+		<rotatable>false</rotatable>
+		<researchPrerequisites>
+			<li>TiberiumSonicInhibition</li>
+		</researchPrerequisites>
+	</ThingDef>
+	
+	<ThingDef ParentName="BuildingBase">
+		<defName>SonicFence</defName>
+		<label>Sonic Inhibitor Fence</label>
+		<thingClass>Building</thingClass>
+		<category>Building</category>
+		<graphicData>
+			<texPath>Building/Defense/Fence_Sonic</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<linkType>Basic</linkType>
+			<linkFlags>
+				<li>Custom9</li>
+			</linkFlags>
+		</graphicData>
+		<blueprintGraphicData>
+			<texPath>Building/Defense/Fence_Sonic_BluePrint</texPath>
+		</blueprintGraphicData>
+		<uiIconPath>Building/Defense/SonicFenceIcon</uiIconPath>
+		<altitudeLayer>Building</altitudeLayer>
+		<pathCostIgnoreRepeat>true</pathCostIgnoreRepeat>
+		<passability>Impassable</passability>
+		<castEdgeShadows>true</castEdgeShadows>
+		<fillPercent>0.65</fillPercent>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Beauty>-10</Beauty>
+			<WorkToBuild>180</WorkToBuild>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<description>This fence allows you to cut off Tiberium spread. Requires power.</description>
+		<placingDraggableDimensions>1</placingDraggableDimensions>
+		<costList>
+			<Steel>8</Steel>
+			<Uranium>2</Uranium>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>5</basePowerConsumption>
+				<shortCircuitInRain>false</shortCircuitInRain>
+				<transmitsPower>true</transmitsPower>
+			</li>
+			<li Class="TiberiumRim.CompProperties_SonicEmitter">
+				<compClass>TiberiumRim.CompSonicEmitter</compClass>
+				<radius>1</radius>
+				<damageShutdownPercent>0.8</damageShutdownPercent>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>1</glowRadius>
+				<glowColor>(0,150,255)</glowColor>
+			</li>
+		</comps>
+		<tickerType>Rare</tickerType>
+		<placeWorkers>
+			<li>TiberiumRim.PlaceWorker_TiberiumInhibitor</li>
+		</placeWorkers>
+		<filthLeaving>SandbagRubble</filthLeaving>
+		<rotatable>false</rotatable>
+		<selectable>true</selectable>
+		<neverMultiSelect>true</neverMultiSelect>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<designationCategory>Security</designationCategory>
+		<staticSunShadowHeight>0.20</staticSunShadowHeight>
+		<constructEffect>ConstructDirt</constructEffect>
+		<repairEffect>ConstructDirt</repairEffect>
 		<researchPrerequisites>
 			<li>TiberiumSonicInhibition</li>
 		</researchPrerequisites>

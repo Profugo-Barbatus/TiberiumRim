@@ -1,21 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-	<AsteroidGreen.label>그린 타이베리움 운석</AsteroidGreen.label>
-	<AsteroidGreen.letterLabel>그린 타이베리움 운석</AsteroidGreen.letterLabel>
-	<AsteroidGreen.letterText>낯선 운석이 근처에 추락하여 분화구를 만들었습니다.\n\n운석은 특이한 결정질 광물로 이뤄져 있으며, 부서진 일부는 분화구 주변에 흩어져 있습니다.\n\n조심하세요. 이 물질은 위험할 수 있습니다!</AsteroidGreen.letterText>
-	<AsteroidBlue.label>블루 타이베리움 운석</AsteroidBlue.label>
-	<AsteroidBlue.letterLabel>블루 타이베리움 운석</AsteroidBlue.letterLabel>
-	<AsteroidBlue.letterText>낯선 운석이 근처에 추락하여 분화구를 만들었습니다.\n\n운석은 특이한 결정질 광물로 이뤄져 있으며, 부서진 일부는 분화구 주변에 흩어져 있습니다.\n\n조심하세요. 이 물질은 위험할 수 있습니다!</AsteroidBlue.letterText>
+	<AsteroidGreen.label>녹색 운석</AsteroidGreen.label>
+	<AsteroidGreen.letterLabel>녹색 운석 낙하!</AsteroidGreen.letterLabel>
+	<AsteroidGreen.letterText>낯선 결정질 운석이 근처에 추락하여 분화구를 만들었습니다.\n\n운석은 산산이 부서져 분화구 아래를 가득 메웠습니다.\n\n오염물질 확산에 주의하십시오.</AsteroidGreen.letterText>
+	
+	<AsteroidBlue.label>푸른색 운석</AsteroidBlue.label>
+	<AsteroidBlue.letterLabel>푸른색 운석 낙하!</AsteroidBlue.letterLabel>
+	<AsteroidBlue.letterText>낯선 결정질 운석이 근처에 추락하여 분화구를 만들었습니다.\n\n운석은 산산이 부서져 분화구 아래를 가득 메웠습니다.\n\n오염물질 확산에 주의하십시오.</AsteroidBlue.letterText>
+	
 	<AsteroidMeteor.label>비활성 타이베리움 운석</AsteroidMeteor.label>
-	<AsteroidMeteor.letterLabel>타이베리움 운석 낙하</AsteroidMeteor.letterLabel>
-	<AsteroidMeteor.letterText>낯선 운석이 근처에 추락했습니다.\n\n운석의 표면에는 특이한 결정질 광물들이 솟아있습니다.\n\n위험해 보이지는 않지만, 주의깊게 다뤄야 할 것 같습니다.</AsteroidMeteor.letterText>
-	<TiberiumShard.label>타이베리움 파편 기둥</TiberiumShard.label>
-	<TiberiumShard.letterLabel>파편 기둥</TiberiumShard.letterLabel>
-	<TiberiumShard.letterText>결정질의 커다란 파편이 근처에 솟아났습니다. 그것은 주변에 붉은 결정들을 퍼뜨리고 있습니다.\n\n조심하세요. 이 물질은 위험할 수 있습니다.</TiberiumShard.letterText>
+	<AsteroidMeteor.letterLabel>타이베리움 운석 낙하!</AsteroidMeteor.letterLabel>
+	<AsteroidMeteor.letterText>낯선 운석이 근처에 추락했습니다.\n\n운석 표면에는 약간의 결정질 광물들이 솟아있습니다.\n\n위험해 보이지는 않습니다.</AsteroidMeteor.letterText>
+	
+	<TiberiumShard.label>결정 기둥</TiberiumShard.label>
+	<TiberiumShard.letterLabel>결정 기둥 발견!</TiberiumShard.letterLabel>
+	<TiberiumShard.letterText>붉게 빛나는 결정 기둥이 근처에 솟아났습니다.\n\n오염물질 확산에 주의하십시오.</TiberiumShard.letterText>
+	
 	<BlossomTree.label>포자 식물</BlossomTree.label>
 	<BlossomTree.letterLabel>정체모를 가스 분출!</BlossomTree.letterLabel>
-	<BlossomTree.letterText>가스 구름에 노출된 나무가 괴상한 모습으로 변이했습니다. 조심하세요!</BlossomTree.letterText>
-	<TiberiumMonolith.label>타이베리움 결정 기둥</TiberiumMonolith.label>
-	<TiberiumMonolith.letterLabel>결정 기둥</TiberiumMonolith.letterLabel>
-	<TiberiumMonolith.letterText>낯선 결정 기둥이 지면을 뚫고 튀어나왔습니다. 조심하세요!</TiberiumMonolith.letterText>
+	<BlossomTree.letterText>가스 구름에 노출된 나무가 괴상한 모습으로 변이했습니다.\n\n오염물질 확산에 주의하십시오.</BlossomTree.letterText>
+	
+	<TiberiumMonolith.label>결정 기둥</TiberiumMonolith.label>
+	<TiberiumMonolith.letterLabel>결정 기둥 발견!</TiberiumMonolith.letterLabel>
+	<TiberiumMonolith.letterText>푸르게 빛나는 결정 기둥이 지면을 뚫고 튀어나왔습니다. \n\n오염물질 확산에 주의하십시오.</TiberiumMonolith.letterText>
+	
+	<VeinholeArrival.label>베인 구덩이</VeinholeArrival.label>
+	<VeinholeArrival.letterLabel>베인 구덩이 발견!</VeinholeArrival.letterLabel>
+	<VeinholeArrival.letterText>지표면이 무너지면서 거대한 베인 구덩이가 모습을 드러냈습니다.</VeinholeArrival.letterText>
+
+	<IonStormIncident.label>이온 폭풍</IonStormIncident.label>
+	<IonStormIncident.letterLabel>이온 폭풍이 몰아칩니다!</IonStormIncident.letterLabel>
+	<IonStormIncident.letterText>이온 폭풍이 시작되었습니다.\n\n강렬한 방사선이 모든 전자장비에 장애를 일으킬 것입니다.\n\n오염물질 확산에 주의하십시오.</IonStormIncident.letterText>
+
 </LanguageData>

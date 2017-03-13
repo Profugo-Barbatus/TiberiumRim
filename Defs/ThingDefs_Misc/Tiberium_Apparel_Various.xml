@@ -47,7 +47,7 @@
   
 	<ThingDef ParentName="ApparelMakeableBase">
 		<defName>TiberiumSuit_TBP</defName>
-		<description>A suit to protect from Tiberium.</description>
+		<description>A suit to protect from Tiberium.\n\n Also protects from toxic fallout.</description>
 		<label>Tiberium protection suit</label>
 		<recipeMaker>
 		<researchPrerequisite>TiberiumKnowledge</researchPrerequisite>
@@ -57,6 +57,7 @@
 		<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<costList>
+			<Uranium>15</Uranium>
 			<Steel>75</Steel>
 			<Cloth>120</Cloth>
 		</costList>
@@ -75,7 +76,8 @@
 			<Insulation_Heat>50</Insulation_Heat>
 		</statBases>
 		<equippedStatOffsets>
-			<MoveSpeed>-0.08</MoveSpeed>
+			<MoveSpeed>-0.02</MoveSpeed>
+			<ToxicSensitivity>-1</ToxicSensitivity>
 		</equippedStatOffsets>
 		<apparel>
 			<bodyPartGroups>

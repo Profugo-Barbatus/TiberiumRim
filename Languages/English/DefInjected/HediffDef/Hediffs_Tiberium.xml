@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Treating Tiberium like a disease -->
+
+  <TiberiumContactPoison.label>Natural Tiberium Poisoning</TiberiumContactPoison.label>
+  <TiberiumContactPoison.stages.0.label>Minor Tiberium Exposure</TiberiumContactPoison.stages.0.label>
+  <TiberiumContactPoison.stages.1.label>Major Tiberium Exposure</TiberiumContactPoison.stages.1.label>
+  <TiberiumContactPoison.stages.2.label>Lethal Tiberium Exposure</TiberiumContactPoison.stages.2.label>
+
+
+</LanguageData>

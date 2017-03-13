@@ -24,19 +24,24 @@
 	
 	<HediffDef ParentName="InfectionBase">
 		<defName>TiberiumContactPoison</defName>
+		<defaultLabelColor>(45, 205, 0)</defaultLabelColor>
 		<label>Natural Tiberium Poisoning</label>
 		<makesSickThought>true</makesSickThought>
-		<tendable>false</tendable>
-		<lethalSeverity>10</lethalSeverity>
+		<tendable>true</tendable>
+		<lethalSeverity>1</lethalSeverity>
 		<comps>
+			<li Class="HediffCompProperties_TendDuration">
+				<tendDuration>60000</tendDuration>
+				<severityPerDayTended>-0.05</severityPerDayTended>
+			</li>
 			<li Class="HediffCompProperties_Immunizable">
-				<severityPerDayNotImmune>10</severityPerDayNotImmune>
+				<severityPerDayNotImmune>0.4</severityPerDayNotImmune>
 			</li>
 		</comps>
 		<stages>
 			<li>
 				<minSeverity>1</minSeverity>
-				<label>Minor Tiberium Exposure</label>
+				<label>Minor Tiberium Infection</label>
 				<painOffset>0.3</painOffset>
 				<capMods>
 					<li>
@@ -55,9 +60,9 @@
 			</li>
 			<li>
 				<minSeverity>3.5</minSeverity>
-				<label>Major Tiberium Exposure</label>
+				<label>Major Tiberium Infection</label>
 				<lifeThreatening>true</lifeThreatening>
-				<vomitMtbDays>3.5</vomitMtbDays>
+				<vomitMtbDays>0.5</vomitMtbDays>
 				<painOffset>0.5</painOffset>
 				<capMods>
 					<li>
@@ -92,7 +97,7 @@
 			</li>
 			<li>
 				<minSeverity>8.5</minSeverity>
-				<label>Lethal Tiberium Exposure</label>
+				<label>Lethal Tiberium Infection</label>
 				<lifeThreatening>true</lifeThreatening>
 				<painOffset>0.85</painOffset>
 				<capMods>
@@ -126,6 +131,80 @@
 					</li>
 				</capMods>
 			</li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef>
+		<defName>TiberiumBuildup</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<defaultLabelColor>(45, 205, 0)</defaultLabelColor>
+		<label>Tiberium exposure</label>
+		<lethalSeverity>1</lethalSeverity>
+		<makesSickThought>true</makesSickThought>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<comps>
+		  <li Class="HediffCompProperties_Immunizable">
+			<severityPerDayNotImmune>-0.08</severityPerDayNotImmune>
+		  </li>
+		</comps>
+		<stages>
+		  <li>
+			<label>initial-hidden</label>
+			<everVisible>false</everVisible>
+		  </li>
+		  <li>
+			<label>initial</label>
+			<minSeverity>0.04</minSeverity>
+			<capMods>
+			  <li>
+				<capacity>Consciousness</capacity>
+				<offset>-0.05</offset>
+			  </li>
+			</capMods>
+		  </li>
+		  <li>
+			<label>minor</label>
+			<minSeverity>0.2</minSeverity>
+			<capMods>
+			  <li>
+				<capacity>Consciousness</capacity>
+				<offset>-0.10</offset>
+			  </li>
+			</capMods>
+		  </li>
+		  <li>
+			<label>moderate</label>
+			<minSeverity>0.40</minSeverity>
+			<vomitMtbDays>5</vomitMtbDays>
+			<capMods>
+			  <li>
+				<capacity>Consciousness</capacity>
+				<offset>-0.15</offset>
+			  </li>
+			</capMods>
+		  </li>
+		  <li>
+			<label>serious</label>
+			<minSeverity>0.60</minSeverity>
+			<vomitMtbDays>1</vomitMtbDays>
+			<capMods>
+			  <li>
+				<capacity>Consciousness</capacity>
+				<offset>-0.25</offset>
+			  </li>
+			</capMods>
+		  </li>
+		  <li>
+			<label>extreme</label>
+			<minSeverity>0.80</minSeverity>
+			<vomitMtbDays>0.5</vomitMtbDays>
+			<capMods>
+			  <li>
+				<capacity>Consciousness</capacity>
+				<setMax>0.10</setMax>
+			  </li>
+			</capMods>
+		  </li>
 		</stages>
 	</HediffDef>
 	

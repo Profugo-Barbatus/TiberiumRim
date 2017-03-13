@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ThingCategoryDefs>
+
+  <ThingCategoryDef>
+    <defName>Tiberium</defName>
+    <label>Tiberium</label>
+    <parent>ResourcesRaw</parent>
+    <resourceReadoutRoot>true</resourceReadoutRoot>
+    <iconPath>Icons/ThingCategories/TiberiumCategory</iconPath>
+  </ThingCategoryDef>
+
+</ThingCategoryDefs>

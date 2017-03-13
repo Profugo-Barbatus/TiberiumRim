@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-	<TiberiumRefinery.label>타이베리움 정제소</TiberiumRefinery.label>
-	<TiberiumRefinery.description>특수한 화학 정제 시설입니다. 치명적인 타이베리움을 유용한 자원으로 변환합니다.</TiberiumRefinery.description>
+  <TiberiumRefinery.label>타이베리움 정제소</TiberiumRefinery.label>
+  <TiberiumRefinery.description>특수한 화학 정제 시설입니다. 치명적인 타이베리움을 유용한 자원으로 변환합니다.</TiberiumRefinery.description>
+  <TiberiumRefinery_Blueprint.label>타이베리움 정제소 (청사진)</TiberiumRefinery_Blueprint.label>
+  <TiberiumRefinery_Frame.label>타이베리움 정제소 (건설 중)</TiberiumRefinery_Frame.label>
+
+  <TiberiumPowerPlant.label>타이베리움 발전소</TiberiumPowerPlant.label>
+  <TiberiumPowerPlant.description>타이베리움 연료를 태워 전력을 생산합니다. 주기적으로 연료를 공급받아야 합니다.</TiberiumPowerPlant.description>
+  <TiberiumPowerPlant_Blueprint.label>타이베리움 발전소 (청사진)</TiberiumPowerPlant_Blueprint.label>
+  <TiberiumPowerPlant_Frame.label>타이베리움 발전소 (건설 중)</TiberiumPowerPlant_Frame.label>
+
 
 </LanguageData>

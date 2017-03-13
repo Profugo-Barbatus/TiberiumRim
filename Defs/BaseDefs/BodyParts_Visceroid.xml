@@ -85,4 +85,42 @@
 		</activities>
 	</BodyPartDef>
   
+  	<BodyPartDef>
+		<defName>VeinmonsterMouth</defName>
+		<label>Mouth</label>
+		<hitPoints>12</hitPoints>
+		<activities>
+			<li>Breathing_way</li>
+			<li>Eating_source</li>
+			<li>Talking_source</li>
+		</activities>
+	</BodyPartDef>
+	
+	<BodyPartDef>
+		<defName>MiddleEye</defName>
+		<label>eye</label>
+		<hitPoints>15</hitPoints>
+		<oldInjuryBaseChance>1</oldInjuryBaseChance>
+		<skinCovered>false</skinCovered>
+		<useDestroyedOutLabel>true</useDestroyedOutLabel>
+		<beautyRelated>true</beautyRelated>
+		<activities>
+			<li>Sight_source</li>
+		</activities>
+		<hitChanceFactors>
+			<li>
+				<key>Blunt</key>
+				<value>0</value>
+			</li>
+		</hitChanceFactors>
+	</BodyPartDef>
+	
+	<BodyPartDef>
+		<defName>VeinmonsterBody</defName>
+		<label>veinmonster body</label>
+		<hitPoints>50</hitPoints>
+		<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+		<skinCovered>true</skinCovered>
+	</BodyPartDef>
+	
 </Defs>

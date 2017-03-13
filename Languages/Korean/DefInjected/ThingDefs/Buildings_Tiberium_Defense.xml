@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
-	
-	<SonicInhibitor.label>음파 억제기</SonicInhibitor.label>
-	<SonicInhibitor.description>고유 진동을 이용하여 타이베리움의 성장을 방해하는 장치입니다. 기능이 제한적이므로, 가급적 타이베리움과 가까운 곳에 설치해야 합니다.</SonicInhibitor.description>
+
+  <SonicInhibitor.label>음파 억제기</SonicInhibitor.label>
+  <SonicInhibitor.description>고유 진동을 이용하여 타이베리움의 성장을 방해하는 장치입니다. 기능이 제한적이므로, 가급적 타이베리움과 가까운 곳에 설치해야 합니다.</SonicInhibitor.description>
+  <SonicInhibitor_Blueprint.label>음파 억제기 (청사진)</SonicInhibitor_Blueprint.label>
+  <SonicInhibitor_Blueprint_Install.label>음파 억제기 (청사진)</SonicInhibitor_Blueprint_Install.label>
+  <SonicInhibitor_Frame.label>음파 억제기 (건설 중)</SonicInhibitor_Frame.label>
+
+  <Decrystallizer.label>토양 정화기</Decrystallizer.label>
+  <Decrystallizer.description>결정화된 토양에 남아있는 타이베리움 성분을 완전히 제거하는 장치입니다. 수질은 정화힐 수 없습니다.</Decrystallizer.description>
+  <Decrystallizer_Blueprint.label>토양 정화기 (청사진)</Decrystallizer_Blueprint.label>
+  <Decrystallizer_Blueprint_Install.label>토양 정화기 (청사진)</Decrystallizer_Blueprint_Install.label>
+  <Decrystallizer_Frame.label>토양 정화기 (건설 중)</Decrystallizer_Frame.label>
+
+  <SonicFence.label>음파 억제 장벽</SonicFence.label>
+  <SonicFence.description>고유 진동을 이용하여 타이베리움의 성장을 방해하는 장치입니다. 벽처럼 설치할 수 있지만 타이베리움 억제 범위가 짧습니다.</SonicFence.description>
+  <SonicFence_Blueprint.label>음파 억제 장벽 (청사진)</SonicFence_Blueprint.label>
+  <SonicFence_Frame.label>음파 억제 장벽 (건설 중)</SonicFence_Frame.label>
+
 
 </LanguageData>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Visceroid_TBI.label>Visceroid</Visceroid_TBI.label>
+  <Visceroid_TBI.labelPlural>Visceroids</Visceroid_TBI.labelPlural>
+  <Visceroid_TBI.labelMale>male Visceroid</Visceroid_TBI.labelMale>
+  <Visceroid_TBI.labelMalePlural>male Visceroids</Visceroid_TBI.labelMalePlural>
+  <Visceroid_TBI.labelFemale>female Visceroid</Visceroid_TBI.labelFemale>
+  <Visceroid_TBI.labelFemalePlural>female Visceroids</Visceroid_TBI.labelFemalePlural>
+  <Visceroid_TBI.lifeStages.0.label>baby visceroid</Visceroid_TBI.lifeStages.0.label>
+  <Visceroid_TBI.lifeStages.0.labelPlural>baby visceroids</Visceroid_TBI.lifeStages.0.labelPlural>
+  <Visceroid_TBI.lifeStages.0.labelMale>male baby visceroid</Visceroid_TBI.lifeStages.0.labelMale>
+  <Visceroid_TBI.lifeStages.0.labelMalePlural>male baby visceroids</Visceroid_TBI.lifeStages.0.labelMalePlural>
+  <Visceroid_TBI.lifeStages.0.labelFemale>female baby visceroid</Visceroid_TBI.lifeStages.0.labelFemale>
+  <Visceroid_TBI.lifeStages.0.labelFemalePlural>female baby visceroids</Visceroid_TBI.lifeStages.0.labelFemalePlural>
+  <Visceroid_TBI.lifeStages.1.label>Visceroid</Visceroid_TBI.lifeStages.1.label>
+  <Visceroid_TBI.lifeStages.1.labelPlural>Visceroid</Visceroid_TBI.lifeStages.1.labelPlural>
+  <Visceroid_TBI.lifeStages.1.labelMale>male Visceroid</Visceroid_TBI.lifeStages.1.labelMale>
+  <Visceroid_TBI.lifeStages.1.labelMalePlural>male Visceroids</Visceroid_TBI.lifeStages.1.labelMalePlural>
+  <Visceroid_TBI.lifeStages.1.labelFemale>female Visceroid</Visceroid_TBI.lifeStages.1.labelFemale>
+  <Visceroid_TBI.lifeStages.1.labelFemalePlural>female Visceroids</Visceroid_TBI.lifeStages.1.labelFemalePlural>
+  <Visceroid_TBI.lifeStages.2.label>Visceroid</Visceroid_TBI.lifeStages.2.label>
+  <Visceroid_TBI.lifeStages.2.labelPlural>Visceroid</Visceroid_TBI.lifeStages.2.labelPlural>
+  <Visceroid_TBI.lifeStages.2.labelMale>male Visceroid</Visceroid_TBI.lifeStages.2.labelMale>
+  <Visceroid_TBI.lifeStages.2.labelMalePlural>male Visceroids</Visceroid_TBI.lifeStages.2.labelMalePlural>
+  <Visceroid_TBI.lifeStages.2.labelFemale>female Visceroid</Visceroid_TBI.lifeStages.2.labelFemale>
+  <Visceroid_TBI.lifeStages.2.labelFemalePlural>female Visceroids</Visceroid_TBI.lifeStages.2.labelFemalePlural>
+
+  <Veinmonster_TBI.label>Veinmonster</Veinmonster_TBI.label>
+  <Veinmonster_TBI.labelPlural>Veinmonsters</Veinmonster_TBI.labelPlural>
+  <Veinmonster_TBI.labelMale>male Veinmonster</Veinmonster_TBI.labelMale>
+  <Veinmonster_TBI.labelMalePlural>male Veinmonsters</Veinmonster_TBI.labelMalePlural>
+  <Veinmonster_TBI.labelFemale>female Veinmonster</Veinmonster_TBI.labelFemale>
+  <Veinmonster_TBI.labelFemalePlural>female Veinmonsters</Veinmonster_TBI.labelFemalePlural>
+  <Veinmonster_TBI.lifeStages.0.label>baby Veinmonster</Veinmonster_TBI.lifeStages.0.label>
+  <Veinmonster_TBI.lifeStages.0.labelPlural>baby Veinmonsters</Veinmonster_TBI.lifeStages.0.labelPlural>
+  <Veinmonster_TBI.lifeStages.0.labelMale>male baby Veinmonster</Veinmonster_TBI.lifeStages.0.labelMale>
+  <Veinmonster_TBI.lifeStages.0.labelMalePlural>male baby Veinmonsters</Veinmonster_TBI.lifeStages.0.labelMalePlural>
+  <Veinmonster_TBI.lifeStages.0.labelFemale>female baby Veinmonster</Veinmonster_TBI.lifeStages.0.labelFemale>
+  <Veinmonster_TBI.lifeStages.0.labelFemalePlural>female baby Veinmonsters</Veinmonster_TBI.lifeStages.0.labelFemalePlural>
+  <Veinmonster_TBI.lifeStages.1.label>Veinmonster</Veinmonster_TBI.lifeStages.1.label>
+  <Veinmonster_TBI.lifeStages.1.labelPlural>Veinmonster</Veinmonster_TBI.lifeStages.1.labelPlural>
+  <Veinmonster_TBI.lifeStages.1.labelMale>male Veinmonster</Veinmonster_TBI.lifeStages.1.labelMale>
+  <Veinmonster_TBI.lifeStages.1.labelMalePlural>male Veinmonsters</Veinmonster_TBI.lifeStages.1.labelMalePlural>
+  <Veinmonster_TBI.lifeStages.1.labelFemale>female Veinmonster</Veinmonster_TBI.lifeStages.1.labelFemale>
+  <Veinmonster_TBI.lifeStages.1.labelFemalePlural>female Veinmonsters</Veinmonster_TBI.lifeStages.1.labelFemalePlural>
+  <Veinmonster_TBI.lifeStages.2.label>Veinmonster</Veinmonster_TBI.lifeStages.2.label>
+  <Veinmonster_TBI.lifeStages.2.labelPlural>Veinmonster</Veinmonster_TBI.lifeStages.2.labelPlural>
+  <Veinmonster_TBI.lifeStages.2.labelMale>male Veinmonster</Veinmonster_TBI.lifeStages.2.labelMale>
+  <Veinmonster_TBI.lifeStages.2.labelMalePlural>male Veinmonsters</Veinmonster_TBI.lifeStages.2.labelMalePlural>
+  <Veinmonster_TBI.lifeStages.2.labelFemale>female Veinmonster</Veinmonster_TBI.lifeStages.2.labelFemale>
+  <Veinmonster_TBI.lifeStages.2.labelFemalePlural>female Veinmonsters</Veinmonster_TBI.lifeStages.2.labelFemalePlural>
+
+
+</LanguageData>

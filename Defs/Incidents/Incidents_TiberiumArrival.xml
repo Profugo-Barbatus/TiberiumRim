@@ -6,11 +6,11 @@
 		<label>green tiberium asteroid</label>
 		<targetType>BaseMap</targetType>
 		<workerClass>TiberiumRim.IncidentWorker_GreenAsteroid</workerClass>
-		<baseChance>0.150</baseChance>
+		<baseChance>0.100</baseChance>
 		<letterLabel>Green Tiberium Asteroid</letterLabel>
 		<letterText>An unusual meteorite has crashed nearby and made a crater.\n\nThere seems to be some strange crystals poking out of it, and a few have broken off and scattered around the site.\n\nBe careful, the substance could be dangerous!</letterText>
 		<letterType>BadNonUrgent</letterType>
-		<minRefireDays>120</minRefireDays>
+		<minRefireDays>175</minRefireDays>
 		<category>ThreatSmall</category>
 		<asteroidType>TiberiumCraterGreen_TBNS</asteroidType>
 	</IncidentDef>
@@ -24,7 +24,7 @@
 		<letterLabel>Blue Tiberium Asteroid</letterLabel>
 		<letterText>An unusual meteorite has crashed nearby and made a crater.\n\nThere seems to be some strange crystals poking out of it, and a few have broken off and scattered around the site.\n\nBe careful, the substance could be dangerous!</letterText>
 		<letterType>BadNonUrgent</letterType>
-		<minRefireDays>125</minRefireDays>
+		<minRefireDays>150</minRefireDays>
 		<category>ThreatSmall</category>
 		<asteroidType>TiberiumCraterBlue_TBNS</asteroidType>
 	</IncidentDef>
@@ -34,11 +34,11 @@
 		<label>tiberium meteor</label>
 		<targetType>BaseMap</targetType>
 		<workerClass>TiberiumRim.IncidentWorker_GreenAsteroid</workerClass>
-		<baseChance>0.30</baseChance>
+		<baseChance>0.50</baseChance>
 		<letterLabel>Tiberium Meteor Drop</letterLabel>
 		<letterText>An unusual meteorite has crashed nearby.\n\nThere seems to be some strange crystals poking out of it.\n\nBe careful, the substance could be dangerous!</letterText>
 		<letterType>BadNonUrgent</letterType>
-		<minRefireDays>50</minRefireDays>
+		<minRefireDays>56</minRefireDays>
 		<category>ThreatSmall</category>
 		<asteroidType>TiberiumMeteor_TBNS</asteroidType>
 	</IncidentDef>
@@ -48,11 +48,11 @@
 		<label>tiberium shard</label>
 		<targetType>BaseMap</targetType>
 		<workerClass>TiberiumRim.IncidentWorker_GreenAsteroid</workerClass>
-		<baseChance>0.025</baseChance>
+		<baseChance>0.055</baseChance>
 		<letterLabel>Tiberium shard</letterLabel>
-		<letterText>A unsual type of shard has dropped. It's spreading red crystals around itself.\n\nBe careful, the substance could be dangerous!</letterText>
+		<letterText>An unusual type of shard has dropped. It's spreading red crystals around itself.\n\nBe careful, the substance could be dangerous!</letterText>
 		<letterType>BadNonUrgent</letterType>
-		<minRefireDays>130</minRefireDays>
+		<minRefireDays>356</minRefireDays>
 		<category>ThreatSmall</category>
 		<asteroidType>TiberiumShard_TBNS</asteroidType>
 	</IncidentDef>
@@ -62,26 +62,44 @@
 		<label>blossom tree</label>
 		<targetType>BaseMap</targetType>
 		<workerClass>TiberiumRim.IncidentWorker_GreenAsteroid</workerClass>
-		<baseChance>0.175</baseChance>
+		<baseChance>0.075</baseChance>
 		<letterLabel>Unknown gas!</letterLabel>
 		<letterText>A cloud of unknown gas has passed the map and mutated a tree. Be careful around it!</letterText>
 		<letterType>BadNonUrgent</letterType>
-		<minRefireDays>120</minRefireDays>
+		<minRefireDays>180</minRefireDays>
 		<category>ThreatSmall</category>
 		<asteroidType>BlossomTree_TBNS</asteroidType>
 	</IncidentDef>
-
+	
 	<IncidentDef Class="TiberiumRim.AsteroidDef">
-		<defName>TiberiumMonolith</defName>
-		<label>Tiberium Monolith</label>
+		<defName>VeinholeArrival</defName>
+		<label>Veinhole Arrival</label>
 		<targetType>BaseMap</targetType>
 		<workerClass>TiberiumRim.IncidentWorker_GreenAsteroid</workerClass>
-		<baseChance>0.10</baseChance>
-		<letterLabel>Monolith</letterLabel>
-		<letterText>A monolith has risen out of the ground. Be careful around it!</letterText>
+		<baseChance>0.070</baseChance>
+		<letterLabel>Veinhole!</letterLabel>
+		<letterText>A veinhole monster appeared on your map!</letterText>
 		<letterType>BadNonUrgent</letterType>
-		<minRefireDays>120</minRefireDays>
-		<category>ThreatSmall</category>
-		<asteroidType>TiberiumMonolith_TBNS</asteroidType>
+		<minRefireDays>680</minRefireDays>
+		<category>ThreatBig</category>
+		<asteroidType>Veinhole_TBNS</asteroidType>
 	</IncidentDef>
+	
+	  <IncidentDef>
+		<defName>IonStormIncident</defName>
+		<label>Ion storm</label>
+		<targetType>BaseMap</targetType>
+		<workerClass>TiberiumRim.IncidentWorker_IonStorm</workerClass>
+		<mapCondition>IonStorm</mapCondition>
+		<letterLabel>Ion storm!</letterLabel>
+		<letterText>An Ion storm has begun.\n\nThe intense radiation will shut down all electrical devices.\n\nBe careful about Tiberium spread.</letterText>
+		<letterType>BadNonUrgent</letterType>
+		<baseChance>0.8</baseChance>
+		<minRefireDays>14</minRefireDays>
+		<durationDays>
+		  <min>0.1</min>
+		  <max>1</max>
+		</durationDays>
+	  </IncidentDef>
+	
 </Defs>
