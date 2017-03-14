@@ -10,8 +10,8 @@
 	<RedTiberiumRaw.label>레드 타이베리움 원석</RedTiberiumRaw.label>
 	<RedTiberiumRaw.description>채취 직후의 타이베리움 결정입니다. 손이 닿지 않게 조심하세요! 이것은 정제할 수 있습니다.</RedTiberiumRaw.description>
 	
-	<VeinTiberiumRaw.label>베인 줄기</VeinTiberiumRaw.label>
-	<VeinTiberiumRaw.description>채취 직후의 베인 줄기입니다. 이 생물의 조직이 어떻게 타이베리움 결정과 비슷한 성질을 띠는지에 대해서는 알려져 있지 않습니다.</VeinTiberiumRaw.description>
+	<VeinTiberiumRaw.label>베인 덩굴</VeinTiberiumRaw.label>
+	<VeinTiberiumRaw.description>채취 직후의 베인 덩굴입니다. 이 생물 조직이 어떻게 타이베리움 결정과 비슷한 성질을 띠는지에 대해서는 알려져 있지 않습니다.</VeinTiberiumRaw.description>
 	
 	<TiberiumFuel.label>타이베리움 연료</TiberiumFuel.label>
 	<TiberiumFuel.description>연료로 사용할 수 있도록 곱게 분쇄된 타이베리움 결정입니다.</TiberiumFuel.description>

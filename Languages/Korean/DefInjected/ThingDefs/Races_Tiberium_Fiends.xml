@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <Thrimbo_TBI.label>오염된 트럼보</Thrimbo_TBI.label>
+  <Thrimbo_TBI.label>오염보</Thrimbo_TBI.label>
   <Thrimbo_TBI.description>신체의 여러 부분이 타이베리움에 오염된 트럼보입니다. 대면할 때는 주의하십시오. 고통에 휩싸인 생물은 쉽게 사나워지는 법입니다.</Thrimbo_TBI.description>
-  <Thrimbo_TBI_Leather.label>오염된 트럼보 모피</Thrimbo_TBI_Leather.label>
-  <Thrimbo_TBI_Leather.description>오염된 트럼보 모피</Thrimbo_TBI_Leather.description>
-  <Thrimbo_TBI_Leather.stuffProps.stuffAdjective>오염된 트럼보 모피</Thrimbo_TBI_Leather.stuffProps.stuffAdjective>
-  <Thrimbo_TBI_Meat.label>오염된 트럼보 고기</Thrimbo_TBI_Meat.label>
-  <Thrimbo_TBI_Meat.description>오염된 트럼보 고기</Thrimbo_TBI_Meat.description>
-  <Thrimbo_TBI_Corpse.label>오염된 트럼보 시체</Thrimbo_TBI_Corpse.label>
-  <Thrimbo_TBI_Corpse.description>오염된 트럼보 시체</Thrimbo_TBI_Corpse.description>
+  <Thrimbo_TBI_Leather.label>오염보 모피</Thrimbo_TBI_Leather.label>
+  <Thrimbo_TBI_Leather.description>오염보 모피</Thrimbo_TBI_Leather.description>
+  <Thrimbo_TBI_Leather.stuffProps.stuffAdjective>오염보 모피</Thrimbo_TBI_Leather.stuffProps.stuffAdjective>
+  <Thrimbo_TBI_Meat.label>오염보 고기</Thrimbo_TBI_Meat.label>
+  <Thrimbo_TBI_Meat.description>오염보 고기</Thrimbo_TBI_Meat.description>
+  <Thrimbo_TBI_Corpse.label>오염보 시체</Thrimbo_TBI_Corpse.label>
+  <Thrimbo_TBI_Corpse.description>오염보 시체</Thrimbo_TBI_Corpse.description>
 
   <TiberiumTerror_TBI.label>타이베리움 괴수</TiberiumTerror_TBI.label>
   <TiberiumTerror_TBI.description>트럼보와 비슷하지만 검은색과 파란색으로 이뤄진 이 거대한 동물은 한눈에 봐도 매우 위험해 보입니다.</TiberiumTerror_TBI.description>

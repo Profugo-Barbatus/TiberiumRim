@@ -13,9 +13,9 @@
   <ExtractResourcesFromRedTiberium.description>레드 타이베리움을 정제하여 금과 우라늄을 추출합니다.</ExtractResourcesFromRedTiberium.description>
   <ExtractResourcesFromRedTiberium.jobString>레드 타이베리움 정제 중.</ExtractResourcesFromRedTiberium.jobString>
 
-  <ExtractResourcesFromVeinTiberium.label>베인 줄기 정제</ExtractResourcesFromVeinTiberium.label>
-  <ExtractResourcesFromVeinTiberium.description>베인 줄기를 정제하여 우라늄과 그린 타이베리움을 추출합니다.</ExtractResourcesFromVeinTiberium.description>
-  <ExtractResourcesFromVeinTiberium.jobString>베인 줄기 정제 중.</ExtractResourcesFromVeinTiberium.jobString>
+  <ExtractResourcesFromVeinTiberium.label>베인 덩굴 정제</ExtractResourcesFromVeinTiberium.label>
+  <ExtractResourcesFromVeinTiberium.description>베인 덩굴을 정제하여 우라늄과 그린 타이베리움을 추출합니다.</ExtractResourcesFromVeinTiberium.description>
+  <ExtractResourcesFromVeinTiberium.jobString>베인 덩굴 정제 중.</ExtractResourcesFromVeinTiberium.jobString>
 
   <MakeTiberiumFuel.label>타이베리움 연료 정제</MakeTiberiumFuel.label>
   <MakeTiberiumFuel.description>타이베리움을 연료 형태로 분쇄합니다.</MakeTiberiumFuel.description>

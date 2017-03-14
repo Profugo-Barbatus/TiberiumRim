@@ -19,8 +19,8 @@
 	<TiberiumShard_TBNS.label>적색 결정 기둥</TiberiumShard_TBNS.label>
 	<TiberiumShard_TBNS.description>지하에서 솟구친 커다란 결정입니다. 은은한 붉은 빛을 발산합니다.</TiberiumShard_TBNS.description>
 
-	<Veinhole_TBNS.label>베인 구덩이</Veinhole_TBNS.label>
-	<Veinhole_TBNS.description>베인 구덩이는 타이베리움에 의해 진화한 생명체입니다. 수확하여 정제할 수 있는 베인 줄기를 생성합니다. 가까이 다가가면 자신을 지키기 위한 유독 가스를 뿜어낼 것입니다.</Veinhole_TBNS.description>
+	<Veinhole_TBNS.label>베인홀</Veinhole_TBNS.label>
+	<Veinhole_TBNS.description>베인홀은 타이베리움에 의해 변이한 생명체입니다. 거대한 입과 소화기관만으로 구성되며, 수확하여 정제할 수 있는 베인 덩굴을 생성합니다. 공격받으면 유독 가스를 뿜어낼 것입니다.</Veinhole_TBNS.description>
 	
 	<TiberiumTower_TBNS.label>녹색 결정 기둥</TiberiumTower_TBNS.label>
 	<TiberiumTower_TBNS.description>지하에서 솟구친 커다란 결정입니다. 이러한 구조가 형성되려면 수년의 세월이 필요합니다.</TiberiumTower_TBNS.description>
