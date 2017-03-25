@@ -151,7 +151,7 @@
 		</comps>
 		<stages>
 		  <li>
-			<label>Minimal exposure</label>
+			<label>Minimal Exposure</label>
 			<minSeverity>0.1</minSeverity>
 			<capMods>
 			  <li>
@@ -161,7 +161,7 @@
 			</capMods>
 		  </li>
 		  <li>
-			<label>Minor exposure</label>
+			<label>Minor Exposure</label>
 			<minSeverity>0.15</minSeverity>
 			<capMods>
 			  <li>
@@ -171,7 +171,7 @@
 			</capMods>
 		  </li>
 		  <li>
-			<label>Moderate exposure</label>
+			<label>Moderate Exposure</label>
 			<minSeverity>0.30</minSeverity>
 			<vomitMtbDays>5</vomitMtbDays>
 			<capMods>
@@ -186,7 +186,7 @@
 			</capMods>
 		  </li>
 		  <li>
-			<label>Serious exposure</label>
+			<label>Serious Exposure</label>
 			<minSeverity>0.70</minSeverity>
 			<vomitMtbDays>1</vomitMtbDays>
 			<capMods>
@@ -201,7 +201,7 @@
 			</capMods>
 		  </li>
 		  <li>
-			<label>Lethal exposure</label>
+			<label>Lethal Exposure</label>
 			<minSeverity>1</minSeverity>
 			<vomitMtbDays>0.5</vomitMtbDays>
 			<capMods>
@@ -237,7 +237,7 @@
 		</comps>
 		<stages>
 		  <li>
-			<label>Minor</label>
+			<label>Weak Poisoning</label>
 			<minSeverity>0.2</minSeverity>
 			<capMods>
 				<li>
@@ -271,7 +271,7 @@
 			</capMods>
 		  </li>
 		  <li>
-			<label>Moderate</label>
+			<label>Moderate Poisoning</label>
 			<minSeverity>0.40</minSeverity>
 			<vomitMtbDays>0.5</vomitMtbDays>
 			<capMods>
@@ -306,7 +306,7 @@
 			</capMods>
 		  </li>
 		  <li>
-			<label>Initial</label>
+			<label>Initial Poisoning</label>
 			<minSeverity>0.7</minSeverity>
 			<vomitMtbDays>0.1</vomitMtbDays>
 			<capMods>

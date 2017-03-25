@@ -20,7 +20,7 @@
 			</li>
 		</ingredients>
 		<products>
-			<Steel>50</Steel>
+			<Steel>35</Steel>
 		</products>
 		<workSkill>Crafting</workSkill>
 		<fixedIngredientFilter>
@@ -45,11 +45,11 @@
 				<li>BlueTiberiumRaw</li>
 			  </thingDefs>
 			</filter>
-			<count>5</count>
+			<count>10</count>
 		  </li>
 		</ingredients>
 		<products>
-			<Plasteel>10</Plasteel>
+			<Plasteel>15</Plasteel>
 		</products>
 		<workSkill>Crafting</workSkill>
 			<fixedIngredientFilter>
@@ -78,8 +78,8 @@
 		  </li>
 		</ingredients>
 		<products>
-		  <Gold>6</Gold>
-		  <Uranium>1</Uranium>
+		  <Gold>4</Gold>
+		  <Uranium>2</Uranium>
 		</products>
 		<workSkill>Crafting</workSkill>
 			<fixedIngredientFilter>
@@ -108,8 +108,8 @@
 		  </li>
 		</ingredients>
 		<products>
-		  <Uranium>3</Uranium>
-		  <GreenTiberiumRaw>15</GreenTiberiumRaw>
+		  <Uranium>5</Uranium>
+		  <GreenTiberiumRaw>5</GreenTiberiumRaw>
 		</products>
 		<workSkill>Crafting</workSkill>
 			<fixedIngredientFilter>
@@ -134,33 +134,24 @@
 				<li>GreenTiberiumRaw</li>
 			  </thingDefs>
 			</filter>
-			<count>8</count>
+			<count>25</count>
 		  </li>
 		  <li>
 			<filter>
-			  <thingDefs>
-				<li>BlueTiberiumRaw</li>
-			  </thingDefs>
+				<thingDefs>
+					<li>Chemfuel</li>
+				</thingDefs>
 			</filter>
-			<count>4</count>
-		  </li>
-		  <li>
-			<filter>
-			  <thingDefs>
-				<li>RedTiberiumRaw</li>
-			  </thingDefs>
-			</filter>
-			<count>2</count>
+			<count>5</count>
 		  </li>
 		</ingredients>
 		<products>
-		  <TiberiumFuel>1</TiberiumFuel>
+		  <TiberiumFuel>5</TiberiumFuel>
 		</products>
 		<workSkill>Crafting</workSkill>
 			<fixedIngredientFilter>
 				<thingDefs>
-					<li>RedTiberiumRaw</li>
-					<li>BlueTiberiumRaw</li>
+					<li>Chemfuel</li>
 					<li>GreenTiberiumRaw</li>
 				</thingDefs>
 			</fixedIngredientFilter>

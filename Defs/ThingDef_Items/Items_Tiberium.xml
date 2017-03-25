@@ -66,8 +66,7 @@
 		</thingCategories>
 		<stackLimit>150</stackLimit>
     </ThingDef>
-	  
-	  
+	    
 	<ThingDef ParentName="ResourceBase">
 		<defName>RedTiberiumRaw</defName>
 		<label>raw red Tiberium crystal</label>
