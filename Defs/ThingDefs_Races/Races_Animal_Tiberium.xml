@@ -74,7 +74,7 @@
 		<verbs>
 			<li>
 				<verbClass>Verb_MeleeAttack</verbClass>
-				<defaultCooldownTime>60</defaultCooldownTime>
+				<defaultCooldownTime>22</defaultCooldownTime>
 				<meleeDamageBaseAmount>20</meleeDamageBaseAmount>
 				<!-- Keeping the ToxicBite since I don't want it to be Tiberium damage that is dealt. But still something poionous. -->
 				<meleeDamageDef>ToxicBite</meleeDamageDef>
@@ -192,8 +192,8 @@
 		<verbs>
 			<li>
 				<verbClass>Verb_MeleeAttack</verbClass>
-				<defaultCooldownTime>60</defaultCooldownTime>
-				<meleeDamageBaseAmount>5</meleeDamageBaseAmount>
+				<defaultCooldownTime>5</defaultCooldownTime>
+				<meleeDamageBaseAmount>2</meleeDamageBaseAmount>
 				<!-- Keeping the ToxicBite since I don't want it to be Tiberium damage that is dealt. But still something poionous. -->
 				<meleeDamageDef>ToxicBite</meleeDamageDef>
 				<surpriseAttack>

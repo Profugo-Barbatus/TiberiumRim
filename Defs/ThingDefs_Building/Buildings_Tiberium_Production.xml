@@ -136,8 +136,8 @@
 			</li>
 			<li Class="CompProperties_Flickable" />
 			<li Class="CompProperties_Refuelable">
-			<fuelConsumptionRate>2</fuelConsumptionRate>
-			<fuelCapacity>40.0</fuelCapacity>
+			<fuelConsumptionRate>0.75</fuelConsumptionRate>
+			<fuelCapacity>24.0</fuelCapacity>
 			<fuelFilter>
 				<thingDefs>
 					<li>TiberiumFuel</li>

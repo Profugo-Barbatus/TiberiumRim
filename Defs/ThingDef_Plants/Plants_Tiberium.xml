@@ -187,7 +187,7 @@
 			<dieIfLeafless>false</dieIfLeafless>
 			<harvestWork>800</harvestWork>
 			<harvestTag>Standard</harvestTag>
-			<harvestedThingDef>GreenTiberiumRaw</harvestedThingDef>
+			<harvestedThingDef>VeinTiberiumRaw</harvestedThingDef>
 			<harvestDestroys>true</harvestDestroys>
 			<harvestYield>2</harvestYield>
 			<growDays>5</growDays>

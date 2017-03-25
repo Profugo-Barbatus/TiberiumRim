@@ -62,10 +62,8 @@
 		</statBases>
 		<description>Rocks infested with green Tiberium.</description>
 		<rotatable>true</rotatable>
-		<holdsRoof>false</holdsRoof>
 		<fillPercent>0</fillPercent>
 		<building>
-			<isEdifice>true</isEdifice>
 			<isNaturalRock>false</isNaturalRock>
 			<claimable>false</claimable>
 			<isResourceRock>true</isResourceRock>
@@ -91,10 +89,8 @@
 		</statBases>
 		<description>Rocks infested with blue Tiberium.</description>
 		<rotatable>true</rotatable>
-		<holdsRoof>false</holdsRoof>
 		<fillPercent>0</fillPercent>
 		<building>
-			<isEdifice>true</isEdifice>
 			<isNaturalRock>false</isNaturalRock>
 			<claimable>false</claimable>
 			<isResourceRock>true</isResourceRock>
@@ -120,10 +116,8 @@
 		</statBases>
 		<description>Rocks infested with red Tiberium.</description>
 		<rotatable>true</rotatable>
-		<holdsRoof>false</holdsRoof>
 		<fillPercent>0</fillPercent>
 		<building>
-			<isEdifice>true</isEdifice>
 			<isNaturalRock>false</isNaturalRock>
 			<claimable>false</claimable>
 			<isResourceRock>true</isResourceRock>
@@ -149,10 +143,8 @@
 		</statBases>
 		<description>Rocks infested with Tiberium veins.</description>
 		<rotatable>true</rotatable>
-		<holdsRoof>false</holdsRoof>
 		<fillPercent>0</fillPercent>
 		<building>
-			<isEdifice>true</isEdifice>
 			<isNaturalRock>false</isNaturalRock>
 			<claimable>false</claimable>
 			<isResourceRock>true</isResourceRock>

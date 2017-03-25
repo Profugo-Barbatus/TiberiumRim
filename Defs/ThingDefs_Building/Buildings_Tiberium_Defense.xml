@@ -93,7 +93,6 @@
 		</comps>
 		<tickerType>Rare</tickerType>
 		<altitudeLayer>Building</altitudeLayer>
-		<minifiedDef>MinifiedFurniture</minifiedDef>
 		<statBases>
 			<MaxHitPoints>150</MaxHitPoints>
 			<WorkToBuild>2500</WorkToBuild>

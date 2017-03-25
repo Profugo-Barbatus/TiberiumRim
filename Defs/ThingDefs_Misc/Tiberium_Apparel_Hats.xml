@@ -31,7 +31,6 @@
 			<graphicClass>Graphic_Multi</graphicClass>
 		</graphicData>
 		<costList>
-			<Uranium>5</Uranium>
 			<Steel>30</Steel>
 			<Cloth>60</Cloth>
 		</costList>

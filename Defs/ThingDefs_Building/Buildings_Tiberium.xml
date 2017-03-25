@@ -60,12 +60,12 @@
 			</li>
 			<li Class="CompProperties_Spawner">
 				<thingToSpawn>TiberiumGreen</thingToSpawn>
-				<spawnCount>6</spawnCount>
+				<spawnCount>1</spawnCount>
 				<spawnIntervalRange>
 					<min>10600</min>
 					<max>20000</max>
 				</spawnIntervalRange>
-				<spawnMaxAdjacent>6</spawnMaxAdjacent>
+				<spawnMaxAdjacent>4</spawnMaxAdjacent>
 				<spawnForbidden>false</spawnForbidden>
 			</li>
 		</comps>
@@ -106,12 +106,12 @@
 			</li>
 			<li Class="CompProperties_Spawner">
 				<thingToSpawn>TiberiumBlue</thingToSpawn>
-				<spawnCount>6</spawnCount>
+				<spawnCount>1</spawnCount>
 				<spawnIntervalRange>
 					<min>50800</min>
 					<max>60000</max>
 				</spawnIntervalRange>
-				<spawnMaxAdjacent>6</spawnMaxAdjacent>
+				<spawnMaxAdjacent>4</spawnMaxAdjacent>
 				<spawnForbidden>false</spawnForbidden>
 			</li>
 		</comps>
@@ -214,7 +214,7 @@
 			</li>
 			<li Class="CompProperties_Spawner">
 				<thingToSpawn>TiberiumBlue</thingToSpawn>
-				<spawnCount>3</spawnCount>
+				<spawnCount>1</spawnCount>
 				<spawnIntervalRange>
 					<min>50600</min>
 					<max>60000</max>
@@ -253,12 +253,12 @@
 			</li>
 			<li Class="CompProperties_Spawner">
 				<thingToSpawn>TiberiumGreen</thingToSpawn>
-				<spawnCount>6</spawnCount>
+				<spawnCount>1</spawnCount>
 				<spawnIntervalRange>
 					<min>1800</min>
 					<max>2000</max>
 				</spawnIntervalRange>
-				<spawnMaxAdjacent>8</spawnMaxAdjacent>
+				<spawnMaxAdjacent>4</spawnMaxAdjacent>
 				<spawnForbidden>false</spawnForbidden>
 			</li>
 		</comps>
@@ -292,12 +292,12 @@
 			</li>
 			<li Class="CompProperties_Spawner">
 				<thingToSpawn>TiberiumRed</thingToSpawn>
-				<spawnCount>6</spawnCount>
+				<spawnCount>1</spawnCount>
 				<spawnIntervalRange>
 					<min>4000</min>
 					<max>6000</max>
 				</spawnIntervalRange>
-				<spawnMaxAdjacent>6</spawnMaxAdjacent>
+				<spawnMaxAdjacent>1</spawnMaxAdjacent>
 				<spawnForbidden>false</spawnForbidden>
 			</li>
 		</comps>
@@ -333,12 +333,12 @@
 			</li>
 			<li Class="CompProperties_Spawner">
 				<thingToSpawn>TiberiumVein</thingToSpawn>
-				<spawnCount>6</spawnCount>
+				<spawnCount>1</spawnCount>
 				<spawnIntervalRange>
 					<min>5800</min>
 					<max>6000</max>
 				</spawnIntervalRange>
-				<spawnMaxAdjacent>6</spawnMaxAdjacent>
+				<spawnMaxAdjacent>3</spawnMaxAdjacent>
 				<spawnForbidden>false</spawnForbidden>
 			</li>
 		</comps>
@@ -357,7 +357,7 @@
 			<drawSize>(4,8)</drawSize>
 		</graphicData>
 		<statBases>
-			<MaxHitPoints>15000</MaxHitPoints>
+			<MaxHitPoints>3500</MaxHitPoints>
 			<Beauty>360</Beauty>
 		</statBases>
 		<rotatable>false</rotatable>
