@@ -24,7 +24,7 @@
 	
 	<HediffDef ParentName="InfectionBase">
 		<defName>TiberiumContactPoison</defName>
-		<defaultLabelColor>(45, 205, 0)</defaultLabelColor>
+		<defaultLabelColor>(10, 139, 0)</defaultLabelColor>
 		<label>Natural Tiberium Poisoning</label>
 		<makesSickThought>true</makesSickThought>
 		<tendable>true</tendable>
@@ -40,7 +40,7 @@
 		</comps>
 		<stages>
 			<li>
-				<minSeverity>1</minSeverity>
+				<minSeverity>0.1</minSeverity>
 				<label>Minor Tiberium Infection</label>
 				<painOffset>0.3</painOffset>
 				<capMods>
@@ -59,7 +59,7 @@
 				</capMods>
 			</li>
 			<li>
-				<minSeverity>3.5</minSeverity>
+				<minSeverity>0.4</minSeverity>
 				<label>Major Tiberium Infection</label>
 				<lifeThreatening>true</lifeThreatening>
 				<vomitMtbDays>0.5</vomitMtbDays>
@@ -96,7 +96,7 @@
 				</capMods>
 			</li>
 			<li>
-				<minSeverity>8.5</minSeverity>
+				<minSeverity>0.8</minSeverity>
 				<label>Lethal Tiberium Infection</label>
 				<lifeThreatening>true</lifeThreatening>
 				<painOffset>0.85</painOffset>
@@ -134,24 +134,238 @@
 		</stages>
 	</HediffDef>
 	
+	
 	<HediffDef>
-		<defName>TiberiumBuildup</defName>
+		<defName>TiberiumBuildupHediff</defName>
 		<hediffClass>HediffWithComps</hediffClass>
-		<defaultLabelColor>(45, 205, 0)</defaultLabelColor>
+		<defaultLabelColor>(18, 255, 0)</defaultLabelColor>
 		<label>Tiberium exposure</label>
-		<lethalSeverity>1</lethalSeverity>
+		<lethalSeverity>1.5</lethalSeverity>
 		<makesSickThought>true</makesSickThought>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<comps>
 		  <li Class="HediffCompProperties_Immunizable">
-			<severityPerDayNotImmune>-0.08</severityPerDayNotImmune>
+			<severityPerDayNotImmune>-0.2</severityPerDayNotImmune>
 		  </li>
+		  <li Class="TiberiumRim.HediffCompProperties_Tiberium" />
 		</comps>
 		<stages>
 		  <li>
-			<label>initial-hidden</label>
-			<everVisible>false</everVisible>
+			<label>initial</label>
+			<minSeverity>0.1</minSeverity>
+			<capMods>
+			  <li>
+				<capacity>Consciousness</capacity>
+				<offset>-0.10</offset>
+			  </li>
+			</capMods>
 		  </li>
+		  <li>
+			<label>Minor</label>
+			<minSeverity>0.15</minSeverity>
+			<capMods>
+			  <li>
+				<capacity>Consciousness</capacity>
+				<offset>-0.15</offset>
+			  </li>
+			</capMods>
+		  </li>
+		  <li>
+			<label>Moderate</label>
+			<minSeverity>0.30</minSeverity>
+			<vomitMtbDays>5</vomitMtbDays>
+			<capMods>
+			  <li>
+				<capacity>Consciousness</capacity>
+				<offset>-0.30</offset>
+			  </li>
+			  <li>
+					<capacity>Moving</capacity>
+					<offset>-0.40</offset>
+			  </li>
+			</capMods>
+		  </li>
+		  <li>
+			<label>Very Serious</label>
+			<minSeverity>0.70</minSeverity>
+			<vomitMtbDays>1</vomitMtbDays>
+			<capMods>
+			  <li>
+				<capacity>Consciousness</capacity>
+				<offset>-0.40</offset>
+			  </li>
+			  <li>
+					<capacity>Moving</capacity>
+					<offset>-0.80</offset>
+			  </li>
+			</capMods>
+		  </li>
+		  <li>
+			<label>Lethal</label>
+			<minSeverity>1</minSeverity>
+			<vomitMtbDays>0.5</vomitMtbDays>
+			<capMods>
+			  <li>
+				<capacity>Consciousness</capacity>
+				<setMax>0.50</setMax>
+			  </li>
+			</capMods>
+		  </li>
+		</stages>
+	</HediffDef>
+	
+	
+	<HediffDef>
+		<defName>TiberiumStage1</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<defaultLabelColor>(18, 255, 0)</defaultLabelColor>
+		<label>Tiberium Poisoning</label>
+		<makesSickThought>true</makesSickThought>
+		<tendable>true</tendable>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<comps>
+			<li Class="HediffCompProperties_TendDuration">
+				<tendDuration>60000</tendDuration>
+				<severityPerDayTended>-0.15</severityPerDayTended>
+			</li>
+			<li Class="HediffCompProperties_Immunizable">
+				<severityPerDayNotImmune>-0.1</severityPerDayNotImmune>
+			</li>
+			<li Class="HediffCompProperties_Discoverable">
+				<sendLetterWhenDiscovered>true</sendLetterWhenDiscovered>
+			</li>
+		</comps>
+		<stages>
+		  <li>
+			<label>Minor</label>
+			<minSeverity>0.2</minSeverity>
+			<capMods>
+				<li>
+					<capacity>BloodFiltration</capacity>
+					<offset>-0.10</offset>
+				</li>
+				<li>
+					<capacity>Breathing</capacity>
+					<offset>-0.15</offset>
+				</li>
+				<li>
+					<capacity>BloodPumping</capacity>
+					<offset>-0.05</offset>
+				</li>
+				<li>
+					<capacity>Consciousness</capacity>
+					<offset>-0.20</offset>
+				</li>
+				<li>
+					<capacity>Sight</capacity>
+					<offset>-0.15</offset>
+				</li>
+				<li>
+					<capacity>Manipulation</capacity>
+					<offset>-0.20</offset>
+				</li>
+				<li>
+					<capacity>Moving</capacity>
+					<offset>-0.25</offset>
+				</li>
+			</capMods>
+		  </li>
+		  <li>
+			<label>Moderate</label>
+			<minSeverity>0.40</minSeverity>
+			<vomitMtbDays>0.5</vomitMtbDays>
+			<capMods>
+				<li>
+					<capacity>BloodFiltration</capacity>
+					<offset>-0.25</offset>
+				</li>
+				<li>
+					<capacity>Breathing</capacity>
+					<offset>-0.30</offset>
+				</li>
+				<li>
+					<capacity>BloodPumping</capacity>
+					<offset>-0.25</offset>
+				</li>
+				<li>
+					<capacity>Consciousness</capacity>
+					<offset>-0.35</offset>
+				</li>
+				<li>
+					<capacity>Sight</capacity>
+					<offset>-0.20</offset>
+				</li>
+				<li>
+					<capacity>Manipulation</capacity>
+					<offset>-0.40</offset>
+				</li>
+				<li>
+					<capacity>Moving</capacity>
+					<offset>-0.50</offset>
+				</li>
+			</capMods>
+		  </li>
+		  <li>
+			<label>Initial</label>
+			<minSeverity>0.7</minSeverity>
+			<vomitMtbDays>0.1</vomitMtbDays>
+			<capMods>
+				<li>
+					<capacity>BloodFiltration</capacity>
+					<offset>-0.4</offset>
+				</li>
+				<li>
+					<capacity>Breathing</capacity>
+					<offset>-0.45</offset>
+				</li>
+				<li>
+					<capacity>BloodPumping</capacity>
+					<offset>-0.50</offset>
+				</li>
+				<li>
+					<capacity>Consciousness</capacity>
+					<offset>-0.60</offset>
+				</li>
+				<li>
+					<capacity>Sight</capacity>
+					<offset>-0.60</offset>
+				</li>
+				<li>
+					<capacity>Manipulation</capacity>
+					<offset>-0.50</offset>
+				</li>
+				<li>
+					<capacity>Moving</capacity>
+					<offset>-0.70</offset>
+				</li>
+			</capMods>
+		  </li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef>
+		<defName>TiberiumStage2</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<defaultLabelColor>(220, 255, 217)</defaultLabelColor>
+		<label>Tiberium Assimilation</label>
+		<lethalSeverity>1</lethalSeverity>
+		<makesSickThought>true</makesSickThought>
+		<tendable>true</tendable>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<comps>			
+			<li Class="HediffCompProperties_TendDuration">
+				<tendDuration>120000</tendDuration>
+				<severityPerDayTended>-0.1</severityPerDayTended>
+			</li>
+			<li Class="HediffCompProperties_Immunizable">
+				<severityPerDayNotImmune>0.2</severityPerDayNotImmune>
+			</li>
+			<li Class="HediffCompProperties_Discoverable">
+				<sendLetterWhenDiscovered>true</sendLetterWhenDiscovered>
+			</li>
+		    <li Class="TiberiumRim.HediffCompProperties_TiberiumMutation" />
+		</comps>
+		<stages>
 		  <li>
 			<label>initial</label>
 			<minSeverity>0.04</minSeverity>
@@ -208,4 +422,131 @@
 		</stages>
 	</HediffDef>
 	
+	<HediffDef>
+		<defName>TiberiumMutationGood</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<defaultLabelColor>(92, 106, 0)</defaultLabelColor>
+		<label>Tiberium Mutation (Good)</label>
+		<comps>
+		  <li Class="HediffCompProperties_VerbGiver">
+			<verbs>
+			  <li>
+				<verbClass>Verb_MeleeAttack</verbClass>
+				<defaultCooldownTime>1.65</defaultCooldownTime>
+				<meleeDamageBaseAmount>9</meleeDamageBaseAmount>
+				<meleeDamageDef>Blunt</meleeDamageDef>
+			  </li>
+			</verbs>  
+		  </li>
+		  <li Class="HediffCompProperties_Discoverable">
+				<sendLetterWhenDiscovered>true</sendLetterWhenDiscovered>
+		  </li>
+		</comps>
+		<stages>
+		  <li>
+			  <capMods>
+				<li>
+				  <capacity>Manipulation</capacity>
+				  <offset>0.2</offset>
+				</li>
+								<li>
+					<capacity>Moving</capacity>
+					<offset>0.25</offset>
+				</li>
+				<li>
+					<capacity>Consciousness</capacity>
+					<offset>0.1</offset>
+				</li>
+			  </capMods>
+		  </li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef>
+		<defName>TiberiumMutationBad</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<defaultLabelColor>(106, 7, 0)</defaultLabelColor>
+		<label>Tiberium Mutation (Bad)</label>
+		<comps>
+			<li Class="HediffCompProperties_Discoverable">
+				<sendLetterWhenDiscovered>true</sendLetterWhenDiscovered>
+			</li>
+		</comps>
+		<stages>
+		  <li>
+			  <capMods>
+				<li>
+				  <capacity>Manipulation</capacity>
+				  <offset>-0.2</offset>
+				</li>
+								<li>
+					<capacity>Moving</capacity>
+					<offset>-0.25</offset>
+				</li>
+				<li>
+					<capacity>Consciousness</capacity>
+					<offset>-0.1</offset>
+				</li>
+			  </capMods>
+		  </li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef ParentName="AddictionBase">
+		<defName>TiberiumAddiction</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>Tiberium Need</label>
+		<causesNeed>Need_Tiberium</causesNeed>
+		<comps>
+			<li Class="TiberiumRim.HediffCompProperties_TiberiumAddiction" />
+			<li Class="HediffCompProperties_Discoverable">
+				<sendLetterWhenDiscovered>true</sendLetterWhenDiscovered>
+			</li>
+		</comps>
+		<stages>
+		  <li>
+			<label>Satisfied</label>
+			<minSeverity>0</minSeverity>
+		  </li>
+		  <li>
+			<label>Lacking</label>
+			<minSeverity>0.4</minSeverity>
+			<painOffset>0.2</painOffset>
+			<capMods>
+				<li>
+				  <capacity>Manipulation</capacity>
+				  <offset>-0.2</offset>
+				</li>
+								<li>
+					<capacity>Moving</capacity>
+					<offset>-0.25</offset>
+				</li>
+				<li>
+					<capacity>Consciousness</capacity>
+					<offset>-0.2</offset>
+				</li>
+			</capMods>
+		  </li>
+		  <li>
+			<label>Urgent</label>
+			<minSeverity>0.8</minSeverity>
+			<painOffset>0.4</painOffset>
+			<lifeThreatening>true</lifeThreatening>
+			<deathMtbDays>10</deathMtbDays>
+			<capMods>
+			  <li>
+				<capacity>Consciousness</capacity>
+				<setMax>0.8</setMax>
+			  </li>
+			</capMods>
+			<mentalStateGivers>
+			  <li>
+				<mentalState>Berserk</mentalState>
+				<mtbDays>0.4</mtbDays>
+			  </li>
+			</mentalStateGivers>
+		  </li>
+		</stages>
+	</HediffDef>
+		
 </Defs>

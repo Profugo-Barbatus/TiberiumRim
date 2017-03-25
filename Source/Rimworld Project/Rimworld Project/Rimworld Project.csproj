@@ -54,11 +54,16 @@
     <Compile Include="CompSonicEmitter.cs" />
     <Compile Include="Comp_Decrystallizer.cs" />
     <Compile Include="Comp_TiberiumProducer.cs" />
+    <Compile Include="HediffComp_Mutation.cs" />
+    <Compile Include="HediffComp_Tiberium.cs" />
+    <Compile Include="HediffComp_TiberiumAddiction.cs" />
     <Compile Include="IncidentWorker_AsteroidDrop.cs" />
     <Compile Include="IncidentWorker_GreenAsteroid.cs" />
     <Compile Include="IncidentWorker_IonStorm.cs" />
+    <Compile Include="Need_Tiberium.cs" />
     <Compile Include="TiberiumBase.cs" />
     <Compile Include="TiberiumDef.cs" />
+    <Compile Include="TiberiumNeedCategory.cs" />
     <Compile Include="TiberiumPlant.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TiberiumVein.cs" />

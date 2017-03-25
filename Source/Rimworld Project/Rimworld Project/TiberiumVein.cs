@@ -22,7 +22,7 @@ namespace TiberiumRim
                 //If Pawn is close to the center it gets 'attacked with poison'
                 var c = this.RandomAdjacentCell8Way();
                 var t = c.GetFirstBuilding(Map);
-                if (t != null)
+                if (t != null && c.InBounds(this.Map))
                 {
                     if (t.def.defName.Contains("Veinhole_TBNS") && Rand.Chance(0.2f))
                     {
@@ -65,7 +65,7 @@ namespace TiberiumRim
         {
             var c = this.RandomAdjacentCell8Way();
             var p = c.GetFirstBuilding(this.Map);
-            if (p != null)
+            if (p != null && c.InBounds(this.Map))
             {
                 ThingDef wall = DefDatabase<ThingDef>.GetNamed("VeinTiberiumRock_TBNS", true);
                 IntVec3 loc = p.Position;

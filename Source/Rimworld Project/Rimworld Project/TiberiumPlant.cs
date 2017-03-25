@@ -151,6 +151,7 @@ namespace TiberiumRim
                     }
                 }
             }
+            
 
             for (int j = 0; j < this.touchingPawns.Count; j++)
             {
@@ -177,11 +178,14 @@ namespace TiberiumRim
             //Rare chance of monolithRise() to happen
             if (Rand.Chance(0.000001f))
             {
-                if (this.def.defName.Contains("TiberiumBlue") && Rand.Chance(0.000001f))
+                if (this.def.defName.Contains("TiberiumBlue") && Rand.Chance(0.0000001f))
                 {
                     MonolithRise(Map);
                 }
-                MonolithRise(Map);
+                if (this.def.defName.Contains("TiberiumGreen"))
+                {
+                    MonolithRise(Map);
+                }
             }
 
             //State has changed, label may have to as well
@@ -189,15 +193,11 @@ namespace TiberiumRim
             cachedLabelMouseover = null;
         }
 
-       /* public virtual void startinfect(Pawn p)
-        {
-                float num = 0.1f;
-                HealthUtility.AdjustSeverity(p, DefDatabase<HediffDef>.GetNamed("TiberiumBuildup"), num);
-        } */
 
         public virtual void infect(Pawn p)
         {
-            HediffDef tiberium = DefDatabase<HediffDef>.GetNamed("TiberiumContactPoison", true);
+            HediffDef tiberium = DefDatabase<HediffDef>.GetNamed("TiberiumBuildupHediff", true);
+            HediffDef addiction = DefDatabase<HediffDef>.GetNamed("TiberiumAddiction", true);
 
             if (p.RaceProps.IsMechanoid)
             {
@@ -209,7 +209,7 @@ namespace TiberiumRim
                 return;
             }
 
-            if (!p.health.hediffSet.HasHediff(tiberium) && p.Position.InBounds(this.Map))
+            if (!p.health.hediffSet.HasHediff(addiction) && p.Position.InBounds(this.Map))
             {
                 List<BodyPartRecord> list = new List<BodyPartRecord>();
 
@@ -250,7 +250,8 @@ namespace TiberiumRim
 
                 if (p.apparel == null)
                 {
-                    p.health.AddHediff(tiberium, target, null);
+                    Log.Message("Add high severity");
+                    HealthUtility.AdjustSeverity(p, tiberium, +0.3f);
                     return;
                 }
 
@@ -285,8 +286,8 @@ namespace TiberiumRim
                 {
                     return;
                 }
-
-                p.health.AddHediff(tiberium, target, null);
+                Log.Message("Add severity");
+                HealthUtility.AdjustSeverity(p, tiberium, +0.1f);
             }
         }
 
@@ -297,11 +298,11 @@ namespace TiberiumRim
 
             DamageInfo damage = new DamageInfo(DamageDefOf.Deterioration, amt);
 
-            if (p != null)
+            if (p != null && c.InBounds(this.Map))
             {
                 if (!p.def.defName.Contains("TBNS"))
                 {
-                    if (Rand.Chance(0.06f))
+                    if (Rand.Chance(0.1f))
                     {
                         corruptWall();
                         return;
@@ -327,7 +328,7 @@ namespace TiberiumRim
 
             DamageInfo damage = new DamageInfo(DamageDefOf.Deterioration, amt);
 
-            if (p != null)
+            if (p != null && c.InBounds(this.Map))
             {
                 if (p.def.IsCorpse)
                 {
@@ -409,7 +410,6 @@ namespace TiberiumRim
         //A little variety mechanic, monolith now dependant on 9 blue crystals and a very rare chance, also a green harmless tiberium tower is created this way
         public void MonolithRise(Map map)
         {
-
             if (this.HarvestableNow && !this.def.defName.Contains("TiberiumRed") && !this.def.defName.Contains("TiberiumVein") && !this.def.defName.Contains("TiberiumGlacier") && !this.def.defName.Contains("Desert"))
             {
                 bool check = false;

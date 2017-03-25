@@ -41,7 +41,7 @@ namespace TiberiumRim
         {
             get
             {
-                return this.powerComp == null || this.powerComp.PowerOn;
+                return this.powerComp != null || this.powerComp.PowerOn;
             }
         }
 
@@ -77,7 +77,7 @@ namespace TiberiumRim
         {
             TerrainDef terrain = c.GetTerrain(this.parent.Map);
             TerrainDef Postterrain = null;
-            if (terrain.defName.Contains("Tiberium") | terrain.defName.Contains("Vein") && !terrain.defName.Contains("TiberiumWater"))
+            if (terrain.defName.Contains("Tiberium") | terrain.defName.Contains("Vein") && !terrain.defName.Contains("TiberiumWater") && c.InBounds(this.parent.Map))
             {
                 Postterrain = DefDatabase<TerrainDef>.GetNamed("DecrystallizedSoil");
                 this.parent.Map.terrainGrid.SetTerrain(c, Postterrain);
