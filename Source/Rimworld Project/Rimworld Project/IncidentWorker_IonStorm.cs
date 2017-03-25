@@ -26,11 +26,9 @@ namespace TiberiumRim
             Log.Message("Trying to execute the Ion Storm");
             if (count > 400 && count2 > 200 && count3 > 50)
             {
-                Log.Message("Executing Ion Storm with " + count + " green crystals;- " + count2 + " blue crystals;- " + count3 + " red crystals.");
                 int duration = Mathf.RoundToInt(this.def.durationDays.RandomInRange * 60000f);
                 MapCondition cond = MapConditionMaker.MakeCondition(this.def.mapCondition, duration, 1);
                 MapCondition cond2 = MapConditionMaker.MakeCondition(MapConditionDefOf.SolarFlare, duration, 1);
-                Log.Message("Ion STorm Ticks: N/A" + " | Weather Ticks " + 90000);
                 map.mapConditionManager.RegisterCondition(cond);
                 map.mapConditionManager.RegisterCondition(cond2);
                 map.weatherManager.TransitionTo(WeatherDef.Named("IonStormWeather"));

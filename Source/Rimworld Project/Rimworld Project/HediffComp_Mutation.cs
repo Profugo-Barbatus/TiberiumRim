@@ -55,7 +55,7 @@ namespace TiberiumRim
                 HealthUtility.AdjustSeverity(p, Exposure, -1.5f);
                 return;
             }
-            else if (!p.health.hediffSet.HasHediff(MutationGood) && this.parent.Severity > 0.8 && Rand.Chance(0.3f))
+            else if (!p.health.hediffSet.HasHediff(MutationGood) && this.parent.Severity > 0.8 && Rand.Chance(0.7f))
             {
                 p.health.AddHediff(MutationGood);
                 p.health.AddHediff(Addiction);

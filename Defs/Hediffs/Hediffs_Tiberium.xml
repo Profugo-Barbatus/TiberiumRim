@@ -25,7 +25,7 @@
 	<HediffDef ParentName="InfectionBase">
 		<defName>TiberiumContactPoison</defName>
 		<defaultLabelColor>(10, 139, 0)</defaultLabelColor>
-		<label>Natural Tiberium Poisoning</label>
+		<label>Tiberium infection</label>
 		<makesSickThought>true</makesSickThought>
 		<tendable>true</tendable>
 		<lethalSeverity>1</lethalSeverity>
@@ -151,7 +151,7 @@
 		</comps>
 		<stages>
 		  <li>
-			<label>initial</label>
+			<label>Minimal exposure</label>
 			<minSeverity>0.1</minSeverity>
 			<capMods>
 			  <li>
@@ -161,7 +161,7 @@
 			</capMods>
 		  </li>
 		  <li>
-			<label>Minor</label>
+			<label>Minor exposure</label>
 			<minSeverity>0.15</minSeverity>
 			<capMods>
 			  <li>
@@ -171,7 +171,7 @@
 			</capMods>
 		  </li>
 		  <li>
-			<label>Moderate</label>
+			<label>Moderate exposure</label>
 			<minSeverity>0.30</minSeverity>
 			<vomitMtbDays>5</vomitMtbDays>
 			<capMods>
@@ -186,7 +186,7 @@
 			</capMods>
 		  </li>
 		  <li>
-			<label>Very Serious</label>
+			<label>Serious exposure</label>
 			<minSeverity>0.70</minSeverity>
 			<vomitMtbDays>1</vomitMtbDays>
 			<capMods>
@@ -201,7 +201,7 @@
 			</capMods>
 		  </li>
 		  <li>
-			<label>Lethal</label>
+			<label>Lethal exposure</label>
 			<minSeverity>1</minSeverity>
 			<vomitMtbDays>0.5</vomitMtbDays>
 			<capMods>
@@ -348,7 +348,7 @@
 		<hediffClass>HediffWithComps</hediffClass>
 		<defaultLabelColor>(220, 255, 217)</defaultLabelColor>
 		<label>Tiberium Assimilation</label>
-		<lethalSeverity>1</lethalSeverity>
+		<lethalSeverity>1.2</lethalSeverity>
 		<makesSickThought>true</makesSickThought>
 		<tendable>true</tendable>
 		<scenarioCanAdd>false</scenarioCanAdd>
@@ -367,7 +367,7 @@
 		</comps>
 		<stages>
 		  <li>
-			<label>initial</label>
+			<label>Initial</label>
 			<minSeverity>0.04</minSeverity>
 			<capMods>
 			  <li>
@@ -377,7 +377,7 @@
 			</capMods>
 		  </li>
 		  <li>
-			<label>minor</label>
+			<label>Minor</label>
 			<minSeverity>0.2</minSeverity>
 			<capMods>
 			  <li>
@@ -387,7 +387,7 @@
 			</capMods>
 		  </li>
 		  <li>
-			<label>moderate</label>
+			<label>Infection risk</label>
 			<minSeverity>0.40</minSeverity>
 			<vomitMtbDays>5</vomitMtbDays>
 			<capMods>
@@ -398,7 +398,7 @@
 			</capMods>
 		  </li>
 		  <li>
-			<label>serious</label>
+			<label>Mutation risk</label>
 			<minSeverity>0.60</minSeverity>
 			<vomitMtbDays>1</vomitMtbDays>
 			<capMods>
@@ -409,7 +409,7 @@
 			</capMods>
 		  </li>
 		  <li>
-			<label>extreme</label>
+			<label>High mutation risk</label>
 			<minSeverity>0.80</minSeverity>
 			<vomitMtbDays>0.5</vomitMtbDays>
 			<capMods>

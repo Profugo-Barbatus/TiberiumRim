@@ -21,12 +21,15 @@ namespace TiberiumRim
 
                 //If Pawn is close to the center it gets 'attacked with poison'
                 var c = this.RandomAdjacentCell8Way();
-                var t = c.GetFirstBuilding(Map);
-                if (t != null && c.InBounds(this.Map))
+                if (c.InBounds(this.Map))
                 {
-                    if (t.def.defName.Contains("Veinhole_TBNS") && Rand.Chance(0.2f))
+                    var t = c.GetFirstBuilding(Map);
+                    if (t != null)
                     {
-                        base.infect(p);
+                        if (t.def.defName.Contains("Veinhole_TBNS") && Rand.Chance(0.2f))
+                        {
+                            base.infect(p);
+                        }
                     }
                 }
             }
@@ -61,11 +64,9 @@ namespace TiberiumRim
         }
 
         //Veins also corrupt walls
-        public override void corruptWall()
+        public override void corruptWall(Building p)
         {
-            var c = this.RandomAdjacentCell8Way();
-            var p = c.GetFirstBuilding(this.Map);
-            if (p != null && c.InBounds(this.Map))
+            if (p != null)
             {
                 ThingDef wall = DefDatabase<ThingDef>.GetNamed("VeinTiberiumRock_TBNS", true);
                 IntVec3 loc = p.Position;

@@ -250,7 +250,6 @@ namespace TiberiumRim
 
                 if (p.apparel == null)
                 {
-                    Log.Message("Add high severity");
                     HealthUtility.AdjustSeverity(p, tiberium, +0.3f);
                     return;
                 }
@@ -286,7 +285,6 @@ namespace TiberiumRim
                 {
                     return;
                 }
-                Log.Message("Add severity");
                 HealthUtility.AdjustSeverity(p, tiberium, +0.1f);
             }
         }
@@ -294,29 +292,32 @@ namespace TiberiumRim
         public void damageBuildings(int amt)
         {
             var c = this.RandomAdjacentCell8Way();
-            var p = c.GetFirstBuilding(this.Map);
-
-            DamageInfo damage = new DamageInfo(DamageDefOf.Deterioration, amt);
-
-            if (p != null && c.InBounds(this.Map))
+            if (c.InBounds(this.Map))
             {
-                if (!p.def.defName.Contains("TBNS"))
-                {
-                    if (Rand.Chance(0.1f))
-                    {
-                        corruptWall();
-                        return;
-                    }
-                    p.TakeDamage(damage);
-                }
-            }
-            else
-            {
-                //Dunno if the game explicitly treats doors different from buildings, but this'll cover just in case.
-                p = c.GetDoor(this.Map);
+                var p = c.GetFirstBuilding(this.Map);
+
+                DamageInfo damage = new DamageInfo(DamageDefOf.Deterioration, amt);
+
                 if (p != null)
                 {
-                    p.TakeDamage(damage);
+                    if (!p.def.defName.Contains("TBNS"))
+                    {
+                        if (Rand.Chance(0.1f))
+                        {
+                            corruptWall(p);
+                            return;
+                        }
+                        p.TakeDamage(damage);
+                    }
+                }
+                else
+                {
+                    //Dunno if the game explicitly treats doors different from buildings, but this'll cover just in case.
+                    p = c.GetDoor(this.Map);
+                    if (p != null)
+                    {
+                        p.TakeDamage(damage);
+                    }
                 }
             }
         }
@@ -324,44 +325,48 @@ namespace TiberiumRim
         public void damageEntities(int amt)
         {
             var c = this.RandomAdjacentCell8Way();
-            var p = c.GetFirstItem(this.Map);
-
-            DamageInfo damage = new DamageInfo(DamageDefOf.Deterioration, amt);
-
-            if (p != null && c.InBounds(this.Map))
+            if (c.InBounds(this.Map))
             {
-                if (p.def.IsCorpse)
+                var p = c.GetFirstItem(this.Map);
+
+                DamageInfo damage = new DamageInfo(DamageDefOf.Deterioration, amt);
+
+                if (p != null)
                 {
-                    Corpse body = (Corpse)p;
-                    if (Rand.Chance(0.05f) && !body.InnerPawn.def.defName.Contains("_TBI"))
+                    if (p.def.IsCorpse)
                     {
-                        spawnFiendOrVisceroid(c, body.InnerPawn.def.race.body);
-                        p.Destroy(DestroyMode.Vanish);
-                        return;
+                        Corpse body = (Corpse)p;
+                        if (Rand.Chance(0.05f) && !body.InnerPawn.def.defName.Contains("_TBI"))
+                        {
+                            spawnFiendOrVisceroid(c, body.InnerPawn.def.race.body);
+                            p.Destroy(DestroyMode.Vanish);
+                            return;
+                        }
                     }
+                    p.TakeDamage(damage);
                 }
-                p.TakeDamage(damage);
             }
         }
 
         public void damageChunks(int amt)
         {
             var c = this.RandomAdjacentCell8Way();
-            var p = c.GetFirstHaulable(this.Map);
-
-            DamageInfo damage = new DamageInfo(DamageDefOf.Deterioration, amt);
-
-            if (p != null)
+            if (c.InBounds(this.Map))
             {
-                p.TakeDamage(damage);
+                var p = c.GetFirstHaulable(this.Map);
+
+                DamageInfo damage = new DamageInfo(DamageDefOf.Deterioration, amt);
+
+                if (p != null)
+                {
+                    p.TakeDamage(damage);
+                }
             }
         }
 
         //Time to corrupt some walls
-        public virtual void corruptWall()
+        public virtual void corruptWall(Building p)
         {
-            var c = this.RandomAdjacentCell8Way();
-            var p = c.GetFirstBuilding(this.Map);
             if (p != null)
             {
                 //Since we have multiple types of Tiberium, and multiple walls, we need to check which type is currently touching the wall
@@ -607,9 +612,11 @@ namespace TiberiumRim
 
         public static void changeTerrain(IntVec3 c, Map map, TerrainDef setTerrain)
         {
-            TerrainDef targetTerrain = c.GetTerrain(map);
-
-            map.terrainGrid.SetTerrain(c, setTerrain);
+            if (c.InBounds(map))
+            {
+                TerrainDef targetTerrain = c.GetTerrain(map);
+                map.terrainGrid.SetTerrain(c, setTerrain);
+            }
         }
 
         public static bool TryFindReproductionDestination(IntVec3 source, ThingDef plantDef, SeedTargFindMode mode, Map map, List<ThingDef> friendlyTo, out IntVec3 foundCell)

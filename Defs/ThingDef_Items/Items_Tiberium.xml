@@ -35,7 +35,7 @@
 		<soundDrop>Silver_Drop</soundDrop>
 		<useHitPoints>false</useHitPoints>
 		<statBases>
-			<MarketValue>21</MarketValue>
+			<MarketValue>5</MarketValue>
 			<Mass>0.1</Mass>
 		</statBases>
 		<thingCategories>
@@ -58,7 +58,7 @@
 		<soundDrop>Silver_Drop</soundDrop>
 		<useHitPoints>false</useHitPoints>
 		<statBases>
-			<MarketValue>35</MarketValue>
+			<MarketValue>15</MarketValue>
 			<Mass>0.2</Mass>
 		</statBases>
 		<thingCategories>
@@ -81,7 +81,7 @@
 		<soundDrop>Silver_Drop</soundDrop>
 		<useHitPoints>false</useHitPoints>
 		<statBases>
-			<MarketValue>50</MarketValue>
+			<MarketValue>25</MarketValue>
 			<Mass>0.5</Mass>
 		</statBases>
 		<thingCategories>
@@ -103,7 +103,7 @@
 		<soundDrop>Wood_Drop</soundDrop>
 		<useHitPoints>false</useHitPoints>
 		<statBases>
-			<MarketValue>60</MarketValue>
+			<MarketValue>35</MarketValue>
 			<Mass>0.6</Mass>
 		</statBases>
 		<thingCategories>
@@ -125,7 +125,7 @@
 		<soundDrop>Silver_Drop</soundDrop>
 		<useHitPoints>false</useHitPoints>
 		<statBases>
-			<MarketValue>250</MarketValue>
+			<MarketValue>75</MarketValue>
 			<Mass>0.1</Mass>
 		</statBases>
 		<thingCategories>

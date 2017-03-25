@@ -25,17 +25,20 @@ namespace TiberiumRim
         public void DestroyWalls()
         {
             var c = this.parent.RandomAdjacentCell8Way();
-            var p = c.GetFirstBuilding(this.parent.Map);
-
-            if (p != null)
+            if (c.InBounds(this.parent.Map))
             {
-                int amt = 150;
+                var p = c.GetFirstBuilding(this.parent.Map);
 
-                DamageInfo damage = new DamageInfo(DamageDefOf.Mining, amt);
-
-                if (!p.def.defName.Contains("TBNS"))
+                if (p != null)
                 {
-                    p.TakeDamage(damage);
+                    int amt = 150;
+
+                    DamageInfo damage = new DamageInfo(DamageDefOf.Mining, amt);
+
+                    if (!p.def.defName.Contains("TBNS"))
+                    {
+                        p.TakeDamage(damage);
+                    }
                 }
             }
         }

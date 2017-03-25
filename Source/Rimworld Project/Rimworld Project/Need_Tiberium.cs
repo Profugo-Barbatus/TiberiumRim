@@ -72,14 +72,21 @@ namespace TiberiumRim
 
         public override void NeedInterval()
         {
-            var c = this.pawn.RandomAdjacentCell8Way();
-            var t = c.GetFirstThing(this.pawn.Map, DefDatabase<ThingDef>.GetNamed("TiberiumGreen"));
-            if (t != null && c.InBounds(this.pawn.Map))
+            if(this.pawn.CarriedBy != null)
             {
-                this.CurLevel += 0.05f;
                 return;
             }
-                 this.CurLevel -= this.TiberiumNeedFallPerTick * 350f;
+            var c = this.pawn.RandomAdjacentCell8Way();
+            if (c.InBounds(this.pawn.Map))
+            {
+                var t = c.GetFirstThing(this.pawn.Map, DefDatabase<ThingDef>.GetNamed("TiberiumGreen"));
+                if (t != null)
+                {
+                    this.CurLevel += 0.05f;
+                    return;
+                }
+                this.CurLevel -= this.TiberiumNeedFallPerTick * 350f;
+            }
         }
     }
 }

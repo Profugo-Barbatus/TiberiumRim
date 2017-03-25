@@ -14,28 +14,35 @@ namespace TiberiumRim
             base.CompPostTick();
             if (base.Pawn.IsHashIntervalTick(500))
             {
-                Adjust(this.Pawn);
+                if (this.Pawn.CarriedBy == null)
+                {
+                    Adjust(this.Pawn);
+                    return;
+                }
             }
         }
 
         public void Adjust(Pawn pawn)
         {
             var c = pawn.RandomAdjacentCell8Way();
-            var t = c.GetFirstThing(pawn.Map, DefDatabase<ThingDef>.GetNamed("TiberiumGreen"));
-            Need N = pawn.needs.AllNeeds.Find((Need x) => x.def.defName.Contains("Need_Tiberium"));
-            HediffDef Exposure = DefDatabase<HediffDef>.GetNamed("TiberiumBuildupHediff", true);
+            if (c.InBounds(pawn.Map))
+            {
+                var t = c.GetFirstThing(pawn.Map, DefDatabase<ThingDef>.GetNamed("TiberiumGreen"));
+                Need N = pawn.needs.AllNeeds.Find((Need x) => x.def.defName.Contains("Need_Tiberium"));
+                HediffDef Exposure = DefDatabase<HediffDef>.GetNamed("TiberiumBuildupHediff", true);
 
-            if (N != null)
-            {
-                if (t != null && c.InBounds(pawn.Map))
+                if (N != null)
                 {
-                    HealthUtility.AdjustSeverity(pawn, this.parent.def, -this.parent.Severity);
-                    HealthUtility.AdjustSeverity(pawn, this.parent.def, 1 - N.CurLevelPercentage * 0.999999f);
+                    if (t != null)
+                    {
+                        HealthUtility.AdjustSeverity(pawn, this.parent.def, -this.parent.Severity);
+                        HealthUtility.AdjustSeverity(pawn, this.parent.def, 1 - N.CurLevelPercentage * 0.999999f);
+                    }
                 }
-            }
-            if (pawn.health.hediffSet.HasHediff(Exposure))
-            {
-                HealthUtility.AdjustSeverity(pawn, Exposure, -0.5f);
+                if (pawn.health.hediffSet.HasHediff(Exposure))
+                {
+                    HealthUtility.AdjustSeverity(pawn, Exposure, -0.5f);
+                }
             }
         }
 

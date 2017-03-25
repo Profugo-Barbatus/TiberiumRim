@@ -58,15 +58,18 @@ namespace TiberiumRim
 
         public void checkPlantLife()
         {
-            foreach(IntVec3 c in cells)
+            foreach (IntVec3 c in cells)
             {
-                Plant plant = c.GetPlant(this.parent.Map);
-                if (plant != null && plant.def.defName.Contains("Tiberium"))
+                if (c.InBounds(this.parent.Map))
                 {
-                    if (GenSight.LineOfSight(this.parent.Position, c, this.parent.Map, true))
+                    Plant plant = c.GetPlant(this.parent.Map);
+                    if (plant != null && plant.def.defName.Contains("Tiberium"))
                     {
-                        //TiberiumBase.Instance.logMessage("This should kill the plant");
-                        plant.Destroy(DestroyMode.Vanish);
+                        if (GenSight.LineOfSight(this.parent.Position, c, this.parent.Map, true))
+                        {
+                            //TiberiumBase.Instance.logMessage("This should kill the plant");
+                            plant.Destroy(DestroyMode.Vanish);
+                        }
                     }
                 }
             }
