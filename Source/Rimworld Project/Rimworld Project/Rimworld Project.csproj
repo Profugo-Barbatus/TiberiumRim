@@ -30,6 +30,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>..\..\..\Assemblies\0Harmony.dll</HintPath>
+    </Reference>
     <Reference Include="Assembly-CSharp">
       <HintPath>Source-DLLs\Assembly-CSharp.dll</HintPath>
     </Reference>
@@ -54,6 +57,7 @@
     <Compile Include="CompSonicEmitter.cs" />
     <Compile Include="Comp_Decrystallizer.cs" />
     <Compile Include="Comp_TiberiumProducer.cs" />
+    <Compile Include="HarmonyPatches.cs" />
     <Compile Include="HediffComp_Mutation.cs" />
     <Compile Include="HediffComp_Tiberium.cs" />
     <Compile Include="HediffComp_TiberiumAddiction.cs" />

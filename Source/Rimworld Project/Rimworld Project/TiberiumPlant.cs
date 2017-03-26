@@ -462,7 +462,12 @@ namespace TiberiumRim
                 switch (p.defName)
                 {
                     case "QuadrupedAnimalWithHoovesAndHorn":
-                        creature = DefDatabase<PawnKindDef>.GetNamed("TiberiumTerror_TBI", true);
+                        if (Rand.Chance(0.2f))
+                        {
+                            creature = DefDatabase<PawnKindDef>.GetNamed("TiberiumTerror_TBI", true);
+                            break;
+                        }
+                        creature = DefDatabase<PawnKindDef>.GetNamed("Thrimbo_TBI", true);
                         break;
 
                     case "QuadrupedAnimalWithPaws":
@@ -474,7 +479,12 @@ namespace TiberiumRim
                         break;
 
                     case "QuadrupedAnimalWithPawsAndTail":
-                        creature = DefDatabase<PawnKindDef>.GetNamed("TiberiumFiend_TBI", true);
+                        if (Rand.Chance(0.6f))
+                        {
+                            creature = DefDatabase<PawnKindDef>.GetNamed("TiberiumFiend_TBI", true);
+                            break;
+                        }
+                        creature = DefDatabase<PawnKindDef>.GetNamed("SmallTiberiumFiend_TBI", true);
                         break;
 
                     case "Snake":
