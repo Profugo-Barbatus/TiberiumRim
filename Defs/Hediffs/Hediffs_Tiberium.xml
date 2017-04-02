@@ -140,7 +140,6 @@
 		<hediffClass>HediffWithComps</hediffClass>
 		<defaultLabelColor>(18, 255, 0)</defaultLabelColor>
 		<label>Tiberium exposure</label>
-		<lethalSeverity>1.5</lethalSeverity>
 		<makesSickThought>true</makesSickThought>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<comps>
@@ -201,13 +200,13 @@
 			</capMods>
 		  </li>
 		  <li>
-			<label>Lethal Exposure</label>
+			<label>Extreme Exposure</label>
 			<minSeverity>1</minSeverity>
 			<vomitMtbDays>0.5</vomitMtbDays>
 			<capMods>
 			  <li>
 				<capacity>Consciousness</capacity>
-				<setMax>0.50</setMax>
+				<setMax>0.25</setMax>
 			  </li>
 			</capMods>
 		  </li>

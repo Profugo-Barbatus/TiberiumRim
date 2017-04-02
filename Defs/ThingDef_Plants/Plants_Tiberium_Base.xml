@@ -136,8 +136,8 @@
 			<soundHarvestFinish>Harvest_Tree_Finish</soundHarvestFinish>
 			<harvestWork>800</harvestWork>
 			<harvestDestroys>true</harvestDestroys>
-			<harvestedThingDef>GreenTiberiumRaw</harvestedThingDef>
-			<harvestYield>5</harvestYield>
+			<harvestedThingDef>WoodLog</harvestedThingDef>
+			<harvestYield>10</harvestYield>
 			<harvestTag>Tiberium</harvestTag>
 			<harvestMinGrowth>0.40</harvestMinGrowth>
 			<harvestFailable>false</harvestFailable>

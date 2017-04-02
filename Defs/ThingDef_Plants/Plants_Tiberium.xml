@@ -135,7 +135,7 @@
 		<label>Tiberium Glacier</label>
 		<description>Huge formations of crystalized water.</description>
 		<statBases>
-			<MaxHitPoints>2500</MaxHitPoints>
+			<MaxHitPoints>750</MaxHitPoints>
 			<Beauty>30</Beauty>
 		</statBases>
 		<graphicData>

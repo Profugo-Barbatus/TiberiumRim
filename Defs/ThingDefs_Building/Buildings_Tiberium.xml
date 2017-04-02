@@ -140,7 +140,7 @@
 			<Beauty>20</Beauty>
 			<WorkToBuild>56000</WorkToBuild>
 		</statBases>
-		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
 		<killedLeavings>
 			<GreenTiberiumRaw>100</GreenTiberiumRaw>
 		</killedLeavings>
@@ -359,6 +359,7 @@
 		<statBases>
 			<MaxHitPoints>3500</MaxHitPoints>
 			<Beauty>360</Beauty>
+			<WorkToBuild>86000</WorkToBuild>
 		</statBases>
 		<rotatable>false</rotatable>
 		<tickerType>Rare</tickerType>
@@ -367,8 +368,15 @@
 		<building>
 			<isEdifice>false</isEdifice>
 			<claimable>false</claimable>
-			<deconstructible>false</deconstructible>
+			<deconstructible>true</deconstructible>
 		</building>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+		<killedLeavings>
+			<GreenTiberiumRaw>75</GreenTiberiumRaw>
+		</killedLeavings>
+		<costList>
+			<GreenTiberiumRaw>125</GreenTiberiumRaw>
+		</costList>
 		<comps>
 			<li Class="TiberiumRim.CompProperties_TiberiumProducer">
 			</li>

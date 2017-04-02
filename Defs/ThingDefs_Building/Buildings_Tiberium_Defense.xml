@@ -30,6 +30,7 @@
 		<costList>
 			<Steel>80</Steel>
 			<Component>5</Component>
+			<BookVinifera>1</BookVinifera>
 		</costList>
 		<comps>
 			<li Class="CompProperties_Glower">
@@ -75,6 +76,7 @@
 				<rect>(0.2,0.2,0.6,0.6)</rect>
 			</damageData>
 		</graphicData>
+		<minifiedDef>MinifiedFurniture</minifiedDef>
 		<comps>
 			<li Class="CompProperties_Glower">
 				<glowRadius>3</glowRadius>
@@ -104,6 +106,7 @@
 			<ai_chillDestination>false</ai_chillDestination>
 		</building>
 		<costList>
+			<BookRutila>1</BookRutila>
 			<Uranium>5</Uranium>
 			<Steel>100</Steel>
 			<Component>8</Component>
@@ -149,7 +152,7 @@
 		<description>This fence allows you to cut off Tiberium spread. Requires power.</description>
 		<placingDraggableDimensions>1</placingDraggableDimensions>
 		<costList>
-			<Steel>8</Steel>
+			<Steel>10</Steel>
 			<Uranium>2</Uranium>
 		</costList>
 		<comps>
@@ -161,7 +164,7 @@
 			</li>
 			<li Class="TiberiumRim.CompProperties_SonicEmitter">
 				<compClass>TiberiumRim.CompSonicEmitter</compClass>
-				<radius>1</radius>
+				<radius>2</radius>
 				<damageShutdownPercent>0.8</damageShutdownPercent>
 			</li>
 			<li Class="CompProperties_Glower">

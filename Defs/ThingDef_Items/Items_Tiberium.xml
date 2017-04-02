@@ -155,7 +155,7 @@
 		<thingCategories>
 			<li>Tiberium</li>
 		</thingCategories>
-		<stackLimit>1</stackLimit>
+		<stackLimit>25</stackLimit>
     </ThingDef>
 	
 	
@@ -181,7 +181,7 @@
 		<thingCategories>
 			<li>Tiberium</li>
 		</thingCategories>
-		<stackLimit>1</stackLimit>
+		<stackLimit>25</stackLimit>
     </ThingDef>
 	
 	
@@ -207,7 +207,7 @@
 		<thingCategories>
 			<li>Tiberium</li>
 		</thingCategories>
-		<stackLimit>1</stackLimit>
+		<stackLimit>25</stackLimit>
     </ThingDef>
 	
 </Defs>

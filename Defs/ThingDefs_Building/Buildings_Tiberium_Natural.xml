@@ -58,7 +58,7 @@
 				</linkFlags>
 		</graphicData>
 		<statBases>
-			<MaxHitPoints>127</MaxHitPoints>
+			<MaxHitPoints>150</MaxHitPoints>
 		</statBases>
 		<description>Rocks infested with green Tiberium.</description>
 		<rotatable>true</rotatable>
@@ -84,7 +84,7 @@
 				</linkFlags>
 		</graphicData>
 		<statBases>
-			<MaxHitPoints>156</MaxHitPoints>
+			<MaxHitPoints>350</MaxHitPoints>
 		</statBases>
 		<description>Rocks infested with blue Tiberium.</description>
 		<rotatable>true</rotatable>
@@ -110,7 +110,7 @@
 				</linkFlags>
 		</graphicData>
 		<statBases>
-			<MaxHitPoints>232</MaxHitPoints>
+			<MaxHitPoints>400</MaxHitPoints>
 		</statBases>
 		<description>Rocks infested with red Tiberium.</description>
 		<rotatable>true</rotatable>
@@ -136,7 +136,7 @@
 				</linkFlags>
 		</graphicData>
 		<statBases>
-			<MaxHitPoints>264</MaxHitPoints>
+			<MaxHitPoints>300</MaxHitPoints>
 		</statBases>
 		<description>Rocks infested with Tiberium veins.</description>
 		<rotatable>true</rotatable>
