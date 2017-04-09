@@ -4,9 +4,44 @@
   <!-- Treating Tiberium like a disease -->
 
   <TiberiumContactPoison.label>Natural Tiberium Poisoning</TiberiumContactPoison.label>
-  <TiberiumContactPoison.stages.0.label>Minor Tiberium Exposure</TiberiumContactPoison.stages.0.label>
-  <TiberiumContactPoison.stages.1.label>Major Tiberium Exposure</TiberiumContactPoison.stages.1.label>
-  <TiberiumContactPoison.stages.2.label>Lethal Tiberium Exposure</TiberiumContactPoison.stages.2.label>
+  <TiberiumContactPoison.stages.0.label>Minor Tiberium Infection</TiberiumContactPoison.stages.0.label>
+  <TiberiumContactPoison.stages.1.label>Major Tiberium Infection</TiberiumContactPoison.stages.1.label>
+  <TiberiumContactPoison.stages.2.label>Lethal Tiberium Infection</TiberiumContactPoison.stages.2.label>
 
+  <TiberiumBuildupHediff.label>Tiberium exposure</TiberiumBuildupHediff.label>
+  <TiberiumBuildupHediff.stages.0.label>Minimal Exposure</TiberiumBuildupHediff.stages.0.label>
+  <TiberiumBuildupHediff.stages.1.label>Minor Exposure</TiberiumBuildupHediff.stages.1.label>
+  <TiberiumBuildupHediff.stages.2.label>Moderate Exposure</TiberiumBuildupHediff.stages.2.label>
+  <TiberiumBuildupHediff.stages.3.label>Serious Exposure</TiberiumBuildupHediff.stages.3.label>
+  <TiberiumBuildupHediff.stages.4.label>Extreme Exposure</TiberiumBuildupHediff.stages.4.label>
+
+  <TiberiumStage1.label>Tiberium Poisoning</TiberiumStage1.label>
+  <TiberiumStage1.stages.0.label>Weak Poisoning</TiberiumStage1.stages.0.label>
+  <TiberiumStage1.stages.1.label>Moderate Poisoning</TiberiumStage1.stages.1.label>
+  <TiberiumStage1.stages.2.label>Initial Poisoning</TiberiumStage1.stages.2.label>
+
+  <TiberiumStage2.label>Tiberium Assimilation</TiberiumStage2.label>
+  <TiberiumStage2.stages.0.label>Initial</TiberiumStage2.stages.0.label>
+  <TiberiumStage2.stages.1.label>Minor</TiberiumStage2.stages.1.label>
+  <TiberiumStage2.stages.2.label>Infection risk</TiberiumStage2.stages.2.label>
+  <TiberiumStage2.stages.3.label>Mutation risk</TiberiumStage2.stages.3.label>
+  <TiberiumStage2.stages.4.label>High mutation risk</TiberiumStage2.stages.4.label>
+
+  <TiberiumMutationGood.label>Tiberium Mutation (Good)</TiberiumMutationGood.label>
+  <TiberiumMutationBad.label>Tiberium Mutation (Bad)</TiberiumMutationBad.label>
+
+  <TiberiumAddiction.label>Tiberium Need</TiberiumAddiction.label>
+  <TiberiumAddiction.stages.0.label>Satisfied</TiberiumAddiction.stages.0.label>
+  <TiberiumAddiction.stages.1.label>Lacking</TiberiumAddiction.stages.1.label>
+  <TiberiumAddiction.stages.2.label>Urgent</TiberiumAddiction.stages.2.label>
+
+
+  <!--<TiberiumBuildup.label>Tiberium exposure</TiberiumBuildup.label>-->
+  <!--<TiberiumBuildup.stages.0.label>initial-hidden</TiberiumBuildup.stages.0.label>-->
+  <!--<TiberiumBuildup.stages.1.label>initial</TiberiumBuildup.stages.1.label>-->
+  <!--<TiberiumBuildup.stages.2.label>minor</TiberiumBuildup.stages.2.label>-->
+  <!--<TiberiumBuildup.stages.3.label>moderate</TiberiumBuildup.stages.3.label>-->
+  <!--<TiberiumBuildup.stages.4.label>serious</TiberiumBuildup.stages.4.label>-->
+  <!--<TiberiumBuildup.stages.5.label>extreme</TiberiumBuildup.stages.5.label>-->
 
 </LanguageData>
