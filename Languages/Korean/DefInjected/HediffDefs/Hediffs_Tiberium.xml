@@ -1,7 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-	<TiberiumContactPoison.label>타이베리움 중독증</TiberiumContactPoison.label>
-		<TiberiumContactPoison.stages.0.label>초기</TiberiumContactPoison.stages.0.label>
-		<TiberiumContactPoison.stages.1.label>중기</TiberiumContactPoison.stages.1.label>
-		<TiberiumContactPoison.stages.2.label>말기</TiberiumContactPoison.stages.2.label>
+
+  <!-- Treating Tiberium like a disease -->
+
+  <TiberiumContactPoison.label>결정화</TiberiumContactPoison.label>
+  <TiberiumContactPoison.stages.0.label>경미함</TiberiumContactPoison.stages.0.label>
+  <TiberiumContactPoison.stages.1.label>심각함</TiberiumContactPoison.stages.1.label>
+  <TiberiumContactPoison.stages.2.label>치명적</TiberiumContactPoison.stages.2.label>
+
+  <TiberiumBuildupHediff.label>타이베리움 노출증</TiberiumBuildupHediff.label>
+  <TiberiumBuildupHediff.stages.0.label>경미함</TiberiumBuildupHediff.stages.0.label>
+  <TiberiumBuildupHediff.stages.1.label>진전됨</TiberiumBuildupHediff.stages.1.label>
+  <TiberiumBuildupHediff.stages.2.label>심각함</TiberiumBuildupHediff.stages.2.label>
+  <TiberiumBuildupHediff.stages.3.label>치명적</TiberiumBuildupHediff.stages.3.label>
+  <TiberiumBuildupHediff.stages.4.label>치명적</TiberiumBuildupHediff.stages.4.label>
+
+  <TiberiumStage1.label>타이베리움 중독증</TiberiumStage1.label>
+  <TiberiumStage1.stages.0.label>경미함</TiberiumStage1.stages.0.label>
+  <TiberiumStage1.stages.1.label>심각함</TiberiumStage1.stages.1.label>
+  <TiberiumStage1.stages.2.label>치명적</TiberiumStage1.stages.2.label>
+
+  <TiberiumStage2.label>타이베리움 변이증</TiberiumStage2.label>
+  <TiberiumStage2.stages.0.label>경미함</TiberiumStage2.stages.0.label>
+  <TiberiumStage2.stages.1.label>진전됨</TiberiumStage2.stages.1.label>
+  <TiberiumStage2.stages.2.label>진전됨</TiberiumStage2.stages.2.label>
+  <TiberiumStage2.stages.3.label>심각함</TiberiumStage2.stages.3.label>
+  <TiberiumStage2.stages.4.label>심각함</TiberiumStage2.stages.4.label>
+
+  <TiberiumMutationGood.label>양성 변이</TiberiumMutationGood.label>
+  <TiberiumMutationBad.label>음성 변이</TiberiumMutationBad.label>
+
+  <TiberiumAddiction.label>타이베리움 의존중</TiberiumAddiction.label>
+  <TiberiumAddiction.stages.0.label>안정</TiberiumAddiction.stages.0.label>
+  <TiberiumAddiction.stages.1.label>결핍</TiberiumAddiction.stages.1.label>
+  <TiberiumAddiction.stages.2.label>갈망</TiberiumAddiction.stages.2.label>
+
+
+  <!--<TiberiumBuildup.label>Tiberium exposure</TiberiumBuildup.label>-->
+  <!--<TiberiumBuildup.stages.0.label>initial-hidden</TiberiumBuildup.stages.0.label>-->
+  <!--<TiberiumBuildup.stages.1.label>initial</TiberiumBuildup.stages.1.label>-->
+  <!--<TiberiumBuildup.stages.2.label>minor</TiberiumBuildup.stages.2.label>-->
+  <!--<TiberiumBuildup.stages.3.label>moderate</TiberiumBuildup.stages.3.label>-->
+  <!--<TiberiumBuildup.stages.4.label>serious</TiberiumBuildup.stages.4.label>-->
+  <!--<TiberiumBuildup.stages.5.label>extreme</TiberiumBuildup.stages.5.label>-->
+
 </LanguageData>

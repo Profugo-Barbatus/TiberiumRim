@@ -20,10 +20,6 @@
 	<BlossomTree.letterLabel>포자 식물</BlossomTree.letterLabel>
 	<BlossomTree.letterText>가스 구름에 노출된 나무가 괴상한 모습으로 변이했습니다.\n\n오염물질 확산에 주의하십시오.</BlossomTree.letterText>
 	
-	<TiberiumMonolith.label>결정 기둥 발견</TiberiumMonolith.label>
-	<TiberiumMonolith.letterLabel>결정 기둥</TiberiumMonolith.letterLabel>
-	<TiberiumMonolith.letterText>푸르게 빛나는 결정 기둥이 지면을 뚫고 튀어나왔습니다. \n\n오염물질 확산에 주의하십시오.</TiberiumMonolith.letterText>
-	
 	<VeinholeArrival.label>베인홀 발견</VeinholeArrival.label>
 	<VeinholeArrival.letterLabel>베인홀</VeinholeArrival.letterLabel>
 	<VeinholeArrival.letterText>지표면이 무너지면서 거대한 베인홀이 모습을 드러냈습니다.</VeinholeArrival.letterText>
