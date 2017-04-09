@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <IonStorm.label>Ionen Sturm</IonStorm.label>
+  <IonStorm.description>Ein Ionen Sturm wurde ausgelöst! Sei vorsichtig, der Stromausfall könnte Komplikationen auslösen.</IonStorm.description>
+  <IonStorm.endMessage>Der Ionen Sturm hört auf.</IonStorm.endMessage>
+
+
+</LanguageData>

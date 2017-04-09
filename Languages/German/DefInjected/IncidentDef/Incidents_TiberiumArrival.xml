@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AsteroidGreen.label>Grüner Tiberium Asteroid</AsteroidGreen.label>
+  <AsteroidGreen.letterLabel>Grüner Tiberium Asteroid!</AsteroidGreen.letterLabel>
+  <AsteroidGreen.letterText>Ein Krater ist durch einen Meteoriden entstanden.\n\nUngewöhnliche Kristalle wachsen aus diesem raus, und haben sich beim Aufprall verteilt.\n\nSei vorsichtig, die Substanz könnte gefährlich sein!</AsteroidGreen.letterText>
+
+  <AsteroidBlue.label>Blauer Tiberium Asteroid</AsteroidBlue.label>
+  <AsteroidBlue.letterLabel>Blaue Tiberium Asteroid!</AsteroidBlue.letterLabel>
+  <AsteroidBlue.letterText>Ein Krater ist durch einen Meteoriden entstanden.\n\nUngewöhnliche Kristalle wachsen aus diesem raus, und haben sich beim Aufprall verteilt.\n\nSei vorsichtig, die Substanz könnte gefährlich sein!</AsteroidBlue.letterText>
+
+  <AsteroidMeteor.label>Tiberium meteor</AsteroidMeteor.label>
+  <AsteroidMeteor.letterLabel>Tiberium Meteor Aufprall!</AsteroidMeteor.letterLabel>
+  <AsteroidMeteor.letterText>Ein ungewöhnlicher Meteor ist gelandet.\n\nAus diesem stechen ein paar Kristalle raus.\n\nSei vorsichtig, die Substanz könnte gefährlich sein!</AsteroidMeteor.letterText>
+
+  <TiberiumShard.label>Tiberium Splitter</TiberiumShard.label>
+  <TiberiumShard.letterLabel>Tiberium Splitter!</TiberiumShard.letterLabel>
+  <TiberiumShard.letterText>Ein ungewöhnlicher Splitter ist aufgeprallt. Rote Kristalle verbreiten sich langsam um diesen herum.\n\nSei vorsichtig, die Substanz könnte gefährlich sein!</TiberiumShard.letterText>
+
+  <BlossomTree.label>Blühten Baum</BlossomTree.label>
+  <BlossomTree.letterLabel>Unbekanntes Gas!</BlossomTree.letterLabel>
+  <BlossomTree.letterText>Eine Wolke aus ungewöhnlichem Gas zog über deine Karte hinweg, dabei enstand ein Blühten Baum. Sei vorsichtig!</BlossomTree.letterText>
+
+  <VeinholeArrival.label>Tiberium Adermonster</VeinholeArrival.label>
+  <VeinholeArrival.letterLabel>Adermonster!</VeinholeArrival.letterLabel>
+  <VeinholeArrival.letterText>Ein Tiberium Adermonster ist auf deiner Karte aufgetaucht!</VeinholeArrival.letterText>
+
+  <IonStormIncident.label>Ionen Sturm</IonStormIncident.label>
+  <IonStormIncident.letterLabel>Ionen Sturm!</IonStormIncident.letterLabel>
+  <IonStormIncident.letterText>Ein Ionen Sturm hat angefangen.\n\nDie starke Radioaktivität stört alle elektrischen Geräte.\n\nPass auf Tiberiumwachstum auf.</IonStormIncident.letterText>
+
+
+</LanguageData>

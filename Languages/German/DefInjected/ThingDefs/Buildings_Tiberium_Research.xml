@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<TiberiumResearchBench.label>tiberium Forschungstisch</TiberiumResearchBench.label>
-	<TiberiumResearchBench.description>Ein spezialisierter Forschungstisch für Tiberium Wissenskenntnisse.\n\nForschung wird durch high-tech tools beschleunigt.\n\nVerbraucht Strom.</TiberiumResearchBench.description>
-	
-	<TiberiumResearchCraftingBench.label>Tiberium research crafting adapter</TiberiumResearchCraftingBench.label>
-	<TiberiumResearchCraftingBench.description>Allow crafting of Tiberium information items.</TiberiumResearchCraftingBench.description>
-	
+  <TiberiumResearchBench.label>Tiberium Forschungsstation</TiberiumResearchBench.label>
+  <TiberiumResearchBench.description>Eine spezialisierte Forschungsstation für Tiberium Technologien.\n\nHigh-Tech-Tools beschleunigen den Prozess.\n\nBraucht Strom.</TiberiumResearchBench.description>
+  <TiberiumResearchBench_Blueprint.label>Tiberium Forschungsstation (Bauplan)</TiberiumResearchBench_Blueprint.label>
+  <TiberiumResearchBench_Frame.label>Tiberium Forschungsstation (Gebäude)</TiberiumResearchBench_Frame.label>
+
+  <TiberiumResearchCraftingBench.label>Tiberium Forschungs-Bau-Adapter</TiberiumResearchCraftingBench.label>
+  <TiberiumResearchCraftingBench.description>Dieses Gebäude lässt dich Tiberium Items produzieren.</TiberiumResearchCraftingBench.description>
+  <TiberiumResearchCraftingBench_Blueprint.label>Tiberium Forschungs-Bau-Adapter (Bauplan)</TiberiumResearchCraftingBench_Blueprint.label>
+  <TiberiumResearchCraftingBench_Frame.label>Tiberium Forschungs-Bau-Adapter (Gebäude)</TiberiumResearchCraftingBench_Frame.label>
+
 
 </LanguageData>

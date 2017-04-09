@@ -1,13 +1,20 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
 	<TiberiumGreen.label>Grünes Tiberium</TiberiumGreen.label>
-	<TiberiumGreen.description>Ein leuchtender grüner Kristall. Sieht seltsamerweise schön aus. Achte auf Interaktion mit dieser Substanz.</TiberiumGreen.description>
+	<TiberiumGreen.description>Ein leuchtend grüner Kristall. Sieht seltsamerweise schön aus. Achte auf Interaktion mit dieser Substanz.</TiberiumGreen.description>
 	
 	<TiberiumBlue.label>Blaues Tiberium</TiberiumBlue.label>
-	<TiberiumBlue.description>Ein leuchtender blauer Kristall. Schön anzusehen aber von unbekannter Art.</TiberiumBlue.description>
+	<TiberiumBlue.description>Ein leuchtend blauer Kristall. Schön anzusehen aber von unbekannter Art.</TiberiumBlue.description>
 	
 	<TiberiumRed.label>Rotes Tiberium</TiberiumRed.label>
-	<TiberiumRed.description>Ein leuchtender roter Kristall. Schön anzusehen aber von unbekannter Art. Eigenartig.</TiberiumRed.description>
+	<TiberiumRed.description>Ein leuchtend roter Kristall. Schön anzusehen aber von unbekannter Art. Eigenartig.</TiberiumRed.description>
+
+  <TiberiumGlacier.label>Tiberium Gletscher</TiberiumGlacier.label>
+  <TiberiumGlacier.description>Große Gebilde von kristallisiertem Wasser.</TiberiumGlacier.description>
+
+  <TiberiumVein.label>Ader</TiberiumVein.label>
+  <TiberiumVein.description>Eine strang-artige, pulsierende rot-braune Ader. Es wächst aus einem Adermonster.</TiberiumVein.description>
+
 
 </LanguageData>

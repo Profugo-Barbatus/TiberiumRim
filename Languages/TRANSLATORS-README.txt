@@ -1,5 +1,13 @@
 Thank you for volunteering your time and skill to help Tiberium Rim reach as wide an audience as possible!
 
-Its through your efforts that others can enjoy this, and to make this a bit easier, we have provided this english base file for you to use. All you'll need to do is copy the English Language folder, and rename the copy to the language you are translating to. From there, its as simple as going through the files in the keyed and defInjected folders, and replacing the text with your translations.
+It's through your efforts that others can enjoy this, and to make this a bit easier, we have provided this english base file for you to use. All you'll need to do is copy the English Language folder, and rename the copy to the language you are translating to. From there, its as simple as going through the files in the keyed and defInjected folders, and replacing the text with your translations.
 
-If you have any questions about the content or meaning of something, feel free to contact ProfugoBarbatus on the public rimworld Discord, through the ludeon forums (https://ludeon.com/forums/index.php?action=profile;u=54192), or through opening an issue on the official Github (https://github.com/Profugo-Barbatus/TiberiumRim). I'll be happy to help you understand, its the least I could offer.
+If you have any questions about the content or meaning of something, feel free to contact us:
+Telefonmast
+Ludeon: https://ludeon.com/forums/index.php?action=profile;u=66450
+
+ProfugoBarbatus
+Ludeon: https://ludeon.com/forums/index.php?action=profile;u=54192
+
+You can find us on the public RimWorld Discord server.
+We also accept issues on out Github: https://github.com/Profugo-Barbatus/TiberiumRim

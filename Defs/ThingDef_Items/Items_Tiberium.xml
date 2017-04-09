@@ -25,7 +25,7 @@
 	<ThingDef ParentName="ResourceBase">
 		<defName>GreenTiberiumRaw</defName>
 		<label>raw green Tiberium crystal</label>
-		<description>The raw form of Tiberium. Be careful how you hanlde it! It can be refined.</description>
+		<description>The raw form of Tiberium. Be careful how you handle it! It can be refined.</description>
 		<graphicData>
 			<texPath>Item/Resource_TiberiumGreen</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -48,7 +48,7 @@
 	<ThingDef ParentName="ResourceBase">
 		<defName>BlueTiberiumRaw</defName>
 		<label>raw blue Tiberium crystal</label>
-		<description>The raw form of Tiberium. Be careful how you hanlde it! It can be refined.</description>
+		<description>The raw form of Tiberium. Be careful how you handle it! It can be refined.</description>
 		<graphicData>
 			<texPath>Item/Resource_TiberiumBlue</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -70,7 +70,7 @@
 	<ThingDef ParentName="ResourceBase">
 		<defName>RedTiberiumRaw</defName>
 		<label>raw red Tiberium crystal</label>
-		<description>The raw form of Tiberium. Be careful how you hanlde it! It can be refined.</description>
+		<description>The raw form of Tiberium. Be careful how you handle it! It can be refined.</description>
 		<graphicData>
 			<texPath>Item/Resource_TiberiumRed</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

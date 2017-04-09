@@ -1,15 +1,34 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-	<ExtractResourcesFromGreenTiberium.label>bekomme Resourcen von grünem Tiberium</ExtractResourcesFromGreenTiberium.label>
-	<ExtractResourcesFromGreenTiberium.description>Diese Raffinerie nutzt komplexe Reaktion um das tödliche Tiberium in nutzbare Materialien zu zerlegen.</ExtractResourcesFromGreenTiberium.description>
-	
-	<ExtractResourcesFromBlueTiberium.label>bekomme Resourcen von blauem Tiberium</ExtractResourcesFromBlueTiberium.label>
-	<ExtractResourcesFromBlueTiberium.description>Diese Raffinerie nutzt komplexe Reaktion um das tödliche Tiberium in nutzbare Materialien zu zerlegen.</ExtractResourcesFromBlueTiberium.description>
-	
-	<ExtractResourcesFromRedTiberium.label>bekomme Resourcen von rotem Tiberium</ExtractResourcesFromRedTiberium.label>
-	<ExtractResourcesFromRedTiberium.description>Diese Raffinerie nutzt komplexe Reaktion um das tödliche Tiberium in nutzbare Materialien zu zerlegen.</ExtractResourcesFromRedTiberium.description>
-	
-	<MakeBookRiparius.label>Schreibe über grünes Tiberium.</MakeBookRiparius.label>
-	<MakeBookVinifera.label>Schreibe über blaues Tiberium.</MakeBookVinifera.label>
-	<MakeBookRutila.label>Schreibe über rotes Tiberium.</MakeBookRutila.label>
+
+  <ExtractResourcesFromGreenTiberium.label>Resourcen aus grünem Tiberium extrahieren</ExtractResourcesFromGreenTiberium.label>
+  <ExtractResourcesFromGreenTiberium.description>Diese Raffinerie nutzt komplexe Reaktionen um grünes Tiberium in Stahl umzuwandeln.</ExtractResourcesFromGreenTiberium.description>
+  <ExtractResourcesFromGreenTiberium.jobString>Extrahiert aus grünem Tiberium</ExtractResourcesFromGreenTiberium.jobString>
+
+  <ExtractResourcesFromBlueTiberium.label>Resourcen aus blauem Tiberium extrahieren</ExtractResourcesFromBlueTiberium.label>
+  <ExtractResourcesFromBlueTiberium.description>Diese Raffinerie nutzt komplexe Reaktionen um blaues Tiberium in Plastahl umzuwandeln.</ExtractResourcesFromBlueTiberium.description>
+  <ExtractResourcesFromBlueTiberium.jobString>Extrahiert aus blauem Tiberium</ExtractResourcesFromBlueTiberium.jobString>
+
+  <ExtractResourcesFromRedTiberium.label>Resourcen aus rotem Tiberium extrahieren</ExtractResourcesFromRedTiberium.label>
+  <ExtractResourcesFromRedTiberium.description>Diese Raffinerie nutzt komplexe Reaktionen um rotes Tiberium in Gold und Uran umzuwandeln.</ExtractResourcesFromRedTiberium.description>
+  <ExtractResourcesFromRedTiberium.jobString>Extrahiert aus rotem Tiberium</ExtractResourcesFromRedTiberium.jobString>
+
+  <ExtractResourcesFromVeinTiberium.label>Resourcen aus Tiberium Adern extrahieren</ExtractResourcesFromVeinTiberium.label>
+  <ExtractResourcesFromVeinTiberium.description>Diese Raffinerie nutzt komplexe Reaktionen um Tiberium Adern in Uran und grünes Tiberium umzuwandeln.</ExtractResourcesFromVeinTiberium.description>
+  <ExtractResourcesFromVeinTiberium.jobString>Extrahiert aus Tiberium Adern</ExtractResourcesFromVeinTiberium.jobString>
+
+  <MakeTiberiumFuel.label>Tiberium Kraftstoff herstellen</MakeTiberiumFuel.label>
+  <MakeTiberiumFuel.description>Diese Raffinerie nutzt komplexe Reaktionen um Tiberium in Kraftstoff umzuwandeln.</MakeTiberiumFuel.description>
+  <MakeTiberiumFuel.jobString>Stellt Tiberium Kraftstoff her</MakeTiberiumFuel.jobString>
+
+  <MakeBookRiparius.label>Schreibe Buch über grünes Tiberium.</MakeBookRiparius.label>
+  <MakeBookRiparius.jobString>Schreibt Riparius Buch</MakeBookRiparius.jobString>
+
+  <MakeBookVinifera.label>Schreibe Buch über blaues Tiberium.</MakeBookVinifera.label>
+  <MakeBookVinifera.jobString>Schreibt Vinifera Buch</MakeBookVinifera.jobString>
+
+  <MakeBookRutila.label>Schreibe Buch über rotes Tiberium.</MakeBookRutila.label>
+  <MakeBookRutila.jobString>Schreibt Rutila Buch</MakeBookRutila.jobString>
+
+
 </LanguageData>

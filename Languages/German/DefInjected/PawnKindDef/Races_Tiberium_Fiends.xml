@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Thrimbo_TBI.label>thrimbo</Thrimbo_TBI.label>
+  <Thrimbo_TBI.labelPlural>thrimbos</Thrimbo_TBI.labelPlural>
+  <Thrimbo_TBI.labelMale>male thrimbo</Thrimbo_TBI.labelMale>
+  <Thrimbo_TBI.labelMalePlural>male thrimbos</Thrimbo_TBI.labelMalePlural>
+  <Thrimbo_TBI.labelFemale>female thrimbo</Thrimbo_TBI.labelFemale>
+  <Thrimbo_TBI.labelFemalePlural>female thrimbos</Thrimbo_TBI.labelFemalePlural>
+  <Thrimbo_TBI.lifeStages.0.label>thrimbo calf</Thrimbo_TBI.lifeStages.0.label>
+  <Thrimbo_TBI.lifeStages.0.labelPlural>thrimbo calves</Thrimbo_TBI.lifeStages.0.labelPlural>
+  <Thrimbo_TBI.lifeStages.0.labelMale>male thrimbo calf</Thrimbo_TBI.lifeStages.0.labelMale>
+  <Thrimbo_TBI.lifeStages.0.labelMalePlural>male thrimbo calves</Thrimbo_TBI.lifeStages.0.labelMalePlural>
+  <Thrimbo_TBI.lifeStages.0.labelFemale>female thrimbo calf</Thrimbo_TBI.lifeStages.0.labelFemale>
+  <Thrimbo_TBI.lifeStages.0.labelFemalePlural>female thrimbo calves</Thrimbo_TBI.lifeStages.0.labelFemalePlural>
+  <Thrimbo_TBI.lifeStages.1.label>thrimbo</Thrimbo_TBI.lifeStages.1.label>
+  <Thrimbo_TBI.lifeStages.1.labelPlural>thrimbo</Thrimbo_TBI.lifeStages.1.labelPlural>
+  <Thrimbo_TBI.lifeStages.1.labelMale>male thrimbo</Thrimbo_TBI.lifeStages.1.labelMale>
+  <Thrimbo_TBI.lifeStages.1.labelMalePlural>male thrimbos</Thrimbo_TBI.lifeStages.1.labelMalePlural>
+  <Thrimbo_TBI.lifeStages.1.labelFemale>female thrimbo</Thrimbo_TBI.lifeStages.1.labelFemale>
+  <Thrimbo_TBI.lifeStages.1.labelFemalePlural>female thrimbos</Thrimbo_TBI.lifeStages.1.labelFemalePlural>
+  <Thrimbo_TBI.lifeStages.2.label>thrimbo</Thrimbo_TBI.lifeStages.2.label>
+  <Thrimbo_TBI.lifeStages.2.labelPlural>thrimbo</Thrimbo_TBI.lifeStages.2.labelPlural>
+  <Thrimbo_TBI.lifeStages.2.labelMale>male thrimbo</Thrimbo_TBI.lifeStages.2.labelMale>
+  <Thrimbo_TBI.lifeStages.2.labelMalePlural>male thrimbos</Thrimbo_TBI.lifeStages.2.labelMalePlural>
+  <Thrimbo_TBI.lifeStages.2.labelFemale>female thrimbo</Thrimbo_TBI.lifeStages.2.labelFemale>
+  <Thrimbo_TBI.lifeStages.2.labelFemalePlural>female thrimbos</Thrimbo_TBI.lifeStages.2.labelFemalePlural>
+
+  <TiberiumTerror_TBI.label>tiberium terror</TiberiumTerror_TBI.label>
+  <TiberiumTerror_TBI.labelPlural>tiberium terrors</TiberiumTerror_TBI.labelPlural>
+  <TiberiumTerror_TBI.labelMale>male tiberium terror</TiberiumTerror_TBI.labelMale>
+  <TiberiumTerror_TBI.labelMalePlural>male tiberium terrors</TiberiumTerror_TBI.labelMalePlural>
+  <TiberiumTerror_TBI.labelFemale>female tiberium terror</TiberiumTerror_TBI.labelFemale>
+  <TiberiumTerror_TBI.labelFemalePlural>female tiberium terrors</TiberiumTerror_TBI.labelFemalePlural>
+  <TiberiumTerror_TBI.lifeStages.0.label>tibro calf</TiberiumTerror_TBI.lifeStages.0.label>
+  <TiberiumTerror_TBI.lifeStages.0.labelPlural>tibro calves</TiberiumTerror_TBI.lifeStages.0.labelPlural>
+  <TiberiumTerror_TBI.lifeStages.0.labelMale>male tibro calf</TiberiumTerror_TBI.lifeStages.0.labelMale>
+  <TiberiumTerror_TBI.lifeStages.0.labelMalePlural>male tibro calves</TiberiumTerror_TBI.lifeStages.0.labelMalePlural>
+  <TiberiumTerror_TBI.lifeStages.0.labelFemale>female tibro calf</TiberiumTerror_TBI.lifeStages.0.labelFemale>
+  <TiberiumTerror_TBI.lifeStages.0.labelFemalePlural>female tibro calves</TiberiumTerror_TBI.lifeStages.0.labelFemalePlural>
+  <TiberiumTerror_TBI.lifeStages.1.label>tiberium terror</TiberiumTerror_TBI.lifeStages.1.label>
+  <TiberiumTerror_TBI.lifeStages.1.labelPlural>tiberium terror</TiberiumTerror_TBI.lifeStages.1.labelPlural>
+  <TiberiumTerror_TBI.lifeStages.1.labelMale>male tiberium terror</TiberiumTerror_TBI.lifeStages.1.labelMale>
+  <TiberiumTerror_TBI.lifeStages.1.labelMalePlural>male tiberium terrors</TiberiumTerror_TBI.lifeStages.1.labelMalePlural>
+  <TiberiumTerror_TBI.lifeStages.1.labelFemale>female tiberium terror</TiberiumTerror_TBI.lifeStages.1.labelFemale>
+  <TiberiumTerror_TBI.lifeStages.1.labelFemalePlural>female tiberium terrors</TiberiumTerror_TBI.lifeStages.1.labelFemalePlural>
+  <TiberiumTerror_TBI.lifeStages.2.label>tiberium terror</TiberiumTerror_TBI.lifeStages.2.label>
+  <TiberiumTerror_TBI.lifeStages.2.labelPlural>tiberium terror</TiberiumTerror_TBI.lifeStages.2.labelPlural>
+  <TiberiumTerror_TBI.lifeStages.2.labelMale>male tiberium terror</TiberiumTerror_TBI.lifeStages.2.labelMale>
+  <TiberiumTerror_TBI.lifeStages.2.labelMalePlural>male tiberium terrors</TiberiumTerror_TBI.lifeStages.2.labelMalePlural>
+  <TiberiumTerror_TBI.lifeStages.2.labelFemale>female tiberium terror</TiberiumTerror_TBI.lifeStages.2.labelFemale>
+  <TiberiumTerror_TBI.lifeStages.2.labelFemalePlural>female tiberium terrors</TiberiumTerror_TBI.lifeStages.2.labelFemalePlural>
+
+  <BigTiberiumFiend_TBI.label>big tiberium fiend</BigTiberiumFiend_TBI.label>
+  <BigTiberiumFiend_TBI.labelPlural>big tiberium fiends</BigTiberiumFiend_TBI.labelPlural>
+  <BigTiberiumFiend_TBI.labelMale>male big tiberium fiend</BigTiberiumFiend_TBI.labelMale>
+  <BigTiberiumFiend_TBI.labelMalePlural>male big tiberium fiends</BigTiberiumFiend_TBI.labelMalePlural>
+  <BigTiberiumFiend_TBI.labelFemale>female big tiberium fiend</BigTiberiumFiend_TBI.labelFemale>
+  <BigTiberiumFiend_TBI.labelFemalePlural>female big tiberium fiends</BigTiberiumFiend_TBI.labelFemalePlural>
+  <BigTiberiumFiend_TBI.lifeStages.0.label>big tiberium fiend</BigTiberiumFiend_TBI.lifeStages.0.label>
+  <BigTiberiumFiend_TBI.lifeStages.0.labelPlural>big tiberium fiend</BigTiberiumFiend_TBI.lifeStages.0.labelPlural>
+  <BigTiberiumFiend_TBI.lifeStages.0.labelMale>male big tiberium fiend</BigTiberiumFiend_TBI.lifeStages.0.labelMale>
+  <BigTiberiumFiend_TBI.lifeStages.0.labelMalePlural>male big tiberium fiends</BigTiberiumFiend_TBI.lifeStages.0.labelMalePlural>
+  <BigTiberiumFiend_TBI.lifeStages.0.labelFemale>female big tiberium fiend</BigTiberiumFiend_TBI.lifeStages.0.labelFemale>
+  <BigTiberiumFiend_TBI.lifeStages.0.labelFemalePlural>female big tiberium fiends</BigTiberiumFiend_TBI.lifeStages.0.labelFemalePlural>
+  <BigTiberiumFiend_TBI.lifeStages.1.label>big tiberium fiend</BigTiberiumFiend_TBI.lifeStages.1.label>
+  <BigTiberiumFiend_TBI.lifeStages.1.labelPlural>big tiberium fiend</BigTiberiumFiend_TBI.lifeStages.1.labelPlural>
+  <BigTiberiumFiend_TBI.lifeStages.1.labelMale>male big tiberium fiend</BigTiberiumFiend_TBI.lifeStages.1.labelMale>
+  <BigTiberiumFiend_TBI.lifeStages.1.labelMalePlural>male big tiberium fiends</BigTiberiumFiend_TBI.lifeStages.1.labelMalePlural>
+  <BigTiberiumFiend_TBI.lifeStages.1.labelFemale>female big tiberium fiend</BigTiberiumFiend_TBI.lifeStages.1.labelFemale>
+  <BigTiberiumFiend_TBI.lifeStages.1.labelFemalePlural>female big tiberium fiends</BigTiberiumFiend_TBI.lifeStages.1.labelFemalePlural>
+  <BigTiberiumFiend_TBI.lifeStages.2.label>big tiberium fiend</BigTiberiumFiend_TBI.lifeStages.2.label>
+  <BigTiberiumFiend_TBI.lifeStages.2.labelPlural>big tiberium fiend</BigTiberiumFiend_TBI.lifeStages.2.labelPlural>
+  <BigTiberiumFiend_TBI.lifeStages.2.labelMale>male big tiberium fiend</BigTiberiumFiend_TBI.lifeStages.2.labelMale>
+  <BigTiberiumFiend_TBI.lifeStages.2.labelMalePlural>male big tiberium fiends</BigTiberiumFiend_TBI.lifeStages.2.labelMalePlural>
+  <BigTiberiumFiend_TBI.lifeStages.2.labelFemale>female big tiberium fiend</BigTiberiumFiend_TBI.lifeStages.2.labelFemale>
+  <BigTiberiumFiend_TBI.lifeStages.2.labelFemalePlural>female big tiberium fiends</BigTiberiumFiend_TBI.lifeStages.2.labelFemalePlural>
+
+  <Tibscarab_TBI.label>Tibscarab</Tibscarab_TBI.label>
+  <Tibscarab_TBI.labelPlural>Tibscarabs</Tibscarab_TBI.labelPlural>
+  <Tibscarab_TBI.labelMale>male Tibscarab</Tibscarab_TBI.labelMale>
+  <Tibscarab_TBI.labelMalePlural>male Tibscarabs</Tibscarab_TBI.labelMalePlural>
+  <Tibscarab_TBI.labelFemale>female Tibscarab</Tibscarab_TBI.labelFemale>
+  <Tibscarab_TBI.labelFemalePlural>female Tibscarabs</Tibscarab_TBI.labelFemalePlural>
+  <Tibscarab_TBI.lifeStages.0.label>Tibscarab</Tibscarab_TBI.lifeStages.0.label>
+  <Tibscarab_TBI.lifeStages.0.labelPlural>Tibscarab</Tibscarab_TBI.lifeStages.0.labelPlural>
+  <Tibscarab_TBI.lifeStages.0.labelMale>male Tibscarab</Tibscarab_TBI.lifeStages.0.labelMale>
+  <Tibscarab_TBI.lifeStages.0.labelMalePlural>male Tibscarabs</Tibscarab_TBI.lifeStages.0.labelMalePlural>
+  <Tibscarab_TBI.lifeStages.0.labelFemale>female Tibscarab</Tibscarab_TBI.lifeStages.0.labelFemale>
+  <Tibscarab_TBI.lifeStages.0.labelFemalePlural>female Tibscarabs</Tibscarab_TBI.lifeStages.0.labelFemalePlural>
+  <Tibscarab_TBI.lifeStages.1.label>Tibscarab</Tibscarab_TBI.lifeStages.1.label>
+  <Tibscarab_TBI.lifeStages.1.labelPlural>Tibscarab</Tibscarab_TBI.lifeStages.1.labelPlural>
+  <Tibscarab_TBI.lifeStages.1.labelMale>male Tibscarab</Tibscarab_TBI.lifeStages.1.labelMale>
+  <Tibscarab_TBI.lifeStages.1.labelMalePlural>male Tibscarabs</Tibscarab_TBI.lifeStages.1.labelMalePlural>
+  <Tibscarab_TBI.lifeStages.1.labelFemale>female Tibscarab</Tibscarab_TBI.lifeStages.1.labelFemale>
+  <Tibscarab_TBI.lifeStages.1.labelFemalePlural>female Tibscarabs</Tibscarab_TBI.lifeStages.1.labelFemalePlural>
+  <Tibscarab_TBI.lifeStages.2.label>Tibscarab</Tibscarab_TBI.lifeStages.2.label>
+  <Tibscarab_TBI.lifeStages.2.labelPlural>Tibscarab</Tibscarab_TBI.lifeStages.2.labelPlural>
+  <Tibscarab_TBI.lifeStages.2.labelMale>male Tibscarab</Tibscarab_TBI.lifeStages.2.labelMale>
+  <Tibscarab_TBI.lifeStages.2.labelMalePlural>male Tibscarabs</Tibscarab_TBI.lifeStages.2.labelMalePlural>
+  <Tibscarab_TBI.lifeStages.2.labelFemale>female Tibscarab</Tibscarab_TBI.lifeStages.2.labelFemale>
+  <Tibscarab_TBI.lifeStages.2.labelFemalePlural>female Tibscarabs</Tibscarab_TBI.lifeStages.2.labelFemalePlural>
+
+  <TiberiumFiend_TBI.label>tiberium fiend</TiberiumFiend_TBI.label>
+  <TiberiumFiend_TBI.labelPlural>tiberium fiends</TiberiumFiend_TBI.labelPlural>
+  <TiberiumFiend_TBI.labelMale>male tiberium fiend</TiberiumFiend_TBI.labelMale>
+  <TiberiumFiend_TBI.labelMalePlural>male tiberium fiends</TiberiumFiend_TBI.labelMalePlural>
+  <TiberiumFiend_TBI.labelFemale>female tiberium fiend</TiberiumFiend_TBI.labelFemale>
+  <TiberiumFiend_TBI.labelFemalePlural>female tiberium fiends</TiberiumFiend_TBI.labelFemalePlural>
+  <TiberiumFiend_TBI.lifeStages.0.label>tiberium fiend puppy</TiberiumFiend_TBI.lifeStages.0.label>
+  <TiberiumFiend_TBI.lifeStages.0.labelPlural>tiberium fiend puppies</TiberiumFiend_TBI.lifeStages.0.labelPlural>
+  <TiberiumFiend_TBI.lifeStages.0.labelMale>male tiberium fiend puppy</TiberiumFiend_TBI.lifeStages.0.labelMale>
+  <TiberiumFiend_TBI.lifeStages.0.labelMalePlural>male tiberium fiend puppies</TiberiumFiend_TBI.lifeStages.0.labelMalePlural>
+  <TiberiumFiend_TBI.lifeStages.0.labelFemale>female tiberium fiend puppy</TiberiumFiend_TBI.lifeStages.0.labelFemale>
+  <TiberiumFiend_TBI.lifeStages.0.labelFemalePlural>female tiberium fiend puppies</TiberiumFiend_TBI.lifeStages.0.labelFemalePlural>
+  <TiberiumFiend_TBI.lifeStages.1.label>tiberium fiend</TiberiumFiend_TBI.lifeStages.1.label>
+  <TiberiumFiend_TBI.lifeStages.1.labelPlural>tiberium fiends</TiberiumFiend_TBI.lifeStages.1.labelPlural>
+  <TiberiumFiend_TBI.lifeStages.1.labelMale>male tiberium fiend</TiberiumFiend_TBI.lifeStages.1.labelMale>
+  <TiberiumFiend_TBI.lifeStages.1.labelMalePlural>male tiberium fiends</TiberiumFiend_TBI.lifeStages.1.labelMalePlural>
+  <TiberiumFiend_TBI.lifeStages.1.labelFemale>female tiberium fiend</TiberiumFiend_TBI.lifeStages.1.labelFemale>
+  <TiberiumFiend_TBI.lifeStages.1.labelFemalePlural>female tiberium fiends</TiberiumFiend_TBI.lifeStages.1.labelFemalePlural>
+  <TiberiumFiend_TBI.lifeStages.2.label>tiberium fiend</TiberiumFiend_TBI.lifeStages.2.label>
+  <TiberiumFiend_TBI.lifeStages.2.labelPlural>tiberium fiends</TiberiumFiend_TBI.lifeStages.2.labelPlural>
+  <TiberiumFiend_TBI.lifeStages.2.labelMale>male tiberium fiend</TiberiumFiend_TBI.lifeStages.2.labelMale>
+  <TiberiumFiend_TBI.lifeStages.2.labelMalePlural>male tiberium fiends</TiberiumFiend_TBI.lifeStages.2.labelMalePlural>
+  <TiberiumFiend_TBI.lifeStages.2.labelFemale>female tiberium fiend</TiberiumFiend_TBI.lifeStages.2.labelFemale>
+  <TiberiumFiend_TBI.lifeStages.2.labelFemalePlural>female tiberium fiends</TiberiumFiend_TBI.lifeStages.2.labelFemalePlural>
+
+  <SmallTiberiumFiend_TBI.label>small tiberium fiend</SmallTiberiumFiend_TBI.label>
+  <SmallTiberiumFiend_TBI.labelPlural>small tiberium fiends</SmallTiberiumFiend_TBI.labelPlural>
+  <SmallTiberiumFiend_TBI.labelMale>male small tiberium fiend</SmallTiberiumFiend_TBI.labelMale>
+  <SmallTiberiumFiend_TBI.labelMalePlural>male small tiberium fiends</SmallTiberiumFiend_TBI.labelMalePlural>
+  <SmallTiberiumFiend_TBI.labelFemale>female small tiberium fiend</SmallTiberiumFiend_TBI.labelFemale>
+  <SmallTiberiumFiend_TBI.labelFemalePlural>female small tiberium fiends</SmallTiberiumFiend_TBI.labelFemalePlural>
+  <SmallTiberiumFiend_TBI.lifeStages.0.label>small tiberium fiend puppy</SmallTiberiumFiend_TBI.lifeStages.0.label>
+  <SmallTiberiumFiend_TBI.lifeStages.0.labelPlural>small tiberium fiend puppies</SmallTiberiumFiend_TBI.lifeStages.0.labelPlural>
+  <SmallTiberiumFiend_TBI.lifeStages.0.labelMale>male small tiberium fiend puppy</SmallTiberiumFiend_TBI.lifeStages.0.labelMale>
+  <SmallTiberiumFiend_TBI.lifeStages.0.labelMalePlural>male small tiberium fiend puppies</SmallTiberiumFiend_TBI.lifeStages.0.labelMalePlural>
+  <SmallTiberiumFiend_TBI.lifeStages.0.labelFemale>female small tiberium fiend puppy</SmallTiberiumFiend_TBI.lifeStages.0.labelFemale>
+  <SmallTiberiumFiend_TBI.lifeStages.0.labelFemalePlural>female small tiberium fiend puppies</SmallTiberiumFiend_TBI.lifeStages.0.labelFemalePlural>
+  <SmallTiberiumFiend_TBI.lifeStages.1.label>small tiberium fiend</SmallTiberiumFiend_TBI.lifeStages.1.label>
+  <SmallTiberiumFiend_TBI.lifeStages.1.labelPlural>small tiberium fiends</SmallTiberiumFiend_TBI.lifeStages.1.labelPlural>
+  <SmallTiberiumFiend_TBI.lifeStages.1.labelMale>male small tiberium fiend</SmallTiberiumFiend_TBI.lifeStages.1.labelMale>
+  <SmallTiberiumFiend_TBI.lifeStages.1.labelMalePlural>male small tiberium fiends</SmallTiberiumFiend_TBI.lifeStages.1.labelMalePlural>
+  <SmallTiberiumFiend_TBI.lifeStages.1.labelFemale>female small tiberium fiend</SmallTiberiumFiend_TBI.lifeStages.1.labelFemale>
+  <SmallTiberiumFiend_TBI.lifeStages.1.labelFemalePlural>female small tiberium fiends</SmallTiberiumFiend_TBI.lifeStages.1.labelFemalePlural>
+  <SmallTiberiumFiend_TBI.lifeStages.2.label>small tiberium fiend</SmallTiberiumFiend_TBI.lifeStages.2.label>
+  <SmallTiberiumFiend_TBI.lifeStages.2.labelPlural>small tiberium fiends</SmallTiberiumFiend_TBI.lifeStages.2.labelPlural>
+  <SmallTiberiumFiend_TBI.lifeStages.2.labelMale>male small tiberium fiend</SmallTiberiumFiend_TBI.lifeStages.2.labelMale>
+  <SmallTiberiumFiend_TBI.lifeStages.2.labelMalePlural>male small tiberium fiends</SmallTiberiumFiend_TBI.lifeStages.2.labelMalePlural>
+  <SmallTiberiumFiend_TBI.lifeStages.2.labelFemale>female small tiberium fiend</SmallTiberiumFiend_TBI.lifeStages.2.labelFemale>
+  <SmallTiberiumFiend_TBI.lifeStages.2.labelFemalePlural>female small tiberium fiends</SmallTiberiumFiend_TBI.lifeStages.2.labelFemalePlural>
+
+  <Crawler_TBI.label>crawler</Crawler_TBI.label>
+  <Crawler_TBI.labelPlural>crawlers</Crawler_TBI.labelPlural>
+  <Crawler_TBI.labelMale>male crawler</Crawler_TBI.labelMale>
+  <Crawler_TBI.labelMalePlural>male crawlers</Crawler_TBI.labelMalePlural>
+  <Crawler_TBI.labelFemale>female crawler</Crawler_TBI.labelFemale>
+  <Crawler_TBI.labelFemalePlural>female crawlers</Crawler_TBI.labelFemalePlural>
+  <Crawler_TBI.lifeStages.0.label>crawler</Crawler_TBI.lifeStages.0.label>
+  <Crawler_TBI.lifeStages.0.labelPlural>crawler</Crawler_TBI.lifeStages.0.labelPlural>
+  <Crawler_TBI.lifeStages.0.labelMale>male crawler</Crawler_TBI.lifeStages.0.labelMale>
+  <Crawler_TBI.lifeStages.0.labelMalePlural>male crawlers</Crawler_TBI.lifeStages.0.labelMalePlural>
+  <Crawler_TBI.lifeStages.0.labelFemale>female crawler</Crawler_TBI.lifeStages.0.labelFemale>
+  <Crawler_TBI.lifeStages.0.labelFemalePlural>female crawlers</Crawler_TBI.lifeStages.0.labelFemalePlural>
+  <Crawler_TBI.lifeStages.1.label>crawler</Crawler_TBI.lifeStages.1.label>
+  <Crawler_TBI.lifeStages.1.labelPlural>crawler</Crawler_TBI.lifeStages.1.labelPlural>
+  <Crawler_TBI.lifeStages.1.labelMale>male crawler</Crawler_TBI.lifeStages.1.labelMale>
+  <Crawler_TBI.lifeStages.1.labelMalePlural>male crawlers</Crawler_TBI.lifeStages.1.labelMalePlural>
+  <Crawler_TBI.lifeStages.1.labelFemale>female crawler</Crawler_TBI.lifeStages.1.labelFemale>
+  <Crawler_TBI.lifeStages.1.labelFemalePlural>female crawlers</Crawler_TBI.lifeStages.1.labelFemalePlural>
+  <Crawler_TBI.lifeStages.2.label>crawler</Crawler_TBI.lifeStages.2.label>
+  <Crawler_TBI.lifeStages.2.labelPlural>crawler</Crawler_TBI.lifeStages.2.labelPlural>
+  <Crawler_TBI.lifeStages.2.labelMale>male crawler</Crawler_TBI.lifeStages.2.labelMale>
+  <Crawler_TBI.lifeStages.2.labelMalePlural>male crawlers</Crawler_TBI.lifeStages.2.labelMalePlural>
+  <Crawler_TBI.lifeStages.2.labelFemale>female crawler</Crawler_TBI.lifeStages.2.labelFemale>
+  <Crawler_TBI.lifeStages.2.labelFemalePlural>female crawlers</Crawler_TBI.lifeStages.2.labelFemalePlural>
+
+
+</LanguageData>

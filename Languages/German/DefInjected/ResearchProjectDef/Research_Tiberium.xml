@@ -1,16 +1,20 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<TiberiumResearch.label>tiberium research</TiberiumResearch.label>
-	<TiberiumResearch.description>Allows the research of Tiberium technologies.</TiberiumResearch.description>
-	
-	<TiberiumKnowledge.label>tiberium knowledge</TiberiumKnowledge.label>
-	<TiberiumKnowledge.description>Allows the understanding of Tiberium.</TiberiumKnowledge.description>
-	
-	<TiberiumResearchRefining.label>tiberium Refining</TiberiumResearchRefining.label>
-	<TiberiumResearchRefining.description>Allows Tiberium to be refined.</TiberiumResearchRefining.description>
+  <TiberiumResearch.label>Tiberium Grundwissen</TiberiumResearch.label>
+  <TiberiumResearch.description>Schaltet weitere Tiberium Forschung frei:\n\n -Bau der Tiberium Forschungsstation</TiberiumResearch.description>
 
-	<TiberiumSonicInhibition.label>Tiberium Unterdrückung</TiberiumSonicInhibition.label>
-	<TiberiumSonicInhibition.description>Nutze die Art des Tiberiums um es mit Ultraschall Frequenzen zu zerstören. Erlaubt das Bauen von Sonic Inhibitoren.</TiberiumSonicInhibition.description>
-	
+  <TiberiumKnowledge.label>Tiberium Kenntnis</TiberiumKnowledge.label>
+  <TiberiumKnowledge.description>Schaltet Tiberium Verständnis frei:\n\n -Tiberium (lore) Bücher\n\n -Tiberium Schutzanzug</TiberiumKnowledge.description>
+
+  <TiberiumResearchRefining.label>Tiberium Raffination</TiberiumResearchRefining.label>
+  <TiberiumResearchRefining.description>Schaltet Tiberium Raffination frei.\n\n -Bau der Tiberium Raffinerie</TiberiumResearchRefining.description>
+
+  <TiberiumPower.label>Tiberium Kraft</TiberiumPower.label>
+  <TiberiumPower.description>Schaltet das Tiberium Kraftwerk frei.</TiberiumPower.description>
+
+  <TiberiumSonicInhibition.label>Tiberium Inhibition</TiberiumSonicInhibition.label>
+  <TiberiumSonicInhibition.description>Nutze die Schwäche des Tiberium um es mit Ultraschall zu zerstören:\n\n -Bau des Sonic Inhibitors\n\n -Bau des Sonic Inhibitor Zaunes\n\n -Bau des Umkristallisiers (Misc)</TiberiumSonicInhibition.description>
+
+
 </LanguageData>

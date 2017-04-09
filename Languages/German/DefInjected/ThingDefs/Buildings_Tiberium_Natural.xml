@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <GreenTiberiumRock_TBNS.label>Grünes Tiberium Gestein</GreenTiberiumRock_TBNS.label>
+  <GreenTiberiumRock_TBNS.description>Tiberium infiziertes Gestein.</GreenTiberiumRock_TBNS.description>
+
+  <BlueTiberiumRock_TBNS.label>Blaues Tiberium Gestein</BlueTiberiumRock_TBNS.label>
+  <BlueTiberiumRock_TBNS.description>Tiberium infiziertes Gestein.</BlueTiberiumRock_TBNS.description>
+
+  <RedTiberiumRock_TBNS.label>Rotes Tiberium Gestein</RedTiberiumRock_TBNS.label>
+  <RedTiberiumRock_TBNS.description>Tiberium infiziertes Gestein.</RedTiberiumRock_TBNS.description>
+
+  <VeinTiberiumRock_TBNS.label>Tiberium Ader Gestein</VeinTiberiumRock_TBNS.label>
+  <VeinTiberiumRock_TBNS.description>Tiberium infiziertes Gestein.</VeinTiberiumRock_TBNS.description>
+
+
+</LanguageData>

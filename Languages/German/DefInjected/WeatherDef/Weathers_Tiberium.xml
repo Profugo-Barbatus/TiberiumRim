@@ -1,14 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<IonStorm.label>Ionen Sturm</IonStorm.label>
-	<IonStorm.description>Ein Ionen Sturm - Nicht sehr gut für das Leben.</IonStorm.description>
+  <IonStormWeather.label>Ionen Sturm</IonStormWeather.label>
+  <IonStormWeather.description>Ein Ionen Sturm - Nicht wirklich lebensfreundlich..</IonStormWeather.description>
+
 
 </LanguageData>
-
-
-
-
-
-
-
