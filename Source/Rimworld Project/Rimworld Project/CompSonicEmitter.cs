@@ -45,6 +45,7 @@ namespace TiberiumRim
             var rect = CellRect.CenteredOn(this.parent.Position, Mathf.RoundToInt(def.radius));
             rect.ClipInsideMap(this.parent.Map);
 
+            cells.Clear();
             for (int z = rect.minZ; z <= rect.maxZ; z++)
             {
                 for (int x = rect.minX; x <= rect.maxX; x++)

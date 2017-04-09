@@ -37,7 +37,7 @@ namespace TiberiumRim
                     {
                         HealthUtility.AdjustSeverity(pawn, this.parent.def, -this.parent.Severity);
                         HealthUtility.AdjustSeverity(pawn, this.parent.def, 1 - N.CurLevelPercentage * 0.999999f);
-                    }
+                    }                   
                 }
                 if (pawn.health.hediffSet.HasHediff(Exposure))
                 {

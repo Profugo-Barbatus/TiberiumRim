@@ -29,7 +29,7 @@ namespace TiberiumRim
         static bool PrefixMethod(MapCondition_ToxicFallout __instance, IntVec3 c)
         {
             var map = Traverse.Create(__instance).Property("Map").GetValue<Map>();
-            if (c.InBounds(map))
+            if (c.InBounds(map) && !c.Roofed(map))
             {
                 List<Thing> thingList = c.GetThingList(map);
                 for (int i = 0; i < thingList.Count; i++)
@@ -37,7 +37,6 @@ namespace TiberiumRim
                     Thing thing = thingList[i];
                     if (thing.def.defName.Contains("Tiberium"))
                     {
-                        Log.Message("Dont kill tiberium plz");
                         return false;
                     }
                     return true;
@@ -55,13 +54,14 @@ namespace TiberiumRim
         [HarmonyPrefix]
         static bool PrefixMethod(Room room)
         {
-            foreach (Thing thing in room.AllContainedThings)
+            var things = room.AllContainedThings;
+            var count = things.Count;
+            foreach (Thing thing in things)
             {
                 if (thing != null)
                 {
-                    if (thing.def.defName.Contains("Tiberium") || thing.def.mineable)
+                    if (thing.def.defName.Contains("Tiberium") || count <= 9)
                     {
-                        Log.Message("Found Tiberium stuff, not making room");
                         return false;
                     }
                 }

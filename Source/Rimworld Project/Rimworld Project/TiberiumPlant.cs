@@ -50,6 +50,26 @@ namespace TiberiumRim
 
         }
 
+        public override void SpawnSetup(Map map)
+        {
+            base.SpawnSetup(map);
+            var c = this.Position.GetPlant(map);
+            if (c != null && c != this)
+            {
+                if (c.def.defName.Contains("Tiberium"))
+                {
+                    Log.Message("plant: " + c);
+                    this.Destroy(DestroyMode.Vanish);
+                    return;
+                }
+                else
+                {
+                    Log.Message("plant: " + c);
+                    c.Destroy(DestroyMode.Vanish);
+                }
+            }
+        }
+
         public object cachedLabelMouseover { get; private set; }
         public int DyingDamagePerTick { get; private set; }
 
@@ -178,7 +198,7 @@ namespace TiberiumRim
             //Rare chance of monolithRise() to happen
             if (Rand.Chance(0.000001f))
             {
-                if (this.def.defName.Contains("TiberiumBlue") && Rand.Chance(0.0000001f))
+                if (this.def.defName.Contains("TiberiumBlue") && Rand.Chance(0.000001f))
                 {
                     MonolithRise(Map);
                 }
@@ -302,7 +322,7 @@ namespace TiberiumRim
                 {
                     if (!p.def.defName.Contains("TBNS"))
                     {
-                        if (Rand.Chance(0.1f))
+                        if (Rand.Chance(0.025f))
                         {
                             corruptWall(p);
                             return;
@@ -328,7 +348,6 @@ namespace TiberiumRim
             if (c.InBounds(this.Map))
             {
                 var p = c.GetFirstItem(this.Map);
-
                 DamageInfo damage = new DamageInfo(DamageDefOf.Deterioration, amt);
 
                 if (p != null)

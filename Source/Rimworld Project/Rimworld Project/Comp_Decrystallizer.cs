@@ -41,7 +41,7 @@ namespace TiberiumRim
         {
             get
             {
-                return this.powerComp != null || this.powerComp.PowerOn;
+                return this.powerComp == null || this.powerComp.PowerOn;
             }
         }
 
@@ -60,6 +60,16 @@ namespace TiberiumRim
             }
         }
 
+        public override void PostSpawnSetup()
+        {
+            this.powerComp = this.parent.TryGetComp<CompPowerTrader>();
+        }
+
+        public override void PostDeSpawn(Map map)
+        {
+            this.progressTicks = 0;
+        }
+
         public override void CompTickRare()
         {
             if (this.Working)
@@ -75,21 +85,24 @@ namespace TiberiumRim
 
         protected override void AffectCell(IntVec3 c)
         {
-            TerrainDef terrain = c.GetTerrain(this.parent.Map);
-            TerrainDef Postterrain = null;
-            if (terrain.defName.Contains("Tiberium") | terrain.defName.Contains("Vein") && !terrain.defName.Contains("TiberiumWater") && c.InBounds(this.parent.Map))
+            if (c.InBounds(this.parent.Map))
             {
-                Postterrain = DefDatabase<TerrainDef>.GetNamed("DecrystallizedSoil");
-                this.parent.Map.terrainGrid.SetTerrain(c, Postterrain);
+                TerrainDef terrain = c.GetTerrain(this.parent.Map);
+                TerrainDef Postterrain = null;
+                if (terrain.defName.Contains("Tiberium") | terrain.defName.Contains("Vein") && !terrain.defName.Contains("TiberiumWater"))
+                {
+                    Postterrain = DefDatabase<TerrainDef>.GetNamed("DecrystallizedSoil");
+                    this.parent.Map.terrainGrid.SetTerrain(c, Postterrain);
+                }
+                /*
+                if (terrain.defName.Contains("TiberiumSand"))
+                {
+                    Postterrain = DefDatabase<TerrainDef>.GetNamed("TiberiumSandDecrystallized");
+                    this.parent.Map.terrainGrid.SetTerrain(c, Postterrain);
+                }
+                */
+                return;
             }
-            /*
-            if (terrain.defName.Contains("TiberiumSand"))
-            {
-                Postterrain = DefDatabase<TerrainDef>.GetNamed("TiberiumSandDecrystallized");
-                this.parent.Map.terrainGrid.SetTerrain(c, Postterrain);
-            }
-            */
-            return;
         }
 
         public override void PostDrawExtraSelectionOverlays()
