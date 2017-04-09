@@ -65,7 +65,7 @@
 					<min>10600</min>
 					<max>20000</max>
 				</spawnIntervalRange>
-				<spawnMaxAdjacent>4</spawnMaxAdjacent>
+				<spawnMaxAdjacent>8</spawnMaxAdjacent>
 				<spawnForbidden>false</spawnForbidden>
 			</li>
 		</comps>
@@ -111,7 +111,7 @@
 					<min>50800</min>
 					<max>60000</max>
 				</spawnIntervalRange>
-				<spawnMaxAdjacent>4</spawnMaxAdjacent>
+				<spawnMaxAdjacent>8</spawnMaxAdjacent>
 				<spawnForbidden>false</spawnForbidden>
 			</li>
 		</comps>
@@ -219,7 +219,7 @@
 					<min>50600</min>
 					<max>60000</max>
 				</spawnIntervalRange>
-				<spawnMaxAdjacent>3</spawnMaxAdjacent>
+				<spawnMaxAdjacent>8</spawnMaxAdjacent>
 				<spawnForbidden>false</spawnForbidden>
 			</li>
 		</comps>
@@ -255,10 +255,10 @@
 				<thingToSpawn>TiberiumGreen</thingToSpawn>
 				<spawnCount>1</spawnCount>
 				<spawnIntervalRange>
-					<min>1800</min>
-					<max>2000</max>
+					<min>50600</min>
+					<max>60000</max>
 				</spawnIntervalRange>
-				<spawnMaxAdjacent>4</spawnMaxAdjacent>
+				<spawnMaxAdjacent>8</spawnMaxAdjacent>
 				<spawnForbidden>false</spawnForbidden>
 			</li>
 		</comps>
@@ -294,10 +294,10 @@
 				<thingToSpawn>TiberiumRed</thingToSpawn>
 				<spawnCount>1</spawnCount>
 				<spawnIntervalRange>
-					<min>4000</min>
-					<max>6000</max>
+					<min>50600</min>
+					<max>60000</max>
 				</spawnIntervalRange>
-				<spawnMaxAdjacent>1</spawnMaxAdjacent>
+				<spawnMaxAdjacent>8</spawnMaxAdjacent>
 				<spawnForbidden>false</spawnForbidden>
 			</li>
 		</comps>
@@ -335,10 +335,10 @@
 				<thingToSpawn>TiberiumVein</thingToSpawn>
 				<spawnCount>1</spawnCount>
 				<spawnIntervalRange>
-					<min>5800</min>
-					<max>6000</max>
+					<min>50600</min>
+					<max>60000</max>
 				</spawnIntervalRange>
-				<spawnMaxAdjacent>3</spawnMaxAdjacent>
+				<spawnMaxAdjacent>8</spawnMaxAdjacent>
 				<spawnForbidden>false</spawnForbidden>
 			</li>
 		</comps>
@@ -357,7 +357,7 @@
 			<drawSize>(4,8)</drawSize>
 		</graphicData>
 		<statBases>
-			<MaxHitPoints>3500</MaxHitPoints>
+			<MaxHitPoints>1500</MaxHitPoints>
 			<Beauty>360</Beauty>
 			<WorkToBuild>86000</WorkToBuild>
 		</statBases>
@@ -366,7 +366,6 @@
 		<selectable>true</selectable>
 		<blockPlants>true</blockPlants>
 		<building>
-			<isEdifice>false</isEdifice>
 			<claimable>false</claimable>
 			<deconstructible>true</deconstructible>
 		</building>

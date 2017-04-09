@@ -6,7 +6,7 @@
 		<label>green tiberium asteroid</label>
 		<targetType>BaseMap</targetType>
 		<workerClass>TiberiumRim.IncidentWorker_GreenAsteroid</workerClass>
-		<baseChance>0.100</baseChance>
+		<baseChance>0.250</baseChance>
 		<letterLabel>Green Tiberium Asteroid</letterLabel>
 		<letterText>An unusual meteorite has crashed nearby and made a crater.\n\nThere seems to be some strange crystals poking out of it, and a few have broken off and scattered around the site.\n\nBe careful, the substance could be dangerous!</letterText>
 		<letterType>BadNonUrgent</letterType>
@@ -20,7 +20,7 @@
 		<label>blue tiberium asteroid</label>
 		<targetType>BaseMap</targetType>
 		<workerClass>TiberiumRim.IncidentWorker_GreenAsteroid</workerClass>
-		<baseChance>0.075</baseChance>
+		<baseChance>0.125</baseChance>
 		<letterLabel>Blue Tiberium Asteroid</letterLabel>
 		<letterText>An unusual meteorite has crashed nearby and made a crater.\n\nThere seems to be some strange crystals poking out of it, and a few have broken off and scattered around the site.\n\nBe careful, the substance could be dangerous!</letterText>
 		<letterType>BadNonUrgent</letterType>
@@ -48,7 +48,7 @@
 		<label>tiberium shard</label>
 		<targetType>BaseMap</targetType>
 		<workerClass>TiberiumRim.IncidentWorker_GreenAsteroid</workerClass>
-		<baseChance>0.055</baseChance>
+		<baseChance>0.100</baseChance>
 		<letterLabel>Tiberium shard</letterLabel>
 		<letterText>An unusual type of shard has dropped. It's spreading red crystals around itself.\n\nBe careful, the substance could be dangerous!</letterText>
 		<letterType>BadNonUrgent</letterType>
@@ -62,7 +62,7 @@
 		<label>blossom tree</label>
 		<targetType>BaseMap</targetType>
 		<workerClass>TiberiumRim.IncidentWorker_GreenAsteroid</workerClass>
-		<baseChance>0.075</baseChance>
+		<baseChance>0.150</baseChance>
 		<letterLabel>Unknown gas!</letterLabel>
 		<letterText>A cloud of unknown gas has passed the map and mutated a tree. Be careful around it!</letterText>
 		<letterType>BadNonUrgent</letterType>
@@ -76,7 +76,7 @@
 		<label>Veinhole Arrival</label>
 		<targetType>BaseMap</targetType>
 		<workerClass>TiberiumRim.IncidentWorker_GreenAsteroid</workerClass>
-		<baseChance>0.070</baseChance>
+		<baseChance>0.120</baseChance>
 		<letterLabel>Veinhole!</letterLabel>
 		<letterText>A veinhole monster appeared on your map!</letterText>
 		<letterType>BadNonUrgent</letterType>
@@ -94,7 +94,7 @@
 		<letterLabel>Ion storm!</letterLabel>
 		<letterText>An Ion storm has begun.\n\nThe intense radiation will shut down all electrical devices.\n\nBe careful about Tiberium spread.</letterText>
 		<letterType>BadNonUrgent</letterType>
-		<baseChance>0.8</baseChance>
+		<baseChance>0.5</baseChance>
 		<minRefireDays>14</minRefireDays>
 		<durationDays>
 		  <min>0.1</min>

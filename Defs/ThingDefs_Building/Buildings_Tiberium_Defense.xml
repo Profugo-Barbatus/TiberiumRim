@@ -30,7 +30,6 @@
 		<costList>
 			<Steel>80</Steel>
 			<Component>5</Component>
-			<BookVinifera>1</BookVinifera>
 		</costList>
 		<comps>
 			<li Class="CompProperties_Glower">
@@ -106,7 +105,6 @@
 			<ai_chillDestination>false</ai_chillDestination>
 		</building>
 		<costList>
-			<BookRutila>1</BookRutila>
 			<Uranium>5</Uranium>
 			<Steel>100</Steel>
 			<Component>8</Component>

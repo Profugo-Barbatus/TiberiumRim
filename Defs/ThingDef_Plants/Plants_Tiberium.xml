@@ -16,7 +16,7 @@
 		<pathCost>75</pathCost>
 		<plant>
 			<dieIfLeafless>false</dieIfLeafless>
-			<reproduceMtbDays>0.5</reproduceMtbDays>
+			<reproduceMtbDays>0.4</reproduceMtbDays>
 			<harvestWork>300</harvestWork>
 			<harvestTag>Standard</harvestTag>
 			<harvestedThingDef>GreenTiberiumRaw</harvestedThingDef>
@@ -143,13 +143,13 @@
 			<graphicClass>Graphic_Random</graphicClass>
 		</graphicData>
 		<selectable>true</selectable>
-		<pathCost>6000</pathCost>
+		<passability>Impassable</passability>
 		<plant>
 			<dieIfLeafless>false</dieIfLeafless>
 			<harvestWork>1000000</harvestWork>
 			<harvestDestroys>true</harvestDestroys>
 			<reproduceRadius>1</reproduceRadius>
-			<growDays>4</growDays>
+			<growDays>5</growDays>
 			<visualSizeRange>
 				<min>1</min>
 				<max>1.2</max>
