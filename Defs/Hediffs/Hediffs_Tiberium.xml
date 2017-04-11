@@ -195,7 +195,7 @@
 			  </li>
 			  <li>
 					<capacity>Moving</capacity>
-					<offset>-0.80</offset>
+					<offset>-0.50</offset>
 			  </li>
 			</capMods>
 		  </li>
@@ -206,7 +206,11 @@
 			<capMods>
 			  <li>
 				<capacity>Consciousness</capacity>
-				<setMax>0.25</setMax>
+				<offset>-0.50</offset>
+			  </li>
+			  <li>
+					<capacity>Moving</capacity>
+					<offset>-0.60</offset>
 			  </li>
 			</capMods>
 		  </li>
