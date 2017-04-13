@@ -28,8 +28,8 @@
 		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
 		<fillPercent>0.65</fillPercent>
 		<costList>
-			<Steel>80</Steel>
-			<Component>5</Component>
+			<Steel>120</Steel>
+			<Component>10</Component>
 		</costList>
 		<comps>
 			<li Class="CompProperties_Glower">
@@ -89,7 +89,7 @@
 			</li>
 			<li Class="TiberiumRim.CompProperties_Decrystallizer">
 				<radius>12</radius>
-				<daysToRadius>7</daysToRadius>
+				<daysToRadius>5</daysToRadius>
 			</li>
 		</comps>
 		<tickerType>Rare</tickerType>
@@ -150,8 +150,9 @@
 		<description>This fence allows you to cut off Tiberium spread. Requires power.</description>
 		<placingDraggableDimensions>1</placingDraggableDimensions>
 		<costList>
-			<Steel>10</Steel>
-			<Uranium>2</Uranium>
+			<Steel>12</Steel>
+			<Uranium>5</Uranium>
+			<Component>1</Component>
 		</costList>
 		<comps>
 			<li Class="CompProperties_Power">
