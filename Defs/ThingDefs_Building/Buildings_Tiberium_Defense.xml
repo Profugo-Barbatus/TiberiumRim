@@ -20,7 +20,7 @@
 		<altitudeLayer>Building</altitudeLayer>
 		<minifiedDef>MinifiedFurniture</minifiedDef>
 		<statBases>
-			<MaxHitPoints>500</MaxHitPoints>
+			<MaxHitPoints>350</MaxHitPoints>
 			<WorkToBuild>2500</WorkToBuild>
 			<Flammability>1.0</Flammability>
 		</statBases>
@@ -107,7 +107,7 @@
 		<costList>
 			<Uranium>5</Uranium>
 			<Steel>100</Steel>
-			<Component>8</Component>
+			<Component>15</Component>
 		</costList>
 		<specialDisplayRadius>12</specialDisplayRadius>
 		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
@@ -150,8 +150,8 @@
 		<description>This fence allows you to cut off Tiberium spread. Requires power.</description>
 		<placingDraggableDimensions>1</placingDraggableDimensions>
 		<costList>
-			<Steel>12</Steel>
-			<Uranium>5</Uranium>
+			<Steel>15</Steel>
+			<Uranium>2</Uranium>
 			<Component>1</Component>
 		</costList>
 		<comps>
