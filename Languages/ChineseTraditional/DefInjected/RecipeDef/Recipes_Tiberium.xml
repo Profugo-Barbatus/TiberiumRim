@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<ExtractResourcesFromGreenTiberium.label>精煉綠色泰伯利亞礦</ExtractResourcesFromGreenTiberium.label>
+	<ExtractResourcesFromGreenTiberium.description>使用複雜的反應過程讓致命的泰伯利亞礦變成有用的物料。</ExtractResourcesFromGreenTiberium.description>
+	
+	<ExtractResourcesFromBlueTiberium.label>>精煉藍色泰伯利亞礦</ExtractResourcesFromBlueTiberium.label>
+	<ExtractResourcesFromBlueTiberium.description>使用複雜的反應過程讓致命的泰伯利亞礦變成有用的物料。</ExtractResourcesFromBlueTiberium.description>
+	
+	<ExtractResourcesFromRedTiberium.label>>精煉紅色泰伯利亞礦</ExtractResourcesFromRedTiberium.label>
+	<ExtractResourcesFromRedTiberium.description>使用複雜的反應過程讓致命的泰伯利亞礦變成有用的物料。</ExtractResourcesFromRedTiberium.description>
+	
+	<MakeBookRiparius.label>書寫關於綠色泰伯利亞的知識</MakeBookRiparius.label>
+	<MakeBookVinifera.label>書寫關於藍色泰伯利亞的知識</MakeBookVinifera.label>
+	<MakeBookRutila.label>書寫關於紅色泰伯利亞的知識</MakeBookRutila.label>
+</LanguageData>

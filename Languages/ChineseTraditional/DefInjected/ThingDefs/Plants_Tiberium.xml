@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<TiberiumGreen.label>綠色泰伯利亞</TiberiumGreen.label>
+	<TiberiumGreen.description>發著綠光的奇異晶體，小心接觸。</TiberiumGreen.description>
+	
+	<TiberiumBlue.label>綠色泰伯利亞</TiberiumBlue.label>
+	<TiberiumBlue.description>發著藍光的奇異晶體。美麗而危險。</TiberiumBlue.description>
+	
+	<TiberiumRed.label>綠色泰伯利亞</TiberiumRed.label>
+	<TiberiumRed.description>發著紅光的奇異晶體。美麗而危險。稀有。</TiberiumRed.description>
+
+</LanguageData>

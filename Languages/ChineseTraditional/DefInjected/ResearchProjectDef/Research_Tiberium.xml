@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<TiberiumResearch.label>泰伯利亞研究</TiberiumResearch.label>
+	<TiberiumResearch.description>允許對泰伯利亞的進一步研究。</TiberiumResearch.description>
+	
+	<TiberiumKnowledge.label>泰伯利亞知識</TiberiumKnowledge.label>
+	<TiberiumKnowledge.description>進一步理解泰伯利亞。</TiberiumKnowledge.description>
+	
+	<TiberiumResearchRefining.label>泰伯利亞精煉</TiberiumResearchRefining.label>
+	<TiberiumResearchRefining.description>允許精煉泰伯利亞</TiberiumResearchRefining.description>
+
+	<TiberiumSonicInhibition.label>泰伯利亞抑制</TiberiumSonicInhibition.label>
+	<TiberiumSonicInhibition.description>利用泰伯利亞的晶體特性，使用音波摧毀泰伯利亞。允許建造音波抑制器。</TiberiumSonicInhibition.description>
+	
+</LanguageData>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<GreenTiberiumRaw.label>綠色泰伯利亞晶體原料</GreenTiberiumRaw.label>
+	<GreenTiberiumRaw.description>The raw form of Tiberium. Be careful how you hanlde it! It can be refined.</GreenTiberiumRaw.description>
+	
+	<BlueTiberiumRaw.label>藍色泰伯利亞晶體原料</BlueTiberiumRaw.label>
+	<BlueTiberiumRaw.description>The raw form of Tiberium. Be careful how you hanlde it! It can be refined.</BlueTiberiumRaw.description>
+	
+	<RedTiberiumRaw.label>紅色泰伯利亞晶體原料</RedTiberiumRaw.label>
+	<RedTiberiumRaw.description>The raw form of Tiberium. Be careful how you hanlde it! It can be refined.</RedTiberiumRaw.description>
+	
+	<BookRiparius.label>維帕瑞斯之書</BookRiparius.label>
+	<BookRiparius.description>維帕瑞斯(Riparius)，綠色泰伯利亞的學名。\n\n最常見的泰伯利亞。\n\n在很久很久以前它來到地球，比這個邊緣世界遭到感染的時間更加久遠。\n\n它生長快速，能在數天內感染大片地區。\n\n所以在接觸它們時保持警惕！\n\n不惜一切代價避免直接接觸！\n\n所有種類的泰伯利亞都會感染碳基生物並使其結晶。\n\n這種特性使得泰伯利亞具有高度毒性。\n\n泰伯利亞是一種未知礦物，轉換任何碳基物質爲泰伯利亞。\n\n反應過程發生於泰伯利亞原子核和其它物質的原子核之間的相互作用。</BookRiparius.description>
+	
+	<BookVinifera.label>維尼威亞之書</BookVinifera.label>
+	<BookVinifera.description>維尼威亞（Vinifera），藍色泰伯利亞的學名。\n\n這種藍色的泰伯利亞被認爲是綠色泰伯利亞的一種“成熟”形態。\n\n相對綠色泰伯利亞，它比較稀有。\n\n同時它也擴散得比較慢。\n\n接觸它們時仍然需要保持警惕！\n\n這種泰伯利亞解釋了一種關於泰伯利亞具有生物特徵的理論。\n\n如果泰伯利亞沒有即時殺死一個生物，那麼它通常會促使它突變。\n\n被泰伯利亞感染的動物以泰伯利亞爲食，而被感染的植物則會散播泰伯利亞。\n\n關於泰伯利亞有多少生物特徵仍然未被證實。\n\n需要更多的觀察。</BookVinifera.description>
+	
+	<BookRutila.label>烏提娜之書</BookRutila.label>
+	<BookRutila.description>烏提娜(Rutila)，紅色泰伯利亞的學名。\n\n這種紅色的泰伯利亞極度稀有。\n\n如同藍色泰伯利亞一般，它含有更有價值的資源。\n\n即使早期觀察指出它沒有繁殖能力，但它很快進化出了非常慢的繁殖能力。\n\n有推測指出紅色泰伯利亞成熟後會成爲---[數據丟失]---/---\n\n§)§$%?!%%##$%---</BookRutila.description>
+
+</LanguageData>

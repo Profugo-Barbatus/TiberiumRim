@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<AsteroidGreen.label>綠色泰伯利亞隕石</AsteroidGreen.label>
+	<AsteroidGreen.letterLabel>綠色泰伯利亞隕石</AsteroidGreen.letterLabel>
+	<AsteroidGreen.letterText>一顆罕見的隕石在附近撞擊地表並製造了一個大坑。\n\n它的表面有一些奇異的晶體，一部分晶體碎裂並散落在地上。\n\n小心，它可能非常危險！</AsteroidGreen.letterText>
+	
+	<AsteroidBlue.label>藍色泰伯利亞隕石</AsteroidBlue.label>
+	<AsteroidBlue.letterLabel>藍色泰伯利亞隕石</AsteroidBlue.letterLabel>
+	<AsteroidBlue.letterText>一顆罕見的隕石在附近撞擊地表並製造了一個大坑。\n\n它的表面有一些奇異的晶體，一部分晶體碎裂並散落在地上。\n\n小心，它可能非常危險！</AsteroidBlue.letterText>
+	
+	<AsteroidMeteor.label>泰伯利亞流星</AsteroidMeteor.label>
+	<AsteroidMeteor.letterLabel>泰伯利亞流星撞擊</AsteroidMeteor.letterLabel>
+	<AsteroidMeteor.letterText>一顆罕見的隕石在附近撞擊地表。\n\n它的表面有一些奇異的晶體。\n\n小心，它可能非常危險！</AsteroidMeteor.letterText>
+	
+	<TiberiumShard.label>泰伯利亞碎片</TiberiumShard.label>
+	<TiberiumShard.letterLabel>泰伯利亞碎片</TiberiumShard.letterLabel>
+	<TiberiumShard.letterText>一種罕見的碎片在附近降落。它在附近散播紅色的晶體。\n\n小心，它可能非常危險！</TiberiumShard.letterText>
+	
+	<BlossomTree.label>blossom tree</BlossomTree.label>
+	<BlossomTree.letterLabel>不明氣體！</BlossomTree.letterLabel>
+	<BlossomTree.letterText>一團經過的不明氣體使得一顆樹發生了突變。小心！</BlossomTree.letterText>
+	
+	<TiberiumMonolith.label>泰伯利亞巨石</TiberiumMonolith.label>
+	<TiberiumMonolith.letterLabel>巨石</TiberiumMonolith.letterLabel>
+	<TiberiumMonolith.letterText>一塊奇異的巨石在附近升起。小心！</TiberiumMonolith.letterText>
+</LanguageData>

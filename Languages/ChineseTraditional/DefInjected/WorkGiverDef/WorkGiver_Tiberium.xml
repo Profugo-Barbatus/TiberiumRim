@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<DoBillsTibRefinery.label>工作於泰伯利亞精煉廠</DoBillsTibRefinery.label>
+	<DoBillsTibRefinery.verb>精煉泰伯利亞</DoBillsTibRefinery.verb>
+	<DoBillsTibRefinery.gerund>精煉泰伯利亞於</DoBillsTibRefinery.gerund>
+	
+	<DoBillsTibResearch.label>工作於泰伯利亞研究桌</DoBillsTibResearch.label>
+	<DoBillsTibResearch.verb>書寫書本</DoBillsTibResearch.verb>
+	<DoBillsTibResearch.gerund>書寫書本於</DoBillsTibResearch.gerund>
+	
+</LanguageData>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<Visceroid_TBI.label>器官獸</Visceroid_TBI.label>
+	<Visceroid_TBI.description>一種球狀的噁心生物。死去的生物被泰伯利亞感染而成。.</Visceroid_TBI.description>
+	
+	<Thrimbo_TBI.label>被感染的獨角獸</Thrimbo_TBI.label>
+	<Thrimbo_TBI.description>未知的巨型生物，這隻似乎被泰伯利亞感染。小心，它可不像它的前身一樣性情溫和。</Thrimbo_TBI.description>
+	
+	<TiberiumTerror_TBI.label>泰伯利亞恐魔</TiberiumTerror_TBI.label>
+	<TiberiumTerror_TBI.description>未知的巨型生物，黑藍色的外表讓它看起來更具威脅性。</TiberiumTerror_TBI.description>
+	
+	<BigTiberiumFiend_TBI.label>巨型泰伯利亞惡魔</BigTiberiumFiend_TBI.label>
+	<BigTiberiumFiend_TBI.description>被感染的巨型雜食動物，牠們的皮毛已經被結晶化。\n\n牠們通常吃魚，野莓，蜂蜜，腐肉，但也可以用強大的肌肉和致命的爪子殺死獵物。對於這種體形的生物，牠們驚人地敏捷。</BigTiberiumFiend_TBI.description>
+	
+	<Tibscarab_TBI.label>被感染的甲蟲</Tibscarab_TBI.label>
+	<Tibscarab_TBI.description>被感染的巨型基因改造甲蟲。曾經是被設計用於對抗機械軍團的人工蟲巢中的工人階級，現在通常看不到其更具致命性的遠親了。但是，其體型和堅固的外殼讓它仍然非常危險。一種無法獨自繁殖的群居生物。</Tibscarab_TBI.description>
+	
+	<TiberiumFiend_TBI.label>泰伯利亞惡魔</TiberiumFiend_TBI.label>
+	<TiberiumFiend_TBI.description>一種堅強的掠食動物，被無數的遠古地球文化所恐懼。作爲集體掠食者，狼有複雜的社會生活和高度的智慧。</TiberiumFiend_TBI.description>
+	
+	<SmallTiberiumFiend_TBI.label>小型泰伯利亞惡魔</SmallTiberiumFiend_TBI.label>
+	<SmallTiberiumFiend_TBI.description>被泰伯利亞感染的小型獨行肉食動物。</SmallTiberiumFiend_TBI.description>
+	
+	<Crawler_TBI.label>爬行者</Crawler_TBI.label>
+	<Crawler_TBI.description>被泰伯利亞感染的蛇。</Crawler_TBI.description>
+	
+</LanguageData>

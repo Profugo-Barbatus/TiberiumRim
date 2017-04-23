@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<TiberiumResearchBench.label>泰伯利亞研究桌</TiberiumResearchBench.label>
+	<TiberiumResearchBench.description>特殊設計的研究桌，用於泰伯利亞研究。\n\n研究可以通過高科技工具加快。\n\n需要電力。</TiberiumResearchBench.description>
+	
+	<TiberiumResearchCraftingBench.label>泰伯利亞研究工藝適配器</TiberiumResearchCraftingBench.label>
+	<TiberiumResearchCraftingBench.description>允許製作關於泰伯利亞信息的物品。</TiberiumResearchCraftingBench.description>
+	
+
+</LanguageData>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!--VisceroidBody-->
+  <VisceroidBody.label>器官獸身體</VisceroidBody.label>
+  <!--VisceroidVeins-->
+  <VisceroidVeins.label>靜脈</VisceroidVeins.label>
+  <!--VisceroidDigester-->
+  <VisceroidDigester.label>消化器</VisceroidDigester.label>
+  <!--VisceroidBreather-->
+  <VisceroidBreather.label>呼吸器</VisceroidBreather.label>
+  <!--VisceroidOrifice-->
+  <VisceroidOrifice.label>孔</VisceroidOrifice.label>
+  <!--LeftTentacle-->
+  <LeftTentacle.label>左觸手</LeftTentacle.label>
+  <!--RightTentacle-->
+  <RightTentacle.label>右觸手</RightTentacle.label>
+  <!--MiddleTentacle-->
+  <MiddleTentacle.label>中觸手</MiddleTentacle.label>
+</LanguageData>
