@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!--EggCrawelerUnfertilized-->
+  <EggCrawelerUnfertilized.label>爬行者蛋（未受精）</EggCrawelerUnfertilized.label>
+  <EggCrawelerUnfertilized.description>未受精的爬行者蛋。可以生吃，但烹調後味道更佳。</EggCrawelerUnfertilized.description>
+  <!--EggCrawlerFertilized-->
+  <EggCrawlerFertilized.label>爬行者蛋（已受精）</EggCrawlerFertilized.label>
+  <EggCrawlerFertilized.description>已受精的爬行者蛋。如果一切順利，它會孵出一隻小爬行者。可以生吃，但烹調後味道更佳。</EggCrawlerFertilized.description>
+</LanguageData>

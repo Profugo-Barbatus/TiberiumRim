@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<TiberiumCraterGreen_TBNS.label>綠色泰伯利亞領域</TiberiumCraterGreen_TBNS.label>
+	<TiberiumCraterGreen_TBNS.description>一塊綠色的泰伯利亞領域。</TiberiumCraterGreen_TBNS.description>
+	
+	<TiberiumCraterBlue_TBNS.label>藍色泰伯利亞領域</TiberiumCraterBlue_TBNS.label>
+	<TiberiumCraterBlue_TBNS.description>一塊美麗的藍色泰伯利亞領域。</TiberiumCraterBlue_TBNS.description>
+
+	<TiberiumMeteor_TBNS.label>泰伯利亞流星</TiberiumMeteor_TBNS.label>
+	<TiberiumMeteor_TBNS.description>一顆外星流星，含有多種奇異晶體。</TiberiumMeteor_TBNS.description>
+	
+	<TiberiumMonolith_TBNS.label>藍色泰伯利亞巨石</TiberiumMonolith_TBNS.label>
+	<TiberiumMonolith_TBNS.description>一塊藍色的巨石在地上生長。</TiberiumMonolith_TBNS.description>
+	
+	<BlossomTree_TBNS.label>被感染的樹</BlossomTree_TBNS.label>
+	<BlossomTree_TBNS.description>一顆奇異而具有外星特質的樹，似乎生長着綠色的晶體。</BlossomTree_TBNS.description>
+	
+	<TiberiumShard_TBNS.label>泰伯利亞碎片</TiberiumShard_TBNS.label>
+	<TiberiumShard_TBNS.description>一塊奇異的外星碎片。</TiberiumShard_TBNS.description>
+</LanguageData>
