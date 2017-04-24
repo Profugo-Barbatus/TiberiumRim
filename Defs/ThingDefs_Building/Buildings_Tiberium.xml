@@ -56,7 +56,7 @@
 			</li>
 			<li Class="CompProperties_Glower">
 				<glowRadius>10</glowRadius>
-				<glowColor>(51,255,51,0)</glowColor>
+				<glowColor>(120,255,120,0)</glowColor>
 			</li>
 			<li Class="CompProperties_Spawner">
 				<thingToSpawn>TiberiumGreen</thingToSpawn>
@@ -102,7 +102,7 @@
 			</li>
 			<li Class="CompProperties_Glower">
 				<glowRadius>10</glowRadius>
-				<glowColor>(0,128,255,0)</glowColor>
+				<glowColor>(120,150,255,0)</glowColor>
 			</li>
 			<li Class="CompProperties_Spawner">
 				<thingToSpawn>TiberiumBlue</thingToSpawn>
@@ -210,7 +210,7 @@
 			</li>
 			<li Class="CompProperties_Glower">
 				<glowRadius>5</glowRadius>
-				<glowColor>(0,128,255,0)</glowColor>
+				<glowColor>(120,120,255,0)</glowColor>
 			</li>
 			<li Class="CompProperties_Spawner">
 				<thingToSpawn>TiberiumBlue</thingToSpawn>
@@ -249,7 +249,7 @@
 			</li>
 			<li Class="CompProperties_Glower">
 				<glowRadius>8</glowRadius>
-				<glowColor>(51,255,51,0)</glowColor>
+				<glowColor>(120,255,120,0)</glowColor>
 			</li>
 			<li Class="CompProperties_Spawner">
 				<thingToSpawn>TiberiumGreen</thingToSpawn>
@@ -288,7 +288,7 @@
 			</li>
 			<li Class="CompProperties_Glower">
 				<glowRadius>6</glowRadius>
-				<glowColor>(255,0,0,0)</glowColor>
+				<glowColor>(255,120,120,0)</glowColor>
 			</li>
 			<li Class="CompProperties_Spawner">
 				<thingToSpawn>TiberiumRed</thingToSpawn>
@@ -385,7 +385,7 @@
 			</li>
 			<li Class="CompProperties_Glower">
 				<glowRadius>4</glowRadius>
-				<glowColor>(51,255,51,0)</glowColor>
+				<glowColor>(120,255,120,0)</glowColor>
 			</li>
 		</comps>
 	</ThingDef>

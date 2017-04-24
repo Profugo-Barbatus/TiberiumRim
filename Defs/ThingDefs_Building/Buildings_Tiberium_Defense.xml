@@ -34,7 +34,7 @@
 		<comps>
 			<li Class="CompProperties_Glower">
 				<glowRadius>3</glowRadius>
-				<glowColor>(0,128,255,0)</glowColor>
+				<glowColor>(200,200,255,0)</glowColor>
 			</li>
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
@@ -79,7 +79,7 @@
 		<comps>
 			<li Class="CompProperties_Glower">
 				<glowRadius>3</glowRadius>
-				<glowColor>(51,255,51,0)</glowColor>
+				<glowColor>(200,200,255,0)</glowColor>
 			</li>
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
@@ -168,7 +168,7 @@
 			</li>
 			<li Class="CompProperties_Glower">
 				<glowRadius>1</glowRadius>
-				<glowColor>(0,150,255)</glowColor>
+				<glowColor>(200,200,255)</glowColor>
 			</li>
 		</comps>
 		<tickerType>Rare</tickerType>
