@@ -51,9 +51,6 @@
 		<selectable>true</selectable>
 		<neverOverlapFloors>true</neverOverlapFloors>
 		<blockPlants>true</blockPlants>
-		<killedLeavings>
-			<TiberiumGreen>150</TiberiumGreen>
-		</killedLeavings>
 		<comps>
 			<li Class="TiberiumRim.CompProperties_TiberiumProducer">
 			</li>
@@ -96,9 +93,6 @@
 		<selectable>true</selectable>
 		<neverOverlapFloors>true</neverOverlapFloors>
 		<blockPlants>true</blockPlants>
-		<killedLeavings>
-			<TiberiumBlue>150</TiberiumBlue>
-		</killedLeavings>
 		<comps>
 			<li Class="TiberiumRim.CompProperties_TiberiumProducer">
 			</li>
@@ -148,9 +142,7 @@
 		</statBases>
 		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
 		<killedLeavings>
-			<TiberiumGreen>70</TiberiumGreen>
-			<TiberiumBlue>20</TiberiumBlue>
-			<TiberiumRed>10</TiberiumRed>
+			<GreenTiberiumRaw>100</GreenTiberiumRaw>
 		</killedLeavings>
 		<costList>
 			<RedTiberiumRaw>10</RedTiberiumRaw>
@@ -197,7 +189,7 @@
 			<drawSize>(2,6)</drawSize>
 		</graphicData>
 		<statBases>
-			<MaxHitPoints>500</MaxHitPoints>
+			<MaxHitPoints>10000</MaxHitPoints>
 			<Beauty>240</Beauty>
 		</statBases>
 		<rotatable>false</rotatable>
@@ -209,10 +201,6 @@
 			<claimable>false</claimable>
 			<deconstructible>false</deconstructible>
 		</building>
-		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
-		<killedLeavings>
-			<TiberiumBlue>150</TiberiumBlue>
-		</killedLeavings>
 		<comps>
 			<li Class="TiberiumRim.CompProperties_TiberiumProducer">
 			</li>
@@ -256,9 +244,6 @@
 		<tickerType>Rare</tickerType>
 		<selectable>true</selectable>
 		<blockPlants>true</blockPlants>
-		<killedLeavings>
-			<TiberiumGreen>150</TiberiumGreen>
-		</killedLeavings>
 		<comps>
 			<li Class="TiberiumRim.CompProperties_TiberiumProducer">
 			</li>
@@ -298,9 +283,6 @@
 		<tickerType>Rare</tickerType>
 		<selectable>true</selectable>
 		<blockPlants>true</blockPlants>
-		<killedLeavings>
-			<TiberiumRed>150</TiberiumRed>
-		</killedLeavings>
 		<comps>
 			<li Class="TiberiumRim.CompProperties_TiberiumProducer">
 			</li>
@@ -392,9 +374,7 @@
 			<GreenTiberiumRaw>75</GreenTiberiumRaw>
 		</killedLeavings>
 		<costList>
-			<GreenTiberiumRaw>50</GreenTiberiumRaw>
-			<TiberiumGreen>150</TiberiumGreen>
-			<TiberiumRed>15</TiberiumGreen>
+			<GreenTiberiumRaw>125</GreenTiberiumRaw>
 		</costList>
 		<comps>
 			<li Class="TiberiumRim.CompProperties_TiberiumProducer">
