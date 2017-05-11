@@ -18,8 +18,9 @@
 			<li>Light</li>
 			<li>Heavy</li>
 		</affordances>
+		<holdSnow>false</holdSnow>
 		<TerrainFilthDef>FilthDirt</TerrainFilthDef>
-		<Fertility>0</Fertility>
+		<Fertility>0.05</Fertility>
 		<TakeFootprints>True</TakeFootprints>
 	</TerrainDef>
 	
@@ -40,8 +41,9 @@
 			<li>Light</li>
 			<li>Heavy</li>
 		</affordances>
+		<holdSnow>false</holdSnow>
 		<TerrainFilthDef>FilthDirt</TerrainFilthDef>
-		<Fertility>0</Fertility>
+		<Fertility>0.05</Fertility>
 		<TakeFootprints>True</TakeFootprints>
 	</TerrainDef>
 
@@ -62,8 +64,9 @@
 			<li>Light</li>
 			<li>Heavy</li>
 		</affordances>
+		<holdSnow>false</holdSnow>
 		<TerrainFilthDef>FilthDirt</TerrainFilthDef>
-		<Fertility>0</Fertility>
+		<Fertility>0.05</Fertility>
 		<TakeFootprints>True</TakeFootprints>
 	</TerrainDef>
 	
@@ -83,8 +86,9 @@
 			<li>Light</li>
 			<li>Heavy</li>
 		</affordances>
+		<holdSnow>false</holdSnow>
 		<TerrainFilthDef>FilthDirt</TerrainFilthDef>
-		<Fertility>0</Fertility>
+		<Fertility>0.05</Fertility>
 		<TakeFootprints>True</TakeFootprints>
 	</TerrainDef>
 	
