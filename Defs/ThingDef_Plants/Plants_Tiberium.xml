@@ -151,7 +151,7 @@
 			<reproduceRadius>1</reproduceRadius>
 			<growDays>5</growDays>
 			<visualSizeRange>
-				<min>1</min>
+				<min>0.6</min>
 				<max>1.2</max>
 			</visualSizeRange>
 		</plant>
