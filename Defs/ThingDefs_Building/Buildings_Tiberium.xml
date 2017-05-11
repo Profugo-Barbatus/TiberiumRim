@@ -38,7 +38,7 @@
 		<size>(3,3)</size>
 		<graphicData>
 			<texPath>Building/Natural/BigTiberiumCraterGreen</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
+			<graphicClass>Graphic_Random</graphicClass>
 			<shaderType>Transparent</shaderType>
 			<drawSize>(5,5)</drawSize>
 		</graphicData>
@@ -51,6 +51,9 @@
 		<selectable>true</selectable>
 		<neverOverlapFloors>true</neverOverlapFloors>
 		<blockPlants>true</blockPlants>
+		<killedLeavings>
+			<TiberiumGreen>150</TiberiumGreen>
+		</killedLeavings>
 		<comps>
 			<li Class="TiberiumRim.CompProperties_TiberiumProducer">
 			</li>
@@ -80,7 +83,7 @@
 		<size>(3,3)</size>
 		<graphicData>
 			<texPath>Building/Natural/BigTiberiumCraterBlue</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
+			<graphicClass>Graphic_Random</graphicClass>
 			<shaderType>Transparent</shaderType>
 			<drawSize>(5,5)</drawSize>
 		</graphicData>
@@ -93,6 +96,9 @@
 		<selectable>true</selectable>
 		<neverOverlapFloors>true</neverOverlapFloors>
 		<blockPlants>true</blockPlants>
+		<killedLeavings>
+			<TiberiumBlue>150</TiberiumBlue>
+		</killedLeavings>
 		<comps>
 			<li Class="TiberiumRim.CompProperties_TiberiumProducer">
 			</li>
@@ -124,8 +130,8 @@
 		<label>Tiberium Meteor</label>
 		<category>Building</category>
 		<graphicData>
-			<texPath>Building/Exotic/TiberiumMeteor</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Building/Natural/TiberiumMeteor</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
@@ -142,7 +148,9 @@
 		</statBases>
 		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
 		<killedLeavings>
-			<GreenTiberiumRaw>100</GreenTiberiumRaw>
+			<TiberiumGreen>70</TiberiumGreen>
+			<TiberiumBlue>20</TiberiumBlue>
+			<TiberiumRed>10</TiberiumRed>
 		</killedLeavings>
 		<costList>
 			<RedTiberiumRaw>10</RedTiberiumRaw>
@@ -184,12 +192,12 @@
 		<size>(1,1)</size>
 		<graphicData>
 			<texPath>Building/Natural/TiberiumMonolith</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
+			<graphicClass>Graphic_Random</graphicClass>
 			<shaderType>Transparent</shaderType>
-			<drawSize>(4,8)</drawSize>
+			<drawSize>(2,6)</drawSize>
 		</graphicData>
 		<statBases>
-			<MaxHitPoints>10000</MaxHitPoints>
+			<MaxHitPoints>500</MaxHitPoints>
 			<Beauty>240</Beauty>
 		</statBases>
 		<rotatable>false</rotatable>
@@ -201,6 +209,10 @@
 			<claimable>false</claimable>
 			<deconstructible>false</deconstructible>
 		</building>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+		<killedLeavings>
+			<TiberiumBlue>150</TiberiumBlue>
+		</killedLeavings>
 		<comps>
 			<li Class="TiberiumRim.CompProperties_TiberiumProducer">
 			</li>
@@ -233,9 +245,9 @@
 		<size>(1,1)</size>
 		<graphicData>
 			<texPath>Building/Natural/BlossomTree</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
+			<graphicClass>Graphic_Random</graphicClass>
 			<shaderType>Transparent</shaderType>
-			<drawSize>(4,8)</drawSize>
+			<drawSize>(2,6)</drawSize>
 		</graphicData>
 		<statBases>
 			<MaxHitPoints>5000</MaxHitPoints>
@@ -244,6 +256,9 @@
 		<tickerType>Rare</tickerType>
 		<selectable>true</selectable>
 		<blockPlants>true</blockPlants>
+		<killedLeavings>
+			<TiberiumGreen>150</TiberiumGreen>
+		</killedLeavings>
 		<comps>
 			<li Class="TiberiumRim.CompProperties_TiberiumProducer">
 			</li>
@@ -271,10 +286,10 @@
 		<thingClass>Building</thingClass>
 		<size>(1,1)</size>
 		<graphicData>
-			<texPath>Building/Exotic/RedTiberiumShard</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Building/Natural/RedTiberiumShard</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
 			<shaderType>Transparent</shaderType>
-			<drawSize>(4,8)</drawSize>
+			<drawSize>(2,6)</drawSize>
 		</graphicData>
 		<statBases>
 			<MaxHitPoints>12500</MaxHitPoints>
@@ -283,6 +298,9 @@
 		<tickerType>Rare</tickerType>
 		<selectable>true</selectable>
 		<blockPlants>true</blockPlants>
+		<killedLeavings>
+			<TiberiumRed>150</TiberiumRed>
+		</killedLeavings>
 		<comps>
 			<li Class="TiberiumRim.CompProperties_TiberiumProducer">
 			</li>
@@ -310,8 +328,8 @@
 		<thingClass>TiberiumRim.Building_Veinhole</thingClass>
 		<size>(2,2)</size>
 		<graphicData>
-			<texPath>Building/Exotic/Veinhole</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Building/Natural/Veinhole</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
 			<shaderType>Transparent</shaderType>
 			<drawSize>(3,3)</drawSize>
 		</graphicData>
@@ -351,10 +369,10 @@
 		<thingClass>Building</thingClass>
 		<size>(1,1)</size>
 		<graphicData>
-			<texPath>Building/Exotic/TiberiumTower</texPath>
+			<texPath>Building/Natural/TiberiumTower</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 			<shaderType>Transparent</shaderType>
-			<drawSize>(4,8)</drawSize>
+			<drawSize>(2,6)</drawSize>
 		</graphicData>
 		<statBases>
 			<MaxHitPoints>1500</MaxHitPoints>
@@ -374,7 +392,9 @@
 			<GreenTiberiumRaw>75</GreenTiberiumRaw>
 		</killedLeavings>
 		<costList>
-			<GreenTiberiumRaw>125</GreenTiberiumRaw>
+			<GreenTiberiumRaw>50</GreenTiberiumRaw>
+			<TiberiumGreen>150</TiberiumGreen>
+			<TiberiumRed>15</TiberiumGreen>
 		</costList>
 		<comps>
 			<li Class="TiberiumRim.CompProperties_TiberiumProducer">
