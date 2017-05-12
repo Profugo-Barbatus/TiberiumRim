@@ -146,7 +146,7 @@
 		<passability>Impassable</passability>
 		<plant>
 			<dieIfLeafless>false</dieIfLeafless>
-			<harvestWork>50000</harvestWork>
+			<harvestWork>1000000</harvestWork>
 			<harvestDestroys>true</harvestDestroys>
 			<reproduceRadius>1</reproduceRadius>
 			<growDays>5</growDays>
