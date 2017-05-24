@@ -7,6 +7,10 @@ using RimWorld;
 
 namespace TiberiumRim
 {
+    /*
+     * MakeMapCondition and MapConditions don't exist anymore. Requires reevaluation. This also seems needlessly complex for deciding *if* we will fire the event, and dependent on rares.
+     * Conclusion: Reanalyze purpose of incident, balance dev cost and running cost of decisions against gameplay gains.
+     * 
     class IncidentWorker_IonStorm : IncidentWorker_MakeMapCondition
     {
 
@@ -22,7 +26,7 @@ namespace TiberiumRim
             int count2D = map.listerThings.ThingsOfDef(ThingDef.Named("TiberiumBlueDesert")).Count;
             int count3D = map.listerThings.ThingsOfDef(ThingDef.Named("TiberiumRedDesert")).Count;
             */
-
+            /*
             Log.Message("Trying to execute the Ion Storm");
             if (count > 400 && count2 > 200 && count3 > 50)
             {
@@ -39,5 +43,5 @@ namespace TiberiumRim
             return false;
         }
 
-    }
+    }*/
 }

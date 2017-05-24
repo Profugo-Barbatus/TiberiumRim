@@ -24,7 +24,6 @@
 		<plant>
 			<fertilityMin>0.5</fertilityMin>
 			<fertilitySensitivity>1.0</fertilitySensitivity>
-			<harvestDestroys>true</harvestDestroys>
 			<soundHarvesting>Harvest_Standard</soundHarvesting>
 			<soundHarvestFinish>Harvest_Standard_Finish</soundHarvestFinish>
 			<harvestWork>190</harvestWork>
@@ -60,7 +59,6 @@
 			<reproduceRadius>1</reproduceRadius>
 			<fertilityMin>0</fertilityMin>
 			<fertilitySensitivity>0</fertilitySensitivity>
-			<harvestDestroys>True</harvestDestroys>
 			<soundHarvesting>Harvest_Standard</soundHarvesting>
 			<soundHarvestFinish>Harvest_Standard_Finish</soundHarvestFinish>
 			<harvestWork>500</harvestWork>
@@ -95,7 +93,6 @@
 			<reproduceRadius>1</reproduceRadius>
 			<fertilityMin>0</fertilityMin>
 			<fertilitySensitivity>0</fertilitySensitivity>
-			<harvestDestroys>True</harvestDestroys>
 			<soundHarvesting>Harvest_Standard</soundHarvesting>
 			<soundHarvestFinish>Harvest_Standard_Finish</soundHarvestFinish>
 			<harvestWork>500</harvestWork>
@@ -135,7 +132,6 @@
 			<soundHarvesting>Harvest_Tree</soundHarvesting>
 			<soundHarvestFinish>Harvest_Tree_Finish</soundHarvestFinish>
 			<harvestWork>800</harvestWork>
-			<harvestDestroys>true</harvestDestroys>
 			<harvestedThingDef>WoodLog</harvestedThingDef>
 			<harvestYield>10</harvestYield>
 			<harvestTag>Tiberium</harvestTag>

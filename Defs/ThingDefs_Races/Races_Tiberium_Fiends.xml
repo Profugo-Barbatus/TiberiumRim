@@ -23,7 +23,6 @@
 		</verbs>
 		<race>
 			<body>QuadrupedAnimalWithHoovesAndHorn</body>
-			<deathActionWorkerClass>DeathActionWorker_DropBodyParts</deathActionWorkerClass>
 			<herdAnimal>true</herdAnimal>
 			<baseBodySize>3.5</baseBodySize>
 			<baseHungerRate>4.5</baseHungerRate>
@@ -119,10 +118,10 @@
 					<texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
 					<drawSize>2</drawSize>
 				</dessicatedBodyGraphicData>
-				<dropBodyPart>
+				<butcherBodyPart>
 					<bodyPartGroup>HornAttackTool</bodyPartGroup>
 					<thing>ThrumboHorn</thing>
-				</dropBodyPart>
+				</butcherBodyPart>
 			</li>
 		</lifeStages>
 	</PawnKindDef>
@@ -150,7 +149,6 @@
 		</verbs>
 		<race>
 			<body>QuadrupedAnimalWithHoovesAndHorn</body>
-			<deathActionWorkerClass>DeathActionWorker_DropBodyParts</deathActionWorkerClass>
 			<herdAnimal>true</herdAnimal>
 			<baseBodySize>4.0</baseBodySize>
 			<baseHungerRate>4.5</baseHungerRate>
@@ -246,10 +244,10 @@
 					<texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
 					<drawSize>2</drawSize>
 				</dessicatedBodyGraphicData>
-				<dropBodyPart>
+				<butcherBodyPart>
 					<bodyPartGroup>HornAttackTool</bodyPartGroup>
 					<thing>ThrumboHorn</thing>
-				</dropBodyPart>
+				</butcherBodyPart>
 			</li>
 		</lifeStages>
 	</PawnKindDef>

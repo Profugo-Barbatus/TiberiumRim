@@ -50,9 +50,8 @@ namespace TiberiumRim
 
         }
 
-        public override void SpawnSetup(Map map)
+        public void SpawnSetup(Map map)
         {
-            base.SpawnSetup(map);
             var c = this.Position.GetPlant(map);
             if (c != null && c != this)
             {
@@ -532,7 +531,7 @@ namespace TiberiumRim
 
             TiberiumDef Localdef = this.def as TiberiumDef;
 
-            if (Localdef.isExplosive && mode == DestroyMode.Kill)
+            if (Localdef.isExplosive && mode == DestroyMode.KillFinalize)
             {
                 //Added a higher chance but made it a smaller radius for actual chainreactions 
                 if (Rand.Chance(0.4f))

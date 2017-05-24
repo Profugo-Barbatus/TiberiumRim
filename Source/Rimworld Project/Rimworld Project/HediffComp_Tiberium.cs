@@ -9,9 +9,8 @@ namespace TiberiumRim
 {
     public class HediffComp_Tiberium : HediffComp
     {
-        public override void CompPostTick()
+        public void CompPostTick()
         {
-            base.CompPostTick();
             if (base.Pawn.IsHashIntervalTick(5000))
             {
                 CheckSeverity(this.Pawn);

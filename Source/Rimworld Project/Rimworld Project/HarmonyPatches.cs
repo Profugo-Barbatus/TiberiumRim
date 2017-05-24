@@ -10,6 +10,9 @@ using Verse;
 
 namespace TiberiumRim
 {
+    /*
+     * Harmony patches need to be updated with new Hugslib/Harmony combined integration
+     * 
     [StaticConstructorOnStartup]
     class HarmonyPatches
     {
@@ -68,5 +71,5 @@ namespace TiberiumRim
             }
             return true;
         }
-    }
+    }*/
 }

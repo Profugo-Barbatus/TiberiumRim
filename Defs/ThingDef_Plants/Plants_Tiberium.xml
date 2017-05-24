@@ -20,7 +20,6 @@
 			<harvestWork>300</harvestWork>
 			<harvestTag>Standard</harvestTag>
 			<harvestedThingDef>GreenTiberiumRaw</harvestedThingDef>
-			<harvestDestroys>true</harvestDestroys>
 			<harvestYield>1</harvestYield>
 			<reproduceRadius>3</reproduceRadius>
 			<maxMeshCount>4</maxMeshCount>
@@ -63,7 +62,6 @@
 			<harvestWork>500</harvestWork>
 			<harvestTag>Standard</harvestTag>
 			<harvestedThingDef>BlueTiberiumRaw</harvestedThingDef>
-			<harvestDestroys>true</harvestDestroys>
 			<harvestYield>1</harvestYield>
 			<growDays>4.5</growDays>
 			<reproduceRadius>3</reproduceRadius>
@@ -107,7 +105,6 @@
 			<harvestWork>800</harvestWork>
 			<harvestTag>Standard</harvestTag>
 			<harvestedThingDef>RedTiberiumRaw</harvestedThingDef>
-			<harvestDestroys>true</harvestDestroys>
 			<harvestYield>2</harvestYield>
 			<growDays>14</growDays>
 			<reproduceRadius>1</reproduceRadius>
@@ -147,7 +144,6 @@
 		<plant>
 			<dieIfLeafless>false</dieIfLeafless>
 			<harvestWork>1000000</harvestWork>
-			<harvestDestroys>true</harvestDestroys>
 			<reproduceRadius>1</reproduceRadius>
 			<growDays>5</growDays>
 			<visualSizeRange>
@@ -188,7 +184,6 @@
 			<harvestWork>800</harvestWork>
 			<harvestTag>Standard</harvestTag>
 			<harvestedThingDef>VeinTiberiumRaw</harvestedThingDef>
-			<harvestDestroys>true</harvestDestroys>
 			<harvestYield>2</harvestYield>
 			<growDays>5</growDays>
 			<reproduceRadius>1</reproduceRadius>
