@@ -13,10 +13,9 @@
   <Decrystallizer_Blueprint_Install.label>Tiberium Boden Umkristallisierer (Bauplan)</Decrystallizer_Blueprint_Install.label>
   <Decrystallizer_Frame.label>Tiberium Boden Umkristallisierer (Gebäude)</Decrystallizer_Frame.label>
 
-  <SonicFence.label>Sonic Inhibitor Zaun</SonicFence.label>
-  <SonicFence.description>Dieser Zaun hält Tiberium davon ab sich zu verbreiten. Braucht Strom.</SonicFence.description>
-  <SonicFence_Blueprint.label>Sonic Inhibitor Zaun (Bauplan)</SonicFence_Blueprint.label>
-  <SonicFence_Frame.label>Sonic Inhibitor Zaun (Gebäude)</SonicFence_Frame.label>
-
+  <SonicFence_TBNS.label>Sonic Inhibitor Zaun</SonicFence_TBNS.label>
+  <SonicFence_TBNS.description>Dieser Zaun hält Tiberium davon ab sich zu verbreiten. Braucht Strom.</SonicFence_TBNS.description>
+  <SonicFence_TBNS_Blueprint.label>Sonic Inhibitor Zaun (Bauplan)</SonicFence_TBNS_Blueprint.label>
+  <SonicFence_TBNS_Frame.label>Sonic Inhibitor Zaun (Gebäude))</SonicFence_TBNS_Frame.label>
 
 </LanguageData>
