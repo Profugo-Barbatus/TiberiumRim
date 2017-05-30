@@ -69,6 +69,10 @@
 				<spawnForbidden>false</spawnForbidden>
 			</li>
 		</comps>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <killedLeavings>
+            <TiberiumGreen>9</TiberiumGreen>
+        </killedLeavings>
 	</ThingDef>
 	
 	
@@ -115,6 +119,10 @@
 				<spawnForbidden>false</spawnForbidden>
 			</li>
 		</comps>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <killedLeavings>
+            <TiberiumBlue>9</TiberiumBlue>
+        </killedLeavings>
 	</ThingDef>
 	
 	
@@ -140,10 +148,6 @@
 			<Beauty>20</Beauty>
 			<WorkToBuild>56000</WorkToBuild>
 		</statBases>
-		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
-		<killedLeavings>
-			<GreenTiberiumRaw>100</GreenTiberiumRaw>
-		</killedLeavings>
 		<costList>
 			<RedTiberiumRaw>10</RedTiberiumRaw>
 			<BlueTiberiumRaw>20</BlueTiberiumRaw>
@@ -173,6 +177,12 @@
 				<glowColor>(255,0,0,0)</glowColor>
 			</li>
 		</comps>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <killedLeavings>
+            <TiberiumGreen>6</TiberiumGreen>
+			<TiberiumBlue>2</TiberiumBlue>
+			<TiberiumRed>1</TiberiumRed>
+        </killedLeavings>
 	</ThingDef>
 	
 
@@ -223,6 +233,10 @@
 				<spawnForbidden>false</spawnForbidden>
 			</li>
 		</comps>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <killedLeavings>
+            <TiberiumBlue>9</TiberiumBlue>
+		</killedLeavings>
 	</ThingDef>
 	
 	<ThingDef ParentName="TiberiumBuildingBase">
@@ -262,6 +276,10 @@
 				<spawnForbidden>false</spawnForbidden>
 			</li>
 		</comps>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <killedLeavings>
+            <TiberiumGreen>9</TiberiumGreen>
+        </killedLeavings>
     </ThingDef>
 	
 	<ThingDef ParentName="TiberiumBuildingBase">
@@ -301,6 +319,10 @@
 				<spawnForbidden>false</spawnForbidden>
 			</li>
 		</comps>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <killedLeavings>
+            <TiberiumRed>3</TiberiumRed>
+        </killedLeavings>
     </ThingDef>
 	
 	<ThingDef ParentName="TiberiumBuildingBase">
@@ -369,13 +391,6 @@
 			<claimable>false</claimable>
 			<deconstructible>true</deconstructible>
 		</building>
-		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
-		<killedLeavings>
-			<GreenTiberiumRaw>75</GreenTiberiumRaw>
-		</killedLeavings>
-		<costList>
-			<GreenTiberiumRaw>125</GreenTiberiumRaw>
-		</costList>
 		<comps>
 			<li Class="TiberiumRim.CompProperties_TiberiumProducer">
 			</li>
@@ -388,6 +403,12 @@
 				<glowColor>(120,255,120,0)</glowColor>
 			</li>
 		</comps>
+        <killedLeavings>
+			<GreenTiberiumRaw>75</GreenTiberiumRaw>
+            <TiberiumGreen>6</TiberiumGreen>
+			<TiberiumBlue>2</TiberiumBlue>
+			<TiberiumRed>1</TiberiumRed>
+        </killedLeavings>
 	</ThingDef>
 	
 </ThingDefs>

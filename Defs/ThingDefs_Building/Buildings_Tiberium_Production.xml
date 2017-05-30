@@ -92,6 +92,10 @@
 		<researchPrerequisites>
 			<li>TiberiumResearchRefining</li>
 		</researchPrerequisites>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <killedLeavings>
+            <TiberiumGreen>9</TiberiumGreen>
+        </killedLeavings>
 	</ThingDef>
 	
 	<ThingDef ParentName="BuildingBase">
@@ -162,6 +166,10 @@
 		<researchPrerequisites>
 			<li>TiberiumPower</li>
 		</researchPrerequisites>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <killedLeavings>
+            <TiberiumGreen>9</TiberiumGreen>
+        </killedLeavings>
 	</ThingDef>
 
 </ThingDefs>

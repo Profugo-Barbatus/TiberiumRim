@@ -69,6 +69,10 @@
 			<mineableThing>GreenTiberiumRaw</mineableThing>
 			<mineableYield>7</mineableYield>
 		</building>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <killedLeavings>
+            <TiberiumGreen>3</TiberiumGreen>
+        </killedLeavings>
 	</ThingDef>
 	
 	<ThingDef ParentName="RockBase">
@@ -95,6 +99,10 @@
 			<mineableThing>BlueTiberiumRaw</mineableThing>
 			<mineableYield>5</mineableYield>
 		</building>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <killedLeavings>
+            <TiberiumBlue>2</TiberiumBlue>
+        </killedLeavings>
 	</ThingDef>
 	
 	<ThingDef ParentName="RockBase">
@@ -121,6 +129,10 @@
 			<mineableThing>RedTiberiumRaw</mineableThing>
 			<mineableYield>3</mineableYield>
 		</building>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <killedLeavings>
+            <TiberiumRed>1</TiberiumRed>
+        </killedLeavings>
 	</ThingDef>
 	
 	<ThingDef ParentName="RockBase">
@@ -147,6 +159,10 @@
 			<mineableThing>VeinTiberiumRaw</mineableThing>
 			<mineableYield>6</mineableYield>
 		</building>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <killedLeavings>
+            <TiberiumVein>1</TiberiumVein>
+        </killedLeavings>
 	</ThingDef>
 	
 </ThingDefs>

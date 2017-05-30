@@ -120,7 +120,7 @@
 	</ThingDef>
 	
 	<ThingDef ParentName="BuildingBase">
-		<defName>SonicFence</defName>
+		<defName>SonicFence_TBNS</defName>
 		<label>Sonic Inhibitor Fence</label>
 		<thingClass>Building</thingClass>
 		<category>Building</category>
@@ -143,7 +143,6 @@
 		<fillPercent>0.65</fillPercent>
 		<statBases>
 			<MaxHitPoints>150</MaxHitPoints>
-			<Beauty>-10</Beauty>
 			<WorkToBuild>180</WorkToBuild>
 			<Flammability>1.0</Flammability>
 		</statBases>
