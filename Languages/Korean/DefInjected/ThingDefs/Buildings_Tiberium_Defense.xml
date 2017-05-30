@@ -13,10 +13,10 @@
   <Decrystallizer_Blueprint_Install.label>토양 정화기 (청사진)</Decrystallizer_Blueprint_Install.label>
   <Decrystallizer_Frame.label>토양 정화기 (건설 중)</Decrystallizer_Frame.label>
 
-  <SonicFence.label>음파 억제 장벽</SonicFence.label>
-  <SonicFence.description>고유 진동을 이용하여 타이베리움의 성장을 방해하는 장치입니다. 벽처럼 설치할 수 있지만 타이베리움 억제 범위가 짧습니다.</SonicFence.description>
-  <SonicFence_Blueprint.label>음파 억제 장벽 (청사진)</SonicFence_Blueprint.label>
-  <SonicFence_Frame.label>음파 억제 장벽 (건설 중)</SonicFence_Frame.label>
+  <SonicFence_TBNS.label>음파 억제 장벽</SonicFence_TBNS.label>
+  <SonicFence_TBNS.description>고유 진동을 이용하여 타이베리움의 성장을 방해하는 장치입니다. 벽처럼 설치할 수 있지만 타이베리움 억제 범위가 짧습니다.</SonicFence_TBNS.description>
+  <SonicFence_TBNS_Blueprint.label>음파 억제 장벽 (청사진)</SonicFence_TBNS_Blueprint.label>
+  <SonicFence_TBNS_Frame.label>음파 억제 장벽 (건설 중)</SonicFence_TBNS_Frame.label>
 
 
 </LanguageData>
