@@ -96,15 +96,21 @@
 		<defName>TiberiumWater</defName>
 		<label>Tiberium contaminated water</label>
 		<texturePath>Terrain/Surfaces/TiberiumWater</texturePath>
-		<EdgeType>FadeRough</EdgeType>
+		<waterDepthShader>Map/WaterDepth</waterDepthShader>
+		<EdgeType>Water</EdgeType>
 		<RenderPrecedence>394</RenderPrecedence>
 		<PathCost>60</PathCost>
+		<statBases>
+			<Beauty>-10</Beauty>
+			<Cleanliness>-100</Cleanliness>
+		</statBases>
 		<acceptFilth>false</acceptFilth>
 		<fertility>0</fertility>
 		<avoidWander>true</avoidWander>
 		<changeable>false</changeable>
-		<holdSnow>false</holdSnow>
 		<driesTo>Gravel</driesTo>
+		<holdSnow>false</holdSnow>
+		<takeSplashes>true</takeSplashes>
 	</TerrainDef>
 	
 	<TerrainDef>
