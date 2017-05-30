@@ -13,10 +13,9 @@
   <Decrystallizer_Blueprint_Install.label>Tiberium Soil Decrystallizer (blueprint)</Decrystallizer_Blueprint_Install.label>
   <Decrystallizer_Frame.label>Tiberium Soil Decrystallizer (building)</Decrystallizer_Frame.label>
 
-  <SonicFence.label>Sonic Inhibitor Fence</SonicFence.label>
-  <SonicFence.description>This fence allows you to cut off Tiberium spread. Requires power.</SonicFence.description>
-  <SonicFence_Blueprint.label>Sonic Inhibitor Fence (blueprint)</SonicFence_Blueprint.label>
-  <SonicFence_Frame.label>Sonic Inhibitor Fence (building)</SonicFence_Frame.label>
-
+  <SonicFence_TBNS.label>Sonic Inhibitor Fence</SonicFence_TBNS.label>
+  <SonicFence_TBNS.description>This fence allows you to cut off Tiberium spread. Requires power.</SonicFence_TBNS.description>
+  <SonicFence_TBNS_Blueprint.label>Sonic Inhibitor Fence (blueprint)</SonicFence_TBNS_Blueprint.label>
+  <SonicFence_TBNS_Frame.label>Sonic Inhibitor Fence (building)</SonicFence_TBNS_Frame.label>
 
 </LanguageData>
