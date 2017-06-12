@@ -11,7 +11,7 @@
 		<graphicData>
 			<texPath>Building/Defense/Inhibiter_small</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(1.5,1.5)</drawSize>
+			<drawSize>(2,3)</drawSize>
 			<shadowData>
 				<volume>(0.5,0.5,0.5)</volume>
 				<offset>(0,0,0)</offset>
@@ -66,7 +66,7 @@
 		<graphicData>
 			<texPath>Building/Defense/Decrystallizer</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(1.5,1.5)</drawSize>
+			<drawSize>(2,3)</drawSize>
 			<shadowData>
 				<volume>(0.25, 0.5, 0.25)</volume>
 				<offset>(0,0,-0.1)</offset>
