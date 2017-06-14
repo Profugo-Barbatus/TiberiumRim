@@ -19,14 +19,14 @@
 			<dieIfLeafless>false</dieIfLeafless>
 			<growDays>4</growDays>
 			<visualSizeRange>
-				<min>1.0</min>
-				<max>2.0</max>
+				<min>2.0</min>
+				<max>3.0</max>
 			</visualSizeRange>
 			<reproduces>false</reproduces>
 			<fertilitySensitivity>0</fertilitySensitivity>
 			<growMinGlow>0</growMinGlow>
-			<maxMeshCount>4</maxMeshCount>
-			<topWindExposure>0.15</topWindExposure>
+			<maxMeshCount>1</maxMeshCount>
+			<topWindExposure>0.2</topWindExposure>
 		</plant>
 	</ThingDef> 
 
