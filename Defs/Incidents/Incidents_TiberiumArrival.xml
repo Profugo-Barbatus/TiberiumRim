@@ -85,23 +85,23 @@
 		<asteroidType>Veinhole_TBNS</asteroidType>
 	</IncidentDef>
 	
-	<!--
 	<IncidentDef>
 		<defName>IonStormIncident</defName>
 		<label>Ion storm</label>
 		<targetType>MapPlayerHome</targetType>
 		<workerClass>TiberiumRim.IncidentWorker_IonStorm</workerClass>
-		<mapCondition>IonStorm</mapCondition>
+		<gameCondition>IonStorm</gameCondition>
 		<letterLabel>Ion storm!</letterLabel>
 		<letterText>An Ion storm has begun.\n\nThe intense radiation will shut down all electrical devices.\n\nBe careful about Tiberium spread.</letterText>
 		<letterDef>BadNonUrgent</letterDef>
 		<baseChance>0.5</baseChance>
+		<category>ThreatBig</category>
 		<minRefireDays>14</minRefireDays>
 		<durationDays>
 		  <min>0.1</min>
 		  <max>1</max>
 		</durationDays>
 	</IncidentDef>
-	-->
+
 	
 </Defs>
