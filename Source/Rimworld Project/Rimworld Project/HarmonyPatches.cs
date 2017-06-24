@@ -12,7 +12,7 @@ namespace TiberiumRim
 {
     /*
      * Harmony patches need to be updated with new Hugslib/Harmony combined integration
-     * 
+     */ 
     [StaticConstructorOnStartup]
     class HarmonyPatches
     {
@@ -23,14 +23,15 @@ namespace TiberiumRim
         }
     }
 
-    [HarmonyPatch(typeof(MapCondition_ToxicFallout))]
+    [HarmonyPatch(typeof(GameCondition_ToxicFallout))]
     [HarmonyPatch("DoCellSteadyEffects")]
     [HarmonyPatch(new Type[] { typeof(IntVec3) })]
     class ToxicFalloutPatch
     {
         [HarmonyPrefix]
-        static bool PrefixMethod(MapCondition_ToxicFallout __instance, IntVec3 c)
+        static bool PrefixMethod(GameCondition_ToxicFallout __instance, IntVec3 c)
         {
+            Log.Message("Hugslib GameCondition Checker Start");
             var map = Traverse.Create(__instance).Property("Map").GetValue<Map>();
             if (c.InBounds(map) && !c.Roofed(map))
             {
@@ -40,11 +41,14 @@ namespace TiberiumRim
                     Thing thing = thingList[i];
                     if (thing.def.defName.Contains("Tiberium"))
                     {
+                        Log.Message("Hugslib GameCondition Checker End False");
                         return false;
                     }
+                    Log.Message("Hugslib GameCondition Checker End True");
                     return true;
                 }
             }
+            Log.Message("Hugslib GameCondition Checker End False");
             return false;
         }
     }
@@ -57,7 +61,8 @@ namespace TiberiumRim
         [HarmonyPrefix]
         static bool PrefixMethod(Room room)
         {
-            var things = room.AllContainedThings;
+            Log.Message("Hugslib Autoroof Checker Start");
+            var things = room.ContainedAndAdjacentThings;
             var count = things.Count;
             foreach (Thing thing in things)
             {
@@ -65,11 +70,13 @@ namespace TiberiumRim
                 {
                     if (thing.def.defName.Contains("Tiberium") || count <= 9)
                     {
+                        Log.Message("Hugslib Autoroof Checker End False");
                         return false;
                     }
                 }
             }
+            Log.Message("Hugslib Autoroof Checker End True");
             return true;
         }
-    }*/
+    }
 }

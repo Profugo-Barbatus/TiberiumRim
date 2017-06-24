@@ -50,20 +50,19 @@ namespace TiberiumRim
 
         }
 
-        public void SpawnSetup(Map map)
+        public override void SpawnSetup(Map map, bool respawningAfterLoad)
         {
+            base.SpawnSetup(map, respawningAfterLoad);
             var c = this.Position.GetPlant(map);
             if (c != null && c != this)
             {
                 if (c.def.defName.Contains("Tiberium"))
                 {
-                    Log.Message("plant: " + c);
                     this.Destroy(DestroyMode.Vanish);
                     return;
                 }
                 else
                 {
-                    Log.Message("plant: " + c);
                     c.Destroy(DestroyMode.Vanish);
                 }
             }
@@ -197,7 +196,7 @@ namespace TiberiumRim
             //Rare chance of monolithRise() to happen
             if (Rand.Chance(0.000001f))
             {
-                if (this.def.defName.Contains("TiberiumBlue") && Rand.Chance(0.000001f))
+                if (this.def.defName.Contains("TiberiumBlue") && Rand.Chance(0.00001f))
                 {
                     MonolithRise(Map);
                 }
