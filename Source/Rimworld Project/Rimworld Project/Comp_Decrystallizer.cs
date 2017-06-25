@@ -60,7 +60,7 @@ namespace TiberiumRim
             }
         }
 
-        public void PostSpawnSetup()
+        public override void PostSpawnSetup(bool respawningAfterLoad)
         {
             this.powerComp = this.parent.TryGetComp<CompPowerTrader>();
         }

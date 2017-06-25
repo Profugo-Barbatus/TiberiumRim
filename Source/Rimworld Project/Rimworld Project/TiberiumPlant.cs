@@ -327,6 +327,12 @@ namespace TiberiumRim
                         }
                         p.TakeDamage(damage);
                     }
+
+                    //Graves were used as an exploit against tiberium spread. This should fix it.
+                    if (p.def.defName.Contains("Grave"))
+                    {
+                        p.Destroy(DestroyMode.Deconstruct);
+                    }
                 }
                 else
                 {
@@ -336,7 +342,8 @@ namespace TiberiumRim
                     {
                         p.TakeDamage(damage);
                     }
-                }
+                }   
+                    
             }
         }
 
@@ -567,6 +574,13 @@ namespace TiberiumRim
             if (!GenPlant.SnowAllowsPlanting(dest, map))
                 return null;
 
+            if (CompSonicEmitter.inhibitedLocations.ContainsKey(map.Tile))
+            {
+                if (CompSonicEmitter.inhibitedLocations[map.Tile].Contains(dest))
+                {
+                    return null;
+                }
+            }
             var t = dest.GetTerrain(map);
 
             //Since we have glaciers we need a way to tell the game when to spawn them
@@ -701,10 +715,8 @@ namespace TiberiumRim
                                 ThingDef flora = DefDatabase<ThingDef>.GetNamed("TiberiumPlant", true);
                                 IntVec3 loc = p.Position;
 
-                                p.Destroy(DestroyMode.Vanish);
-
-                                GenSpawn.Spawn(flora, loc, map);
-
+                                    p.Destroy(DestroyMode.Vanish);
+                                    GenSpawn.Spawn(flora, loc, map);
                             }
                             else
                             {
@@ -766,7 +778,7 @@ namespace TiberiumRim
 
                 if (!GenSight.LineOfSight(source, c, map, skipFirstCell: true))
                     return false;
-
+                
                 return true;
             };
             return CellFinder.TryFindRandomCellNear(source, map, Mathf.CeilToInt(radius), destValidator, out foundCell);

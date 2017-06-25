@@ -9,7 +9,7 @@ namespace TiberiumRim
 {
     public class HediffComp_TiberiumAddiction : HediffComp
     {
-        public void CompPostTick()
+        public override void CompPostTick(ref float severityAdjustment)
         {
             if (base.Pawn.IsHashIntervalTick(500))
             {
