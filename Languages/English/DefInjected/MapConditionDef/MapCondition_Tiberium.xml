@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<LanguageData>
-
-  <IonStorm.label>Ion storm</IonStorm.label>
-  <IonStorm.description>An Ion Storm has been triggered on your map! Be careful, the power shortage might bring unwanted complications.</IonStorm.description>
-  <IonStorm.endMessage>The Ion Storm is ending.</IonStorm.endMessage>
-
-
-</LanguageData>
