@@ -64,7 +64,7 @@
 		<description>Very slowly removes Tiberium from infected ground, converting any Tiberium ground into decrystallized soil that can be used again. Does not affect contaminated water. Requires power.</description>
 		<size>(1,1)</size>
 		<graphicData>
-			<texPath>Building/Defense/Decrystallizer</texPath>
+			<texPath>Building/Defense/Decrystallizer2</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(2,3)</drawSize>
 			<shadowData>
