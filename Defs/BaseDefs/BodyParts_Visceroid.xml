@@ -7,6 +7,7 @@
 		<hitPoints>165</hitPoints>
 		<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
 		<skinCovered>true</skinCovered>
+		<frostbiteVulnerability>0.4</frostbiteVulnerability>
 	</BodyPartDef>
   
 	<BodyPartDef>
@@ -121,6 +122,7 @@
 		<hitPoints>50</hitPoints>
 		<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
 		<skinCovered>true</skinCovered>
+		<frostbiteVulnerability>0.6</frostbiteVulnerability>
 	</BodyPartDef>
 	
 </Defs>
