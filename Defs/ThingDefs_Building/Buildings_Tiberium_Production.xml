@@ -94,7 +94,7 @@
 		</researchPrerequisites>
 		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
         <killedLeavings>
-            <TiberiumGreen>9</TiberiumGreen>
+            <TiberiumGreen>3</TiberiumGreen>
         </killedLeavings>
 	</ThingDef>
 	
@@ -168,7 +168,8 @@
 		</researchPrerequisites>
 		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
         <killedLeavings>
-            <TiberiumGreen>9</TiberiumGreen>
+            <TiberiumGreen>2</TiberiumGreen>
+			<TiberiumRed>3</TiberiumRed>
         </killedLeavings>
 	</ThingDef>
 

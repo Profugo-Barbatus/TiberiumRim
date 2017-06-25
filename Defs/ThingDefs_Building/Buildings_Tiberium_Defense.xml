@@ -44,7 +44,7 @@
 			<li Class="CompProperties_Breakdownable"/>
 			<li Class="TiberiumRim.CompProperties_SonicEmitter">
 				<compClass>TiberiumRim.CompSonicEmitter</compClass>
-				<radius>7</radius>
+				<radius>8</radius>
 				<damageShutdownPercent>0.6</damageShutdownPercent>
 			</li>
 		</comps>
@@ -66,7 +66,7 @@
 		<graphicData>
 			<texPath>Building/Defense/Decrystallizer2</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(2,3)</drawSize>
+			<drawSize>(2,2)</drawSize>
 			<shadowData>
 				<volume>(0.25, 0.5, 0.25)</volume>
 				<offset>(0,0,-0.1)</offset>
@@ -162,7 +162,7 @@
 			</li>
 			<li Class="TiberiumRim.CompProperties_SonicEmitter">
 				<compClass>TiberiumRim.CompSonicEmitter</compClass>
-				<radius>2</radius>
+				<radius>1</radius>
 				<damageShutdownPercent>0.8</damageShutdownPercent>
 			</li>
 			<li Class="CompProperties_Glower">

@@ -179,9 +179,9 @@
 		</comps>
 		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
         <killedLeavings>
-            <TiberiumGreen>6</TiberiumGreen>
-			<TiberiumBlue>2</TiberiumBlue>
-			<TiberiumRed>1</TiberiumRed>
+            <TiberiumGreen>50</TiberiumGreen>
+			<TiberiumBlue>25</TiberiumBlue>
+			<TiberiumRed>5</TiberiumRed>
         </killedLeavings>
 	</ThingDef>
 	
@@ -405,9 +405,7 @@
 		</comps>
         <killedLeavings>
 			<GreenTiberiumRaw>75</GreenTiberiumRaw>
-            <TiberiumGreen>6</TiberiumGreen>
-			<TiberiumBlue>2</TiberiumBlue>
-			<TiberiumRed>1</TiberiumRed>
+            <TiberiumGreen>8</TiberiumGreen>
         </killedLeavings>
 	</ThingDef>
 	
