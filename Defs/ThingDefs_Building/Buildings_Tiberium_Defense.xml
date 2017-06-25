@@ -66,7 +66,7 @@
 		<graphicData>
 			<texPath>Building/Defense/Decrystallizer2</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(2,2)</drawSize>
+			<drawSize>(2,3)</drawSize>
 			<shadowData>
 				<volume>(0.25, 0.5, 0.25)</volume>
 				<offset>(0,0,-0.1)</offset>
