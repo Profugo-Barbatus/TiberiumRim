@@ -2,12 +2,18 @@
 <LanguageData>
 
 	<TiberiumGreen.label>그린 타이베리움</TiberiumGreen.label>
-	<TiberiumGreen.description>희미한 녹색 빛을 내뿜는 결정입니다. 아름답지만 어떤 성질을 지니고 있는지는 알 수 없습니다. 취급에 주의하십시오.</TiberiumGreen.description>
+	<TiberiumGreen.description>녹색으로 희미하게 빛나는 결정입니다. 아름답습니다.</TiberiumGreen.description>
 	
 	<TiberiumBlue.label>블루 타이베리움</TiberiumBlue.label>
-	<TiberiumBlue.description>희미한 푸른 빛을 내뿜는 결정입니다. 아름답지만 어떤 성질을 지니고 있는지는 알 수 없습니다. 희귀합니다.</TiberiumBlue.description>
+	<TiberiumBlue.description>청색으로 희미하게 빛나는 결정입니다. 폭발성이 있습니다.</TiberiumBlue.description>
 	
 	<TiberiumRed.label>레드 타이베리움</TiberiumRed.label>
-	<TiberiumRed.description>희미한 붉은 빛을 내뿜는 결정입니다. 아름답지만 어떤 성질을 지니고 있는지는 알 수 없습니다. 매우 희귀합니다.</TiberiumRed.description>
+	<TiberiumRed.description>적색으로 희미하게 빛나는 결정입니다. 희귀하며, 매우 느리게 자라납니다.</TiberiumRed.description>
 
+	<TiberiumGlacier.label>타이베리움 빙하</TiberiumGlacier.label>
+	<TiberiumGlacier.description>물 아래에서 솟아오른 육각 기둥 모양의 타이베리움 결정입니다. 채취할 엄두가 나지 않을 정도로 거대합니다.</TiberiumGlacier.description>
+	
+	<TiberiumVein.label>베인 덩굴</TiberiumVein.label>
+	<TiberiumVein.description>끈적끈적한 적갈색의 생물 조직입니다. 베인홀로부터 계속 자라납니다.</TiberiumVein.description>
+	
 </LanguageData>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <TiberiumSoilGreen.label>Grüner Tiberium Boden</TiberiumSoilGreen.label>
+  <TiberiumSoilBlue.label>Blauer Tiberium Boden</TiberiumSoilBlue.label>
+  <TiberiumSoilRed.label>Roter Tiberium Boden</TiberiumSoilRed.label>
+  <VeinSoilRed.label>Roter Tiberium-Ader Boden</VeinSoilRed.label>
+  <TiberiumWater.label>Tiberium-Kontaminiertes Wasser</TiberiumWater.label>
+  <DecrystallizedSoil.label>Umkristallisierter Boden</DecrystallizedSoil.label>
+
+
+</LanguageData>

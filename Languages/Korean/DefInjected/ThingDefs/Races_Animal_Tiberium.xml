@@ -1,28 +1,25 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<Visceroid_TBI.label>비세로이드</Visceroid_TBI.label>
-	<Visceroid_TBI.description>불안정하고 흉측한 생명체입니다. 타이베리움에 심하게 오염된 동물의 신체로부터 드물게 나타납니다. 인간도 예외는 아닙니다.</Visceroid_TBI.description>
-	
-	<Thrimbo_TBI.label>고통받는 트럼보</Thrimbo_TBI.label>
-	<Thrimbo_TBI.description>신체의 여러 부분이 그린 타이베리움으로 오염된 트럼보입니다. 대면할 때는 주의하십시오. 고통받는 생물은 쉽게 사나워지는 법입니다.</Thrimbo_TBI.description>
-	
-	<TiberiumTerror_TBI.label>타이베리움 테러</TiberiumTerror_TBI.label>
-	<TiberiumTerror_TBI.description>트럼보와 비슷하지만 검은색과 파란색으로 이뤄진 이 낯선 동물은 한눈에 봐도 매우 위험해 보입니다.</TiberiumTerror_TBI.description>
-	
-	<BigTiberiumFiend_TBI.label>대형 타이베리움 핀드</BigTiberiumFiend_TBI.label>
-	<BigTiberiumFiend_TBI.description>타이베리움 환경에 적응한 대형 잡식성 포유류입니다. 단독으로 움직이지만 매우 강인하며, 모피와 발톱은 대부분 결정화되어 있습니다.\n\n평소에는 얌전한 먹이를 선호하지만, 굶주리게 되면 적극적으로 사냥에 나설 것입니다.</BigTiberiumFiend_TBI.description>
-	
-	<Tibscarab_TBI.label>티브스캐럽</Tibscarab_TBI.label>
-	<Tibscarab_TBI.description>메카노이드 침입에 대항하기 위해 설계된 인조 곤충들의 노동계급은 혹독한 타이베리움 환경조차도 극복하고 살아남았습니다. 상위 계급의 곤충들은 자취를 감췄지만, 이들의 덩치와 날카로운 껍질은 여전히 위협적입니다.</Tibscarab_TBI.description>
-	
-	<TiberiumFiend_TBI.label>타이베리움 핀드</TiberiumFiend_TBI.label>
-	<TiberiumFiend_TBI.description>타이베리움 환경에 적응한 포유류 중 가장 표준적인 형태입니다. 무리를 짓는 경우가 많고 지능적이며, 모피와 발톱은 대부분 결정화되어 있습니다.</TiberiumFiend_TBI.description>
-	
-	<SmallTiberiumFiend_TBI.label>소형 타이베리움 핀드</SmallTiberiumFiend_TBI.label>
-	<SmallTiberiumFiend_TBI.description>타이베리움 환경에 적응한 육식성 포유류입니다. 덩치는 작지만 아주 사납습니다.</SmallTiberiumFiend_TBI.description>
-	
-	<Crawler_TBI.label>크롤러</Crawler_TBI.label>
-	<Crawler_TBI.description>타이베리움 환경에 적응한 커다란 뱀입니다.</Crawler_TBI.description>
+  <Visceroid_TBI.label>비세로이드</Visceroid_TBI.label>
+  <Visceroid_TBI.description>불안정하고 흉측한 생명체입니다. 타이베리움에 심하게 오염된 동물의 신체로부터 흔히 나타납니다. 인간도 예외는 아닙니다.</Visceroid_TBI.description>
+  <Visceroid_TBI_Leather.label>비세로이드 껍질</Visceroid_TBI_Leather.label>
+  <Visceroid_TBI_Leather.description>비세로이드 껍질</Visceroid_TBI_Leather.description>
+  <Visceroid_TBI_Leather.stuffProps.stuffAdjective>비세로이드 껍질</Visceroid_TBI_Leather.stuffProps.stuffAdjective>
+  <Visceroid_TBI_Meat.label>비세로이드 조직</Visceroid_TBI_Meat.label>
+  <Visceroid_TBI_Meat.description>비세로이드 조직</Visceroid_TBI_Meat.description>
+  <Visceroid_TBI_Corpse.label>비세로이드 시체</Visceroid_TBI_Corpse.label>
+  <Visceroid_TBI_Corpse.description>비세로이드 시체</Visceroid_TBI_Corpse.description>
+
+  <Veinmonster_TBI.label>베인몬스터</Veinmonster_TBI.label>
+  <Veinmonster_TBI.description>비세로이드와 유사한 생명체인 베인몬스터는 베인 줄기로부터 자라납니다. 작고 약하지만 무리를 지으면 사나워집니다.</Veinmonster_TBI.description>
+  <Veinmonster_TBI_Leather.label>베인몬스터 껍질</Veinmonster_TBI_Leather.label>
+  <Veinmonster_TBI_Leather.description>베인몬스터 껍질</Veinmonster_TBI_Leather.description>
+  <Veinmonster_TBI_Leather.stuffProps.stuffAdjective>베인몬스터 껍질</Veinmonster_TBI_Leather.stuffProps.stuffAdjective>
+  <Veinmonster_TBI_Meat.label>베인몬스터 조직</Veinmonster_TBI_Meat.label>
+  <Veinmonster_TBI_Meat.description>베인몬스터 조직</Veinmonster_TBI_Meat.description>
+  <Veinmonster_TBI_Corpse.label>베인몬스터 시체</Veinmonster_TBI_Corpse.label>
+  <Veinmonster_TBI_Corpse.description>베인몬스터 시체</Veinmonster_TBI_Corpse.description>
+
 	
 </LanguageData>

@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Thrimbo_TBI.label>Thrimbo</Thrimbo_TBI.label>
+  <Thrimbo_TBI.description>Eine gigantische Kreatur unbekannter Herkunft. Das Thrumbo, aber dieses scheint eine Tiberium Infektion zu haben. Sei vorsichtig, es kann leicht verärgert werden.</Thrimbo_TBI.description>
+  <Thrimbo_TBI_Leather.label>Thrimbo Fell</Thrimbo_TBI_Leather.label>
+  <Thrimbo_TBI_Leather.description>Thrimbo Fell</Thrimbo_TBI_Leather.description>
+  <Thrimbo_TBI_Leather.stuffProps.stuffAdjective>Thrimbo Fell</Thrimbo_TBI_Leather.stuffProps.stuffAdjective>
+  <Thrimbo_TBI_Meat.label>Thrimbo Fleisch</Thrimbo_TBI_Meat.label>
+  <Thrimbo_TBI_Meat.description>Thrimbo Fleisch</Thrimbo_TBI_Meat.description>
+  <Thrimbo_TBI_Corpse.label>Thrimbo Leiche</Thrimbo_TBI_Corpse.label>
+  <Thrimbo_TBI_Corpse.description>Thrimbo Leiche</Thrimbo_TBI_Corpse.description>
+
+  <TiberiumTerror_TBI.label>Tiberium Schrecken</TiberiumTerror_TBI.label>
+  <TiberiumTerror_TBI.description>Eine gigantische Kreatur unbekannter Herkunft. Das schwarz-blaue Aussehen zeugt von großer Gefahr in dieser Kreatur.</TiberiumTerror_TBI.description>
+  <TiberiumTerror_TBI_Leather.label>Tiberium Schrecken Fell</TiberiumTerror_TBI_Leather.label>
+  <TiberiumTerror_TBI_Leather.description>Tiberium Schrecken Fell</TiberiumTerror_TBI_Leather.description>
+  <TiberiumTerror_TBI_Leather.stuffProps.stuffAdjective>Tiberium Schrecken Fell</TiberiumTerror_TBI_Leather.stuffProps.stuffAdjective>
+  <TiberiumTerror_TBI_Meat.label>Tiberium Schrecken Fleisch</TiberiumTerror_TBI_Meat.label>
+  <TiberiumTerror_TBI_Meat.description>Tiberium Schrecken Fleisch</TiberiumTerror_TBI_Meat.description>
+  <TiberiumTerror_TBI_Corpse.label>Tiberium Schrecken Leiche</TiberiumTerror_TBI_Corpse.label>
+  <TiberiumTerror_TBI_Corpse.description>Tiberium Schrecken Leiche</TiberiumTerror_TBI_Corpse.description>
+
+  <BigTiberiumFiend_TBI.label>Großes Tiberium Unold</BigTiberiumFiend_TBI.label>
+  <BigTiberiumFiend_TBI.description>Riesige alles fressende Lebensformen die an Tiberium angepasst sind. Ihre Haut und ihr Fell wurden kristallisiert.\n\nObwohl ihre übliche Ernährung von Fisch, Beeren und Honig besteht, kann dieses Unhold seine Stärke und scharfen Klauen nutzen um lebende Beute zu fangen. Sie sind fürchterlich schnell für solch trampelndes Erscheinen.</BigTiberiumFiend_TBI.description>
+  <BigTiberiumFiend_TBI_Leather.label>tiberium bearskin</BigTiberiumFiend_TBI_Leather.label>
+  <BigTiberiumFiend_TBI_Leather.description>tiberium bearskin</BigTiberiumFiend_TBI_Leather.description>
+  <BigTiberiumFiend_TBI_Leather.stuffProps.stuffAdjective>tiberium bearskin</BigTiberiumFiend_TBI_Leather.stuffProps.stuffAdjective>
+  <BigTiberiumFiend_TBI_Meat.label>tiberium bear meat</BigTiberiumFiend_TBI_Meat.label>
+  <BigTiberiumFiend_TBI_Meat.description>tiberium bear meat</BigTiberiumFiend_TBI_Meat.description>
+  <BigTiberiumFiend_TBI_Corpse.label>big Tiberium fiend corpse</BigTiberiumFiend_TBI_Corpse.label>
+  <BigTiberiumFiend_TBI_Corpse.description>big Tiberium fiend corpse</BigTiberiumFiend_TBI_Corpse.description>
+
+  <Tibscarab_TBI.label>Tibscarab</Tibscarab_TBI.label>
+  <Tibscarab_TBI.description>Eine großer, genetisch veänderter Käfer der mit Tiberium in Kontakt kam.</Tibscarab_TBI.description>
+  <!-- Leather Amount: 0 -->
+  <!-- Use Meat From: Megaspider -->
+  <Tibscarab_TBI_Corpse.label>Tibscarab corpse</Tibscarab_TBI_Corpse.label>
+  <Tibscarab_TBI_Corpse.description>Tibscarab corpse</Tibscarab_TBI_Corpse.description>
+
+  <TiberiumFiend_TBI.label>Tiberium Unhold</TiberiumFiend_TBI.label>
+  <TiberiumFiend_TBI.description>Ein robuster Jäger lang gefüchtet von Menschen. Als Pack Jäger haben diese Unholde die selben furchterregenden Fähigkeiten von Wölfen.</TiberiumFiend_TBI.description>
+  <TiberiumFiend_TBI_Leather.label>tiberium fiend skin</TiberiumFiend_TBI_Leather.label>
+  <TiberiumFiend_TBI_Leather.description>tiberium fiend skin</TiberiumFiend_TBI_Leather.description>
+  <TiberiumFiend_TBI_Leather.stuffProps.stuffAdjective>tiberium fiend skin</TiberiumFiend_TBI_Leather.stuffProps.stuffAdjective>
+  <TiberiumFiend_TBI_Meat.label>tiberium fiend meat</TiberiumFiend_TBI_Meat.label>
+  <TiberiumFiend_TBI_Meat.description>tiberium fiend meat</TiberiumFiend_TBI_Meat.description>
+  <TiberiumFiend_TBI_Corpse.label>tiberium fiend corpse</TiberiumFiend_TBI_Corpse.label>
+  <TiberiumFiend_TBI_Corpse.description>tiberium fiend corpse</TiberiumFiend_TBI_Corpse.description>
+
+  <SmallTiberiumFiend_TBI.label>Kleines Tiberium Unhold</SmallTiberiumFiend_TBI.label>
+  <SmallTiberiumFiend_TBI.description>Ein kleines mit Tiberium infiziertes Wesen.</SmallTiberiumFiend_TBI.description>
+  <SmallTiberiumFiend_TBI_Leather.label>small tiberium fiend skin</SmallTiberiumFiend_TBI_Leather.label>
+  <SmallTiberiumFiend_TBI_Leather.description>small tiberium fiend skin</SmallTiberiumFiend_TBI_Leather.description>
+  <SmallTiberiumFiend_TBI_Leather.stuffProps.stuffAdjective>small tiberium fiend skin</SmallTiberiumFiend_TBI_Leather.stuffProps.stuffAdjective>
+  <!-- Use Meat From: FoxFennec -->
+  <SmallTiberiumFiend_TBI_Corpse.label>small tiberium fiend corpse</SmallTiberiumFiend_TBI_Corpse.label>
+  <SmallTiberiumFiend_TBI_Corpse.description>small tiberium fiend corpse</SmallTiberiumFiend_TBI_Corpse.description>
+
+  <Crawler_TBI.label>Kriecher</Crawler_TBI.label>
+  <Crawler_TBI.description>Eine große mit Tiberium infizierte Schlange.</Crawler_TBI.description>
+  <Crawler_TBI_Leather.label>crawler skin</Crawler_TBI_Leather.label>
+  <Crawler_TBI_Leather.description>crawler skin</Crawler_TBI_Leather.description>
+  <Crawler_TBI_Leather.stuffProps.stuffAdjective>crawler skin</Crawler_TBI_Leather.stuffProps.stuffAdjective>
+  <Crawler_TBI_Meat.label>crawler flesh</Crawler_TBI_Meat.label>
+  <Crawler_TBI_Meat.description>crawler flesh</Crawler_TBI_Meat.description>
+  <Crawler_TBI_Corpse.label>crawler corpse</Crawler_TBI_Corpse.label>
+  <Crawler_TBI_Corpse.description>crawler corpse</Crawler_TBI_Corpse.description>
+
+
+</LanguageData>

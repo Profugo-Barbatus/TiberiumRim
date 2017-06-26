@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-	<TiberiumResearchBench.label>타이베리움 연구 벤치</TiberiumResearchBench.label>
-	<TiberiumResearchBench.description>본격적인 타이베리움 연구를 위한 시설입니다. 복합 분석기에 의해 연구속도가 증가합니다. 전기로 작동합니다.</TiberiumResearchBench.description>
-	
-	<TiberiumResearchCraftingBench.label>타이베리움 연구 준비대</TiberiumResearchCraftingBench.label>
-	<TiberiumResearchCraftingBench.description>타이베리움 연구의 전초 단계입니다. 각종 타이베리움 설비에 필요한 취급서를 제작합니다.</TiberiumResearchCraftingBench.description>
-	
+  <TiberiumResearchBench.label>타이베리움 연구 벤치</TiberiumResearchBench.label>
+  <TiberiumResearchBench.description>타이베리움만을 전문으로 연구하는 시설입니다.\n\n복합 분석기에 의해 연구속도가 증가합니다.</TiberiumResearchBench.description>
+  <TiberiumResearchBench_Blueprint.label>타이베리움 연구 벤치 (청사진)</TiberiumResearchBench_Blueprint.label>
+  <TiberiumResearchBench_Frame.label>타이베리움 연구 벤치 (건설 중)</TiberiumResearchBench_Frame.label>
+
+  <TiberiumResearchCraftingBench.label>타이베리움 연구 제작대</TiberiumResearchCraftingBench.label>
+  <TiberiumResearchCraftingBench.description>정밀한 타이베리움 연구에 필요한 장비입니다. 또한 각종 설비 건설에 필요한 취급서를 제작합니다.\n\n반드시 타이베리움 연구 벤치 옆에 건설해야 합니다.</TiberiumResearchCraftingBench.description>
+  <TiberiumResearchCraftingBench_Blueprint.label>타이베리움 연구 제작대 (청사진)</TiberiumResearchCraftingBench_Blueprint.label>
+  <TiberiumResearchCraftingBench_Frame.label>타이베리움 연구 제작대 (건설 중)</TiberiumResearchCraftingBench_Frame.label>
+
 
 </LanguageData>

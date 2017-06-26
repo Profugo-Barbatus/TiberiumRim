@@ -2,7 +2,7 @@
 <WeatherDefs>
 
   <WeatherDef>
-    <defName>IonStorm</defName>
+    <defName>IonStormWeather</defName>
     <label>Ion Storm</label>
     <description>An Ion Storm - Not very good to life.</description>
     <repeatable>true</repeatable>
@@ -36,8 +36,8 @@
       <saturation>0.5</saturation>
     </skyColorsNightMid>
 	<durationRange>
-      <min>30000</min>
-      <max>80000</max>
+      <min>90000</min>
+      <max>120000</max>
     </durationRange>
 	 <eventMakers>
       <li>

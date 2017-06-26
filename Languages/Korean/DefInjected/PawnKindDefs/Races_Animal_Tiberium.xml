@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Visceroid_TBI.label>비세로이드</Visceroid_TBI.label>
+  <Visceroid_TBI.labelPlural>비세로이드</Visceroid_TBI.labelPlural>
+  <Visceroid_TBI.labelMale>비세로이드</Visceroid_TBI.labelMale>
+  <Visceroid_TBI.labelMalePlural>비세로이드</Visceroid_TBI.labelMalePlural>
+  <Visceroid_TBI.labelFemale>비세로이드</Visceroid_TBI.labelFemale>
+  <Visceroid_TBI.labelFemalePlural>비세로이드</Visceroid_TBI.labelFemalePlural>
+  <Visceroid_TBI.lifeStages.0.label>비세로이드 유생</Visceroid_TBI.lifeStages.0.label>
+  <Visceroid_TBI.lifeStages.0.labelPlural>비세로이드 유생</Visceroid_TBI.lifeStages.0.labelPlural>
+  <Visceroid_TBI.lifeStages.0.labelMale>비세로이드 유생</Visceroid_TBI.lifeStages.0.labelMale>
+  <Visceroid_TBI.lifeStages.0.labelMalePlural>비세로이드 유생</Visceroid_TBI.lifeStages.0.labelMalePlural>
+  <Visceroid_TBI.lifeStages.0.labelFemale>비세로이드 유생</Visceroid_TBI.lifeStages.0.labelFemale>
+  <Visceroid_TBI.lifeStages.0.labelFemalePlural>비세로이드 유생</Visceroid_TBI.lifeStages.0.labelFemalePlural>
+  <Visceroid_TBI.lifeStages.1.label>비세로이드</Visceroid_TBI.lifeStages.1.label>
+  <Visceroid_TBI.lifeStages.1.labelPlural>비세로이드</Visceroid_TBI.lifeStages.1.labelPlural>
+  <Visceroid_TBI.lifeStages.1.labelMale>비세로이드</Visceroid_TBI.lifeStages.1.labelMale>
+  <Visceroid_TBI.lifeStages.1.labelMalePlural>비세로이드</Visceroid_TBI.lifeStages.1.labelMalePlural>
+  <Visceroid_TBI.lifeStages.1.labelFemale>비세로이드</Visceroid_TBI.lifeStages.1.labelFemale>
+  <Visceroid_TBI.lifeStages.1.labelFemalePlural>비세로이드</Visceroid_TBI.lifeStages.1.labelFemalePlural>
+  <Visceroid_TBI.lifeStages.2.label>비세로이드</Visceroid_TBI.lifeStages.2.label>
+  <Visceroid_TBI.lifeStages.2.labelPlural>비세로이드</Visceroid_TBI.lifeStages.2.labelPlural>
+  <Visceroid_TBI.lifeStages.2.labelMale>비세로이드</Visceroid_TBI.lifeStages.2.labelMale>
+  <Visceroid_TBI.lifeStages.2.labelMalePlural>비세로이드</Visceroid_TBI.lifeStages.2.labelMalePlural>
+  <Visceroid_TBI.lifeStages.2.labelFemale>비세로이드</Visceroid_TBI.lifeStages.2.labelFemale>
+  <Visceroid_TBI.lifeStages.2.labelFemalePlural>비세로이드</Visceroid_TBI.lifeStages.2.labelFemalePlural>
+
+  <Veinmonster_TBI.label>베인몬스터</Veinmonster_TBI.label>
+  <Veinmonster_TBI.labelPlural>베인몬스터</Veinmonster_TBI.labelPlural>
+  <Veinmonster_TBI.labelMale>베인몬스터</Veinmonster_TBI.labelMale>
+  <Veinmonster_TBI.labelMalePlural>베인몬스터</Veinmonster_TBI.labelMalePlural>
+  <Veinmonster_TBI.labelFemale>베인몬스터</Veinmonster_TBI.labelFemale>
+  <Veinmonster_TBI.labelFemalePlural>베인몬스터</Veinmonster_TBI.labelFemalePlural>
+  <Veinmonster_TBI.lifeStages.0.label>베인몬스터 유생</Veinmonster_TBI.lifeStages.0.label>
+  <Veinmonster_TBI.lifeStages.0.labelPlural>베인몬스터 유생</Veinmonster_TBI.lifeStages.0.labelPlural>
+  <Veinmonster_TBI.lifeStages.0.labelMale>베인몬스터 유생</Veinmonster_TBI.lifeStages.0.labelMale>
+  <Veinmonster_TBI.lifeStages.0.labelMalePlural>베인몬스터 유생</Veinmonster_TBI.lifeStages.0.labelMalePlural>
+  <Veinmonster_TBI.lifeStages.0.labelFemale>베인몬스터 유생</Veinmonster_TBI.lifeStages.0.labelFemale>
+  <Veinmonster_TBI.lifeStages.0.labelFemalePlural>베인몬스터 유생</Veinmonster_TBI.lifeStages.0.labelFemalePlural>
+  <Veinmonster_TBI.lifeStages.1.label>베인몬스터</Veinmonster_TBI.lifeStages.1.label>
+  <Veinmonster_TBI.lifeStages.1.labelPlural>베인몬스터</Veinmonster_TBI.lifeStages.1.labelPlural>
+  <Veinmonster_TBI.lifeStages.1.labelMale>베인몬스터</Veinmonster_TBI.lifeStages.1.labelMale>
+  <Veinmonster_TBI.lifeStages.1.labelMalePlural>베인몬스터</Veinmonster_TBI.lifeStages.1.labelMalePlural>
+  <Veinmonster_TBI.lifeStages.1.labelFemale>베인몬스터</Veinmonster_TBI.lifeStages.1.labelFemale>
+  <Veinmonster_TBI.lifeStages.1.labelFemalePlural>베인몬스터</Veinmonster_TBI.lifeStages.1.labelFemalePlural>
+  <Veinmonster_TBI.lifeStages.2.label>베인몬스터</Veinmonster_TBI.lifeStages.2.label>
+  <Veinmonster_TBI.lifeStages.2.labelPlural>베인몬스터</Veinmonster_TBI.lifeStages.2.labelPlural>
+  <Veinmonster_TBI.lifeStages.2.labelMale>베인몬스터</Veinmonster_TBI.lifeStages.2.labelMale>
+  <Veinmonster_TBI.lifeStages.2.labelMalePlural>베인몬스터</Veinmonster_TBI.lifeStages.2.labelMalePlural>
+  <Veinmonster_TBI.lifeStages.2.labelFemale>베인몬스터</Veinmonster_TBI.lifeStages.2.labelFemale>
+  <Veinmonster_TBI.lifeStages.2.labelFemalePlural>베인몬스터</Veinmonster_TBI.lifeStages.2.labelFemalePlural>
+
+
+</LanguageData>

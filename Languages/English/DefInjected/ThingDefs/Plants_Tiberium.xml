@@ -1,13 +1,20 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<TiberiumGreen.label>Green Tiberium</TiberiumGreen.label>
-	<TiberiumGreen.description>A glowy green crystal. Looks strangely appealing. Beware of interaction.</TiberiumGreen.description>
-	
-	<TiberiumBlue.label>Blue Tiberium</TiberiumBlue.label>
-	<TiberiumBlue.description>A glowy blue crystal. Beautiful to the eye but of unknown properties.</TiberiumBlue.description>
-	
-	<TiberiumRed.label>red Tiberium</TiberiumRed.label>
-	<TiberiumRed.description>A glowy red crystal. Beautiful to the eye but of unknown properties. Unusual.</TiberiumRed.description>
+  <TiberiumGreen.label>Green Tiberium</TiberiumGreen.label>
+  <TiberiumGreen.description>A glowy green crystal. Looks strangely appealing. Interaction might be dangerous.</TiberiumGreen.description>
+
+  <TiberiumBlue.label>Blue Tiberium</TiberiumBlue.label>
+  <TiberiumBlue.description>A glowy blue crystal. Beautiful to the eye but of unknown properties.</TiberiumBlue.description>
+
+  <TiberiumRed.label>red Tiberium</TiberiumRed.label>
+  <TiberiumRed.description>A glowy red crystal. Beautiful to the eye but of unknown properties. Unusual.</TiberiumRed.description>
+
+  <TiberiumGlacier.label>Tiberium Glacier</TiberiumGlacier.label>
+  <TiberiumGlacier.description>Huge formations of crystalized water.</TiberiumGlacier.description>
+
+  <TiberiumVein.label>Vein</TiberiumVein.label>
+  <TiberiumVein.description>A stringy, throbbing brown-reddish vein. It grows out of a veinhole.</TiberiumVein.description>
+
 
 </LanguageData>

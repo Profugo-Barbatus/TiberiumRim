@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-	<TiberiumSoilGreen.label>오염된 녹색 토양</TiberiumSoilGreen.label>
-	<TiberiumSoilBlue.label>오염된 푸른색 토양</TiberiumSoilBlue.label>
-	<TiberiumSoilRed.label>오염된 붉은색 토양</TiberiumSoilRed.label>
+  <TiberiumSoilGreen.label>녹색 결정질 토양</TiberiumSoilGreen.label>
+  <TiberiumSoilBlue.label>청색 결정질 토양</TiberiumSoilBlue.label>
+  <TiberiumSoilRed.label>적색 결정질 토양</TiberiumSoilRed.label>
+  <VeinSoilRed.label>침식된 토양</VeinSoilRed.label>
+  <TiberiumWater.label>결정질 수면</TiberiumWater.label>
+  <DecrystallizedSoil.label>정화된 토양</DecrystallizedSoil.label>
+
 
 </LanguageData>

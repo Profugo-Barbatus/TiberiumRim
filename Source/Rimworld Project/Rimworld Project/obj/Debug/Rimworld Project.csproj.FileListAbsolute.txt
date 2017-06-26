@@ -20,3 +20,23 @@ C:\Personal Projects\Tiberium Rim\Github\TiberiumRim\Source\Rimworld Project\Rim
 C:\Personal Projects\Tiberium Rim\Github\TiberiumRim\Source\Rimworld Project\Rimworld Project\obj\Debug\Rimworld Project.csprojResolveAssemblyReference.cache
 C:\Personal Projects\Tiberium Rim\Github\TiberiumRim\Source\Rimworld Project\Rimworld Project\obj\Debug\Rimworld Project.dll
 C:\Personal Projects\Tiberium Rim\Github\TiberiumRim\Source\Rimworld Project\Rimworld Project\obj\Debug\Rimworld Project.pdb
+F:\Steam\steamapps\common\RimWorld\Mods\TiberiumRim 1.3\Source\Rimworld Project\Rimworld Project\bin\Debug\Rimworld Project.dll
+F:\Steam\steamapps\common\RimWorld\Mods\TiberiumRim 1.3\Source\Rimworld Project\Rimworld Project\bin\Debug\Rimworld Project.pdb
+F:\Steam\steamapps\common\RimWorld\Mods\TiberiumRim 1.3\Source\Rimworld Project\Rimworld Project\bin\Debug\Assembly-CSharp.dll
+F:\Steam\steamapps\common\RimWorld\Mods\TiberiumRim 1.3\Source\Rimworld Project\Rimworld Project\bin\Debug\UnityEngine.dll
+F:\Steam\steamapps\common\RimWorld\Mods\TiberiumRim 1.3\Source\Rimworld Project\Rimworld Project\obj\Debug\Rimworld Project.csprojResolveAssemblyReference.cache
+F:\Steam\steamapps\common\RimWorld\Mods\TiberiumRim 1.3\Source\Rimworld Project\Rimworld Project\obj\Debug\Rimworld Project.dll
+F:\Steam\steamapps\common\RimWorld\Mods\TiberiumRim 1.3\Source\Rimworld Project\Rimworld Project\obj\Debug\Rimworld Project.pdb
+F:\Steam\steamapps\common\RimWorld\Mods\TiberiumRim 1.3\Source\Rimworld Project\Rimworld Project\bin\Debug\0Harmony.dll
+E:\Tiberium Project\In Progress\GitHub\TiberiumRim\Source\Rimworld Project\Rimworld Project\bin\Debug\HugsLib.xml
+F:\Steam\steamapps\common\RimWorld\Mods\TiberiumRim-A17-1.3-Working-Branch\Source\Rimworld Project\Rimworld Project\obj\Debug\Rimworld Project.csprojResolveAssemblyReference.cache
+F:\Steam\steamapps\common\RimWorld\Mods\TiberiumRim-A17-1.3-Working-Branch\Source\Rimworld Project\Rimworld Project\obj\Debug\Rimworld Project.dll
+F:\Steam\steamapps\common\RimWorld\Mods\TiberiumRim-A17-1.3-Working-Branch\Source\Rimworld Project\Rimworld Project\obj\Debug\Rimworld Project.pdb
+F:\Steam\steamapps\common\RimWorld\Mods\TiberiumRim-A17-1.3-Working-Branch\Source\Rimworld Project\Rimworld Project\bin\Debug\Rimworld Project.dll
+F:\Steam\steamapps\common\RimWorld\Mods\TiberiumRim-A17-1.3-Working-Branch\Source\Rimworld Project\Rimworld Project\bin\Debug\Rimworld Project.pdb
+F:\Steam\steamapps\common\RimWorld\Mods\TiberiumRim-A17-1.3-Working-Branch\Source\Rimworld Project\Rimworld Project\bin\Debug\Assembly-CSharp.dll
+F:\Steam\steamapps\common\RimWorld\Mods\TiberiumRim-A17-1.3-Working-Branch\Source\Rimworld Project\Rimworld Project\bin\Debug\UnityEngine.dll
+F:\Steam\steamapps\common\RimWorld\Mods\TiberiumRim-A17-1.3-Working-Branch\Source\Rimworld Project\Rimworld Project\bin\Debug\UnityEngine.UI.dll
+F:\Steam\steamapps\common\RimWorld\Mods\TiberiumRim-A17-1.3-Working-Branch\Source\Rimworld Project\Rimworld Project\bin\Debug\HugsLib.xml
+F:\Steam\steamapps\common\RimWorld\Mods\TiberiumRim-A17-1.3-Working-Branch\Source\Rimworld Project\Rimworld Project\bin\Debug\0Harmony.dll
+F:\Steam\steamapps\common\RimWorld\Mods\TiberiumRim-A17-1.3-Working-Branch\Source\Rimworld Project\Rimworld Project\bin\Debug\HugsLib.dll

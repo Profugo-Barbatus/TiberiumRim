@@ -1,7 +1,15 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<TiberiumRefinery.label>tiberium Raffinerie</TiberiumRefinery.label>
-	<TiberiumRefinery.description>Eine spezialisierte chemische Raffinerie. Wird benutzt um das tödliche Tiberium zu zerlegen.</TiberiumRefinery.description>
+  <TiberiumRefinery.label>Tiberium Raffinerie</TiberiumRefinery.label>
+  <TiberiumRefinery.description>Eine chemische Raffiniere, spezialisiert darauf um Tiberium in Resourcen umzuwandeln.</TiberiumRefinery.description>
+  <TiberiumRefinery_Blueprint.label>Tiberium Raffinerie (Bauplan)</TiberiumRefinery_Blueprint.label>
+  <TiberiumRefinery_Frame.label>Tiberium Raffinerie (Gebäude)</TiberiumRefinery_Frame.label>
+
+  <TiberiumPowerPlant.label>Tiberium Kraftwerk</TiberiumPowerPlant.label>
+  <TiberiumPowerPlant.description>Erzeugt Strom durch Verbrennung von Tiberium Kraftstoff. Muss per Hand gefüllt werden.</TiberiumPowerPlant.description>
+  <TiberiumPowerPlant_Blueprint.label>Tiberium Kraftwerk (Bauplan)</TiberiumPowerPlant_Blueprint.label>
+  <TiberiumPowerPlant_Frame.label>Tiberium Kraftwerk (Gebäude)</TiberiumPowerPlant_Frame.label>
+
 
 </LanguageData>

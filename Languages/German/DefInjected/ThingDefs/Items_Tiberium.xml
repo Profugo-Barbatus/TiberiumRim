@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
 	<GreenTiberiumRaw.label>roher grüner Tiberium Kristall</GreenTiberiumRaw.label>
@@ -9,7 +9,13 @@
 	
 	<RedTiberiumRaw.label>roher roter Tiberium Kristall</RedTiberiumRaw.label>
 	<RedTiberiumRaw.description>Die rohe Form des Tiberiums. Sei vorsichtig wie du damit umgehst. Es kann raffiniert werden.</RedTiberiumRaw.description>
-	
+
+  <VeinTiberiumRaw.label>rohe Tiberium Adern</VeinTiberiumRaw.label>
+  <VeinTiberiumRaw.description>Geerntete Tiberium Adern. Es ist unbekannt wie diese Kreatur funktioniert und lebt, oder wieso es sich ähnlich wie Tiberium verhält.</VeinTiberiumRaw.description>
+
+  <TiberiumFuel.label>Tiberium Kraftstoff</TiberiumFuel.label>
+  <TiberiumFuel.description>Eine raffinierte Variante von Tiberium. Als Kraftstoff nutzbar.</TiberiumFuel.description>
+
 	<BookRiparius.label>riparius Buch</BookRiparius.label>
 	<BookRiparius.description>Tiberium Riparius.\n\nDie grüne Art von Tiberium ist die am häufigsten vorkommende Variante.\n\nEs kam vor langen Zeiten auf Planet Erde, lang bevor diese Randwelt infiziert wurde.\n\nDiese Variante wächst am schnellsten, und infiziert große Flächen innerhalb von Tagen.\n\nAlso sei vorsichtig wenn es in deiner Nähe ist!\n\nVermeide jeglichen Kontakt damit.\n\nDie Substanz, egal welcher Art, wird jede Kohlenstoff-basierende Lebensart infizieren und kristallisieren.\n\nDiese Fähigkeit macht es höchst toxisch.\n\nTiberium ist eine unbekannte Art von mineral, dass alles was um es herum ist in Tiberium umwandelt.\n\nDies passiert durch physikalische Reaktione zwischen Tiberium Nukleinen und den Nukleinen anderer Materie.</BookRiparius.description>
 	
@@ -18,5 +24,6 @@
 	
 	<BookRutila.label>rutila Buch</BookRutila.label>
 	<BookRutila.description>Tiberium Rutila.\n\nDie rote Art von Tiberium, es ist sehr selten.\n\nGenau wie die blaue Variante hat es sogar noch wertvollere Resourcen in sich.\n\nObwohl die ersten Sichtungen zeigten dass es sich nicht verbreitet, scheint es die Fähigkeit entwickelt zu haben dies zu tun, wenn auch nur langsam.\n\nEs wird spekuliert dass sich rotes Tiberium in ---[DATEN VERLOREN]---/---\n\n§)§$%?!%%##$%---</BookRutila.description>
+
 
 </LanguageData>

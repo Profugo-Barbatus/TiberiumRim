@@ -35,37 +35,44 @@
 		<description>A green Tiberium field.</description>
 		<label>Green Tiberium Field</label>
 		<thingClass>Building</thingClass>
+		<size>(3,3)</size>
 		<graphicData>
-			<texPath>Building/Natural/TiberiumCraterGreen</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Building/Natural/BigTiberiumCraterGreen</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
 			<shaderType>Transparent</shaderType>
-			<drawSize>(4,4)</drawSize>
+			<drawSize>(5,5)</drawSize>
 		</graphicData>
 		<altitudeLayer>Floor</altitudeLayer>
 		<statBases>
-			<MaxHitPoints>15000</MaxHitPoints>
+			<MaxHitPoints>7500</MaxHitPoints>
 			<Beauty>180</Beauty>
 		</statBases>
-		<tickerType>Normal</tickerType>
+		<tickerType>Rare</tickerType>
 		<selectable>true</selectable>
 		<neverOverlapFloors>true</neverOverlapFloors>
 		<blockPlants>true</blockPlants>
 		<comps>
+			<li Class="TiberiumRim.CompProperties_TiberiumProducer">
+			</li>
 			<li Class="CompProperties_Glower">
 				<glowRadius>10</glowRadius>
-				<glowColor>(51,255,51,0)</glowColor>
+				<glowColor>(120,255,120,0)</glowColor>
 			</li>
 			<li Class="CompProperties_Spawner">
 				<thingToSpawn>TiberiumGreen</thingToSpawn>
-				<spawnCount>6</spawnCount>
+				<spawnCount>1</spawnCount>
 				<spawnIntervalRange>
-					<min>1600</min>
-					<max>2000</max>
+					<min>10600</min>
+					<max>20000</max>
 				</spawnIntervalRange>
-				<spawnMaxAdjacent>6</spawnMaxAdjacent>
+				<spawnMaxAdjacent>8</spawnMaxAdjacent>
 				<spawnForbidden>false</spawnForbidden>
 			</li>
 		</comps>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <killedLeavings>
+            <TiberiumGreen>9</TiberiumGreen>
+        </killedLeavings>
 	</ThingDef>
 	
 	
@@ -74,41 +81,48 @@
 		<description>A beautiful field of blue Tiberium</description>
 		<label>Blue Tiberium Field</label>
 		<thingClass>Building</thingClass>
+		<size>(3,3)</size>
 		<graphicData>
-			<texPath>Building/Natural/TiberiumCraterBlue</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Building/Natural/BigTiberiumCraterBlue</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
 			<shaderType>Transparent</shaderType>
-			<drawSize>(4,4)</drawSize>
+			<drawSize>(5,5)</drawSize>
 		</graphicData>
 		<statBases>
-			<MaxHitPoints>17000</MaxHitPoints>
+			<MaxHitPoints>9500</MaxHitPoints>
 			<Beauty>240</Beauty>
 		</statBases>
 		<altitudeLayer>Floor</altitudeLayer>
-		<tickerType>Normal</tickerType>
+		<tickerType>Rare</tickerType>
 		<selectable>true</selectable>
 		<neverOverlapFloors>true</neverOverlapFloors>
 		<blockPlants>true</blockPlants>
 		<comps>
+			<li Class="TiberiumRim.CompProperties_TiberiumProducer">
+			</li>
 			<li Class="CompProperties_HeatPusher">
 				<heatPerSecond>47</heatPerSecond>
 				<heatPushMaxTemperature>207</heatPushMaxTemperature>
 			</li>
 			<li Class="CompProperties_Glower">
 				<glowRadius>10</glowRadius>
-				<glowColor>(0,128,255,0)</glowColor>
+				<glowColor>(120,150,255,0)</glowColor>
 			</li>
 			<li Class="CompProperties_Spawner">
 				<thingToSpawn>TiberiumBlue</thingToSpawn>
-				<spawnCount>6</spawnCount>
+				<spawnCount>1</spawnCount>
 				<spawnIntervalRange>
-					<min>5800</min>
-					<max>6000</max>
+					<min>50800</min>
+					<max>60000</max>
 				</spawnIntervalRange>
-				<spawnMaxAdjacent>6</spawnMaxAdjacent>
+				<spawnMaxAdjacent>8</spawnMaxAdjacent>
 				<spawnForbidden>false</spawnForbidden>
 			</li>
 		</comps>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <killedLeavings>
+            <TiberiumBlue>9</TiberiumBlue>
+        </killedLeavings>
 	</ThingDef>
 	
 	
@@ -118,8 +132,8 @@
 		<label>Tiberium Meteor</label>
 		<category>Building</category>
 		<graphicData>
-			<texPath>Building/Exotic/TiberiumMeteor</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Building/Natural/TiberiumMeteor</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
@@ -134,10 +148,6 @@
 			<Beauty>20</Beauty>
 			<WorkToBuild>56000</WorkToBuild>
 		</statBases>
-		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-		<killedLeavings>
-			<GreenTiberiumRaw>100</GreenTiberiumRaw>
-		</killedLeavings>
 		<costList>
 			<RedTiberiumRaw>10</RedTiberiumRaw>
 			<BlueTiberiumRaw>20</BlueTiberiumRaw>
@@ -152,6 +162,8 @@
 		<drawerType>MapMeshOnly</drawerType>
 		<repairEffect>ConstructMetal</repairEffect>
 		<comps>
+			<li Class="TiberiumRim.CompProperties_TiberiumProducer">
+			</li>
 			<li Class="CompProperties_Glower">
 				<glowRadius>6</glowRadius>
 				<glowColor>(51,255,51,0)</glowColor>
@@ -165,6 +177,12 @@
 				<glowColor>(255,0,0,0)</glowColor>
 			</li>
 		</comps>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <killedLeavings>
+            <TiberiumGreen>50</TiberiumGreen>
+			<TiberiumBlue>25</TiberiumBlue>
+			<TiberiumRed>5</TiberiumRed>
+        </killedLeavings>
 	</ThingDef>
 	
 
@@ -176,16 +194,16 @@
 		<size>(1,1)</size>
 		<graphicData>
 			<texPath>Building/Natural/TiberiumMonolith</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
+			<graphicClass>Graphic_Random</graphicClass>
 			<shaderType>Transparent</shaderType>
-			<drawSize>(4,8)</drawSize>
+			<drawSize>(2,6)</drawSize>
 		</graphicData>
 		<statBases>
 			<MaxHitPoints>10000</MaxHitPoints>
 			<Beauty>240</Beauty>
 		</statBases>
 		<rotatable>false</rotatable>
-		<tickerType>Normal</tickerType>
+		<tickerType>Rare</tickerType>
 		<selectable>true</selectable>
 		<blockPlants>true</blockPlants>
 		<building>
@@ -194,25 +212,31 @@
 			<deconstructible>false</deconstructible>
 		</building>
 		<comps>
+			<li Class="TiberiumRim.CompProperties_TiberiumProducer">
+			</li>
 			<li Class="CompProperties_HeatPusher">
 				<heatPerSecond>20</heatPerSecond>
 				<heatPushMaxTemperature>207</heatPushMaxTemperature>
 			</li>
 			<li Class="CompProperties_Glower">
 				<glowRadius>5</glowRadius>
-				<glowColor>(0,128,255,0)</glowColor>
+				<glowColor>(120,150,255,0)</glowColor>
 			</li>
 			<li Class="CompProperties_Spawner">
 				<thingToSpawn>TiberiumBlue</thingToSpawn>
-				<spawnCount>3</spawnCount>
+				<spawnCount>1</spawnCount>
 				<spawnIntervalRange>
-					<min>5600</min>
-					<max>6000</max>
+					<min>50600</min>
+					<max>60000</max>
 				</spawnIntervalRange>
-				<spawnMaxAdjacent>3</spawnMaxAdjacent>
+				<spawnMaxAdjacent>8</spawnMaxAdjacent>
 				<spawnForbidden>false</spawnForbidden>
 			</li>
 		</comps>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <killedLeavings>
+            <TiberiumBlue>9</TiberiumBlue>
+		</killedLeavings>
 	</ThingDef>
 	
 	<ThingDef ParentName="TiberiumBuildingBase">
@@ -223,33 +247,39 @@
 		<size>(1,1)</size>
 		<graphicData>
 			<texPath>Building/Natural/BlossomTree</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
+			<graphicClass>Graphic_Random</graphicClass>
 			<shaderType>Transparent</shaderType>
-			<drawSize>(4,8)</drawSize>
+			<drawSize>(2,6)</drawSize>
 		</graphicData>
 		<statBases>
-			<MaxHitPoints>7500</MaxHitPoints>
-			<Beauty>-60</Beauty>
+			<MaxHitPoints>5000</MaxHitPoints>
+			<Beauty>-160</Beauty>
 		</statBases>
-		<tickerType>Normal</tickerType>
+		<tickerType>Rare</tickerType>
 		<selectable>true</selectable>
 		<blockPlants>true</blockPlants>
 		<comps>
+			<li Class="TiberiumRim.CompProperties_TiberiumProducer">
+			</li>
 			<li Class="CompProperties_Glower">
 				<glowRadius>8</glowRadius>
-				<glowColor>(51,255,51,0)</glowColor>
+				<glowColor>(120,255,120,0)</glowColor>
 			</li>
 			<li Class="CompProperties_Spawner">
 				<thingToSpawn>TiberiumGreen</thingToSpawn>
-				<spawnCount>6</spawnCount>
+				<spawnCount>1</spawnCount>
 				<spawnIntervalRange>
-					<min>1800</min>
-					<max>2000</max>
+					<min>50600</min>
+					<max>60000</max>
 				</spawnIntervalRange>
 				<spawnMaxAdjacent>8</spawnMaxAdjacent>
 				<spawnForbidden>false</spawnForbidden>
 			</li>
 		</comps>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <killedLeavings>
+            <TiberiumGreen>9</TiberiumGreen>
+        </killedLeavings>
     </ThingDef>
 	
 	<ThingDef ParentName="TiberiumBuildingBase">
@@ -259,10 +289,10 @@
 		<thingClass>Building</thingClass>
 		<size>(1,1)</size>
 		<graphicData>
-			<texPath>Building/Exotic/RedTiberiumShard</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Building/Natural/RedTiberiumShard</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
 			<shaderType>Transparent</shaderType>
-			<drawSize>(4,8)</drawSize>
+			<drawSize>(2,6)</drawSize>
 		</graphicData>
 		<statBases>
 			<MaxHitPoints>12500</MaxHitPoints>
@@ -272,21 +302,111 @@
 		<selectable>true</selectable>
 		<blockPlants>true</blockPlants>
 		<comps>
+			<li Class="TiberiumRim.CompProperties_TiberiumProducer">
+			</li>
 			<li Class="CompProperties_Glower">
 				<glowRadius>6</glowRadius>
-				<glowColor>(255,0,0,0)</glowColor>
+				<glowColor>(255,120,120,0)</glowColor>
 			</li>
 			<li Class="CompProperties_Spawner">
 				<thingToSpawn>TiberiumRed</thingToSpawn>
-				<spawnCount>6</spawnCount>
+				<spawnCount>1</spawnCount>
 				<spawnIntervalRange>
-					<min>4000</min>
-					<max>6000</max>
+					<min>50600</min>
+					<max>60000</max>
 				</spawnIntervalRange>
-				<spawnMaxAdjacent>6</spawnMaxAdjacent>
+				<spawnMaxAdjacent>8</spawnMaxAdjacent>
 				<spawnForbidden>false</spawnForbidden>
 			</li>
 		</comps>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <killedLeavings>
+            <TiberiumRed>3</TiberiumRed>
+        </killedLeavings>
     </ThingDef>
+	
+	<ThingDef ParentName="TiberiumBuildingBase">
+		<defName>Veinhole_TBNS</defName>
+		<description>A veinhole. A strange lifeform developed by Tiberium. It produces veins around itself that can be harvested. Be aware of blunt damage. Coming too close to the center might cause infection by poisonous gases.</description>
+		<label>Veinhole</label>
+		<thingClass>TiberiumRim.Building_Veinhole</thingClass>
+		<size>(2,2)</size>
+		<graphicData>
+			<texPath>Building/Natural/Veinhole</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shaderType>Transparent</shaderType>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>8000</MaxHitPoints>
+			<Beauty>-260</Beauty>
+		</statBases>
+		<altitudeLayer>Floor</altitudeLayer>
+		<tickerType>Rare</tickerType>
+		<selectable>true</selectable>
+		<neverOverlapFloors>true</neverOverlapFloors>
+		<blockPlants>true</blockPlants>
+		<comps>
+			<li Class="TiberiumRim.CompProperties_TiberiumProducer">
+			</li>
+			<li Class="CompProperties_HeatPusher">
+				<heatPerSecond>47</heatPerSecond>
+				<heatPushMaxTemperature>207</heatPushMaxTemperature>
+			</li>
+			<li Class="CompProperties_Spawner">
+				<thingToSpawn>TiberiumVein</thingToSpawn>
+				<spawnCount>1</spawnCount>
+				<spawnIntervalRange>
+					<min>50600</min>
+					<max>60000</max>
+				</spawnIntervalRange>
+				<spawnMaxAdjacent>8</spawnMaxAdjacent>
+				<spawnForbidden>false</spawnForbidden>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="TiberiumBuildingBase">
+		<defName>TiberiumTower_TBNS</defName>
+		<description>A green tower rising from the ground. These structures normally take years to form.</description>
+		<label>green Tiberium tower</label>
+		<thingClass>Building</thingClass>
+		<size>(1,1)</size>
+		<graphicData>
+			<texPath>Building/Natural/TiberiumTower</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shaderType>Transparent</shaderType>
+			<drawSize>(2,6)</drawSize>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>1500</MaxHitPoints>
+			<Beauty>360</Beauty>
+			<WorkToBuild>86000</WorkToBuild>
+		</statBases>
+		<rotatable>false</rotatable>
+		<tickerType>Rare</tickerType>
+		<selectable>true</selectable>
+		<blockPlants>true</blockPlants>
+		<building>
+			<claimable>false</claimable>
+			<deconstructible>true</deconstructible>
+		</building>
+		<comps>
+			<li Class="TiberiumRim.CompProperties_TiberiumProducer">
+			</li>
+			<li Class="CompProperties_HeatPusher">
+				<heatPerSecond>20</heatPerSecond>
+				<heatPushMaxTemperature>207</heatPushMaxTemperature>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>4</glowRadius>
+				<glowColor>(120,255,120,0)</glowColor>
+			</li>
+		</comps>
+        <killedLeavings>
+			<GreenTiberiumRaw>75</GreenTiberiumRaw>
+            <TiberiumGreen>8</TiberiumGreen>
+        </killedLeavings>
+	</ThingDef>
 	
 </ThingDefs>

@@ -9,8 +9,9 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Rimworld_Project</RootNamespace>
     <AssemblyName>Rimworld Project</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -30,33 +31,50 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="0Harmony, Version=1.0.9.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Source-DLLs\0Harmony.dll</HintPath>
+    </Reference>
     <Reference Include="Assembly-CSharp">
       <HintPath>Source-DLLs\Assembly-CSharp.dll</HintPath>
     </Reference>
-    <Reference Include="HugsLib">
-      <HintPath>..\..\..\..\..\Hugslib\HugsLib\Assemblies\HugsLib.dll</HintPath>
+    <Reference Include="HugsLib, Version=0.17.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Source-DLLs\HugsLib.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
     <Reference Include="UnityEngine">
       <HintPath>Source-DLLs\UnityEngine.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>..\..\..\..\..\RimWorldWin_Data\Managed\UnityEngine.UI.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AsteroidDef.cs" />
+    <Compile Include="Building_Veinhole.cs" />
     <Compile Include="CompSonicEmitter.cs" />
+    <Compile Include="Comp_Decrystallizer.cs" />
+    <Compile Include="Comp_TiberiumProducer.cs" />
+    <Compile Include="HarmonyPatches.cs" />
+    <Compile Include="HediffComp_Mutation.cs" />
+    <Compile Include="HediffComp_Tiberium.cs" />
+    <Compile Include="HediffComp_TiberiumAddiction.cs" />
     <Compile Include="IncidentWorker_AsteroidDrop.cs" />
     <Compile Include="IncidentWorker_GreenAsteroid.cs" />
+    <Compile Include="IncidentWorker_IonStorm.cs" />
+    <Compile Include="Need_Tiberium.cs" />
     <Compile Include="TiberiumBase.cs" />
     <Compile Include="TiberiumDef.cs" />
+    <Compile Include="TiberiumNeedCategory.cs" />
     <Compile Include="TiberiumPlant.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TiberiumVein.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

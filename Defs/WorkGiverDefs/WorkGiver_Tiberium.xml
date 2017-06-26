@@ -11,7 +11,7 @@
 			<li>TiberiumRefinery</li>
 		</fixedBillGiverDefs>
 		<verb>refine Tiberium</verb>
-		<gerund>refine Tiberium at</gerund>
+		<gerund>refining Tiberium at</gerund>
 		<requiredCapacities>
 			<li>Manipulation</li>
 		</requiredCapacities>
@@ -28,8 +28,8 @@
 		<fixedBillGiverDefs>
 			<li>TiberiumResearchCraftingBench</li>
 		</fixedBillGiverDefs>
-		<verb>make book</verb>
-		<gerund>make book at</gerund>
+		<verb>make Tiberium item at</verb>
+		<gerund>making Tiberium item at</gerund>
 		<requiredCapacities>
 			<li>Manipulation</li>
 		</requiredCapacities>

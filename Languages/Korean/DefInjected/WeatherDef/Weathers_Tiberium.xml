@@ -2,13 +2,11 @@
 <LanguageData>
 
 	<IonStorm.label>이온 폭풍</IonStorm.label>
-	<IonStorm.description>이온 폭풍은 타이베리움 침식이 발생한 곳에 때때로 발생하는 자연재해입니다.</IonStorm.description>
+	<IonStorm.description>이온 폭풍은 타이베리움 침식이 발생한 곳에만 발생하는 파괴적인 자연재해입니다.</IonStorm.description>
+	
+	<IonStormWeather.label>이온 폭풍</IonStormWeather.label>
+	<IonStormWeather.description>이온 폭풍은 타이베리움 침식이 발생한 곳에만 발생하는 파괴적인 자연재해입니다.</IonStormWeather.description>
 
 </LanguageData>
-
-
-
-
-
 
 

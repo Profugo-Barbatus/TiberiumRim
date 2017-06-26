@@ -13,8 +13,11 @@
       <ingestSound>RawMeat_Eat</ingestSound>
       <tasteThought>AteRawFood</tasteThought>
     </ingestible>
+    <socialPropernessMatters>true</socialPropernessMatters>
     <statBases>
       <Mass>0.15</Mass>
+			<MaxHitPoints>20</MaxHitPoints>
+			<DeteriorationRate>2</DeteriorationRate>
     </statBases>
   </ThingDef>
 
@@ -30,7 +33,9 @@
         <daysToRotStart>15</daysToRotStart>
 				<rotDestroys>true</rotDestroys>
 			</li>
-      <li Class="CompProperties_FoodPoisoningChance" />
+			<li Class="CompProperties_FoodPoisoningChance">
+				<humanlikeOnly>true</humanlikeOnly>
+			</li>
     </comps>
   </ThingDef>
 
@@ -43,7 +48,9 @@
       <li>EggsFertilized</li>
     </thingCategories>
 		<comps>
-			<li Class="CompProperties_FoodPoisoningChance" />
+			<li Class="CompProperties_FoodPoisoningChance">
+				<humanlikeOnly>true</humanlikeOnly>
+			</li>
 			<li Class="CompProperties_TemperatureRuinable">
 				<minSafeTemperature>0</minSafeTemperature>
 				<maxSafeTemperature>50</maxSafeTemperature>
@@ -62,7 +69,7 @@
 			<color>(0,0,0)</color>
 		</graphicData>
 		<statBases>
-			<MarketValue>40.0</MarketValue>
+			<MarketValue>140.0</MarketValue>
 		</statBases>
 	</ThingDef>
 	
@@ -75,11 +82,11 @@
 			<color>(0,0,0)</color>
 		</graphicData>
 		<statBases>
-			<MarketValue>80.0</MarketValue>
+			<MarketValue>180.0</MarketValue>
 		</statBases>
 		<comps>
 			<li Class="CompProperties_Hatcher">
-				<hatcherDaysToHatch>8</hatcherDaysToHatch>
+				<hatcherDaysToHatch>28</hatcherDaysToHatch>
 				<hatcherPawn>Crawler_TBI</hatcherPawn>
 			</li>
 		</comps>

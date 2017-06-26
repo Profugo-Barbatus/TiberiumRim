@@ -1,7 +1,21 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-	
-	<SonicInhibitor.label>Schall Inhibitor</SonicInhibitor.label>
-	<SonicInhibitor.description>Ein Strom verbrauchendes Gerät dass das Wachsen von Tiberium hemmt. Es kann nur Kristalle im direkten Sichtfeld angreifen.</SonicInhibitor.description>
+
+  <SonicInhibitor.label>Sonic Inhibitor</SonicInhibitor.label>
+  <SonicInhibitor.description>A Gerät dass erstellt wurde um Tiberium zu zerstören und weiteres Wachstum zu verhindern. Wegen der experimentellen Herstellung braucht es direkte Sicht auf Tiberium.</SonicInhibitor.description>
+  <SonicInhibitor_Blueprint.label>Sonic Inhibitor (Bauplan)</SonicInhibitor_Blueprint.label>
+  <SonicInhibitor_Blueprint_Install.label>Sonic Inhibitor (Bauplan)</SonicInhibitor_Blueprint_Install.label>
+  <SonicInhibitor_Frame.label>Sonic Inhibitor (Gebäude)</SonicInhibitor_Frame.label>
+
+  <Decrystallizer.label>Tiberium Boden Umkristallisierer</Decrystallizer.label>
+  <Decrystallizer.description>Entfernt ganz langsam Tiberium aus infiziertem Boden, dabei wird der Tiberium Boden wieder nutzbar gemacht. Änder nicht Tiberium kontaminiertes Wasser. Braucht Strom.</Decrystallizer.description>
+  <Decrystallizer_Blueprint.label>Tiberium Boden Umkristallisierer (Bauplan)</Decrystallizer_Blueprint.label>
+  <Decrystallizer_Blueprint_Install.label>Tiberium Boden Umkristallisierer (Bauplan)</Decrystallizer_Blueprint_Install.label>
+  <Decrystallizer_Frame.label>Tiberium Boden Umkristallisierer (Gebäude)</Decrystallizer_Frame.label>
+
+  <SonicFence_TBNS.label>Sonic Inhibitor Zaun</SonicFence_TBNS.label>
+  <SonicFence_TBNS.description>Dieser Zaun hält Tiberium davon ab sich zu verbreiten. Braucht Strom.</SonicFence_TBNS.description>
+  <SonicFence_TBNS_Blueprint.label>Sonic Inhibitor Zaun (Bauplan)</SonicFence_TBNS_Blueprint.label>
+  <SonicFence_TBNS_Frame.label>Sonic Inhibitor Zaun (Gebäude))</SonicFence_TBNS_Frame.label>
 
 </LanguageData>

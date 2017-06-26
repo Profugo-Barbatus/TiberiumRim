@@ -1,21 +1,29 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<TiberiumCraterGreen_TBNS.label>Grünes Tiberium Feld</TiberiumCraterGreen_TBNS.label>
-	<TiberiumCraterGreen_TBNS.description>Eín grünes Tiberium Feld.</TiberiumCraterGreen_TBNS.description>
-	
-	<TiberiumCraterBlue_TBNS.label>Blaues Tiberium Feld</TiberiumCraterBlue_TBNS.label>
-	<TiberiumCraterBlue_TBNS.description>Ein wunderschönes blaues Tiberium Feld.</TiberiumCraterBlue_TBNS.description>
+  <TiberiumCraterGreen_TBNS.label>Grünes Tiberium Feld</TiberiumCraterGreen_TBNS.label>
+  <TiberiumCraterGreen_TBNS.description>Ein grünes Tiberium Feld.</TiberiumCraterGreen_TBNS.description>
 
-	<TiberiumMeteor_TBNS.label>Tiberium Meteor</TiberiumMeteor_TBNS.label>
-	<TiberiumMeteor_TBNS.description>Ein außerirdischer Meteor. Enthält leuchtende Kristalle aller Art.</TiberiumMeteor_TBNS.description>
-	
-	<TiberiumMonolith_TBNS.label>blauer Tiberium Monolith</TiberiumMonolith_TBNS.label>
-	<TiberiumMonolith_TBNS.description>Ein blauer Monolith der aus der Erde wächst.</TiberiumMonolith_TBNS.description>
-	
-	<BlossomTree_TBNS.label>Blüten Baum</BlossomTree_TBNS.label>
-	<BlossomTree_TBNS.description>Ein seltsamer Baum. Es wachsen grüne Kristalle um ihn herum.</BlossomTree_TBNS.description>
-	
-	<TiberiumShard_TBNS.label>tiberium Splitter</TiberiumShard_TBNS.label>
-	<TiberiumShard_TBNS.description>Ein außerirdischer Splitter. Sieht ungewöhnlich aus.</TiberiumShard_TBNS.description>
+  <TiberiumCraterBlue_TBNS.label>Blaues Tiberium Feld</TiberiumCraterBlue_TBNS.label>
+  <TiberiumCraterBlue_TBNS.description>Ein schönes blaues Tiberium Feld.</TiberiumCraterBlue_TBNS.description>
+
+  <TiberiumMeteor_TBNS.label>Tiberium Meteor</TiberiumMeteor_TBNS.label>
+  <TiberiumMeteor_TBNS.description>Ein außerirdischer Meteor, enthält Tiberium Kristalle aller Art.</TiberiumMeteor_TBNS.description>
+
+  <TiberiumMonolith_TBNS.label>Blauer Tiberium Monolith</TiberiumMonolith_TBNS.label>
+  <TiberiumMonolith_TBNS.description>Ein blauer Tiberium Monolith der aus dem Boden wächst.</TiberiumMonolith_TBNS.description>
+
+  <BlossomTree_TBNS.label>Blühten Baum</BlossomTree_TBNS.label>
+  <BlossomTree_TBNS.description>Ein seltsamer Baum mit unbekannten Eigenschaften. Er scheint grüne Kristalle wachsen zu lasen.</BlossomTree_TBNS.description>
+
+  <TiberiumShard_TBNS.label>Tiberium Splitter</TiberiumShard_TBNS.label>
+  <TiberiumShard_TBNS.description>Ein außerirdischer Splitter, sieht eigenartig aus.</TiberiumShard_TBNS.description>
+
+  <Veinhole_TBNS.label>Tiberium Aderlochmonster</Veinhole_TBNS.label>
+  <Veinhole_TBNS.description>Ein Aderlochmonster. Ein eigenartiges Lebewesen dass durch Tiberium entstanden ist. Es produziert Tiberium Adern um sich herum die man sammeln kann. Achte auf stumpfen Schaden. Es kann zu Tiberium Infektion durch Gaswolken in der Nähe des Zentrums kommen.</Veinhole_TBNS.description>
+
+  <TiberiumTower_TBNS.label>Grüner Tiberium Turm</TiberiumTower_TBNS.label>
+  <TiberiumTower_TBNS.description>Ein grüner Tiberium Turm der aus dem Boden ragt. Diese Strukturen bilden sich über lange Zeiten.</TiberiumTower_TBNS.description>
+
+
 </LanguageData>

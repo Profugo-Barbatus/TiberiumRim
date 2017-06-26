@@ -1,7 +1,21 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-	
-	<SonicInhibitor.label>Sonic Inhibitor</SonicInhibitor.label>
-	<SonicInhibitor.description>A powered device designed to destroy Tiberium and prevent further growth. Due to the limited nature of this device, it requires direct line of sight to the crystals</SonicInhibitor.description>
+
+  <SonicInhibitor.label>Sonic Inhibitor</SonicInhibitor.label>
+  <SonicInhibitor.description>A device designed to destroy Tiberium and prevent further growth. Due to the experimental nature of the device, it requires direct line of sight to the Tiberium to function</SonicInhibitor.description>
+  <SonicInhibitor_Blueprint.label>Sonic Inhibitor (blueprint)</SonicInhibitor_Blueprint.label>
+  <SonicInhibitor_Blueprint_Install.label>Sonic Inhibitor (blueprint)</SonicInhibitor_Blueprint_Install.label>
+  <SonicInhibitor_Frame.label>Sonic Inhibitor (building)</SonicInhibitor_Frame.label>
+
+  <Decrystallizer.label>Tiberium Soil Decrystallizer</Decrystallizer.label>
+  <Decrystallizer.description>Very slowly removes Tiberium from infected ground, converting any Tiberium ground into decrystallized soil that can be used again. Does not affect contaminated water. Requires power.</Decrystallizer.description>
+  <Decrystallizer_Blueprint.label>Tiberium Soil Decrystallizer (blueprint)</Decrystallizer_Blueprint.label>
+  <Decrystallizer_Blueprint_Install.label>Tiberium Soil Decrystallizer (blueprint)</Decrystallizer_Blueprint_Install.label>
+  <Decrystallizer_Frame.label>Tiberium Soil Decrystallizer (building)</Decrystallizer_Frame.label>
+
+  <SonicFence_TBNS.label>Sonic Inhibitor Fence</SonicFence_TBNS.label>
+  <SonicFence_TBNS.description>This fence allows you to cut off Tiberium spread. Requires power.</SonicFence_TBNS.description>
+  <SonicFence_TBNS_Blueprint.label>Sonic Inhibitor Fence (blueprint)</SonicFence_TBNS_Blueprint.label>
+  <SonicFence_TBNS_Frame.label>Sonic Inhibitor Fence (building)</SonicFence_TBNS_Frame.label>
 
 </LanguageData>

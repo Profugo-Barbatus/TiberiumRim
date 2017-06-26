@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Treating Tiberium like a disease -->
+
+  <TiberiumContactPoison.label>Tiberium Infektion</TiberiumContactPoison.label>
+  <TiberiumContactPoison.stages.0.label>Geringe Tiberium Infektion</TiberiumContactPoison.stages.0.label>
+  <TiberiumContactPoison.stages.1.label>Mittlere Tiberium Infektion</TiberiumContactPoison.stages.1.label>
+  <TiberiumContactPoison.stages.2.label>Tödliche Tiberium Infektion</TiberiumContactPoison.stages.2.label>
+
+  <TiberiumBuildupHediff.label>Tiberium Bestrahlung</TiberiumBuildupHediff.label>
+  <TiberiumBuildupHediff.stages.0.label>Minimale Bestrahlung</TiberiumBuildupHediff.stages.0.label>
+  <TiberiumBuildupHediff.stages.1.label>Geringe Bestrahlung</TiberiumBuildupHediff.stages.1.label>
+  <TiberiumBuildupHediff.stages.2.label>Ernstzunehmende Bestrahlung</TiberiumBuildupHediff.stages.2.label>
+  <TiberiumBuildupHediff.stages.3.label>Bedrohliche Bestrahlung</TiberiumBuildupHediff.stages.3.label>
+  <TiberiumBuildupHediff.stages.4.label>Extreme Bestrahlung</TiberiumBuildupHediff.stages.4.label>
+
+  <TiberiumStage1.label>Tiberium Vergiftung</TiberiumStage1.label>
+  <TiberiumStage1.stages.0.label>Schwache Vergiftung</TiberiumStage1.stages.0.label>
+  <TiberiumStage1.stages.1.label>Ernstzunehmende Vergiftung</TiberiumStage1.stages.1.label>
+  <TiberiumStage1.stages.2.label>Anfängliche Vergiftung</TiberiumStage1.stages.2.label>
+
+  <TiberiumStage2.label>Tiberium Aufnahme</TiberiumStage2.label>
+  <TiberiumStage2.stages.0.label>Anfänglich</TiberiumStage2.stages.0.label>
+  <TiberiumStage2.stages.1.label>Gering</TiberiumStage2.stages.1.label>
+  <TiberiumStage2.stages.2.label>Infektions Risiko</TiberiumStage2.stages.2.label>
+  <TiberiumStage2.stages.3.label>Mutations Risiko</TiberiumStage2.stages.3.label>
+  <TiberiumStage2.stages.4.label>Hohes Mutations Risiko</TiberiumStage2.stages.4.label>
+
+  <TiberiumMutationGood.label>Tiberium Mutation (Gut)</TiberiumMutationGood.label>
+  <TiberiumMutationBad.label>Tiberium Mutation (Schlecht)</TiberiumMutationBad.label>
+
+  <TiberiumAddiction.label>Tiberium Bedürfnis</TiberiumAddiction.label>
+  <TiberiumAddiction.stages.0.label>Zufrieden gestellt</TiberiumAddiction.stages.0.label>
+  <TiberiumAddiction.stages.1.label>Benötigt</TiberiumAddiction.stages.1.label>
+  <TiberiumAddiction.stages.2.label>Dringend</TiberiumAddiction.stages.2.label>
+
+
+  <!--<TiberiumBuildup.label>Tiberium exposure</TiberiumBuildup.label>-->
+  <!--<TiberiumBuildup.stages.0.label>initial-hidden</TiberiumBuildup.stages.0.label>-->
+  <!--<TiberiumBuildup.stages.1.label>initial</TiberiumBuildup.stages.1.label>-->
+  <!--<TiberiumBuildup.stages.2.label>minor</TiberiumBuildup.stages.2.label>-->
+  <!--<TiberiumBuildup.stages.3.label>moderate</TiberiumBuildup.stages.3.label>-->
+  <!--<TiberiumBuildup.stages.4.label>serious</TiberiumBuildup.stages.4.label>-->
+  <!--<TiberiumBuildup.stages.5.label>extreme</TiberiumBuildup.stages.5.label>-->
+
+</LanguageData>

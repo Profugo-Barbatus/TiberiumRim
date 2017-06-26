@@ -23,7 +23,6 @@
 		</verbs>
 		<race>
 			<body>QuadrupedAnimalWithHoovesAndHorn</body>
-			<deathActionWorkerClass>DeathActionWorker_DropBodyParts</deathActionWorkerClass>
 			<herdAnimal>true</herdAnimal>
 			<baseBodySize>3.5</baseBodySize>
 			<baseHungerRate>4.5</baseHungerRate>
@@ -119,10 +118,10 @@
 					<texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
 					<drawSize>2</drawSize>
 				</dessicatedBodyGraphicData>
-				<dropBodyPart>
+				<butcherBodyPart>
 					<bodyPartGroup>HornAttackTool</bodyPartGroup>
 					<thing>ThrumboHorn</thing>
-				</dropBodyPart>
+				</butcherBodyPart>
 			</li>
 		</lifeStages>
 	</PawnKindDef>
@@ -150,7 +149,6 @@
 		</verbs>
 		<race>
 			<body>QuadrupedAnimalWithHoovesAndHorn</body>
-			<deathActionWorkerClass>DeathActionWorker_DropBodyParts</deathActionWorkerClass>
 			<herdAnimal>true</herdAnimal>
 			<baseBodySize>4.0</baseBodySize>
 			<baseHungerRate>4.5</baseHungerRate>
@@ -246,10 +244,10 @@
 					<texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
 					<drawSize>2</drawSize>
 				</dessicatedBodyGraphicData>
-				<dropBodyPart>
+				<butcherBodyPart>
 					<bodyPartGroup>HornAttackTool</bodyPartGroup>
 					<thing>ThrumboHorn</thing>
-				</dropBodyPart>
+				</butcherBodyPart>
 			</li>
 		</lifeStages>
 	</PawnKindDef>
@@ -322,7 +320,7 @@
 	<ThingDef ParentName="BaseInsect">
 		<defName>Tibscarab_TBI</defName>
 		<label>Tibscarab</label>
-		<description>A large, genetically-engineered beetle that has come in contact with Tiberium. Once the worker caste of an artifical ecosystem of insectoids designed to fight mechanoid invasions, it is now usually seen without its deadlier insectoid cousins. Still, its size and hard shell make it dangerous when it attacks. A eusocial creature, it cannot reproduce individually.</description>
+		<description>A large, genetically-engineered beetle that has come in contact with Tiberium.</description>
 		<statBases>
 			<MoveSpeed>5.0</MoveSpeed>
 			<ArmorRating_Blunt>0.3</ArmorRating_Blunt>
@@ -537,7 +535,7 @@
 	<ThingDef ParentName="ThingBaseWolf">
 		<defName>TiberiumFiend_TBI</defName>
 		<label>tiberium fiend</label>
-		<description>A rugged predator long feared by many ancient Earth cultures. As pack hunters, wolves have a complex social life and are fiercely intelligent.</description>
+		<description>A classic Tiberium predator. The Tiberium Fiend is the most common and rather dangerous Tiberium creature. They are tameable, but only accept those worthy of their trust.</description>
 		<race>
 			<leatherColor>(0,0,0)</leatherColor>
 			<meatLabel>tiberium fiend meat</meatLabel>

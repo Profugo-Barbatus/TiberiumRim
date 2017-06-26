@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<FleshTypeDefs>
+
+  <FleshTypeDef>
+    <defName>Tiberium</defName>
+	<ateDirect>AteTiberiumMeatDirect</ateDirect>
+	<ateAsIngredient>AteTiberiumMeatAsIngredient</ateAsIngredient>
+    <corpseCategory>CorpsesAnimal</corpseCategory>
+  </FleshTypeDef>
+  
+</FleshTypeDefs>

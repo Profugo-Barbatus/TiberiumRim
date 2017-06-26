@@ -8,21 +8,22 @@
 		<texturePath>Terrain/Surfaces/TiberiumSoilGreen</texturePath>
 		<EdgeType>FadeRough</EdgeType>
 		<RenderPrecedence>340</RenderPrecedence>
-		<PathCost>50</PathCost>
+		<PathCost>15</PathCost>
 		<statBases>
-			<Beauty>1</Beauty>
-			<Cleanliness>-1</Cleanliness>
+			<Beauty>-10</Beauty>
+			<Cleanliness>-100</Cleanliness>
 		</statBases>
 		<ScatterType>Rocky</ScatterType>
 		<affordances>
 			<li>Light</li>
 			<li>Heavy</li>
 		</affordances>
+		<holdSnow>false</holdSnow>
 		<TerrainFilthDef>FilthDirt</TerrainFilthDef>
 		<Fertility>0</Fertility>
 		<TakeFootprints>True</TakeFootprints>
 	</TerrainDef>
-
+	
 	
 	<TerrainDef>
 		<defName>TiberiumSoilBlue</defName>
@@ -30,16 +31,17 @@
 		<texturePath>Terrain/Surfaces/TiberiumSoilBlue</texturePath>
 		<EdgeType>FadeRough</EdgeType>
 		<RenderPrecedence>340</RenderPrecedence>
-		<PathCost>50</PathCost>
+		<PathCost>15</PathCost>
 		<statBases>
-			<Beauty>2</Beauty>
-			<Cleanliness>-1</Cleanliness>
+			<Beauty>-5</Beauty>
+			<Cleanliness>-100</Cleanliness>
 		</statBases>
 		<ScatterType>Rocky</ScatterType>
 		<affordances>
 			<li>Light</li>
 			<li>Heavy</li>
 		</affordances>
+		<holdSnow>false</holdSnow>
 		<TerrainFilthDef>FilthDirt</TerrainFilthDef>
 		<Fertility>0</Fertility>
 		<TakeFootprints>True</TakeFootprints>
@@ -52,20 +54,86 @@
 		<texturePath>Terrain/Surfaces/TiberiumSoilRed</texturePath>
 		<EdgeType>FadeRough</EdgeType>
 		<RenderPrecedence>340</RenderPrecedence>
-		<PathCost>50</PathCost>
+		<PathCost>15</PathCost>
 		<statBases>
-			<Beauty>4</Beauty>
-			<Cleanliness>-1</Cleanliness>
+			<Beauty>-2</Beauty>
+			<Cleanliness>-100</Cleanliness>
 		</statBases>
 		<ScatterType>Rocky</ScatterType>
 		<affordances>
 			<li>Light</li>
 			<li>Heavy</li>
 		</affordances>
+		<holdSnow>false</holdSnow>
 		<TerrainFilthDef>FilthDirt</TerrainFilthDef>
 		<Fertility>0</Fertility>
 		<TakeFootprints>True</TakeFootprints>
 	</TerrainDef>
-
+	
+	<TerrainDef>
+		<defName>VeinSoilRed</defName>
+		<label>red vein soil</label>
+		<texturePath>Terrain/Surfaces/VeinSoilRed</texturePath>
+		<EdgeType>FadeRough</EdgeType>
+		<RenderPrecedence>340</RenderPrecedence>
+		<PathCost>15</PathCost>
+		<statBases>
+			<Beauty>-6</Beauty>
+			<Cleanliness>-100</Cleanliness>
+		</statBases>
+		<ScatterType>Rocky</ScatterType>
+		<affordances>
+			<li>Light</li>
+			<li>Heavy</li>
+		</affordances>
+		<holdSnow>false</holdSnow>
+		<TerrainFilthDef>FilthDirt</TerrainFilthDef>
+		<Fertility>0</Fertility>
+		<TakeFootprints>True</TakeFootprints>
+	</TerrainDef>
+	
+	<TerrainDef>
+		<defName>TiberiumWater</defName>
+		<label>Tiberium contaminated water</label>
+		<texturePath>Terrain/Surfaces/TiberiumWater</texturePath>
+		<waterDepthShader>Map/WaterDepth</waterDepthShader>
+		<EdgeType>Water</EdgeType>
+		<RenderPrecedence>394</RenderPrecedence>
+		<PathCost>60</PathCost>
+		<statBases>
+			<Beauty>-10</Beauty>
+			<Cleanliness>-100</Cleanliness>
+		</statBases>
+		<acceptFilth>false</acceptFilth>
+		<fertility>0</fertility>
+		<avoidWander>true</avoidWander>
+		<changeable>false</changeable>
+		<driesTo>Gravel</driesTo>
+		<holdSnow>false</holdSnow>
+		<takeSplashes>true</takeSplashes>
+	</TerrainDef>
+	
+	<TerrainDef>
+		<defName>DecrystallizedSoil</defName>
+		<label>Decrystallized soil</label>
+		<texturePath>Terrain/Surfaces/DecrystallizedSoil</texturePath>
+		<EdgeType>FadeRough</EdgeType>
+		<RenderPrecedence>340</RenderPrecedence>
+		<PathCost>7</PathCost>
+		<statBases>
+			<Beauty>-2</Beauty>
+			<Cleanliness>-1.5</Cleanliness>
+		</statBases>
+		<ScatterType>Rocky</ScatterType>
+		<affordances>
+			<li>Light</li>
+			<li>Heavy</li>
+			<li>GrowSoil</li>
+			<li>Diggable</li>
+		</affordances>
+		<TerrainFilthDef>FilthDirt</TerrainFilthDef>
+		<Fertility>0.8</Fertility>
+		<TakeFootprints>True</TakeFootprints>
+	</TerrainDef>
 	
 </TerrainDefs>
