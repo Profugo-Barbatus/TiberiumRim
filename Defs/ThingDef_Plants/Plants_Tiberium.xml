@@ -142,7 +142,7 @@
 			<graphicClass>Graphic_Random</graphicClass>
 		</graphicData>
 				<selectable>true</selectable>
-		<passability>Impassable</passability>
+		<pathCost>225</pathCost>
 		<plant>
 			<dieIfLeafless>false</dieIfLeafless>
 			<harvestWork>10000</harvestWork>
